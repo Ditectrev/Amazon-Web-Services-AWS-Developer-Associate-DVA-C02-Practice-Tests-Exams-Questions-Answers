@@ -1129,7 +1129,7 @@ The pseudocode for the Lambda function is as shown in the exhibit.
 - [ ] Use the KMS GenerateDataKey API to get a data key. Encrypt the data with the data key. Store the encrypted data key and data.
 - [ ] Upload the data to an S3 bucket using server side-encryption with an AWS KMS key.
 
-###A developer is testing an application that invokes an AWS Lambda function asynchronously. During the testing phase, the Lambda function fails to process after two retries. How can the developer troubleshoot the failure?
+### A developer is testing an application that invokes an AWS Lambda function asynchronously. During the testing phase, the Lambda function fails to process after two retries. How can the developer troubleshoot the failure?
 
 - [ ] Configure AWS CloudTrail logging to investigate the invocation failures.
 - [x] Configure Dead Letter Queues by sending events to Amazon SQS for investigatio.
