@@ -4,7 +4,9 @@
 
 ## Table of Contents
 
-| 100 | [Which of the following are good use cases for how Amazon ElastiCache can help an application? (Select TWO.)](#which-of-the-following-are-good-use-cases-for-how-amazon-elasticache-can-help-an-application-select-two)
+| No. | Questions |
+| --- | --------- |
+| 1   | [Which of the following are good use cases for how Amazon ElastiCache can help an application? (Select TWO.)](#which-of-the-following-are-good-use-cases-for-how-amazon-elasticache-can-help-an-application-select-two)
 | 2   | [Which of the following services are key/value stores? Choose 3 answers](#which-of-the-following-services-are-keyvalue-stores-choose-3-answers)
 | 3   | [A developer wants to send multi-value headers to an AWS Lambda function that is registered as a target with an Application Load Balancer (ALB). What should the developer do to achieve this?](#a-developer-wants-to-send-multi-value-headers-to-an-aws-lambda-function-that-is-registered-as-a-target-with-an-application-load-balancer-alb-what-should-the-developer-do-to-achieve-this)
 | 4   | [A company's ecommerce website is experiencing massive traffic spikes, which are causing performance problems in the company database. Users are reporting that accessing the website takes a long time. A developer wants to implement a caching layer using Amazon ElastiCache. The website is required to be responsive no matter which product a user views, and the updates to product information and prices must be strongly consistent.](#a-companys-ecommerce-website-is-experiencing-massive-traffic-spikes-which-are-causing-performance-problems-in-the-company-database-users-are-reporting-that-accessing-the-website-takes-a-long-time-a-developer-wants-to-implement-a-caching-layer-using-amazon-elasticache-the-website-is-required-to-be-responsive-no-matter-which-product-a-user-views-and-the-updates-to-product-information-and-prices-must-be-strongly-consistent)
