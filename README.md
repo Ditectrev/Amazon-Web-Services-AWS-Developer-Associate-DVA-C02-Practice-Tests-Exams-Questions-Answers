@@ -69,7 +69,7 @@
 | 61  | [A company wants to migrate its web application to AWS and leverage Auto Scaling to handle pear workloads. The Solutions Architect determined that the best metric for an Auto Scaling event is the number of concurrent users. Based on this information, what should the Developer use to autoscale based on concurrent users?](#a-company-wants-to-migrate-its-web-application-to-aws-and-leverage-auto-scaling-to-handle-pear-workloads-the-solutions-architect-determined-that-the-best-metric-for-an-auto-scaling-event-is-the-number-of-concurrent-users-based-on-this-information-what-should-the-developer-use-to-autoscale-based-on-concurrent-users)
 | 62  | [A Developer has written a serverless application using multiple AWS services. The business logic is written as a Lambda function which has dependencies on third-party libraries. The Lambda function endpoints will be exposed using Amazon API Gateway. The Lambda function will write the information to Amazon DynamoDB. The Developer is ready to deploy the application but must have the ability to rollback. How can this deployment be automated, based on these requirements?](#a-developer-has-written-a-serverless-application-using-multiple-aws-services-the-business-logic-is-written-as-a-lambda-function-which-has-dependencies-on-third-party-libraries-the-lambda-function-endpoints-will-be-exposed-using-amazon-api-gateway-the-lambda-function-will-write-the-information-to-amazon-dynamodb-the-developer-is-ready-to-deploy-the-application-but-must-have-the-ability-to-rollback-how-can-this-deployment-be-automated-based-on-these-requirements)
 | 63  | [A game stores user game data in an Amazon DynamoDB table. Individual users should not have access to other users' game data. How can this be accomplished?](#a-game-stores-user-game-data-in-an-amazon-dynamodb-table-individual-users-should-not-have-access-to-other-users-game-data-how-can-this-be-accomplished)
-| 64  | [A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model.A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model. Which is the simplest and MOST secure design to use to build an authentication and authorization model for the APIs?](#a-company-developed-a-set-of-apis-that-are-being-served-through-the-amazon-api-gateway-the-api-calls-need-to-be-authenticated-based-on-openid-identity-providers-such-as-amazon-or-facebook-the-apis-should-allow-access-based-on-a-custom-authorization-modela-company-developed-a-set-of-apis-that-are-being-served-through-the-amazon-api-gateway-the-api-calls-need-to-be-authenticated-based-on-openid-identity-providers-such-as-amazon-or-facebook-the-apis-should-allow-access-based-on-a-custom-authorization-model-which-is-the-simplest-and-most-secure-design-to-use-to-build-an-authentication-and-authorization-model-for-the-apis)
+| 64  | [A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?](#a-developer-is-creating-a-web-application-that-requires-authentication-but-also-needs-to-support-guest-access-to-provide-users-limited-access-without-having-to-authenticate-what-service-can-provide-support-for-the-application-to-allow-guest-access)
 | 65  | [Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?](#given-the-source-code-for-an-aws-lambda-function-in-the-local-storepy-containing-a-handler-function-called-get_store-and-the-following-aws-cloudformation-template-what-should-be-done-to-prepare-the-template-so-that-it-can-be-deployed-using-the-aws-cli-command-aws-cloudformation-deploy)
 | 66  | [A Developer has created a large Lambda function, and deployment is failing with the following error:ClientError: An error occurred (InvalidParameterValueException) when callingthe CreateFunction operation: Unzipped size must be smaller than XXXXXXXXX bytes', where XXXXXXXXX is the current Lambda limit. What can the Developer do to fix this problem?](#a-developer-has-created-a-large-lambda-function-and-deployment-is-failing-with-the-following-errorclienterror-an-error-occurred-invalidparametervalueexception-when-callingthe-createfunction-operation-unzipped-size-must-be-smaller-than-xxxxxxxxx-bytes-where-xxxxxxxxx-is-the-current-lambda-limit-what-can-the-developer-do-to-fix-this-problem)
 | 67  | [A serverless application uses an API Gateway and AWS Lambda. Where should the Lambda function store its session information across function calls?](#a-serverless-application-uses-an-api-gateway-and-aws-lambda-where-should-the-lambda-function-store-its-session-information-across-function-calls)
@@ -100,7 +100,7 @@
 | 92  | [A Developer needs temporary access to resources in a second account. What is the MOST secure way to achieve this?](#a-developer-needs-temporary-access-to-resources-in-a-second-account-what-is-the-most-secure-way-to-achieve-this)
 | 93  | [A Developer needs to use AWS X-Ray to monitor an application that is deployed on EC2 instances. What steps have to be executed to perform the monitoring?](#a-developer-needs-to-use-aws-x-ray-to-monitor-an-application-that-is-deployed-on-ec2-instances-what-steps-have-to-be-executed-to-perform-the-monitoring)
 | 94  | [A Developer is creating an Auto Scaling group whose instances need to publish a custom metric to Amazon CloudWatch. Which method would be the MOST secure way to authenticate a CloudWatch PUT request?](#a-developer-is-creating-an-auto-scaling-group-whose-instances-need-to-publish-a-custom-metric-to-amazon-cloudwatch-which-method-would-be-the-most-secure-way-to-authenticate-a-cloudwatch-put-request)
-| 95  | [A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table: Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?](#a-developer-is-working-on-an-application-that-tracks-hundreds-of-millions-of-product-reviews-in-an-amazon-dynamodb-table-the-records-include-the-data-elements-shown-in-the-table-which-field-when-used-as-the-partition-key-would-result-in-the-most-consistent-performance-using-dynamodb)
+| 95  | [A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table. Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?](#a-developer-is-working-on-an-application-that-tracks-hundreds-of-millions-of-product-reviews-in-an-amazon-dynamodb-table-the-records-include-the-data-elements-shown-in-the-table-which-field-when-used-as-the-partition-key-would-result-in-the-most-consistent-performance-using-dynamodb)
 | 96  | [A development team consists of 10 team members. Similar to a home directory for each team member, the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username 'TeamMemberX', the snippet of the IAM policy looks like this: Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?](#a-development-team-consists-of-10-team-members-similar-to-a-home-directory-for-each-team-member-the-manager-wants-to-grant-access-to-user-specific-folders-in-an-amazon-s3-bucket-for-the-team-member-with-the-username-teammemberx-the-snippet-of-the-iam-policy-looks-like-this-instead-of-creating-distinct-policies-for-each-team-member-what-approach-can-be-used-to-make-this-policy-snippet-generic-for-all-team-members)
 | 97  | [A company needs to encrypt data at rest, but it wants to leverage an AWS managed service using its own master key. Which of the following AWS service can be used to meet these requirements?](#a-company-needs-to-encrypt-data-at-rest-but-it-wants-to-leverage-an-aws-managed-service-using-its-own-master-key-which-of-the-following-aws-service-can-be-used-to-meet-these-requirements)
 | 98  | [A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles. What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Select TWO.)](#a-developer-has-created-a-software-package-to-be-deployed-on-multiple-ec2-instances-using-iam-roles-what-actions-could-be-performed-to-verify-iam-access-to-get-records-from-amazon-kinesis-streams-select-two)
@@ -408,12 +408,10 @@
 | 400 | [An existing serverless application processes uploaded image files. The process currently uses a single Lambda function that takes an image file, performs the processing, and stores the file in Amazon S3. Users of the application now require thumbnail generation of the images. Users want to avoid any impact to the time it takes to perform the image uploads.How can thumbnail generation be added to the application, meeting user requirements while minimizing changes to existing code?](#an-existing-serverless-application-processes-uploaded-image-files-the-process-currently-uses-a-single-lambda-function-that-takes-an-image-file-performs-the-processing-and-stores-the-file-in-amazon-s3-users-of-the-application-now-require-thumbnail-generation-of-the-images-users-want-to-avoid-any-impact-to-the-time-it-takes-to-perform-the-image-uploadshow-can-thumbnail-generation-be-added-to-the-application-meeting-user-requirements-while-minimizing-changes-to-existing-code)
 | 401 | [A company is using Amazon API Gateway to manage access to a set of microservices implemented as AWS Lambda functions. Following a bug report, the company makes a minor breaking change to one of the APIs. In order to avoid impacting existing clients when the new API is deployed, the company wants to allow clients six months to migrate from v1 to v2. Which approach should the Developer use to handle this change?](#a-company-is-using-amazon-api-gateway-to-manage-access-to-a-set-of-microservices-implemented-as-aws-lambda-functions-following-a-bug-report-the-company-makes-a-minor-breaking-change-to-one-of-the-apis-in-order-to-avoid-impacting-existing-clients-when-the-new-api-is-deployed-the-company-wants-to-allow-clients-six-months-to-migrate-from-v1-to-v2-which-approach-should-the-developer-use-to-handle-this-change)
 | 402 | [A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model. Which is the simplest and MOST secure design to use to build an authentication and authorization model for the APIs?](#a-company-developed-a-set-of-apis-that-are-being-served-through-the-amazon-api-gateway-the-api-calls-need-to-be-authenticated-based-on-openid-identity-providers-such-as-amazon-or-facebook-the-apis-should-allow-access-based-on-a-custom-authorization-model-which-is-the-simplest-and-most-secure-design-to-use-to-build-an-authentication-and-authorization-model-for-the-apis)
-| 403 | [A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint. http:// www.supplierdomain.com/status/customerID. Which of the following application designs meet the requirements? (Select two.)](#a-supplier-is-writing-a-new-restful-api-for-customers-to-query-the-status-of-orders-the-customers-requested-the-following-api-endpoint-http-wwwsupplierdomaincomstatuscustomerid-which-of-the-following-application-designs-meet-the-requirements-select-two)
+| 403 | [Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?](#where-should-an-elastic-beanstalk-configuration-file-named-healthcheckur1config-be-placed-in-the-application-source-bundle)
 | 404 | [A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code: After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?](#a-developer-has-implemented-a-lambda-function-that-needs-to-add-new-customers-to-an-rds-database-that-is-expected-to-run-hundreds-of-times-per-hour-the-lambda-function-is-configured-to-use-512mb-of-ram-and-is-based-on-the-following-pseudo-code-after-testing-the-lambda-function-the-developer-notices-that-the-lambda-execution-time-is-much-longer-than-expected-what-should-the-developer-do-to-improve-performance)
 | 405 | [A static website is hosted in an Amazon S3 bucket. Several HTML pages on the site use JavaScript to download images from another Amazon S3 bucket. These images are not displayed when users browse the site. What is the possible cause for the issue?](#a-static-website-is-hosted-in-an-amazon-s3-bucket-several-html-pages-on-the-site-use-javascript-to-download-images-from-another-amazon-s3-bucket-these-images-are-not-displayed-when-users-browse-the-site-what-is-the-possible-cause-for-the-issue)
 | 406 | [Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?](#amazon-s3-has-the-following-structure-s3bucketfoldernamefilenamezip-which-s3-best-practice-would-optimize-performance-with-thousands-of-put-request-each-second-to-a-single-bucket)
-| 407 | [A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?](#a-developer-is-creating-a-web-application-that-requires-authentication-but-also-needs-to-support-guest-access-to-provide-users-limited-access-without-having-to-authenticate-what-service-can-provide-support-for-the-application-to-allow-guest-access)
-| 408 | [Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?](#where-should-an-elastic-beanstalk-configuration-file-named-healthcheckur1config-be-placed-in-the-application-source-bundle)
 
 ### Which of the following are good use cases for how Amazon ElastiCache can help an application? (Select TWO.)
 
@@ -1000,15 +998,24 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model.A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model. Which is the simplest and MOST secure design to use to build an authentication and authorization model for the APIs?
+### Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?
 
-- [x] Use Amazon Cognito user pools and a custom authorizer to authenticate and authorize users based.on JSON Web Tokens.
-- [ ] Build a OpenID token broker with Amazon and Facebook. Users will authenticate with these identify providers and pass the JSON Web Token to the API to authenticate each API call.
-- [ ] Store user credentials in Amazon DynamoDB and have the application retrieve temporary credentials from AWS ST.
-- [ ] Make API calls by passing user credentials to the APIs for authentication and authorization.
-- [ ] Use Amazon RDS to store user credentials and pass them to the APIs for authentications and authorization.
+- [ ] In the root of the application.
+- [ ] In the bin folder.
+- [ ] In healthcheckur1.config.ebextension under root.
+- [x] In the .ebextensions folder.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?
+
+- [ ] IAM temporary credentials using AWS STS.
+- [ ] Amazon Directory Service.
+- [x] Amazon Cognito with unauthenticated access enabled.
+- [ ] IAM with SAML integration
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
 ### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template: What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?
 
@@ -4145,16 +4152,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint. http:// www.supplierdomain.com/status/customerID. Which of the following application designs meet the requirements? (Select two.)
-
-- [ ] Amazon SQS; Amazon SNS.
-- [ ] Elastic Load Balancing; Amazon EC2.
-- [ ] Amazon ElastiCache; Amazon Elacticsearch Service.
-- [x] Amazon API Gateway; AWS Lambda.
-- [x] Amazon S3; Amazon CloudFront.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code. After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?
 
 [Question 404](images/question404.jpg)
@@ -4181,23 +4178,5 @@
 - [ ] Prefix file names with timestamps; for example, s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip.
 - [ ] Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip.
 - [x] Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?
-
-- [ ] IAM temporary credentials using AWS STS.
-- [ ] Amazon Directory Service.
-- [x] Amazon Cognito with unauthenticated access enabled.
-- [ ] IAM with SAML integration
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?
-
-- [ ] In the root of the application.
-- [ ] In the bin folder.
-- [ ] In healthcheckur1.config.ebextension under root.
-- [x] In the .ebextensions folder.
 
 **[⬆ Back to Top](#table-of-contents)**
