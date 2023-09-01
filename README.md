@@ -37,7 +37,7 @@
 | 29  | [A development team is creating a new application designed to run on AWS. While the test and production environments will run on Amazon EC2 instances, developers will each run their own environment on their laptops. Which of the following is the simplest and MOST secure way to access AWS services from the local development machines?](#a-development-team-is-creating-a-new-application-designed-to-run-on-aws-while-the-test-and-production-environments-will-run-on-amazon-ec2-instances-developers-will-each-run-their-own-environment-on-their-laptops-which-of-the-following-is-the-simplest-and-most-secure-way-to-access-aws-services-from-the-local-development-machines)
 | 30  | [How is provisioned throughput affected by the chosen consistency model when reading data from a DynamoDB table?](#how-is-provisioned-throughput-affected-by-the-chosen-consistency-model-when-reading-data-from-a-dynamodb-table)
 | 31  | [A developer needs to deploy a new version to an AWS Elastic Beanstalk application. How can the developer accomplish this task?](#a-developer-needs-to-deploy-a-new-version-to-an-aws-elastic-beanstalk-application-how-can-the-developer-accomplish-this-task)
-| 32  | [A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes user_id, user_name, user_score, and user_rank. The users are allowed to update their names only A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call? [???]](#a-gaming-application-stores-scores-for-players-in-an-amazon-dynamodb-table-that-has-four-attributes-user_id-user_name-user_score-and-user_rank-the-users-are-allowed-to-update-their-names-only-a-user-is-authenticated-by-web-identity-federation-which-set-of-conditions-should-be-added-in-the-policy-attached-to-the-role-for-the-dynamodb-putitem-api-call-)
+| 32  | [A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call?](#a-gaming-application-stores-scores-for-players-in-an-amazon-dynamodb-table-that-has-four-attributes-user_id-user_name-user_score-and-user_rank-the-users-are-allowed-to-update-their-names-only-a-user-is-authenticated-by-web-identity-federation-which-set-of-conditions-should-be-added-in-the-policy-attached-to-the-role-for-the-dynamodb-putitem-api-call)
 | 33  | [A company needs a version control system for collaborative software development.Features of the system must include the following: Support for batches of changes across multiple files. Parallel branching. Version tracking. Which AWS service will meet these requirements?](#a-company-needs-a-version-control-system-for-collaborative-software-developmentfeatures-of-the-system-must-include-the-following-support-for-batches-of-changes-across-multiple-files-parallel-branching-version-tracking-which-aws-service-will-meet-these-requirements)
 | 34  | [A developer wants the ability to roll back to a previous version of an AWS Lambda function in the event of errors caused by a new deployment. How can the developer achieve this with MINIMAL impact on users?](#a-developer-wants-the-ability-to-roll-back-to-a-previous-version-of-an-aws-lambda-function-in-the-event-of-errors-caused-by-a-new-deployment-how-can-the-developer-achieve-this-with-minimal-impact-on-users)
 | 35  | [An application contains two components one component to handle HI IP requests, and another component to handle background processing tasks Bach component must scale independently. The developer wants to deploy this application using AWS Elastic Beanstalk. How should this application be deployed, based on these requirements?](#an-application-contains-two-components-one-component-to-handle-hi-ip-requests-and-another-component-to-handle-background-processing-tasks-bach-component-must-scale-independently-the-developer-wants-to-deploy-this-application-using-aws-elastic-beanstalk-how-should-this-application-be-deployed-based-on-these-requirements)
@@ -58,7 +58,7 @@
 | 50  | [A Developer needs to design an application running on AWS that will be used to consume Amazon SQS messages that range from 51KB up to 1GB in size. How should the Amazon SQS messages be managed?](#a-developer-needs-to-design-an-application-running-on-aws-that-will-be-used-to-consume-amazon-sqs-messages-that-range-from-1-kb-up-to-1gb-in-size-how-should-the-amazon-sqs-messages-be-managed)
 | 51  | [A developer has written a multi-threaded application that is running on a fleet of Amazon EC2 instances. The operations team has requested a graphical method to monitor the number of running threads over time. What is the MOST efficient way to fulfill this request?](#a-developer-has-written-a-multi-threaded-application-that-is-running-on-a-fleet-of-amazon-ec2-instances-the-operations-team-has-requested-a-graphical-method-to-monitor-the-number-of-running-threads-over-time-what-is-the-most-efficient-way-to-fulfill-this-request)
 | 52  | [A developer uses Amazon S3 buckets for static website hosting. The developer creates one S3 bucket for the code and another S3 bucket for the assets, such as image and video files. Access is denied when a user attempts to access the assets bucket from the code bucket, with the website application showing a 403 error. How should the developer solve this issue?](#a-developer-uses-amazon-s3-buckets-for-static-website-hosting-the-developer-creates-one-s3-bucket-for-the-code-and-another-s3-bucket-for-the-assets-such-as-image-and-video-files-access-is-denied-when-a-user-attempts-to-access-the-assets-bucket-from-the-code-bucket-with-the-website-application-showing-a-403-error-how-should-the-developer-solve-this-issue)
-| 53  | [The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 55second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution?](#the-lambda-function-below-is-being-called-through-an-api-using-amazon-api-gateway-the-average-execution-time-for-the-lambda-function-is-about-1-second-the-pseudocode-for-the-lambda-function-is-as-shown-in-the-exhibit-what-two-actions-can-be-taken-to-improve-the-performance-of-this-lambda-function-without-increasing-the-cost-of-the-solution)
+| 53  | [The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 55second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (Select two.)](#the-lambda-function-below-is-being-called-through-an-api-using-amazon-api-gateway-the-average-execution-time-for-the-lambda-function-is-about-1-second-the-pseudocode-for-the-lambda-function-is-as-shown-in-the-exhibit-what-two-actions-can-be-taken-to-improve-the-performance-of-this-lambda-function-without-increasing-the-cost-of-the-solution-select-two)
 | 54  | [An application on AWS is using third-party APIs. The Developer needs to monitor API errors in the code, and wants to receive notifications if failures go above a set threshold value. How can the Developer achieve these requirements?](#an-application-on-aws-is-using-third-party-apis-the-developer-needs-to-monitor-api-errors-in-the-code-and-wants-to-receive-notifications-if-failures-go-above-a-set-threshold-value-how-can-the-developer-achieve-these-requirements)
 | 55  | [The release process workflow of an application requires a manual approval before the code is deployed into the production environment. What is the BEST way to achieve this using AWS CodePipeline?](#the-release-process-workflow-of-an-application-requires-a-manual-approval-before-the-code-is-deployed-into-the-production-environment-what-is-the-best-way-to-achieve-this-using-aws-codepipeline)
 | 56  | [A Developer is asked to implement a caching layer in front of Amazon RDS. Cached content is expensive to regenerate in case of service failure. Which implementation below would work while maintaining maximum uptime?](#a-developer-is-asked-to-implement-a-caching-layer-in-front-of-amazon-rds-cached-content-is-expensive-to-regenerate-in-case-of-service-failure-which-implementation-below-would-work-while-maintaining-maximum-uptime)
@@ -70,7 +70,7 @@
 | 62  | [A Developer has written a serverless application using multiple AWS services. The business logic is written as a Lambda function which has dependencies on third-party libraries. The Lambda function endpoints will be exposed using Amazon API Gateway. The Lambda function will write the information to Amazon DynamoDB. The Developer is ready to deploy the application but must have the ability to rollback. How can this deployment be automated, based on these requirements?](#a-developer-has-written-a-serverless-application-using-multiple-aws-services-the-business-logic-is-written-as-a-lambda-function-which-has-dependencies-on-third-party-libraries-the-lambda-function-endpoints-will-be-exposed-using-amazon-api-gateway-the-lambda-function-will-write-the-information-to-amazon-dynamodb-the-developer-is-ready-to-deploy-the-application-but-must-have-the-ability-to-rollback-how-can-this-deployment-be-automated-based-on-these-requirements)
 | 63  | [A game stores user game data in an Amazon DynamoDB table. Individual users should not have access to other users' game data. How can this be accomplished?](#a-game-stores-user-game-data-in-an-amazon-dynamodb-table-individual-users-should-not-have-access-to-other-users-game-data-how-can-this-be-accomplished)
 | 64  | [A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model.A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model. Which is the simplest and MOST secure design to use to build an authentication and authorization model for the APIs?](#a-company-developed-a-set-of-apis-that-are-being-served-through-the-amazon-api-gateway-the-api-calls-need-to-be-authenticated-based-on-openid-identity-providers-such-as-amazon-or-facebook-the-apis-should-allow-access-based-on-a-custom-authorization-modela-company-developed-a-set-of-apis-that-are-being-served-through-the-amazon-api-gateway-the-api-calls-need-to-be-authenticated-based-on-openid-identity-providers-such-as-amazon-or-facebook-the-apis-should-allow-access-based-on-a-custom-authorization-model-which-is-the-simplest-and-most-secure-design-to-use-to-build-an-authentication-and-authorization-model-for-the-apis)
-| 65  | [Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template: What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?](#given-the-source-code-for-an-aws-lambda-function-in-the-local-storepy-containing-a-handler-function-called-get_store-and-the-following-aws-cloudformation-template-what-should-be-done-to-prepare-the-template-so-that-it-can-be-deployed-using-the-aws-cli-command-aws-cloudformation-deploy)
+| 65  | [Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?](#given-the-source-code-for-an-aws-lambda-function-in-the-local-storepy-containing-a-handler-function-called-get_store-and-the-following-aws-cloudformation-template-what-should-be-done-to-prepare-the-template-so-that-it-can-be-deployed-using-the-aws-cli-command-aws-cloudformation-deploy)
 | 66  | [A Developer has created a large Lambda function, and deployment is failing with the following error:ClientError: An error occurred (InvalidParameterValueException) when callingthe CreateFunction operation: Unzipped size must be smaller than XXXXXXXXX bytes', where XXXXXXXXX is the current Lambda limit. What can the Developer do to fix this problem?](#a-developer-has-created-a-large-lambda-function-and-deployment-is-failing-with-the-following-errorclienterror-an-error-occurred-invalidparametervalueexception-when-callingthe-createfunction-operation-unzipped-size-must-be-smaller-than-xxxxxxxxx-bytes-where-xxxxxxxxx-is-the-current-lambda-limit-what-can-the-developer-do-to-fix-this-problem)
 | 67  | [A serverless application uses an API Gateway and AWS Lambda. Where should the Lambda function store its session information across function calls?](#a-serverless-application-uses-an-api-gateway-and-aws-lambda-where-should-the-lambda-function-store-its-session-information-across-function-calls)
 | 68  | [An application reads data from an Amazon DynamoDB table. Several times a day, for a period of 15 seconds, the application receives multiple ProvisionedThroughputExceeded errors. How should this exception be handled?](#an-application-reads-data-from-an-amazon-dynamodb-table-several-times-a-day-for-a-period-of-15-seconds-the-application-receives-multiple-provisionedthroughputexceeded-errors-how-should-this-exception-be-handled)
@@ -103,7 +103,7 @@
 | 95  | [A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table: Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?](#a-developer-is-working-on-an-application-that-tracks-hundreds-of-millions-of-product-reviews-in-an-amazon-dynamodb-table-the-records-include-the-data-elements-shown-in-the-table-which-field-when-used-as-the-partition-key-would-result-in-the-most-consistent-performance-using-dynamodb)
 | 96  | [A development team consists of 10 team members. Similar to a home directory for each team member, the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username 'TeamMemberX', the snippet of the IAM policy looks like this: Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?](#a-development-team-consists-of-10-team-members-similar-to-a-home-directory-for-each-team-member-the-manager-wants-to-grant-access-to-user-specific-folders-in-an-amazon-s3-bucket-for-the-team-member-with-the-username-teammemberx-the-snippet-of-the-iam-policy-looks-like-this-instead-of-creating-distinct-policies-for-each-team-member-what-approach-can-be-used-to-make-this-policy-snippet-generic-for-all-team-members)
 | 97  | [A company needs to encrypt data at rest, but it wants to leverage an AWS managed service using its own master key. Which of the following AWS service can be used to meet these requirements?](#a-company-needs-to-encrypt-data-at-rest-but-it-wants-to-leverage-an-aws-managed-service-using-its-own-master-key-which-of-the-following-aws-service-can-be-used-to-meet-these-requirements)
-| 98  | [A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code: What should the Developer do to improve performance? After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected.](#a-developer-has-implemented-a-lambda-function-that-needs-to-add-new-customers-to-an-rds-database-that-is-expected-to-run-hundreds-of-times-per-hour-the-lambda-function-is-configured-to-use-512mb-of-ram-and-is-based-on-the-following-pseudo-code-what-should-the-developer-do-to-improve-performance-after-testing-the-lambda-function-the-developer-notices-that-the-lambda-execution-time-is-much-longer-than-expected)
+| 98  | [A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles. What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Select TWO.)](#a-developer-has-created-a-software-package-to-be-deployed-on-multiple-ec2-instances-using-iam-roles-what-actions-could-be-performed-to-verify-iam-access-to-get-records-from-amazon-kinesis-streams-select-two)
 | 99  | [A company wants to implement a continuous integration for its workloads on AWS. The company wants to trigger unit test in its pipeline for commits-on its code repository, and wants to be notified of failure events in the pipeline. How can these requirements be met?](#a-company-wants-to-implement-a-continuous-integration-for-its-workloads-on-aws-the-company-wants-to-trigger-unit-test-in-its-pipeline-for-commits-on-its-code-repository-and-wants-to-be-notified-of-failure-events-in-the-pipeline-how-can-these-requirements-be-met)
 | 100 | [An application takes 40 seconds to process instructions received in an Amazon SQS message. Assuming the SQS queue is configured with the default VisibilityTimeout value, what is the BEST way, upon receiving a message, to ensure that no other instances can retrieve a message that has already been processed or is currently being processed?](#an-application-takes-40-seconds-to-process-instructions-received-in-an-amazon-sqs-message-assuming-the-sqs-queue-is-configured-with-the-default-visibilitytimeout-value-what-is-the-best-way-upon-receiving-a-message-to-ensure-that-no-other-instances-can-retrieve-a-message-that-has-already-been-processed-or-is-currently-being-processed)
 | 101  | [A Developer is developing an application that manages financial transactions. To improve security, multi-factor authentication (MFA) will be required as part of the login protocol. What services can the Developer use to meet these requirements?](#a-developer-is-developing-an-application-that-manages-financial-transactions-to-improve-security-multi-factor-authentication-mfa-will-be-required-as-part-of-the-login-protocol-what-services-can-the-developer-use-to-meet-these-requirements)
@@ -148,7 +148,7 @@
 | 140 | [A company is developing a report executed by AWS Step Functions, Amazon CloudWatch shows errors in the Step Functions task state machine. To troubleshoot each task, the state input needs to be included along with the error message in the state output. Which coding practice can preserve both the original input and the error for the state?](#a-company-is-developing-a-report-executed-by-aws-step-functions-amazon-cloudwatch-shows-errors-in-the-step-functions-task-state-machine-to-troubleshoot-each-task-the-state-input-needs-to-be-included-along-with-the-error-message-in-the-state-output-which-coding-practice-can-preserve-both-the-original-input-and-the-error-for-the-state)
 | 141 | [A developer receives the following error message when trying to launch or terminate an Amazon EC2 instance using a boto3 script. What should the developer do to correct this error message?](#a-developer-receives-the-following-error-message-when-trying-to-launch-or-terminate-an-amazon-ec2-instance-using-a-boto3-script-what-should-the-developer-do-to-correct-this-error-message)
 | 142 | [Given the following AWS CloudFormation template: What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?](#given-the-following-aws-cloudformation-template-what-is-the-most-efficient-way-to-reference-the-new-amazon-s3-bucket-from-another-aws-cloudformation-template)
-| 143 | [A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only. A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call?](#a-gaming-application-stores-scores-for-players-in-an-amazon-dynamodb-table-that-has-four-attributes-user_id-user_name-user_score-and-user_rank-the-users-are-allowed-to-update-their-names-only-a-user-is-authenticated-by-web-identity-federation-which-set-of-conditions-should-be-added-in-the-policy-attached-to-the-role-for-the-dynamodb-putitem-api-call)
+| 143 | [A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs. The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?](#a-developer-has-created-an-s3-bucket-s3mycoolapp-and-has-enabled-server-across-logging-that-points-to-the-folder-s3mycoolapplogs-the-developer-moved-100-kb-of-cascading-style-sheets-css-documents-to-the-folder-s3mycoolappcss-and-then-stopped-work-when-the-developer-came-back-a-few-days-later-the-bucket-was-50-gb-what-is-the-most-likely-cause-of-this-situation)
 | 144 | [A developer is using AWS CodeDeploy to deploy an application running on Amazon EC2. The developer wants to change the file permissions for a specific deployment file. Which lifecycle event should a developer use to meet this requirement?](#a-developer-is-using-aws-codedeploy-to-deploy-an-application-running-on-amazon-ec2-the-developer-wants-to-change-the-file-permissions-for-a-specific-deployment-file-which-lifecycle-event-should-a-developer-use-to-meet-this-requirement)
 | 145 | [A developer is using Amazon DynamoDB to store application data. The developer wants to further improve application performance by reducing response times for read and write operations. Which DynamoDB feature should be used to meet these requirements?](#a-developer-is-using-amazon-dynamodb-to-store-application-data-the-developer-wants-to-further-improve-application-performance-by-reducing-response-times-for-read-and-write-operations-which-dynamodb-feature-should-be-used-to-meet-these-requirements)
 | 146 | [A developer is creating a script to automate the deployment process for a serverless application. The developer wants to use an existing AWS Serverless Application Model (AWS SAM) template for the application. What should the developer use for the project? (Choose two.)](#a-developer-is-creating-a-script-to-automate-the-deployment-process-for-a-serverless-application-the-developer-wants-to-use-an-existing-aws-serverless-application-model-aws-sam-template-for-the-application-what-should-the-developer-use-for-the-project-choose-two)
@@ -185,7 +185,7 @@
 | 177 | [A Developer must allow guest users without logins to access an Amazon Cognito-enabled site to view files stored within an Amazon S3 bucket. How should the Developer meet these requirements?](#a-developer-must-allow-guest-users-without-logins-to-access-an-amazon-cognito-enabled-site-to-view-files-stored-within-an-amazon-s3-bucket-how-should-the-developer-meet-these-requirements)
 | 178 | [A Developer has written code for an application and wants to share it with other Developers on the team to receive feedback. The shared application code needs to be stored long-term with multiple versions and batch change tracking. Which AWS service should the Developer use?](#a-developer-has-written-code-for-an-application-and-wants-to-share-it-with-other-developers-on-the-team-to-receive-feedback-the-shared-application-code-needs-to-be-stored-long-term-with-multiple-versions-and-batch-change-tracking-which-aws-service-should-the-developer-use)
 | 179 | [A Developer has discovered that an application responsible for processing messages in an Amazon SQS queue is routinely falling behind. The application is capable of processing multiple messages in one execution, but is only receiving one message at a time. What should the Developer do to increase the number of messages the application receives?](#a-developer-has-discovered-that-an-application-responsible-for-processing-messages-in-an-amazon-sqs-queue-is-routinely-falling-behind-the-application-is-capable-of-processing-multiple-messages-in-one-execution-but-is-only-receiving-one-message-at-a-time-what-should-the-developer-do-to-increase-the-number-of-messages-the-application-receives)
-| 180 | [A Developer registered an AWS Lambda function as a target for an Application Load Balancer (ALB) using a CLI command. However, the Lambda function is not being invoked when the client sends requests through the ALB.  Why is the Lambda function not being invoked?](#a-developer-registered-an-aws-lambda-function-as-a-target-for-an-application-load-balancer-alb-using-a-cli-command-however-the-lambda-function-is-not-being-invoked-when-the-client-sends-requests-through-the-alb--why-is-the-lambda-function-not-being-invoked)
+| 180 | [A Developer registered an AWS Lambda function as a target for an Application Load Balancer (ALB) using a CLI command. However, the Lambda function is not being invoked when the client sends requests through the ALB. Why is the Lambda function not being invoked?](#a-developer-registered-an-aws-lambda-function-as-a-target-for-an-application-load-balancer-alb-using-a-cli-command-however-the-lambda-function-is-not-being-invoked-when-the-client-sends-requests-through-the-alb--why-is-the-lambda-function-not-being-invoked)
 | 181 | [A company provides APIs as a service and commits to a service level agreement (SLA) with all its users. To comply with each SLA, what should the company do?](#a-company-provides-apis-as-a-service-and-commits-to-a-service-level-agreement-sla-with-all-its-users-to-comply-with-each-sla-what-should-the-company-do)
 | 182 | [A Developer is preparing a deployment package using AWS CloudFormation. The package consists of two separate templates: one for the infrastructure and one for the application. The application has to be inside the VPC that is created from the infrastructure template. How can the application stack refer to the VPC created from the infrastructure template?](#a-developer-is-preparing-a-deployment-package-using-aws-cloudformation-the-package-consists-of-two-separate-templates-one-for-the-infrastructure-and-one-for-the-application-the-application-has-to-be-inside-the-vpc-that-is-created-from-the-infrastructure-template-how-can-the-application-stack-refer-to-the-vpc-created-from-the-infrastructure-template)
 | 183 | [A Developer needs to create an application that supports Security Assertion Markup Language (SAML) and Facebook authentication. It must also allow access to AWS services, such as Amazon DynamoDB. Which AWS service or feature will meet these requirements with the LEAST amount of additional coding?](#a-developer-needs-to-create-an-application-that-supports-security-assertion-markup-language-saml-and-facebook-authentication-it-must-also-allow-access-to-aws-services-such-as-amazon-dynamodb-which-aws-service-or-feature-will-meet-these-requirements-with-the-least-amount-of-additional-coding)
@@ -249,10 +249,10 @@
 | 241 | [You have an environment that consists of a public subnet using Amazon VPC and 3 instances that are running in this subnet. These three instances can successfully communicate with other hosts on the Internet. You launch a fourth instance in the same subnet, using the same AMI and security group configuration you used for the others, but find that this instance cannot be accessed from the Internet. What should you do to enable internet access?](#you-have-an-environment-that-consists-of-a-public-subnet-using-amazon-vpc-and-3-instances-that-are-running-in-this-subnet-these-three-instances-can-successfully-communicate-with-other-hosts-on-the-internet-you-launch-a-fourth-instance-in-the-same-subnet-using-the-same-ami-and-security-group-configuration-you-used-for-the-others-but-find-that-this-instance-cannot-be-accessed-from-the-internet-what-should-you-do-to-enable-internet-access)
 | 242 | [If a message is retrieved from a queue in Amazon SQS, how long is the message inaccessible to other users by default?](#if-a-message-is-retrieved-from-a-queue-in-amazon-sqs-how-long-is-the-message-inaccessible-to-other-users-by-default)
 | 243 | [What is the format of structured notification messages sent by Amazon SNS?](#what-is-the-format-of-structured-notification-messages-sent-by-amazon-sns)
-| 244 | [Which of the following services are key/value stores? (Choose three.)](#which-of-the-following-services-are-keyvalue-stores-choose-three)
+| 244 | [A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?](#a-developer-is-receiving-http-400-throttlingexception-errors-intermittently-when-calling-the-amazon-cloudwatch-api-when-a-call-fails-no-data-is-retrieved-what-best-practice-should-first-be-applied-to-address-this-issue)
 | 245 | [When uploading an object, what request header can be explicitly specified in a request to Amazon S3 to encrypt object data when saved on the server side?](#when-uploading-an-object-what-request-header-can-be-explicitly-specified-in-a-request-to-amazon-s3-to-encrypt-object-data-when-saved-on-the-server-side)
 | 246 | [Which of the following platforms are supported by Elastic Beanstalk? (Choose two.)](#which-of-the-following-platforms-are-supported-by-elastic-beanstalk-choose-two)
-| 247 | [Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name "ElasticLoad Balancer"?](#which-code-snippet-below-returns-the-url-of-a-load-balanced-web-site-created-in-cloudformation-with-an-awselasticloadbalancingloadbalancer-resource-name-elasticload-balancer)
+| 247 | [Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name 'ElasticLoad Balancer'?](#which-code-snippet-below-returns-the-url-of-a-load-balanced-web-site-created-in-cloudformation-with-an-awselasticloadbalancingloadbalancer-resource-name-elasticload-balancer)
 | 248 | [Which features can be used to restrict access to data in S3? (Choose two.)](#which-features-can-be-used-to-restrict-access-to-data-in-s3-choose-two)
 | 249 | [What happens, by default, when one of the resources in a CloudFormation stack cannot be created?](#what-happens-by-default-when-one-of-the-resources-in-a-cloudformation-stack-cannot-be-created)
 | 250 | [Which of the following are valid arguments for an SNS Publish request? (Choose three.)](#which-of-the-following-are-valid-arguments-for-an-sns-publish-request-choose-three)
@@ -266,28 +266,28 @@
 | 258 | [Which of the following statements about SWF are true? (Choose three.)](#which-of-the-following-statements-about-swf-are-true-choose-three)
 | 259 | [A startup s photo-sharing site is deployed in a VPC. An ELB distributes web traffic across two subnets. ELB session stickiness is configured to use the AWSgenerated session cookie, with a session TTL of 5 minutes. The webserver Auto Scaling Group is configured as: min-size=4, max-size=4, The startups preparing for a public launch, by running load-testing software installed on a single EC2 instance running in us-west-2 After 60 minutes of load-testing, the webserver logs show: Which recommendations can help ensure load-testing HTTP requests are evenly distributed across the four webservers? (Choose two.)](#a-startup-s-photo-sharing-site-is-deployed-in-a-vpc-an-elb-distributes-web-traffic-across-two-subnets-elb-session-stickiness-is-configured-to-use-the-awsgenerated-session-cookie-with-a-session-ttl-of-5-minutes-the-webserver-auto-scaling-group-is-configured-as-min-size4-max-size4-the-startups-preparing-for-a-public-launch-by-running-load-testing-software-installed-on-a-single-ec2-instance-running-in-us-west-2-after-60-minutes-of-load-testing-the-webserver-logs-show-which-recommendations-can-help-ensure-load-testing-http-requests-are-evenly-distributed-across-the-four-webservers-choose-two)
 | 260 | [Which of the following are valid SNS delivery transports? (Choose two.)](#which-of-the-following-are-valid-sns-delivery-transports-choose-two)
-| 261 | [Company C has recently launched an online commerce site for bicycles on AWS. They have a "Product" DynamoDB table that stores details for each bicycle, such as, manufacturer, color, price, quantity and size to display in the online store. Due to customer demand, they want to include an image for each bicycle along with the existing details. Which approach below provides the least impact to provisioned throughput on the "Product" table?](#company-c-has-recently-launched-an-online-commerce-site-for-bicycles-on-aws-they-have-a-product-dynamodb-table-that-stores-details-for-each-bicycle-such-as-manufacturer-color-price-quantity-and-size-to-display-in-the-online-store-due-to-customer-demand-they-want-to-include-an-image-for-each-bicycle-along-with-the-existing-details-which-approach-below-provides-the-least-impact-to-provisioned-throughput-on-the-product-table)
+| 261 | [Company C has recently launched an online commerce site for bicycles on AWS. They have a 'Product' DynamoDB table that stores details for each bicycle, such as, manufacturer, color, price, quantity and size to display in the online store. Due to customer demand, they want to include an image for each bicycle along with the existing details. Which approach below provides the least impact to provisioned throughput on the 'Product' table?](#company-c-has-recently-launched-an-online-commerce-site-for-bicycles-on-aws-they-have-a-product-dynamodb-table-that-stores-details-for-each-bicycle-such-as-manufacturer-color-price-quantity-and-size-to-display-in-the-online-store-due-to-customer-demand-they-want-to-include-an-image-for-each-bicycle-along-with-the-existing-details-which-approach-below-provides-the-least-impact-to-provisioned-throughput-on-the-product-table)
 | 262 | [Which DynamoDB limits can be raised by contacting AWS support? (Choose two.)](#which-dynamodb-limits-can-be-raised-by-contacting-aws-support-choose-two)
 | 263 | [When a Simple Queue Service message triggers a task that takes 5 minutes to complete, which process below will result in successful processing of the message and remove it from the queue while minimizing the chances of duplicate processing?](#when-a-simple-queue-service-message-triggers-a-task-that-takes-5-minutes-to-complete-which-process-below-will-result-in-successful-processing-of-the-message-and-remove-it-from-the-queue-while-minimizing-the-chances-of-duplicate-processing)
 | 264 | [Company A has an S3 bucket containing premier content that they intend to make available to only paid subscribers of their website. The S3 bucket currently has default permissions of all objects being private to prevent inadvertent exposure of the premier content to non-paying website visitors. How can Company A provide only paid subscribers the ability to download a premier content file in the S3 bucket?](#company-a-has-an-s3-bucket-containing-premier-content-that-they-intend-to-make-available-to-only-paid-subscribers-of-their-website-the-s3-bucket-currently-has-default-permissions-of-all-objects-being-private-to-prevent-inadvertent-exposure-of-the-premier-content-to-non-paying-website-visitors-how-can-company-a-provide-only-paid-subscribers-the-ability-to-download-a-premier-content-file-in-the-s3-bucket)
 | 265 | [Which of the following is an example of a good DynamoDB hash key schema for provisioned throughput efficiency?](#which-of-the-following-is-an-example-of-a-good-dynamodb-hash-key-schema-for-provisioned-throughput-efficiency)
-| 266 | [An application stores payroll information nightly in DynamoDB for a large number of employees across hundreds of offices. Item attributes consist of individual name, office identifier, and cumulative daily hours. Managers run reports for ranges of names working in their office. One query is. "Return all Items in this office for names starting with A through E". Which table configuration will result in the lowest impact on provisioned throughput for this query?](#an-application-stores-payroll-information-nightly-in-dynamodb-for-a-large-number-of-employees-across-hundreds-of-offices-item-attributes-consist-of-individual-name-office-identifier-and-cumulative-daily-hours-managers-run-reports-for-ranges-of-names-working-in-their-office-one-query-is-return-all-items-in-this-office-for-names-starting-with-a-through-e-which-table-configuration-will-result-in-the-lowest-impact-on-provisioned-throughput-for-this-query)
+| 266 | [An application stores payroll information nightly in DynamoDB for a large number of employees across hundreds of offices. Item attributes consist of individual name, office identifier, and cumulative daily hours. Managers run reports for ranges of names working in their office. One query is. 'Return all Items in this office for names starting with A through E'. Which table configuration will result in the lowest impact on provisioned throughput for this query?](#an-application-stores-payroll-information-nightly-in-dynamodb-for-a-large-number-of-employees-across-hundreds-of-offices-item-attributes-consist-of-individual-name-office-identifier-and-cumulative-daily-hours-managers-run-reports-for-ranges-of-names-working-in-their-office-one-query-is-return-all-items-in-this-office-for-names-starting-with-a-through-e-which-table-configuration-will-result-in-the-lowest-impact-on-provisioned-throughput-for-this-query)
 | 267 | [What is one key difference between an Amazon EBS-backed and an instance-store backed instance?](#what-is-one-key-difference-between-an-amazon-ebs-backed-and-an-instance-store-backed-instance)
 | 268 | [Which of the following services are included at no additional cost with the use of the AWS platform?](#which-of-the-following-services-are-included-at-no-additional-cost-with-the-use-of-the-aws-platform)
-| 269 | [Your application is trying to upload a 6 GB file to Simple Storage Service and receive a "Your proposed upload exceeds the maximum allowed object size- error message. What is a possible solution for this?](#your-application-is-trying-to-upload-a-6-gb-file-to-simple-storage-service-and-receive-a-your-proposed-upload-exceeds-the-maximum-allowed-object-size--error-message-what-is-a-possible-solution-for-this)
+| 269 | [Your application is trying to upload a 6 GB file to Simple Storage Service and receive a 'Your proposed upload exceeds the maximum allowed object size- error message. What is a possible solution for this?](#your-application-is-trying-to-upload-a-6-gb-file-to-simple-storage-service-and-receive-a-your-proposed-upload-exceeds-the-maximum-allowed-object-size--error-message-what-is-a-possible-solution-for-this)
 | 270 | [What AWS products and features can be deployed by Elastic Beanstalk? (Choose three.)](#what-aws-products-and-features-can-be-deployed-by-elastic-beanstalk-choose-three)
 | 271 | [Games-R-Us is launching a new game app for mobile devices. Users will log into the game using their existing Facebook account and the game will record player data and scoring information directly to a DynamoDB table. What is the most secure approach for signing requests to the DynamoDB API?](#games-r-us-is-launching-a-new-game-app-for-mobile-devices-users-will-log-into-the-game-using-their-existing-facebook-account-and-the-game-will-record-player-data-and-scoring-information-directly-to-a-dynamodb-table-what-is-the-most-secure-approach-for-signing-requests-to-the-dynamodb-api)
 | 272 | [Which of the following programming languages have an officially supported AWS SDK? (Choose two.)](#which-of-the-following-programming-languages-have-an-officially-supported-aws-sdk-choose-two)
 | 273 | [A meteorological system monitors 600 temperature gauges, obtaining temperature samples every minute and saving each sample to a DynamoDB table Each sample involves writing 1K of data and the writes are evenly distributed over time. How much write throughput is required for the target table?](#a-meteorological-system-monitors-600-temperature-gauges-obtaining-temperature-samples-every-minute-and-saving-each-sample-to-a-dynamodb-table-each-sample-involves-writing-1k-of-data-and-the-writes-are-evenly-distributed-over-time-how-much-write-throughput-is-required-for-the-target-table)
 | 274 | [In DynamoDB, what type of HTTP response codes indicate that a problem was found with the client request sent to the service?](#in-dynamodb-what-type-of-http-response-codes-indicate-that-a-problem-was-found-with-the-client-request-sent-to-the-service)
 | 275 | [Company B provides an online image recognition service and utilizes SQS to decouple system components for scalability The SQS consumers poll the imaging queue as often as possible to keep end-to-end throughput as high as possible. However, Company B is realizing that polling in tight loops is burning CPU cycles and increasing costs with empty responses. How can Company B reduce the number of empty responses?](#company-b-provides-an-online-image-recognition-service-and-utilizes-sqs-to-decouple-system-components-for-scalability-the-sqs-consumers-poll-the-imaging-queue-as-often-as-possible-to-keep-end-to-end-throughput-as-high-as-possible-however-company-b-is-realizing-that-polling-in-tight-loops-is-burning-cpu-cycles-and-increasing-costs-with-empty-responses-how-can-company-b-reduce-the-number-of-empty-responses)
-| 276 | [An Amazon S3 bucket, 'myawsbucket" is configured with website hosting in Tokyo region, what is the region-specific website endpoint?](#an-amazon-s3-bucket-myawsbucket-is-configured-with-website-hosting-in-tokyo-region-what-is-the-region-specific-website-endpoint)
+| 276 | [An Amazon S3 bucket, 'myawsbucket' is configured with website hosting in Tokyo region, what is the region-specific website endpoint?](#an-amazon-s3-bucket-myawsbucket-is-configured-with-website-hosting-in-tokyo-region-what-is-the-region-specific-website-endpoint)
 | 277 | [You are inserting 1000 new items every second in a DynamoDB table. Once an hour these items are analyzed and then are no longer needed. You need to minimize provisioned throughput, storage, and API calls. Given these requirements, what is the most efficient way to manage these Items after the analysis?](#you-are-inserting-1000-new-items-every-second-in-a-dynamodb-table-once-an-hour-these-items-are-analyzed-and-then-are-no-longer-needed-you-need-to-minimize-provisioned-throughput-storage-and-api-calls-given-these-requirements-what-is-the-most-efficient-way-to-manage-these-items-after-the-analysis)
 | 278 | [You have written an application that uses the Elastic Load Balancing service to spread traffic to several web servers. Your users complain that they are sometimes forced to login again in the middle of using your application, after they have already logged in. This is not behavior you have designed. What is a possible solution to prevent this happening?](#you-have-written-an-application-that-uses-the-elastic-load-balancing-service-to-spread-traffic-to-several-web-servers-your-users-complain-that-they-are-sometimes-forced-to-login-again-in-the-middle-of-using-your-application-after-they-have-already-logged-in-this-is-not-behavior-you-have-designed-what-is-a-possible-solution-to-prevent-this-happening)
 | 279 | [You run an ad-supported photo sharing website using S3 to serve photos to visitors of your site. At some point you find out that other sites have been linking to the photos on your site, causing loss to your business. What is an effective method to mitigate this?](#you-run-an-ad-supported-photo-sharing-website-using-s3-to-serve-photos-to-visitors-of-your-site-at-some-point-you-find-out-that-other-sites-have-been-linking-to-the-photos-on-your-site-causing-loss-to-your-business-what-is-an-effective-method-to-mitigate-this)
 | 280 | [Which statements about DynamoDB are true? (Choose two.)](#which-statements-about-dynamodb-are-true-choose-two)
 | 281 | [You are providing AWS consulting services for a company developing a new mobile application that will be leveraging Amazon SNS Mobile Push for push notifications. In order to send direct notification messages to individual devices each device registration identifier or token needs to be registered with SNS; however the developers are not sure of the best way to do this. You advise them to:](#you-are-providing-aws-consulting-services-for-a-company-developing-a-new-mobile-application-that-will-be-leveraging-amazon-sns-mobile-push-for-push-notifications-in-order-to-send-direct-notification-messages-to-individual-devices-each-device-registration-identifier-or-token-needs-to-be-registered-with-sns-however-the-developers-are-not-sure-of-the-best-way-to-do-this-you-advise-them-to)
-| 282 | [You are writing to a DynamoDB table and receive the following exception:" ProvisionedThroughputExceededException". though according to your Cloudwatch metrics for the table, you are not exceeding your provisioned throughput. What could be an explanation for this?](#you-are-writing-to-a-dynamodb-table-and-receive-the-following-exception-provisionedthroughputexceededexception-though-according-to-your-cloudwatch-metrics-for-the-table-you-are-not-exceeding-your-provisioned-throughput-what-could-be-an-explanation-for-this)
+| 282 | [You are writing to a DynamoDB table and receive the following exception: 'ProvisionedThroughputExceededException'. though according to your Cloudwatch metrics for the table, you are not exceeding your provisioned throughput. What could be an explanation for this?](#you-are-writing-to-a-dynamodb-table-and-receive-the-following-exception-provisionedthroughputexceededexception-though-according-to-your-cloudwatch-metrics-for-the-table-you-are-not-exceeding-your-provisioned-throughput-what-could-be-an-explanation-for-this)
 | 283 | [If an application is storing hourly log files from thousands of instances from a high traffic web site, which naming scheme would give optimal performance on S3?](#if-an-application-is-storing-hourly-log-files-from-thousands-of-instances-from-a-high-traffic-web-site-which-naming-scheme-would-give-optimal-performance-on-s3)
 | 284 | [Which of the following statements about SQS is true?](#which-of-the-following-statements-about-sqs-is-true)
 | 285 | [A corporate web application is deployed within an Amazon VPC, and is connected to the corporate data center via IPSec VPN. The application must authenticate against the on-premise LDAP server. Once authenticated, logged-in users can only access an S3 keyspace specific to the user. Which two approaches can satisfy the objectives? (Choose two.)](#a-corporate-web-application-is-deployed-within-an-amazon-vpc-and-is-connected-to-the-corporate-data-center-via-ipsec-vpn-the-application-must-authenticate-against-the-on-premise-ldap-server-once-authenticated-logged-in-users-can-only-access-an-s3-keyspace-specific-to-the-user-which-two-approaches-can-satisfy-the-objectives-choose-two)
@@ -304,7 +304,7 @@
 | 296 | [A Developer has been asked to create an AWS Lambda function that is triggered any time updates are made to items in an Amazon DynamoDB table. The function has been created, and appropriate permissions have been added to the Lambda execution role. Amazon DynamoDB streams have been enabled for the table, but the function is still not being triggered. Which option would enable DynamoDB table updates to trigger the Lambda function?](#a-developer-has-been-asked-to-create-an-aws-lambda-function-that-is-triggered-any-time-updates-are-made-to-items-in-an-amazon-dynamodb-table-the-function-has-been-created-and-appropriate-permissions-have-been-added-to-the-lambda-execution-role-amazon-dynamodb-streams-have-been-enabled-for-the-table-but-the-function-is-still-not-being-triggered-which-option-would-enable-dynamodb-table-updates-to-trigger-the-lambda-function)
 | 297 | [A company is running a Docker application on Amazon ECS. The application must scale based on user load in the last 15 seconds. How should a Developer instrument the code so that the requirement can be met?](#a-company-is-running-a-docker-application-on-amazon-ecs-the-application-must-scale-based-on-user-load-in-the-last-15-seconds-how-should-a-developer-instrument-the-code-so-that-the-requirement-can-be-met)
 | 298 | [A company needs to ingest terabytes of data each hour from thousands of sources that are delivered almost continually throughout the day. The volume of messages generated varies over the course of the day. Messages must be delivered in real time for fraud detection and live operational dashboards. Which approach will meet these requirements?](#a-company-needs-to-ingest-terabytes-of-data-each-hour-from-thousands-of-sources-that-are-delivered-almost-continually-throughout-the-day-the-volume-of-messages-generated-varies-over-the-course-of-the-day-messages-must-be-delivered-in-real-time-for-fraud-detection-and-live-operational-dashboards-which-approach-will-meet-these-requirements)
-| 299 | [A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWS CodeCommit are tied to a user with the following permissions: The Developer needs to create/delete branches. Which specific IAM permissions need to be added, based on the principle of least privilege?](#a-developer-accesses-aws-codecommit-over-ssh-the-ssh-keys-configured-to-access-aws-codecommit-are-tied-to-a-user-with-the-following-permissions-the-developer-needs-to-createdelete-branches-which-specific-iam-permissions-need-to-be-added-based-on-the-principle-of-least-privilege)
+| 299 | [A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWS CodeCommit are tied to a user with the following permissions. The Developer needs to create/delete branches. Which specific IAM permissions need to be added, based on the principle of least privilege?](#a-developer-accesses-aws-codecommit-over-ssh-the-ssh-keys-configured-to-access-aws-codecommit-are-tied-to-a-user-with-the-following-permissions-the-developer-needs-to-createdelete-branches-which-specific-iam-permissions-need-to-be-added-based-on-the-principle-of-least-privilege)
 | 300 | [An AWS Lambda function must access an external site by using a regularly rotated user name and password. These items must be kept securely and cannot be stored in the function code. What combination of AWS services can be used to accomplish this? (Choose two.)](#an-aws-lambda-function-must-access-an-external-site-by-using-a-regularly-rotated-user-name-and-password-these-items-must-be-kept-securely-and-cannot-be-stored-in-the-function-code-what-combination-of-aws-services-can-be-used-to-accomplish-this-choose-two)
 | 301 | [A Developer is trying to deploy a serverless application using AWS CodeDeploy. The application was updated and needs to be redeployed. What file does the Developer need to update to push that change through CodeDeploy?](#a-developer-is-trying-to-deploy-a-serverless-application-using-aws-codedeploy-the-application-was-updated-and-needs-to-be-redeployed-what-file-does-the-developer-need-to-update-to-push-that-change-through-codedeploy)
 | 302 | [A Developer is working on an application that handles 10MB documents that contain highly-sensitive data. The application will use AWS KMS to perform clientside encryption. What steps must be followed?](#a-developer-is-working-on-an-application-that-handles-10mb-documents-that-contain-highly-sensitive-data-the-application-will-use-aws-kms-to-perform-clientside-encryption-what-steps-must-be-followed)
@@ -360,7 +360,7 @@
 | 352 | [In a move toward using microservices, a company's Management team has asked all Development teams to build their services so that API requests depend only on that service's data store. One team is building a Payments service which has its own database; the service needs data that originates in the Accounts database. Both are using Amazon DynamoDB. What approach will result in the simplest, decoupled, and reliable method to get near-real time updates from the Accounts database?](#in-a-move-toward-using-microservices-a-companys-management-team-has-asked-all-development-teams-to-build-their-services-so-that-api-requests-depend-only-on-that-services-data-store-one-team-is-building-a-payments-service-which-has-its-own-database-the-service-needs-data-that-originates-in-the-accounts-database-both-are-using-amazon-dynamodb-what-approach-will-result-in-the-simplest-decoupled-and-reliable-method-to-get-near-real-time-updates-from-the-accounts-database)
 | 353 | [A company needs a fully-managed source control service that will work in AWS. The service must ensure that revision control synchronizes multiple distributed repositories by exchanging sets of changes peer-to-peer. All users need to work productively even when not connected to a network. Which source control service should be used?](#a-company-needs-a-fully-managed-source-control-service-that-will-work-in-aws-the-service-must-ensure-that-revision-control-synchronizes-multiple-distributed-repositories-by-exchanging-sets-of-changes-peer-to-peer-all-users-need-to-work-productively-even-when-not-connected-to-a-network-which-source-control-service-should-be-used)
 | 354 | [A Developer is writing a serverless application that requires that an AWS Lambda function be invoked every 10 minutes. What is an automated and serverless way to trigger the function?](#a-developer-is-writing-a-serverless-application-that-requires-that-an-aws-lambda-function-be-invoked-every-10-minutes-what-is-an-automated-and-serverless-way-to-trigger-the-function)
-| 355 | [A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below:(Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?](#a-company-is-building-an-application-to-track-athlete-performance-using-an-amazon-dynamodb-table-each-item-in-the-table-is-identified-by-a-partition-key-user_id-and-a-sort-key-sport_name-the-table-design-is-shown-belownote-not-all-table-attributes-are-shown-a-developer-is-asked-to-write-a-leaderboard-application-to-display-the-top-performers-user_id-based-on-the-score-for-each-sport_name-what-process-will-allow-the-developer-to-extract-results-most-efficiently-from-the-dynamodb-table)
+| 355 | [A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below. (Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?](#a-company-is-building-an-application-to-track-athlete-performance-using-an-amazon-dynamodb-table-each-item-in-the-table-is-identified-by-a-partition-key-user_id-and-a-sort-key-sport_name-the-table-design-is-shown-below-note-not-all-table-attributes-are-shown-a-developer-is-asked-to-write-a-leaderboard-application-to-display-the-top-performers-user_id-based-on-the-score-for-each-sport_name-what-process-will-allow-the-developer-to-extract-results-most-efficiently-from-the-dynamodb-table)
 | 356 | [A Developer is creating a mobile application that will not require users to log in. What is the MOST efficient method to grant users access to AWS resources?](#a-developer-is-creating-a-mobile-application-that-will-not-require-users-to-log-in-what-is-the-most-efficient-method-to-grant-users-access-to-aws-resources)
 | 357 | [An application running on Amazon EC2 instances must access objects within an Amaon S3 busket that are encrypted using server-side encryption using AWS KMS encryption keys (SSE-KMS). The application must have access to the customer master key (CMK) to decrypt the objects. Which combination of steps will grant the application access? (Select TWO.)](#an-application-running-on-amazon-ec2-instances-must-access-objects-within-an-amaon-s3-busket-that-are-encrypted-using-server-side-encryption-using-aws-kms-encryption-keys-sse-kms-the-application-must-have-access-to-the-customer-master-key-cmk-to-decrypt-the-objects-which-combination-of-steps-will-grant-the-application-access-select-two)
 | 358 | [What does an Amazon SQS delay queue accomplish?](#what-does-an-amazon-sqs-delay-queue-accomplish)
@@ -370,15 +370,15 @@
 | 362 | [A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS). The app then uses the token to access AWS services. Review the following response: Based on the response displayed what permissions are associated with the call from the application?](#a-company-has-an-internet-facing-application-that-uses-web-identity-federation-to-obtain-a-temporary-credential-from-aws-security-token-service-aws-sts-the-app-then-uses-the-token-to-access-aws-services-review-the-following-response-based-on-the-response-displayed-what-permissions-are-associated-with-the-call-from-the-application)
 | 363 | [A Developer is using AWS CLI, but when running list commands on a large number of resources, it is timing out. What can be done to avoid this time-out?](#a-developer-is-using-aws-cli-but-when-running-list-commands-on-a-large-number-of-resources-it-is-timing-out-what-can-be-done-to-avoid-this-time-out)
 | 364 | [Where can PortMapping be defined when launching containers in Amazon ECS?](#where-can-portmapping-be-defined-when-launching-containers-in-amazon-ecs)
-| 365 | [An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the "hot" shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?](#an-application-uses-amazon-kinesis-data-streams-to-ingest-and-process-large-streams-of-data-records-in-real-time-amazon-ec2-instances-consume-and-process-the-data-from-the-shards-of-the-kinesis-data-stream-by-using-amazon-kinesis-client-library-kcl-the-application-handles-the-failure-scenarios-and-does-not-require-standby-workers-the-application-reports-that-a-specific-shard-is-receiving-more-data-than-expected-to-adapt-to-the-changes-in-the-rate-of-data-flow-the-hot-shard-is-resharded-assuming-that-the-initial-number-of-shards-in-the-kinesis-data-stream-is-4-and-after-resharding-the-number-of-shards-increased-to-6-what-is-the-maximum-number-of-ec2-instances-that-can-be-deployed-to-process-data-from-all-the-shards)
+| 365 | [An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the 'hot' shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?](#an-application-uses-amazon-kinesis-data-streams-to-ingest-and-process-large-streams-of-data-records-in-real-time-amazon-ec2-instances-consume-and-process-the-data-from-the-shards-of-the-kinesis-data-stream-by-using-amazon-kinesis-client-library-kcl-the-application-handles-the-failure-scenarios-and-does-not-require-standby-workers-the-application-reports-that-a-specific-shard-is-receiving-more-data-than-expected-to-adapt-to-the-changes-in-the-rate-of-data-flow-the-hot-shard-is-resharded-assuming-that-the-initial-number-of-shards-in-the-kinesis-data-stream-is-4-and-after-resharding-the-number-of-shards-increased-to-6-what-is-the-maximum-number-of-ec2-instances-that-can-be-deployed-to-process-data-from-all-the-shards)
 | 366 | [An organization is storing large files in Amazon S3, and is writing a web application to display meta-data about the files to end-users. Based on the metadata a user selects an object to download. The organization needs a mechanism to index the files and provide single-digit millisecond latency retrieval for the metadata. What AWS service should be used to accomplish this?](#an-organization-is-storing-large-files-in-amazon-s3-and-is-writing-a-web-application-to-display-meta-data-about-the-files-to-end-users-based-on-the-metadata-a-user-selects-an-object-to-download-the-organization-needs-a-mechanism-to-index-the-files-and-provide-single-digit-millisecond-latency-retrieval-for-the-metadata-what-aws-service-should-be-used-to-accomplish-this)
 | 367 | [While developing an application that runs on Amazon EC2 in an Amazon VPC, a Developer identifies the need for centralized storage of application-level logs. Which AWS service can be used to securely store these logs?](#while-developing-an-application-that-runs-on-amazon-ec2-in-an-amazon-vpc-a-developer-identifies-the-need-for-centralized-storage-of-application-level-logs-which-aws-service-can-be-used-to-securely-store-these-logs)
 | 368 | [A stock market monitoring application uses Amazon Kinesis for data ingestion. During simulated tests of peak data rates, the Kinesis stream cannot keep up with the incoming data. What step will allow Kinesis to accommodate the traffic during peak hours?](#a-stock-market-monitoring-application-uses-amazon-kinesis-for-data-ingestion-during-simulated-tests-of-peak-data-rates-the-kinesis-stream-cannot-keep-up-with-the-incoming-data-what-step-will-allow-kinesis-to-accommodate-the-traffic-during-peak-hours)
 | 369 | [A company has an AWS CloudFormation template that is stored as a single file. The template is able to launch and create a full infrastructure stack. Which best practice would increase the maintainability of the template?](#a-company-has-an-aws-cloudformation-template-that-is-stored-as-a-single-file-the-template-is-able-to-launch-and-create-a-full-infrastructure-stack-which-best-practice-would-increase-the-maintainability-of-the-template)
-| 370 | [An on-premises application makes repeated calls to store files to Amazon S3. As usage of the application has increased, "LimitExceeded" errors are being logged. What should be changed to fix this error?](#an-on-premises-application-makes-repeated-calls-to-store-files-to-amazon-s3-as-usage-of-the-application-has-increased-limitexceeded-errors-are-being-logged-what-should-be-changed-to-fix-this-error)
+| 370 | [An on-premises application makes repeated calls to store files to Amazon S3. As usage of the application has increased, 'LimitExceeded' errors are being logged. What should be changed to fix this error?](#an-on-premises-application-makes-repeated-calls-to-store-files-to-amazon-s3-as-usage-of-the-application-has-increased-limitexceeded-errors-are-being-logged-what-should-be-changed-to-fix-this-error)
 | 371 | [A company caches session information for a web application in an Amazon DynamoDB table. The company wants an automated way to delete old items from the table. What is the simplest way to do this?](#a-company-caches-session-information-for-a-web-application-in-an-amazon-dynamodb-table-the-company-wants-an-automated-way-to-delete-old-items-from-the-table-what-is-the-simplest-way-to-do-this)
 | 372 | [An application is expected to process many files. Each file takes four minutes to process each AWS Lambda invocation. The Lambda function does not return any important data. What is the fastest way to process all the files?](#an-application-is-expected-to-process-many-files-each-file-takes-four-minutes-to-process-each-aws-lambda-invocation-the-lambda-function-does-not-return-any-important-data-what-is-the-fastest-way-to-process-all-the-files)
-| 373 | [The upload of a 15 GB object to Amazon S3 fails. The error message reads: "Your proposed upload exceeds the maximum allowed object size." What technique will allow the Developer to upload this object?](#the-upload-of-a-15-gb-object-to-amazon-s3-fails-the-error-message-reads-your-proposed-upload-exceeds-the-maximum-allowed-object-size-what-technique-will-allow-the-developer-to-upload-this-object)
+| 373 | [The upload of a 15 GB object to Amazon S3 fails. The error message reads: 'Your proposed upload exceeds the maximum allowed object size.' What technique will allow the Developer to upload this object?](#the-upload-of-a-15-gb-object-to-amazon-s3-fails-the-error-message-reads-your-proposed-upload-exceeds-the-maximum-allowed-object-size-what-technique-will-allow-the-developer-to-upload-this-object)
 | 374 | [AWS CodeBuild builds code for an application, creates the Docker image, pushes the image to Amazon Elastic Container Registry (Amazon ECR), and tags the image with a unique identifier. If the Developers already have AWS CLI configured on their workstations, how can the Docker images be pulled to the workstations?](#aws-codebuild-builds-code-for-an-application-creates-the-docker-image-pushes-the-image-to-amazon-elastic-container-registry-amazon-ecr-and-tags-the-image-with-a-unique-identifier-if-the-developers-already-have-aws-cli-configured-on-their-workstations-how-can-the-docker-images-be-pulled-to-the-workstations)
 | 375 | [A web application is designed to allow new users to create accounts using their email addresses. The application will store attributes for each user, and is expecting millions of user to sign up. What should the Developer implement to achieve the design goals?](#a-web-application-is-designed-to-allow-new-users-to-create-accounts-using-their-email-addresses-the-application-will-store-attributes-for-each-user-and-is-expecting-millions-of-user-to-sign-up-what-should-the-developer-implement-to-achieve-the-design-goals)
 | 376 | [A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway. How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?](#a-company-needs-a-new-rest-api-that-can-return-information-about-the-contents-of-an-amazon-s3-bucket-such-as-a-count-of-the-objects-stored-in-it-the-company-has-decided-that-the-new-api-should-be-written-as-a-microservice-using-aws-lambda-and-amazon-api-gateway-how-should-the-developer-ensure-that-the-microservice-has-the-necessary-access-to-the-amazon-s3-bucket-while-adhering-to-security-best-practices)
@@ -409,17 +409,11 @@
 | 401 | [A company is using Amazon API Gateway to manage access to a set of microservices implemented as AWS Lambda functions. Following a bug report, the company makes a minor breaking change to one of the APIs. In order to avoid impacting existing clients when the new API is deployed, the company wants to allow clients six months to migrate from v1 to v2. Which approach should the Developer use to handle this change?](#a-company-is-using-amazon-api-gateway-to-manage-access-to-a-set-of-microservices-implemented-as-aws-lambda-functions-following-a-bug-report-the-company-makes-a-minor-breaking-change-to-one-of-the-apis-in-order-to-avoid-impacting-existing-clients-when-the-new-api-is-deployed-the-company-wants-to-allow-clients-six-months-to-migrate-from-v1-to-v2-which-approach-should-the-developer-use-to-handle-this-change)
 | 402 | [A company developed a set of APIs that are being served through the Amazon API Gateway. The API calls need to be authenticated based on OpenID identity providers such as Amazon or Facebook. The APIs should allow access based on a custom authorization model. Which is the simplest and MOST secure design to use to build an authentication and authorization model for the APIs?](#a-company-developed-a-set-of-apis-that-are-being-served-through-the-amazon-api-gateway-the-api-calls-need-to-be-authenticated-based-on-openid-identity-providers-such-as-amazon-or-facebook-the-apis-should-allow-access-based-on-a-custom-authorization-model-which-is-the-simplest-and-most-secure-design-to-use-to-build-an-authentication-and-authorization-model-for-the-apis)
 | 403 | [A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint. http:// www.supplierdomain.com/status/customerID. Which of the following application designs meet the requirements? (Select two.)](#a-supplier-is-writing-a-new-restful-api-for-customers-to-query-the-status-of-orders-the-customers-requested-the-following-api-endpoint-http-wwwsupplierdomaincomstatuscustomerid-which-of-the-following-application-designs-meet-the-requirements-select-two)
-| 404 | [A development team consists of 10 team members. Similar to a home directory for each team member the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username "TeamMemberX", the snippet of the IAM policy looks like this: Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?](#a-development-team-consists-of-10-team-members-similar-to-a-home-directory-for-each-team-member-the-manager-wants-to-grant-access-to-user-specific-folders-in-an-amazon-s3-bucket-for-the-team-member-with-the-username-teammemberx-the-snippet-of-the-iam-policy-looks-like-this-instead-of-creating-distinct-policies-for-each-team-member-what-approach-can-be-used-to-make-this-policy-snippet-generic-for-all-team-members)
+| 404 | [A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code: After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?](#a-developer-has-implemented-a-lambda-function-that-needs-to-add-new-customers-to-an-rds-database-that-is-expected-to-run-hundreds-of-times-per-hour-the-lambda-function-is-configured-to-use-512mb-of-ram-and-is-based-on-the-following-pseudo-code-after-testing-the-lambda-function-the-developer-notices-that-the-lambda-execution-time-is-much-longer-than-expected-what-should-the-developer-do-to-improve-performance)
 | 405 | [A static website is hosted in an Amazon S3 bucket. Several HTML pages on the site use JavaScript to download images from another Amazon S3 bucket. These images are not displayed when users browse the site. What is the possible cause for the issue?](#a-static-website-is-hosted-in-an-amazon-s3-bucket-several-html-pages-on-the-site-use-javascript-to-download-images-from-another-amazon-s3-bucket-these-images-are-not-displayed-when-users-browse-the-site-what-is-the-possible-cause-for-the-issue)
 | 406 | [Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?](#amazon-s3-has-the-following-structure-s3bucketfoldernamefilenamezip-which-s3-best-practice-would-optimize-performance-with-thousands-of-put-request-each-second-to-a-single-bucket)
-| 407 | [The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (Select two.)](#the-lambda-function-below-is-being-called-through-an-api-using-amazon-api-gateway-the-average-execution-time-for-the-lambda-function-is-about-1-second-the-pseudocode-for-the-lambda-function-is-as-shown-in-the-exhibit-what-two-actions-can-be-taken-to-improve-the-performance-of-this-lambda-function-without-increasing-the-cost-of-the-solution-select-two)
+| 407 | [A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?](#a-developer-is-creating-a-web-application-that-requires-authentication-but-also-needs-to-support-guest-access-to-provide-users-limited-access-without-having-to-authenticate-what-service-can-provide-support-for-the-application-to-allow-guest-access)
 | 408 | [Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?](#where-should-an-elastic-beanstalk-configuration-file-named-healthcheckur1config-be-placed-in-the-application-source-bundle)
-| 409 | [A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?](#a-developer-is-receiving-http-400-throttlingexception-errors-intermittently-when-calling-the-amazon-cloudwatch-api-when-a-call-fails-no-data-is-retrieved-what-best-practice-should-first-be-applied-to-address-this-issue)
-| 410 | [A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles. What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Select TWO.)](#a-developer-has-created-a-software-package-to-be-deployed-on-multiple-ec2-instances-using-iam-roles-what-actions-could-be-performed-to-verify-iam-access-to-get-records-from-amazon-kinesis-streams-select-two)
-| 411 | [A large e-commerce site is being designed to deliver static objects from Amazon S3. The Amazon S3 bucket will server more than 300 GET requests per second. What should be done to optimize performance? (Select TWO.)](#a-large-e-commerce-site-is-being-designed-to-deliver-static-objects-from-amazon-s3-the-amazon-s3-bucket-will-server-more-than-300-get-requests-per-second-what-should-be-done-to-optimize-performance-select-two)
-| 412 | [A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code: After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?](#a-developer-has-implemented-a-lambda-function-that-needs-to-add-new-customers-to-an-rds-database-that-is-expected-to-run-hundreds-of-times-per-hour-the-lambda-function-is-configured-to-use-512mb-of-ram-and-is-based-on-the-following-pseudo-code-after-testing-the-lambda-function-the-developer-notices-that-the-lambda-execution-time-is-much-longer-than-expected-what-should-the-developer-do-to-improve-performance)
-| 413 | [A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?](#a-developer-is-creating-a-web-application-that-requires-authentication-but-also-needs-to-support-guest-access-to-provide-users-limited-access-without-having-to-authenticate-what-service-can-provide-support-for-the-application-to-allow-guest-access)
-| 414 | [A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs. The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?](#a-developer-has-created-an-s3-bucket-s3mycoolapp-and-has-enabled-server-across-logging-that-points-to-the-folder-s3mycoolapplogs-the-developer-moved-100-kb-of-cascading-style-sheets-css-documents-to-the-folder-s3mycoolappcss-and-then-stopped-work-when-the-developer-came-back-a-few-days-later-the-bucket-was-50-gb-what-is-the-most-likely-cause-of-this-situation)
 
 ### Which of the following are good use cases for how Amazon ElastiCache can help an application? (Select TWO.)
 
@@ -708,12 +702,16 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes user_id, user_name, user_score, and user_rank. The users are allowed to update their names only A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call? [???]
+### A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call?
 
 - [x] Option A.
+![Question 32 option A](images/question32_A.jpg)
 - [ ] Option B.
+![Question 32 option B](images/question32_B.jpg)
 - [ ] Option C.
+![Question 32 option C](images/question32_C.jpg)
 - [ ] Option D.
+![Question 32 option D](images/question32_D.jpg)
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -900,7 +898,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution?
+### The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (Select two.)
+
+![Question 53](images/question53.jpg)
 
 - [x] Package only the modules the Lambda function requires.
 - [ ] Use Amazon DynamoDB instead of Amazon RDS.
@@ -922,9 +922,9 @@
 ### The release process workflow of an application requires a manual approval before the code is deployed into the production environment. What is the BEST way to achieve this using AWS CodePipeline?
 
 - [ ] Use multiple pipelines to allow approval.
-- [ ] Use an approval action in a stage.
+- [x] Use an approval action in a stage.
 - [ ] Disable the stage transition to allow manual approval.
-- [x] Disable a stage just prior the deployment stage.
+- [ ] Disable a stage just prior the deployment stage.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1011,6 +1011,8 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template: What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?
+
+![Question 65](images/question65.jpg)
 
 - [ ] Use aws cloudformation compile to base64 encode and embed the source file into a modified CloudFormation template.
 - [ ] Use aws cloudformation package to upload the source code to an Amazon S3 bucket and produce a modified CloudFormation template.
@@ -1282,7 +1284,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table: Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?
+### A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table. Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?
+
+![Question 95](images/question95.jpg)
 
 - [ ] starRating.
 - [x] reviewID.
@@ -1291,7 +1295,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A development team consists of 10 team members. Similar to a home directory for each team member, the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username 'TeamMemberX', the snippet of the IAM policy looks like this: Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?
+### A development team consists of 10 team members. Similar to a home directory for each team member, the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username 'TeamMemberX', the snippet of the IAM policy looks like this. Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?
+
+![Question 96](images/question96.jpg)
 
 - [x] Use IAM policy condition.
 - [ ] Use IAM policy principal.
@@ -1309,12 +1315,13 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code: What should the Developer do to improve performance? After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected.
+### A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles. What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Select TWO.)
 
-- [ ] Increase the amount of RAM allocated to the Lambda function, which will increase the number of threads the Lambda can use.
-- [x] Increase the amount of RAM allocated to the Lambda function, which will increase the number of threads the Lambda can use.
-- [ ] Move the database connection and close statement out of the handler. Place the connection in the global space.
-- [ ] Replace RDS wit Amazon DynamoDB to implement control over the number of writes per second.
+- [ ] Use the AWS CLI to retrieve the IAM group.
+- [ ] Query Amazon EC2 metadata for in-line IAM policies.
+- [ ] Request a token from AWS STS, and perform a describe action.
+- [x] Perform a get action using the ''-dry-run argument.
+- [x] Validate the IAM role policy with the IAM policy simulator.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1384,9 +1391,9 @@
 
 ### A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?
 
-- [x] Modify the buildspec.yml file to include steps to send the output of build commands to Amazon CloudWatch.
+- [ ] Modify the buildspec.yml file to include steps to send the output of build commands to Amazon CloudWatch.
 - [ ] Use a custom Docker image that includes the AWS X-Ray agent in the AWS CodeBuild project configuration.
-- [ ] Check the build logs of the failed phase in the last build attempt in the AWS CodeBuild project build history.
+- [x] Check the build logs of the failed phase in the last build attempt in the AWS CodeBuild project build history.
 - [ ] Manually re-run the build process on a local machine so that the output can be visualized.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1409,7 +1416,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer executed a AWS CLI command and received the error shown below: What action should the Developer perform to make this error human-readable?
+### A Developer executed a AWS CLI command and received the error shown below. What action should the Developer perform to make this error human-readable?
+
+![Question 109](images/question109.jpg)
 
 - [ ] Make a call to AWS KMS to decode the message.
 - [x] Use the AWS STS decode-authorization-message API to decode the message.
@@ -1521,8 +1530,8 @@
 ### An application under development is required to store hundreds of video files. The data must be encrypted within the application prior to storage, with a unique key for each video file. How should the Developer code the application?
 
 - [ ] Use the KMS Encrypt API to encrypt the data. Store the encrypted data key and data.
-- [x] Use a cryptography library to generate an encryption key for the application. Use the encryption key to encrypt the data. Store the encrypted data.
-- [ ] Use the KMS GenerateDataKey API to get a data key. Encrypt the data with the data key. Store the encrypted data key and data.
+- [ ] Use a cryptography library to generate an encryption key for the application. Use the encryption key to encrypt the data. Store the encrypted data.
+- [x] Use the KMS GenerateDataKey API to get a data key. Encrypt the data with the data key. Store the encrypted data key and data.
 - [ ] Upload the data to an S3 bucket using server side-encryption with an AWS KMS key.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1703,6 +1712,8 @@
 
 ### A developer receives the following error message when trying to launch or terminate an Amazon EC2 instance using a boto3 script. What should the developer do to correct this error message?
 
+[Question 141](images/question141.jpg)
+
 - [ ] Assign an IAM role to the EC2 instance to allow necessary API calls on behalf of the client.
 - [x] Implement an exponential backoff algorithm for optimizing the number of API requests made to Amazon EC2.
 - [ ] Increase the overall network bandwidth to handle higher API request rates.
@@ -1710,7 +1721,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Given the following AWS CloudFormation template: What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?
+### Given the following AWS CloudFormation template. What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?
+
+[Question 142](images/question142.jpg)
 
 - [ ] Add an Export declaration to the Outputs section of the original template and use ImportValue in other templates.
 - [ ] Add Exported: true to the Contentbucket in the original template and use ImportResource in other templates.
@@ -1719,12 +1732,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only. A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call?
+### A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs. The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?
 
-- [ ] A.
-- [ ] B.
-- [x] C.
-- [ ] D.
+- [ ] The CSS files were not compressed and S3 versioning was enabled.
+- [x] S3 replication was enabled on the bucket.
+- [ ] Logging into the same bucket caused exponential log growth.
+- [ ] An S3 lifecycle policy has moved the entire CSS file to S3 Infrequent Access.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2054,7 +2067,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer registered an AWS Lambda function as a target for an Application Load Balancer (ALB) using a CLI command. However, the Lambda function is not being invoked when the client sends requests through the ALB.  Why is the Lambda function not being invoked?
+### A Developer registered an AWS Lambda function as a target for an Application Load Balancer (ALB) using a CLI command. However, the Lambda function is not being invoked when the client sends requests through the ALB. Why is the Lambda function not being invoked?
 
 - [ ] A Lambda function cannot be registered as a target for an ALB.
 - [ ] A Lambda function can be registered with an ALB using AWS Management Console only.
@@ -2414,8 +2427,8 @@
 
 - [ ] dynamodb:DeleteItem dynamodb:GetItem dynamodb:PutItem.
 - [ ] dynamodb:UpdateItem dynamodb:GetItem dynamodb:DescribeTable.
-- [x] dynamodb:GetRecords dynamodb:PutItem dynamodb:UpdateTable.
-- [ ] dynamodb:UpdateItem dynamodb:GetItem dynamodb:PutItem.
+- [ ] dynamodb:GetRecords dynamodb:PutItem dynamodb:UpdateTable.
+- [x] dynamodb:UpdateItem dynamodb:GetItem dynamodb:PutItem.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2501,7 +2514,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An application is running on a cluster of Amazon EC2 instances. While trying to read objects stored within a single Amazon S3 bucket that are encrypted with server-side encryption with AWS KMS managed keys (SSE-KMS), the application receives the following error: Which combination of steps should be taken to prevent this failure? (Choose two.)
+### An application is running on a cluster of Amazon EC2 instances. While trying to read objects stored within a single Amazon S3 bucket that are encrypted with server-side encryption with AWS KMS managed keys (SSE-KMS), the application receives the following error. Which combination of steps should be taken to prevent this failure? (Choose two.)
+
+[Question 229](images/question229.jpg)
 
 - [ ] Contact AWS Support to request an AWS KMS rate limit increase.
 - [ ] Perform error retries with exponential backoff in the application code.
@@ -2643,13 +2658,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which of the following services are key/value stores? (Choose three.)
+### A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?
 
-- [ ] Amazon ElastiCache.
-- [x] Simple Notification Service.
-- [x] DynamoDB.
-- [x] Simple Workflow Service.
-- [ ] Simple Storage Service.
+- [ ] Contact AWS Support for a limit increase.
+- [x] Use the AWS CLI to get the metrics.
+- [ ] Analyze the applications and remove the API call.
+- [ ] Retry the call with exponential backoff.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2672,7 +2686,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name "ElasticLoad Balancer"?
+### Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name 'ElasticLoad Balancer'?
 
 - [x] "Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","DNSName"]}]].
 - [ ] "Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","Url"]}]].
@@ -2742,9 +2756,9 @@
 ### In AWS, which security aspects are the customer's responsibility? (Choose four.)
 
 - [x] Life-cycle management of IAM credentials.
-- [x] Decommissioning storage devices.
+- [ ] Decommissioning storage devices.
 - [x] Security Group and ACL (Access Control List) settings.
-- [ ] Encryption of EBS (Elastic Block Storage) volumes.
+- [x] Encryption of EBS (Elastic Block Storage) volumes.
 - [ ] Controlling physical access to compute resources.
 - [x] Patch management on the EC2 instance's operating system.
 
@@ -2763,8 +2777,8 @@
 
 - [ ] Attach the volume to an instance using EC2's SSL interface.
 - [ ] Write the data randomly instead of sequentially.
-- [ ] Use an encrypted file system on top of the BBS volume.
-- [x] Encrypt the volume using the S3 server-side encryption service.
+- [x] Use an encrypted file system on top of the BBS volume.
+- [ ] Encrypt the volume using the S3 server-side encryption service.
 - [ ] Encrypt the volume using the S3 server-side encryption service.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2810,12 +2824,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Company C has recently launched an online commerce site for bicycles on AWS. They have a "Product" DynamoDB table that stores details for each bicycle, such as, manufacturer, color, price, quantity and size to display in the online store. Due to customer demand, they want to include an image for each bicycle along with the existing details. Which approach below provides the least impact to provisioned throughput on the "Product" table?
+### Company C has recently launched an online commerce site for bicycles on AWS. They have a 'Product' DynamoDB table that stores details for each bicycle, such as, manufacturer, color, price, quantity and size to display in the online store. Due to customer demand, they want to include an image for each bicycle along with the existing details. Which approach below provides the least impact to provisioned throughput on the 'Product' table?
 
 - [ ] Serialize the image and store it in multiple DynamoDB tables.
-- [ ] Create an "Images" DynamoDB table to store the Image with a foreign key constraint to the 'Product" table.
-- [ ] Add an image data type to the "Product" table to store the images in binary format.
-- [x] Store the images in Amazon S3 and add an S3 URL pointer to the "Product" table item for each image.
+- [ ] Create an 'Images' DynamoDB table to store the Image with a foreign key constraint to the 'Product' table.
+- [ ] Add an image data type to the 'Product' table to store the images in binary format.
+- [x] Store the images in Amazon S3 and add an S3 URL pointer to the 'Product' table item for each image.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2856,7 +2870,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An application stores payroll information nightly in DynamoDB for a large number of employees across hundreds of offices. Item attributes consist of individual name, office identifier, and cumulative daily hours. Managers run reports for ranges of names working in their office. One query is. "Return all Items in this office for names starting with A through E". Which table configuration will result in the lowest impact on provisioned throughput for this query?
+### An application stores payroll information nightly in DynamoDB for a large number of employees across hundreds of offices. Item attributes consist of individual name, office identifier, and cumulative daily hours. Managers run reports for ranges of names working in their office. One query is. 'Return all Items in this office for names starting with A through E'. Which table configuration will result in the lowest impact on provisioned throughput for this query?
 
 - [ ] Configure the table to have a hash index on the name attribute, and a rangeindex ontheoffice identifier.
 - [x] Configure the table to have a range index on the name attribute, and a hashindex ontheofficeidentifier.
@@ -2885,7 +2899,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Your application is trying to upload a 6 GB file to Simple Storage Service and receive a "Your proposed upload exceeds the maximum allowed object size- error message. What is a possible solution for this?
+### Your application is trying to upload a 6 GB file to Simple Storage Service and receive a 'Your proposed upload exceeds the maximum allowed object size- error message. What is a possible solution for this?
 
 - [ ] None, Simple Storage Service objects are limited to 5 GB.
 - [x] Use the multi-part upload API for this object.
@@ -2953,7 +2967,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An Amazon S3 bucket, 'myawsbucket" is configured with website hosting in Tokyo region, what is the region-specific website endpoint?
+### An Amazon S3 bucket, 'myawsbucket' is configured with website hosting in Tokyo region, what is the region-specific website endpoint?
 
 - [ ] www.myawsbucket.ap-northeast-1.amazonaws.com.
 - [x] myawsbucket.s3-website-ap-northeast-1.amazonawscom.
@@ -3009,7 +3023,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are writing to a DynamoDB table and receive the following exception:" ProvisionedThroughputExceededException". though according to your Cloudwatch metrics for the table, you are not exceeding your provisioned throughput. What could be an explanation for this?
+### You are writing to a DynamoDB table and receive the following exception: 'ProvisionedThroughputExceededException'. though according to your Cloudwatch metrics for the table, you are not exceeding your provisioned throughput. What could be an explanation for this?
 
 - [ ] You haven't provisioned enough DynamoDB storage instances.
 - [ ] You're exceeding your capacity on a particular Range Key.
@@ -3033,8 +3047,8 @@
 
 - [ ] Messages will be delivered exactly once and messages will be delivered in First in, First out order.
 - [ ] Messages will be delivered exactly once and message delivery order is indeterminate.
-- [ ] Messages will be delivered one or more times and messages will be delivered in First in, First out order.
-- [x] Messages will be delivered one or more times and message delivery order is indeterminate.
+- [x] Messages will be delivered one or more times and messages will be delivered in First in, First out order.
+- [ ] Messages will be delivered one or more times and message delivery order is indeterminate.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3166,12 +3180,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWS CodeCommit are tied to a user with the following permissions: The Developer needs to create/delete branches. Which specific IAM permissions need to be added, based on the principle of least privilege?
+### A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWS CodeCommit are tied to a user with the following permissions. The Developer needs to create/delete branches. Which specific IAM permissions need to be added, based on the principle of least privilege?
 
-- [ ] "codecommit:CreateBranch" "codecommit:DeleteBranch"
-- [ ] "codecommit:Put*"
-- [x] "codecommit:Update*"
-- [ ] "codecommit:*"
+![Question 299](images/question299.jpg)
+
+- [x] "codecommit:CreateBranch" "codecommit:DeleteBranch".
+- [ ] "codecommit:Put*".
+- [ ] "codecommit:Update*".
+- [ ] "codecommit:*".
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3232,6 +3248,8 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An e-commerce web application that shares session state on-premises is being migrated to AWS. The application must be fault tolerant, natively highly scalable, and any service interruption should not affect the user experience. What is the best option to store the session state?
+
+![Question 306](images/question306.jpeg)
 
 - [x] Store the session state in Amazon ElastiCache.
 - [ ] Store the session state in Amazon CloudFront.
@@ -3315,9 +3333,11 @@
 
 ### A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following: After the application launches, the health check is not being run on the correct path, even though it is valid. What can be done to correct this configuration file?
 
+[Question 315](images/question315.png)
+
 - [ ] Convert the file to JSON format.
-- [ ] Rename the file to a .config extension.
-- [x] Change the configuration section from options_settings to resources.
+- [x] Rename the file to a .config extension.
+- [ ] Change the configuration section from options_settings to resources.
 - [ ] Change the namespace of the option settings to a custom namespace.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3332,6 +3352,8 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select Two.)
+
+[Question 404](images/question404.jpg)
 
 - [ ] Implement the user login page as an asynchronous Lambda function.
 - [x] Use Amazon ElastiCache for MemCached to cache user data.
@@ -3679,12 +3701,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below:(Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?
+### A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below. (Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?
+
+[Question 355](images/question355.jpg)
 
 - [ ] Use a DynamoDB query operation with the key attributes of user_id and sport_name and order the results based on the score attribute.
-- [ ] Create a global secondary index with a partition key of sport_name and a sort key of score, and get the results.
+- [x] Create a global secondary index with a partition key of sport_name and a sort key of score, and get the results.
 - [ ] Use a DynamoDB scan operation to retrieve scores and user_id based on sport_name, and order the results based on the score attribute.
-- [x] Create a local secondary index with a primary key of sport_name and a sort key of score and get the results based on the score attribute.
+- [ ] Create a local secondary index with a primary key of sport_name and a sort key of score and get the results based on the score attribute.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3745,6 +3769,8 @@
 
 ### A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS). The app then uses the token to access AWS services. Review the following response: Based on the response displayed what permissions are associated with the call from the application?
 
+[Question 362](images/question362.jpg)
+
 - [ ] Permissions associated with the role AROACLKWSDQRAOEXAMPLE:app1.
 - [ ] Permissions associated with the default role used when the AWS service was built.
 - [x] Permission associated with the IAM principal that owns the AccessKeyID ASgeIAIOSFODNN7EXAMPLE.
@@ -3770,7 +3796,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the "hot" shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?
+### An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the 'hot' shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?
 
 - [ ] 12.
 - [ ] 6.
@@ -3815,7 +3841,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An on-premises application makes repeated calls to store files to Amazon S3. As usage of the application has increased, "LimitExceeded" errors are being logged. What should be changed to fix this error?
+### An on-premises application makes repeated calls to store files to Amazon S3. As usage of the application has increased, 'LimitExceeded' errors are being logged. What should be changed to fix this error?
 
 - [x] Implement exponential backoffs in the application.
 - [ ] Load balance the application to multiple servers.
@@ -3842,7 +3868,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### The upload of a 15 GB object to Amazon S3 fails. The error message reads: "Your proposed upload exceeds the maximum allowed object size." What technique will allow the Developer to upload this object?
+### The upload of a 15 GB object to Amazon S3 fails. The error message reads: 'Your proposed upload exceeds the maximum allowed object size.' What technique will allow the Developer to upload this object?
 
 - [x] Upload the object using the multi-part upload API.
 - [ ] Upload the object over an AWS Direct Connect connection.
@@ -3881,9 +3907,9 @@
 ### An organization is using Amazon CloudFront to ensure that its users experience low-latency access to its web application. The organization has identified a need to encrypt all traffic between users and CloudFront, and all traffic between CloudFront and the web application. How can these requirements be met? (Choose two.)
 
 - [ ] Use AWS KMS to encrypt traffic between CloudFront and the web application.
-- [ ] Set the Origin Protocol Policy to "HTTPS Only".
+- [ ] Set the Origin Protocol Policy to 'HTTPS Only'.
 - [x] Set the Origin's HTTP Port to 443.
-- [x] Set the Viewer Protocol Policy to "HTTPS Only" or "Redirect HTTP to HTTPS".
+- [x] Set the Viewer Protocol Policy to 'HTTPS Only' or 'Redirect HTTP to HTTPS'.
 - [ ] Enable the CloudFront option Restrict Viewer Access.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -4068,7 +4094,7 @@
 - [ ] Ask customers to use AWS credentials to call the InvalidateCache API.
 - [ ] Ask customers to invoke an AWS API endpoint which invalidates the cache.
 - [x] Ask customers to pass an HTTP header called Cache-Control:max-age=0.
-- [ ] Ask customers to add a query string parameter called "INVALIDATE_CACHE" when making an API call.
+- [ ] Ask customers to add a query string parameter called 'INVALIDATE_CACHE' when making an API call.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4129,12 +4155,14 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A development team consists of 10 team members. Similar to a home directory for each team member the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username "TeamMemberX", the snippet of the IAM policy looks like this: Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?
+### A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code. After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?
 
-- [x] Use IAM policy condition.
-- [ ] Use IAM policy principal.
-- [ ] Use IAM policy variables.
-- [ ] Use IAM policy resource
+[Question 404](images/question404.jpg)
+
+- [ ] Increase the amount of RAM allocated to the Lambda function, which will increase the number of threads the Lambda can use.
+- [ ] Increase the size of the RDS database to allow for an increased number of database connections each hour.
+- [x] Move the database connection and close statement out of the handler. Place the connection in the global space.
+- [ ] Replace RDS wit Amazon DynamoDB to implement control over the number of writes per second.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4150,66 +4178,9 @@
 ### Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?
 
 - [ ] Prefix folder names with user id; for example, s3://BUCKET/2013-FOLDERNAME/FILENAME.zip.
-- [x] Prefix file names with timestamps; for example, s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip.
+- [ ] Prefix file names with timestamps; for example, s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip.
 - [ ] Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip.
-- [ ] Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (Select two.)
-
-- [x] Package only the modules the Lambda function requires.
-- [ ] Use Amazon DynamoDB instead of Amazon RDS.
-- [ ] Move the initialization of the variable Amazon RDS connection outside of the handler function.
-- [ ] Implement custom database connection pooling with the Lambda function.
-- [x] Implement local caching of Amazon RDS data so Lambda can re-use the cache.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?
-
-- [ ] In the root of the application.
-- [ ] In the bin folder.
-- [ ] In healthcheckur1.config.ebextension under root.
-- [x] In the .ebextensions folder.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?
-
-- [ ] Contact AWS Support for a limit increase.
-- [x] Use the AWS CLI to get the metrics.
-- [ ] Analyze the applications and remove the API call.
-- [ ] Retry the call with exponential backoff.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles. What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Select TWO.)
-
-- [ ] Use the AWS CLI to retrieve the IAM group.
-- [x] Query Amazon EC2 metadata for in-line IAM policies.
-- [ ] Request a token from AWS STS, and perform a describe action.
-- [ ] Perform a get action using the ''-dry-run argument.
-- [x] Validate the IAM role policy with the IAM policy simulator.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A large e-commerce site is being designed to deliver static objects from Amazon S3. The Amazon S3 bucket will server more than 300 GET requests per second. What should be done to optimize performance? (Select TWO.)
-
-- [x] Integrate Amazon CloudFront with Amazon S3.
-- [x] Enable Amazon S3 cross-region replication.
-- [ ] Delete expired Amazon S3 server log files.
-- [ ] Configure Amazon S3 lifecycle rules.
-- [ ] Randomize Amazon S3 key name prefixes.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code: After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?
-
-- [ ] Increase the amount of RAM allocated to the Lambda function, which will increase the number of threads the Lambda can use.
-- [x] Increase the size of the RDS database to allow for an increased number of database connections each hour.
-- [ ] Move the database connection and close statement out of the handler. Place the connection in the global space.
-- [ ] Replace RDS wit Amazon DynamoDB to implement control over the number of writes per second.
+- [x] Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4222,11 +4193,11 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs. The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?
+### Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?
 
-- [ ] The CSS files were not compressed and S3 versioning was enabled.
-- [x] S3 replication was enabled on the bucket.
-- [ ] Logging into the same bucket caused exponential log growth.
-- [ ] An S3 lifecycle policy has moved the entire CSS file to S3 Infrequent Access.
+- [ ] In the root of the application.
+- [ ] In the bin folder.
+- [ ] In healthcheckur1.config.ebextension under root.
+- [x] In the .ebextensions folder.
 
 **[⬆ Back to Top](#table-of-contents)**
