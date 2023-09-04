@@ -104,7 +104,7 @@
 | 96  | [A Developer is testing a Docker-based application that uses the AWS SDK to interact with Amazon DynamoDB. In the local development environment, the application has used IAM access keys. The application is now ready for deployment onto an ECS cluster. How should the application authenticate with AWS services in production?](#a-developer-is-testing-a-docker-based-application-that-uses-the-aws-sdk-to-interact-with-amazon-dynamodb-in-the-local-development-environment-the-application-has-used-iam-access-keys-the-application-is-now-ready-for-deployment-onto-an-ecs-cluster-how-should-the-application-authenticate-with-aws-services-in-production)
 | 97  | [A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?](#a-company-is-using-aws-codebuild-to-compile-a-website-from-source-code-stored-in-aws-codecommit-a-recent-change-to-the-source-code-has-resulted-in-the-codebuild-project-being-unable-to-successfully-compile-the-website-how-should-the-developer-identify-the-cause-of-the-failures)
 | 98  | [For a deployment using AWS CodeDeploy, what is the run order of the hooks for in-place deployments?](#for-a-deployment-using-aws-codedeploy-what-is-the-run-order-of-the-hooks-for-in-place-deployments)
-| 99  | [A Developer executed a AWS CLI command and received the error shown below: What action should the Developer perform to make this error human-readable?](#a-developer-executed-a-aws-cli-command-and-received-the-error-shown-below-what-action-should-the-developer-perform-to-make-this-error-human-readable)
+| 99  | [A Developer executed a AWS CLI command and received the error shown below. What action should the Developer perform to make this error human-readable?](#a-developer-executed-a-aws-cli-command-and-received-the-error-shown-below-what-action-should-the-developer-perform-to-make-this-error-human-readable)
 | 100 | [A Developer uses AWS CodeDeploy to automate application deployment that connects to an external MySQL database. The Developer wants to securely access the encrypted secrets, such as API keys and database passwords. Which of the following solutions would involve the LEAST administrative effort?](#a-developer-uses-aws-codedeploy-to-automate-application-deployment-that-connects-to-an-external-mysql-database-the-developer-wants-to-securely-access-the-encrypted-secrets-such-as-api-keys-and-database-passwords-which-of-the-following-solutions-would-involve-the-least-administrative-effort)
 | 101 | [An application stops working with the following error: The specified bucket does not exist. Where is the BEST place to start the root cause analysis?](#an-application-stops-working-with-the-following-error-the-specified-bucket-does-not-exist-where-is-the-best-place-to-start-the-root-cause-analysis)
 | 102 | [A Developer will be using the AWS CLI on a local development server to manage AWS services. What can be done to ensure that the CLI uses the Developer's IAM permissions when making commands?](#a-developer-will-be-using-the-aws-cli-on-a-local-development-server-to-manage-aws-services-what-can-be-done-to-ensure-that-the-cli-uses-the-developers-iam-permissions-when-making-commands)
@@ -135,7 +135,7 @@
 | 127 | [A developer is writing a web application that must share secure documents with end users. The documents are stored in a private Amazon S3 bucket. The application must allow only authenticated users to download specific documents when requested, and only for a duration of 15 minutes. How can the developer meet these requirements?](#a-developer-is-writing-a-web-application-that-must-share-secure-documents-with-end-users-the-documents-are-stored-in-a-private-amazon-s3-bucket-the-application-must-allow-only-authenticated-users-to-download-specific-documents-when-requested-and-only-for-a-duration-of-15-minutes-how-can-the-developer-meet-these-requirements)
 | 128 | [A company is developing a report executed by AWS Step Functions, Amazon CloudWatch shows errors in the Step Functions task state machine. To troubleshoot each task, the state input needs to be included along with the error message in the state output. Which coding practice can preserve both the original input and the error for the state?](#a-company-is-developing-a-report-executed-by-aws-step-functions-amazon-cloudwatch-shows-errors-in-the-step-functions-task-state-machine-to-troubleshoot-each-task-the-state-input-needs-to-be-included-along-with-the-error-message-in-the-state-output-which-coding-practice-can-preserve-both-the-original-input-and-the-error-for-the-state)
 | 129 | [A developer receives the following error message when trying to launch or terminate an Amazon EC2 instance using a boto3 script. What should the developer do to correct this error message?](#a-developer-receives-the-following-error-message-when-trying-to-launch-or-terminate-an-amazon-ec2-instance-using-a-boto3-script-what-should-the-developer-do-to-correct-this-error-message)
-| 130 | [Given the following AWS CloudFormation template: What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?](#given-the-following-aws-cloudformation-template-what-is-the-most-efficient-way-to-reference-the-new-amazon-s3-bucket-from-another-aws-cloudformation-template)
+| 130 | [Given the following AWS CloudFormation template. What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?](#given-the-following-aws-cloudformation-template-what-is-the-most-efficient-way-to-reference-the-new-amazon-s3-bucket-from-another-aws-cloudformation-template)
 | 131 | [A developer is using AWS CodeDeploy to deploy an application running on Amazon EC2. The developer wants to change the file permissions for a specific deployment file. Which lifecycle event should a developer use to meet this requirement?](#a-developer-is-using-aws-codedeploy-to-deploy-an-application-running-on-amazon-ec2-the-developer-wants-to-change-the-file-permissions-for-a-specific-deployment-file-which-lifecycle-event-should-a-developer-use-to-meet-this-requirement)
 | 132 | [A developer is using Amazon DynamoDB to store application data. The developer wants to further improve application performance by reducing response times for read and write operations. Which DynamoDB feature should be used to meet these requirements?](#a-developer-is-using-amazon-dynamodb-to-store-application-data-the-developer-wants-to-further-improve-application-performance-by-reducing-response-times-for-read-and-write-operations-which-dynamodb-feature-should-be-used-to-meet-these-requirements)
 | 133 | [A developer is creating a script to automate the deployment process for a serverless application. The developer wants to use an existing AWS Serverless Application Model (AWS SAM) template for the application. What should the developer use for the project? (Choose TWO)](#a-developer-is-creating-a-script-to-automate-the-deployment-process-for-a-serverless-application-the-developer-wants-to-use-an-existing-aws-serverless-application-model-aws-sam-template-for-the-application-what-should-the-developer-use-for-the-project-choose-two)
@@ -304,7 +304,7 @@
 | 296 | [A company is migrating a single-server, on-premises web application to AWS. The company intends to use multiple servers behind an Elastic Load Balancer (ELB) to balance the load, and will also store session data in memory on the web server. The company does not want to lose that session data if a server fails or goes offline, and it wants to minimize user's downtime. Where should the company move session data to MOST effectively reduce downtime and make users' session data more fault tolerant?](#a-company-is-migrating-a-single-server-on-premises-web-application-to-aws-the-company-intends-to-use-multiple-servers-behind-an-elastic-load-balancer-elb-to-balance-the-load-and-will-also-store-session-data-in-memory-on-the-web-server-the-company-does-not-want-to-lose-that-session-data-if-a-server-fails-or-goes-offline-and-it-wants-to-minimize-users-downtime-where-should-the-company-move-session-data-to-most-effectively-reduce-downtime-and-make-users-session-data-more-fault-tolerant)
 | 297 | [A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following: After the application launches, the health check is not being run on the correct path, even though it is valid. What can be done to correct this configuration file?](#a-developer-created-configuration-specifications-for-an-aws-elastic-beanstalk-application-in-a-file-named-healthcheckurlyaml-in-the-ebextensionsdirectory-of-their-application-source-bundle-the-file-contains-the-following-after-the-application-launches-the-health-check-is-not-being-run-on-the-correct-path-even-though-it-is-valid-what-can-be-done-to-correct-this-configuration-file)
 | 298 | [A Developer has created a Lambda function and is finding that the function is taking longer to complete than expected. After some debugging, the Developer has discovered that increasing compute capacity would improve performance. How can the Developer increase the Lambda compute resources?](#a-developer-has-created-a-lambda-function-and-is-finding-that-the-function-is-taking-longer-to-complete-than-expected-after-some-debugging-the-developer-has-discovered-that-increasing-compute-capacity-would-improve-performance-how-can-the-developer-increase-the-lambda-compute-resources)
-| 299 | [An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select TWO)](#an-application-is-running-on-ec2-instances-amazon-rds-is-used-for-the-database-that-stores-user-accounts-and-preferences-the-website-freezes-or-is-slow-to-load-while-waiting-for-the-login-step-to-complete-the-remaining-components-of-the-site-are-well-optimized-which-of-the-following-techniques-will-resolve-this-issue-select-two)
+| 299 | [An e-commerce site allows returning users to log in to display customized web pages. The workflow is shown in the image below. An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select TWO)](#an-e-commerce-site-allows-returning-users-to-log-in-to-display-customized-web-pages-the-workflow-is-shown-in-the-image-below-an-application-is-running-on-ec2-instances-amazon-rds-is-used-for-the-database-that-stores-user-accounts-and-preferences-the-website-freezes-or-is-slow-to-load-while-waiting-for-the-login-step-to-complete-the-remaining-components-of-the-site-are-well-optimized-which-of-the-following-techniques-will-resolve-this-issue-select-two)
 | 300 | [A Developer is building a mobile application and needs any update to user profile data to be pushed to all devices accessing the specific identity. The Developer does not want to manage a back end to maintain the user profile data. What is the MOST efficient way for the Developer to achieve these requirements using Amazon Cognito?](#a-developer-is-building-a-mobile-application-and-needs-any-update-to-user-profile-data-to-be-pushed-to-all-devices-accessing-the-specific-identity-the-developer-does-not-want-to-manage-a-back-end-to-maintain-the-user-profile-data-what-is-the-most-efficient-way-for-the-developer-to-achieve-these-requirements-using-amazon-cognito)
 | 301 | [A company maintains a REST service using Amazon API Gateway and the API Gateway native API key validation. The company recently launched a new registration page, which allows users to sign up for the service. The registration page creates a new API key using CreateApiKey and sends the new key to the user. When the user attempts to call the API using this key, the user receives a 403 Forbidden error. Existing users are unaffected and can still call the API. What code updates will grant these new users access to the API?](#a-company-maintains-a-rest-service-using-amazon-api-gateway-and-the-api-gateway-native-api-key-validation-the-company-recently-launched-a-new-registration-page-which-allows-users-to-sign-up-for-the-service-the-registration-page-creates-a-new-api-key-using-createapikey-and-sends-the-new-key-to-the-user-when-the-user-attempts-to-call-the-api-using-this-key-the-user-receives-a-403-forbidden-error-existing-users-are-unaffected-and-can-still-call-the-api-what-code-updates-will-grant-these-new-users-access-to-the-api)
 | 302 | [A Developer is writing a mobile application that allows users to view images from an S3 bucket. The users must be able to log in with their Amazon login, as well as Facebook and/or Google accounts. How can the Developer provide this authentication functionality?](#a-developer-is-writing-a-mobile-application-that-allows-users-to-view-images-from-an-s3-bucket-the-users-must-be-able-to-log-in-with-their-amazon-login-as-well-as-facebook-andor-google-accounts-how-can-the-developer-provide-this-authentication-functionality)
@@ -664,13 +664,13 @@
 ### A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the dynamodb: PutItem API call?
 
 - [x] Option A.
-![Question 32 option A](images/question32_A.jpg)
+![Question 30 option A](images/question30_A.jpg)
 - [ ] Option B.
-![Question 32 option B](images/question32_B.jpg)
+![Question 30 option B](images/question30_B.jpg)
 - [ ] Option C.
-![Question 32 option C](images/question32_C.jpg)
+![Question 30 option C](images/question30_C.jpg)
 - [ ] Option D.
-![Question 32 option D](images/question32_D.jpg)
+![Question 30 option D](images/question30_D.jpg)
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -832,7 +832,7 @@
 
 ### The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second. The pseudocode for the Lambda function is as shown in the exhibit. What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (Select TWO)
 
-![Question 53](images/question53.jpg)
+![Question 48](images/question48.jpg)
 
 - [x] Package only the modules the Lambda function requires.
 - [ ] Use Amazon DynamoDB instead of Amazon RDS.
@@ -934,7 +934,7 @@
 
 ### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template: What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?
 
-![Question 65](images/question65.jpg)
+![Question 59](images/question59.jpg)
 
 - [ ] Use aws cloudformation compile to base64 encode and embed the source file into a modified CloudFormation template.
 - [ ] Use aws cloudformation package to upload the source code to an Amazon S3 bucket and produce a modified CloudFormation template.
@@ -1190,7 +1190,7 @@
 
 ### A Developer is working on an application that tracks hundreds of millions of product reviews in an Amazon DynamoDB table. The records include the data elements shown in the table. Which field, when used as the partition key, would result in the MOST consistent performance using DynamoDB?
 
-![Question 95](images/question95.jpg)
+![Question 87](images/question87.jpg)
 
 - [ ] starRating.
 - [x] reviewID.
@@ -1201,7 +1201,7 @@
 
 ### A development team consists of 10 team members. Similar to a home directory for each team member, the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username 'TeamMemberX', the snippet of the IAM policy looks like this. Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?
 
-![Question 96](images/question96.jpg)
+![Question 88](images/question88.jpg)
 
 - [x] Use IAM policy condition.
 - [ ] Use IAM policy principal.
@@ -1303,7 +1303,7 @@
 
 ### A Developer executed a AWS CLI command and received the error shown below. What action should the Developer perform to make this error human-readable?
 
-![Question 109](images/question109.jpg)
+![Question 99](images/question99.jpg)
 
 - [ ] Make a call to AWS KMS to decode the message.
 - [x] Use the AWS STS decode-authorization-message API to decode the message.
@@ -1578,7 +1578,7 @@
 
 ### A developer receives the following error message when trying to launch or terminate an Amazon EC2 instance using a boto3 script. What should the developer do to correct this error message?
 
-[Question 141](images/question141.jpg)
+[Question 129](images/question129.jpg)
 
 - [ ] Assign an IAM role to the EC2 instance to allow necessary API calls on behalf of the client.
 - [x] Implement an exponential backoff algorithm for optimizing the number of API requests made to Amazon EC2.
@@ -1589,7 +1589,7 @@
 
 ### Given the following AWS CloudFormation template. What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?
 
-[Question 142](images/question142.jpg)
+[Question 130](images/question130.jpg)
 
 - [ ] Add an Export declaration to the Outputs section of the original template and use ImportValue in other templates.
 - [ ] Add Exported: true to the Contentbucket in the original template and use ImportResource in other templates.
@@ -2337,7 +2337,7 @@
 
 ### An application is running on a cluster of Amazon EC2 instances. While trying to read objects stored within a single Amazon S3 bucket that are encrypted with server-side encryption with AWS KMS managed keys (SSE-KMS), the application receives the following error. Which combination of steps should be taken to prevent this failure? (Choose TWO)
 
-[Question 229](images/question229.jpg)
+[Question 212](images/question212.jpg)
 
 - [ ] Contact AWS Support to request an AWS KMS rate limit increase.
 - [ ] Perform error retries with exponential backoff in the application code.
@@ -2993,7 +2993,7 @@
 
 ### A Developer accesses AWS CodeCommit over SSH. The SSH keys configured to access AWS CodeCommit are tied to a user with the following permissions. The Developer needs to create/delete branches. Which specific IAM permissions need to be added, based on the principle of least privilege?
 
-![Question 299](images/question299.jpg)
+![Question 281](images/question281.jpg)
 
 - [x] "codecommit:CreateBranch" "codecommit:DeleteBranch".
 - [ ] "codecommit:Put*".
@@ -3059,8 +3059,6 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An e-commerce web application that shares session state on-premises is being migrated to AWS. The application must be fault tolerant, natively highly scalable, and any service interruption should not affect the user experience. What is the best option to store the session state?
-
-![Question 306](images/question306.jpeg)
 
 - [x] Store the session state in Amazon ElastiCache.
 - [ ] Store the session state in Amazon CloudFront.
@@ -3144,7 +3142,7 @@
 
 ### A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following: After the application launches, the health check is not being run on the correct path, even though it is valid. What can be done to correct this configuration file?
 
-[Question 315](images/question315.png)
+[Question 297](images/question297.png)
 
 - [ ] Convert the file to JSON format.
 - [x] Rename the file to a .config extension.
@@ -3162,9 +3160,9 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select TWO)
+### An e-commerce site allows returning users to log in to display customized web pages. The workflow is shown in the image below. An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select TWO)
 
-[Question 404](images/question404.jpg)
+[Question 299](images/question299.jpg)
 
 - [ ] Implement the user login page as an asynchronous Lambda function.
 - [x] Use Amazon ElastiCache for MemCached to cache user data.
@@ -3514,7 +3512,7 @@
 
 ### A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below. (Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?
 
-[Question 355](images/question355.jpg)
+[Question 337](images/question337.jpg)
 
 - [ ] Use a DynamoDB query operation with the key attributes of user_id and sport_name and order the results based on the score attribute.
 - [x] Create a global secondary index with a partition key of sport_name and a sort key of score, and get the results.
@@ -3580,7 +3578,7 @@
 
 ### A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS). The app then uses the token to access AWS services. Review the following response: Based on the response displayed what permissions are associated with the call from the application?
 
-[Question 362](images/question362.jpg)
+[Question 344](images/question344.jpg)
 
 - [ ] Permissions associated with the role AROACLKWSDQRAOEXAMPLE:app1.
 - [ ] Permissions associated with the default role used when the AWS service was built.
@@ -3957,7 +3955,7 @@
 
 ### A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code. After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?
 
-[Question 404](images/question404.jpg)
+[Question 385](images/question385.jpg)
 
 - [ ] Increase the amount of RAM allocated to the Lambda function, which will increase the number of threads the Lambda can use.
 - [ ] Increase the size of the RDS database to allow for an increased number of database connections each hour.
