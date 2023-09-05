@@ -3142,7 +3142,7 @@
 
 ### A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following: After the application launches, the health check is not being run on the correct path, even though it is valid. What can be done to correct this configuration file?
 
-[Question 297](images/question297.png)
+[Question 297](images/question297.jpeg)
 
 - [ ] Convert the file to JSON format.
 - [x] Rename the file to a .config extension.
