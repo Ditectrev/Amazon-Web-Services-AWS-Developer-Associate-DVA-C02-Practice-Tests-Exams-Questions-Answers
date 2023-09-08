@@ -2,6 +2,89 @@
 
 ![Promotional image](images/promotional.png)
 
+## Udemy & Etsy
+
+❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
+
+🛍️ Alternatively, you can buy the PDF with those questions on [Etsy](https://www.etsy.com/).
+
+## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) course you will find online.
+
+✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
+
+[![Join our Discord](images/discord.png 'Join our Discord')](https://discord.gg/RFjtXKfJy3)
+
+## ⌛️ Short and to the point; why should you take the course
+
+1. Always happy to answer your questions on Udemy's Q&A's and outside :)
+2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
+3. Learn about topics, such as:
+   - Amazon API Gateway;
+   - Amazon Aurora;
+   - Amazon CloudFront;
+   - Amazon CloudWatch;
+   - Amazon Cognito;
+   - Amazon DynamoDB;
+   - Amazon Elastic Block Store (Amazon EBS);
+   - Amazon Elastic Compute Cloud (Amazon EC2);
+   - Amazon Kinesis;
+   - Amazon Relational Database Service (Amazon RDS);
+   - Amazon Simple Storage Service (Amazon S3);
+   - Amazon Simple Queue Service (Amazon SQS);
+   - Authentication & Authorization;
+   - AWS CloudFormation;
+   - AWS CloudTrail;
+   - AWS CodeCommit;
+   - AWS CodeDeploy;
+   - AWS Command Line Interface (AWS CLI);
+   - AWS Identity and Access Management (AWS IAM);
+   - AWS Key Management Service (AWS KMS);
+   - AWS Lambda;
+   - Cloud Concepts;
+   - Public & Private Cloud;
+   - Serverless;
+   - Virtual Private Clouds (VPC);
+   - **Much More!**
+4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
+5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
+6. This course is **not** an Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
+7. 387 **unique** questions.
+
+## ☝️ Course Updates
+
+**[v1.0.0](../../releases/tag/v1.0.0): August 11, 2023.**
+
+- Launch of the course.
+
+## 🙋‍♀️ & 🙋‍♂️ Contribution
+
+We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
+
+## Who this course is for
+
+- 👨‍🎓 👨‍🎓Students preparing for the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam;
+- 👨‍🎓 Amazon Web Services (AWS) Engineers;
+- 👨‍🎓 Azure Engineers;
+- 👨‍🎓 Cloud Architects;
+- 👨‍🎓 Cloud Engineers;
+- 👨‍🎓 DevOps Engineers;
+- 👨‍🎓 Enterprise Architects;
+- 👨‍🎓 Google Cloud Platform (GCP) Engineers;
+- 👨‍🎓 Infrastructure Engineers;
+- 👨‍🎓 Lead Engineers;
+- 👨‍🎓 Product Architects;
+- 👨‍🎓 Security Engineers;
+- 👨‍🎓 Site Reliability Engineers;
+- 👨‍🎓 Software Developers/Engineers;
+- 👨‍🎓 Solution Architects;
+- 👨‍🎓 Team Leaders.
+
+## Requirements
+
+- 🤩 Excitement to learn!
+- 0️⃣ Prior knowledge is required;
+- ✅ You can pass the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam solely based on our Practice Tests Exams.
+
 ## Table of Contents
 
 | No. | Questions |
@@ -1704,7 +1787,7 @@
 - [ ] Use AWS KMS to set up public and private keys for use with AWS CodeCommit.
 - [x] Set up the Git credential helper to use an AWS credential profile, and enable the helper to send the path to the repositories.
 - [ ] Use AWS Certificate Manager to provision public and private SSL/TLS certificates.
-- [ ] Generate encryption keys using AWS CloudHSM, then export the key for use with AWS CodeCommitl.
+- [ ] Generate encryption keys using AWS CloudHSM, then export the key for use with AWS CodeCommit.
 
 **[⬆ Back to Top](#table-of-contents)**
 
