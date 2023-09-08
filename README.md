@@ -52,7 +52,7 @@
 
 ## ☝️ Course Updates
 
-**[v1.0.0](../../releases/tag/v1.0.0): August 11, 2023.**
+**[v1.0.0](../../releases/tag/v1.0.0): September 8, 2023.**
 
 - Launch of the course.
 
