@@ -62,7 +62,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ## Who this course is for
 
-- 👨‍🎓 👨‍🎓Students preparing for the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam;
+- 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam;
 - 👨‍🎓 Amazon Web Services (AWS) Engineers;
 - 👨‍🎓 Azure Engineers;
 - 👨‍🎓 Cloud Architects;
