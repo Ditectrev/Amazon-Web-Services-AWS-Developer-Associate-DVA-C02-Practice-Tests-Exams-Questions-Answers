@@ -28,6 +28,7 @@
    - Amazon Elastic Block Store (Amazon EBS);
    - Amazon Elastic Compute Cloud (Amazon EC2);
    - Amazon Kinesis;
+   - Amazon Redshift;
    - Amazon Relational Database Service (Amazon RDS);
    - Amazon Simple Storage Service (Amazon S3);
    - Amazon Simple Queue Service (Amazon SQS);
