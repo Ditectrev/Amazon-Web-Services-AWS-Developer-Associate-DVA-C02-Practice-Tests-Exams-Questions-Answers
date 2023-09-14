@@ -61,7 +61,7 @@
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
 
-## Who this course is for
+## Who this course is for:
 
 - 👨‍🎓 Students preparing for the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam;
 - 👨‍🎓 Amazon Web Services (AWS) Engineers;
