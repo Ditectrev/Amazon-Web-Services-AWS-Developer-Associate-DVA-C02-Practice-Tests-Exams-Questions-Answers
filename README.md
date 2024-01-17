@@ -1020,14 +1020,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template: What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?
+### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?
 
 ![Question 59](images/question59.jpg)
 
-- [ ] Use aws cloudformation compile to base64 encode and embed the source file into a modified CloudFormation template.
-- [ ] Use aws cloudformation package to upload the source code to an Amazon S3 bucket and produce a modified CloudFormation template.
-- [ ] Use aws lambda zip to package the source file together with the CloudFormation template and deploy the resulting zip archive.
-- [x] Use aws serverless create-package to embed the source file directly into the existing CloudFormation template.
+- [ ] Use AWS CloudFormation compile to base64 encode and embed the source file into a modified CloudFormation template.
+- [x] Use AWS CloudFormation package to upload the source code to an Amazon S3 bucket and produce a modified CloudFormation template.
+- [ ] Use AWS Lambda zip to package the source file together with the CloudFormation template and deploy the resulting zip archive.
+- [ ] Use AWS Serverless create-package to embed the source file directly into the existing CloudFormation template.
 
 **[⬆ Back to Top](#table-of-contents)**
 
