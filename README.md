@@ -912,9 +912,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A developer has written a multi-threaded application that is running on a fleet of Amazon EC2 instances. The operations team has requested a graphical method to monitor the number of running threads over time. What is the MOST efficient way to fulfill this request?
 
 - [ ] Periodically send the thread count to AWS X-Ray segments, then generate a service graph on demand.
-- [ ] Create a custom Amazon CloudWatch metric and periodically perform a PutMetricData call with the current thread count.
+- [x] Create a custom Amazon CloudWatch metric and periodically perform a PutMetricData call with the current thread count.
 - [ ] Periodically log thread count data to Amazon S3. Use Amazon Kinesis to process the data into a graph.
-- [x] Periodically write the current thread count to a table using Amazon DynarnoDB and use Amazon CloudFront to create a graph.
+- [ ] Periodically write the current thread count to a table using Amazon DynarnoDB and use Amazon CloudFront to create a graph.
 
 **[⬆ Back to Top](#table-of-contents)**
 
