@@ -865,10 +865,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An AWS Lambda function accesses two Amazon DynamoDB tables. A developer wants to improve the performance of the Lambda function by identifying bottlenecks in the function. How can the developer inspect the timing of the DynamoDB API calls?
 
-- [x] Add DynamoDB as an event source to the Lambda function. View the performance with Amazon CloudWatch metrics.
+- [ ] Add DynamoDB as an event source to the Lambda function. View the performance with Amazon CloudWatch metrics.
 - [ ] Place an Application Load Balancer (ALB) in front of the two DynamoDB tables. Inspect the ALB logs.
 - [ ] Limit Lambda to no more than five concurrent invocations Monitor from the Lambda console.
-- [ ] Enable AWS X-Ray tracing for the function. View the traces from the X-Ray service.
+- [x] Enable AWS X-Ray tracing for the function. View the traces from the X-Ray service.
 
 **[⬆ Back to Top](#table-of-contents)**
 
