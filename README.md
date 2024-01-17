@@ -707,8 +707,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Queries to an Amazon DynamoDB table are consuming a large amount of read capacity. The table has a significant number of large attributes. The application does not need all of the attribute data. How can DynamoDB costs be minimized while maximizing application performance?
 
 - [ ] Batch all the writes, and perform the write operations when no or few reads are being performed.
-- [ ] Create a global secondary index with a minimum set of projected attributes.
-- [x] Implement exponential backoffs in the application.
+- [x] Create a global secondary index with a minimum set of projected attributes.
+- [ ] Implement exponential backoffs in the application.
 - [ ] Load balance the reads to the table using an Application Load Balancer.
 
 **[⬆ Back to Top](#table-of-contents)**
