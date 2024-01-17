@@ -1060,10 +1060,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing a Linux-based application to run on AWS Elastic Beanstalk. Application requirements state that the application must maintain full capacity during updates while minimizing cost. Which type of Elastic Beanstalk deployment policy should the Developer specify for the environment?
 
-- [x] Immutable.
+- [ ] Immutable.
 - [ ] Rolling.
 - [ ] All at Once.
-- [ ] Rolling with additional batch.
+- [x] Rolling with additional batch.
 
 **[⬆ Back to Top](#table-of-contents)**
 
