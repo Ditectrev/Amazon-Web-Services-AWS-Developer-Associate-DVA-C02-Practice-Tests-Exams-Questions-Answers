@@ -995,9 +995,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has written a serverless application using multiple AWS services. The business logic is written as a Lambda function which has dependencies on third-party libraries. The Lambda function endpoints will be exposed using Amazon API Gateway. The Lambda function will write the information to Amazon DynamoDB. The Developer is ready to deploy the application but must have the ability to rollback. How can this deployment be automated, based on these requirements?
 
-- [x] Deploy using Amazon Lambda API operations to create the Lambda function by providing a deployment package.
+- [ ] Deploy using Amazon Lambda API operations to create the Lambda function by providing a deployment package.
 - [ ] Use an AWS CloudFormation template and use CloudFormation syntax to define the Lambda function resource in the template.
-- [ ] Use syntax conforming to the Serverless Application Model in the AWS CloudFormation template to define the Lambda function resource.
+- [x] Use syntax conforming to the Serverless Application Model in the AWS CloudFormation template to define the Lambda function resource.
 - [ ] Create a bash script which uses AWS CLI to package and deploy the application.
 
 **[⬆ Back to Top](#table-of-contents)**
