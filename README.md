@@ -924,9 +924,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Package only the modules the Lambda function requires.
 - [ ] Use Amazon DynamoDB instead of Amazon RDS.
-- [ ] Move the initialization of the variable Amazon RDS connection outside of the handler function.
+- [x] Move the initialization of the variable Amazon RDS connection outside of the handler function.
 - [ ] Implement custom database connection pooling with the Lambda function.
-- [x] Implement local caching of Amazon RDS data so Lambda can re-use the cache.
+- [ ] Implement local caching of Amazon RDS data so Lambda can re-use the cache.
 
 **[⬆ Back to Top](#table-of-contents)**
 
