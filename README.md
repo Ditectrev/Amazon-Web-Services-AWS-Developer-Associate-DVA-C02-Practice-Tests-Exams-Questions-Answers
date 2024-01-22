@@ -4068,7 +4068,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip.
 - [x] Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip.
 
-Certainly! Here's a set of 100 multiple-choice questions along with answers covering various topics in AWS based on the Table of Contents you provided:
+
 
 ### Getting Started with AWS
 
