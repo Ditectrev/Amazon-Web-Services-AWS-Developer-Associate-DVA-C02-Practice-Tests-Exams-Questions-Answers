@@ -4068,4 +4068,354 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip.
 - [x] Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip.
 
+Certainly! Here's a set of 100 multiple-choice questions along with answers covering various topics in AWS based on the Table of Contents you provided:
+
+### Getting Started with AWS
+
+1. **Question:** What is AWS?
+   - A) A web development framework
+   - B) A cloud computing platform
+   - C) An internet browser
+   - D) A mobile application
+
+   **Answer:** B) A cloud computing platform
+
+2. **Question:** What service does AWS provide for managing user access and permissions?
+   - A) IAM (Identity & Access Management)
+   - B) RDS (Relational Database Service)
+   - C) S3 (Simple Storage Service)
+   - D) EC2 (Elastic Compute Cloud)
+
+   **Answer:** A) IAM (Identity & Access Management)
+
+3. **Question:** What is the purpose of AWS Elastic Beanstalk?
+   - A) To launch virtual servers
+   - B) To deploy and manage applications in the AWS Cloud
+   - C) To store and retrieve data
+   - D) To route traffic between different AWS services
+
+   **Answer:** B) To deploy and manage applications in the AWS Cloud
+
+4. **Question:** Which AWS service is suitable for creating a virtual private network (VPC)?
+   - A) Route 53
+   - B) S3
+   - C) VPC
+   - D) CloudFront
+
+   **Answer:** C) VPC
+
+### Amazon EC2 – Basics
+
+5. **Question:** What does EC2 stand for?
+   - A) Elastic Cloud Computing
+   - B) Elastic Compute Cloud
+   - C) Electronic Cloud Container
+   - D) Efficient Cloud Computing
+
+   **Answer:** B) Elastic Compute Cloud
+
+6. **Question:** What is an AMI (Amazon Machine Image)?
+   - A) A measurement of computing resources
+   - B) A pre-configured virtual machine image
+   - C) An authentication token for AWS services
+   - D) A container for storing data in S3
+
+   **Answer:** B) A pre-configured virtual machine image
+
+7. **Question:** How is EC2 instance type classified?
+   - A) By the amount of storage
+   - B) By the amount of CPU and memory
+   - C) By the network speed
+   - D) By the geographic region
+
+   **Answer:** B) By the amount of CPU and memory
+
+8. **Question:** What is the purpose of an EC2 Security Group?
+   - A) To define security rules for an EC2 instance
+   - B) To store files in the cloud
+   - C) To configure DNS settings
+   - D) To manage IAM users
+
+   **Answer:** A) To define security rules for an EC2 instance
+
+### Amazon S3 – Basics
+
+9. **Question:** What does S3 stand for in Amazon S3?
+    - A) Simple Storage Service
+    - B) Secure Storage System
+    - C) Server-Side Storage
+    - D) Systematic Storage Solution
+
+    **Answer:** A) Simple Storage Service
+
+10. **Question:** What is the default storage class in Amazon S3?
+    - A) STANDARD
+    - B) INTELLIGENT_TIERING
+    - C) GLACIER
+    - D) ONEZONE_IA
+
+    **Answer:** A) STANDARD
+
+11. **Question:** How does S3 ensure durability of data?
+    - A) Replicating data across multiple availability zones
+    - B) Encrypting data at rest
+    - C) Regularly backing up data to Glacier
+    - D) Restricting access to data using IAM policies
+
+    **Answer:** A) Replicating data across multiple availability zones
+
+### Amazon S3 – Advanced
+
+12. **Question:** What is versioning in Amazon S3?
+    - A) A way to tag objects in a bucket
+    - B) A feature to keep multiple variants of an object in the same bucket
+    - C) A method for securing access to S3 buckets
+    - D) A storage class for long-term archiving
+
+    **Answer:** B) A feature to keep multiple variants of an object in the same bucket
+
+13. **Question:** What is the purpose of an S3 lifecycle policy?
+    - A) To manage access permissions for buckets
+    - B) To define rules for object versioning
+    - C) To automatically transition objects between storage classes
+    - D) To set up cross-region replication
+
+    **Answer:** C) To automatically transition objects between storage classes
+
+### Amazon S3 – Security
+
+14. **Question:** What is a pre-signed URL in S3?
+    - A) A URL that is signed using a digital certificate
+    - B) A URL that is publicly accessible without authentication
+    - C) A URL with encrypted query parameters
+    - D) A URL that requires multi-factor authentication
+
+    **Answer:** B) A URL that is publicly accessible without authentication
+
+15. **Question:** How can you secure data in transit to and from S3?
+    - A) By enabling versioning
+    - B) By using SSL/TLS for data transfer
+    - C) By configuring VPC endpoints
+    - D) By setting up cross-region replication
+
+    **Answer:** B) By using SSL/TLS for data transfer
+
+### Amazon CloudFront
+
+16. **Question:** What is the purpose of Amazon CloudFront?
+    - A) To store and retrieve data in the cloud
+    - B) To deploy and manage applications
+    - C) To distribute content globally with low latency and high transfer speeds
+    - D) To create and manage virtual private networks
+
+    **Answer:** C) To distribute content globally with low latency and high transfer speeds
+
+17. **Question:** What is an edge location in CloudFront?
+    - A) A physical data center used for storage
+    - B) A point of presence location that caches content
+    - C) A region where CloudFront resources are created
+    - D) An access point for S3 buckets
+
+    **Answer:** B) A point of presence location that caches content
+
+### AWS Lambda
+
+18. **Question:** What is the primary purpose of AWS Lambda?
+    - A) To manage databases
+    - B) To store and retrieve data
+    - C) To run code without provisioning or managing servers
+    - D) To configure virtual private clouds
+
+    **Answer:** C) To run code without provisioning or managing servers
+
+19. **Question:** What is an event source in AWS Lambda?
+    - A) A source of data for the Lambda function
+    - B) A Lambda function itself
+    - C) A security group in a VPC
+    - D) An IAM role for Lambda
+
+    **Answer:** A) A source of data for the Lambda function
+
+### AWS Integration & Messaging
+
+20. **Question:** What is Amazon Simple Notification Service (SNS) used for?
+    - A) To store and retrieve data
+    - B) To distribute messages to a distributed set of recipients
+    - C) To manage access permissions for AWS resources
+    - D) To configure networking in a VPC
+
+    **Answer:** B) To distribute messages to a distributed set of recipients
+
+21. **Question:** How does Amazon Simple Queue Service (SQS
+
+) ensure message delivery?
+    - A) By automatically replicating messages across regions
+    - B) By using HTTPS for secure transmission
+    - C) By persisting messages in a highly available storage service
+    - D) By employing a distributed and redundant architecture
+
+    **Answer:** D) By employing a distributed and redundant architecture
+
+### AWS CICD
+
+22. **Question:** What does CI/CD stand for in AWS?
+    - A) Continuous Integration/Continuous Deployment
+    - B) Cloud Integration/Cloud Deployment
+    - C) Centralized Infrastructure/Continuous Development
+    - D) Converged Integration/Concurrent Deployment
+
+    **Answer:** A) Continuous Integration/Continuous Deployment
+
+23. **Question:** What is AWS CodePipeline used for?
+    - A) To store and retrieve code repositories
+    - B) To automate the build, test, and deployment phases of release pipelines
+    - C) To monitor AWS resource usage
+    - D) To create and manage virtual private networks
+
+    **Answer:** B) To automate the build, test, and deployment phases of release pipelines
+
+### AWS Security & Encryption
+
+24. **Question:** What is AWS Key Management Service (KMS) used for?
+    - A) To manage access permissions for IAM users
+    - B) To encrypt and decrypt data at rest and in transit
+    - C) To create and manage virtual private clouds
+    - D) To distribute messages in a publish-subscribe model
+
+    **Answer:** B) To encrypt and decrypt data at rest and in transit
+
+25. **Question:** What is AWS CloudHSM?
+    - A) A hardware security module for secure key storage
+    - B) A service for managing DNS records
+    - C) An identity provider for single sign-on
+    - D) A service for monitoring and logging AWS resources
+
+    **Answer:** A) A hardware security module for secure key storage
+
+### Advanced Identity in AWS
+
+26. **Question:** What is Amazon Cognito used for?
+    - A) To distribute content globally with low latency
+    - B) To manage access permissions for IAM users
+    - C) To provide authentication, authorization, and user management
+    - D) To deploy and manage applications in the AWS Cloud
+
+    **Answer:** C) To provide authentication, authorization, and user management
+
+27. **Question:** What is AWS Single Sign-On (SSO)?
+    - A) A service for managing DNS records
+    - B) A hardware security module for secure key storage
+    - C) An identity provider for single sign-on across AWS accounts and business applications
+    - D) A service for storing and retrieving data in the cloud
+
+    **Answer:** C) An identity provider for single sign-on across AWS accounts and business applications
+
+### AWS Monitoring, Troubleshooting & Audit
+
+28. **Question:** What is Amazon CloudWatch used for?
+    - A) To store and retrieve data
+    - B) To monitor AWS resources and applications
+    - C) To manage access permissions for IAM users
+    - D) To distribute content globally with low latency
+
+    **Answer:** B) To monitor AWS resources and applications
+
+29. **Question:** How does AWS X-Ray help in troubleshooting?
+    - A) By providing a distributed tracing service
+    - B) By analyzing security logs
+    - C) By creating automated backups
+    - D) By encrypting data at rest
+
+    **Answer:** A) By providing a distributed tracing service
+
+### Amazon DynamoDB
+
+30. **Question:** What type of NoSQL database is Amazon DynamoDB?
+    - A) Document database
+    - B) Graph database
+    - C) Key-value store
+    - D) Column-family store
+
+    **Answer:** C) Key-value store
+
+31. **Question:** What is the primary key in DynamoDB?
+    - A) A unique identifier for each item in a table
+    - B) The name of the database
+    - C) The access key for authentication
+    - D) The password for authentication
+
+    **Answer:** A) A unique identifier for each item in a table
+
+### Amazon API Gateway
+
+32. **Question:** What is the purpose of Amazon API Gateway?
+    - A) To store and retrieve data
+    - B) To create, publish, and manage APIs
+    - C) To distribute content globally with low latency
+    - D) To configure virtual private networks
+
+    **Answer:** B) To create, publish, and manage APIs
+
+33. **Question:** What is a resource in Amazon API Gateway?
+    - A) A physical server in a data center
+    - B) A representation of an entity or service that can be accessed through an API
+    - C) A security group in a VPC
+    - D) An IAM role for API Gateway
+
+    **Answer:** B) A representation of an entity or service that can be accessed through an API
+
+### AWS Serverless Application Model (SAM)
+
+34. **Question:** What is AWS SAM used for?
+    - A) To manage access permissions for IAM users
+    - B) To automate the deployment of serverless applications
+    - C) To configure DNS settings
+    - D) To store and retrieve code repositories
+
+    **Answer:** B) To automate the deployment of serverless applications
+
+35. **Question:** What is a SAM template?
+    - A) A configuration file for managing DNS records
+    - B) A script for automating IAM user creation
+    - C) A JSON or YAML script defining AWS resources for a serverless application
+    - D) A tool for monitoring and logging AWS resources
+
+    **Answer:** C) A JSON or YAML script defining AWS resources for a serverless application
+
+### AWS Cloud Development Kit (CDK)
+
+36. **Question:** What is the AWS CDK?
+    - A) A service for managing DNS records
+    - B) A hardware security module for secure key storage
+    - C) A software development framework for defining infrastructure as code
+    - D) A service for monitoring and logging AWS resources
+
+    **Answer:** C) A software development framework for defining infrastructure as code
+
+37. **Question:** In what programming languages can you use AWS CDK?
+    - A) Python, JavaScript, TypeScript, Java, C#, and Go
+    - B) Python, Ruby, PHP, and Swift
+    - C) Java, C++, and Objective-C
+    - D) JavaScript, TypeScript, and PHP
+
+    **Answer:** A) Python, JavaScript, TypeScript, Java, C#, and Go
+
+### AWS CloudFormation
+
+38. **Question:** What is AWS CloudFormation?
+    - A) A service for monitoring AWS resources
+    - B) A service for managing DNS records
+    - C) A service for creating and managing AWS infrastructure as code
+    - D) A service for automating IAM user creation
+
+    **Answer:** C) A service for creating and managing AWS infrastructure as code
+
+39. **Question:** What is a CloudFormation stack?
+    - A) A physical data center used for storage
+    - B) A set of AWS resources created and managed as a single unit
+    - C) A representation of an entity or service in API Gateway
+    - D) An IAM role for CloudFormation
+
+    **Answer:** B) A set of AWS resources created and
+
 **[⬆ Back to Top](#table-of-contents)**
