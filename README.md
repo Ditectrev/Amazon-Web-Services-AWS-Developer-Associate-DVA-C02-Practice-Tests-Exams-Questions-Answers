@@ -607,8 +607,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] All at once.
 - [ ] Rolling.
-- [ ] Rolling with additional batch.
-- [x] Immutable.
+- [x] Rolling with additional batch.
+- [ ] Immutable.
 
 **[⬆ Back to Top](#table-of-contents)**
 
