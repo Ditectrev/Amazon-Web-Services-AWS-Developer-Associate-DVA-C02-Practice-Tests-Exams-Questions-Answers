@@ -602,7 +602,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Sam init.
 - [ ] Sam validate.
 - [x] Sam build.
-- [x] Sam deploy.
+- [x] Sam deploy. ([REF](https://stackoverflow.com/a/63061658))
 - [ ] Sam publish.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -611,14 +611,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] All at once.
 - [ ] Rolling.
-- [x] Rolling with additional batch.
+- [x] Rolling with additional batch. ([REF](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html#environments-cfg-rollingdeployments-namespace))
 - [ ] Immutable.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs . How can the application locate this information?
+### A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs. How can the application locate this information?
 
-- [x] Get the instance metadata by retrieving http://169.254.169.254/latest/metadata/.
+- [x] Get the instance metadata by retrieving http://169.254.169.254/latest/metadata/. ([REF](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html))
 - [ ] Get the instance user data by retrieving http://169.254.169.254/latest/userdata/.
 - [ ] Get the application to run IFCONFIG to get the public IP address.
 - [ ] Get the application to run IPCONFIG to get the public IP address.
@@ -645,7 +645,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer needs to modify an application architecture to meet new functional requirements. Application data is stored in Amazon DynamoDB and processed for analysis in a rightly batch. The system analysts do not want to wait unit the next day to view the processed data and have asked to have it available in near-real time. Which application architect pattern would enables the data to be processed as it is received?
 
-- [x] Evert driven.
+- [x] Event driven.
 - [ ] Client served driven.
 - [ ] Fan-out driven.
 - [ ] Schedule driven.
@@ -657,7 +657,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Reserve a static external IP address and assign it to an HTTP(S) load balancing service's forwarding rule. Clients should use this IP address to connect to the service.
 - [ ] Reserve a static external IP address and assign it to an HTTP(S) load balancing service's forwarding rule. Then, define an A record in Cloud DNS.
 - [ ] Clients should use the name of the A record to connect to the service.
-- [x] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[INSTANCE_NAME].[ZONE].c.[PROJECT_ID].internal/.Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[API_NAME]/[API_VERSION]/.
+- [x] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[INSTANCE_NAME].[ZONE].c.[PROJECT_ID].internal/.
 - [ ] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[API_NAME]/[API_VERSION]/.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -665,8 +665,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A software company needs to make sure user-uploaded documents are securely stored in Amazon S3. The documents must be encrypted at rest in Amazon S3. The company does not want to manage the security infrastructure in-house, but the company still needs extra protection to ensure it has control over its encryption keys due to industry regulations. Which encryption strategy should a developer use to meet these requirements?
 
 - [ ] Server-side encryption with Amazon S3 managed keys (SSE-S3).
-- [x] Server-side encryption with customer-provided encryption keys (SSE-C).
-- [ ] Server-side encryption with AWS KMS managed keys (SSE-KMS).
+- [ ] Server-side encryption with customer-provided encryption keys (SSE-C).
+- [x] Server-side encryption with AWS KMS managed keys (SSE-KMS).
 - [ ] Client-side encryption.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -674,7 +674,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the 'hot' shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?
 
 - [ ] 12.
-- [x] 6.
+- [x] 6. ([REF](https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-processor-scaling.html))
 - [ ] 4.
 - [ ] 1.
 
@@ -685,7 +685,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] AWS Lambda.
 - [ ] Amazon S3.
 - [ ] Amazon DynamoDB.
-- [x] Amazon Cognito.
+- [x] Amazon Cognito. ([REF](https://aws.amazon.com/cognito/faqs/))
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -694,7 +694,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Package the application code into a .zip file, and upload, then deploy the packaged application from the AWS Management Console.
 - [ ] Package the application code into a .tar file, create a new application version from the AWS Management Console, then update the environment by using AWS CLI.
 - [ ] Package the application code into a .tar file, and upload and deploy the packaged application from the AWS Management Console.
-- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLIPackage the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
+- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI
 - [ ] Package the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -728,7 +728,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A development team is creating a new application designed to run on AWS. While the test and production environments will run on Amazon EC2 instances, developers will each run their own environment on their laptops. Which of the following is the simplest and MOST secure way to access AWS services from the local development machines?
 
-- [x] Use an IAM role to assume a role and execute API calls using the role.
+- [x] Use an IAM role to assume a role and execute API calls using the role. [REF](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-net-applications-security/iam-development.html#iam-development-access)
 - [ ] Create an IAM user to be shared with the entire development team, provide the development team with the access key.
 - [ ] Create an IAM user for each developer on the team: provide each developer with a unique access key.
 - [ ] Set up a federation through an Amazon Cognito user pool.
@@ -753,7 +753,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only A user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the DynamoDB: PutItem API call?
+### A gaming application stores scores for players in an Amazon DynamoDB table that has four attributes: user_id, user_name, user_score, and user_rank. The users are allowed to update their names only if a user is authenticated by web identity federation. Which set of conditions should be added in the policy attached to the role for the DynamoDB: PutItem API call?
 
 - [x] Option A.
 ![Question 30 option A](images/question30_A.jpg)
@@ -768,10 +768,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer wants the ability to roll back to a previous version of an AWS Lambda function in the event of errors caused by a new deployment. How can the developer achieve this with MINIMAL impact on users?
 
-- [ ] Change the application to use an alias that points to the current version Deploy the new version of the code Update the alias to use the newly deployed version. If too many errors are encountered, point the alias back to the previous version.
-- [x] Change the application to use an alias that points to the current version Deploy the new version of the code. Update the alias to direct 10% of users to the newly deployed version. If too many errors are encountered, send 100% of traffic to the previous version.
+- [ ] Change the application to use an alias that points to the current version. Deploy the new version of the code. Update the alias to use the newly deployed version. If too many errors are encountered, point the alias back to the previous version.
+- [x] Change the application to use an alias that points to the current version. Deploy the new version of the code. Update the alias to direct 10% of users to the newly deployed version. If too many errors are encountered, send 100% of traffic to the previous version.
 - [ ] Do not make any changes to the application Deploy the new version of the code. If too many errors are encountered, point the application back to the previous version using the version number in the Amazon Resource Name (ARN).
-- [ ] Create three aliases: new, existing, and router Point the existing alias to the current version Have the router alias direct 100% of users to the existing alias Update the application to use the router alias Deploy the new version of the code Point the new alias to this version Update the router alias to direct 10% of users to the new alias If too many errors are encountered, send 100% of traffic to the existing alias.
+- [ ] Create three aliases: new, existing, and router. Point the existing alias to the current version. Have the router alias direct 100% of users to the existing alias. Update the application to use the router alias. Deploy the new version of the code. Point the new alias to this version. Update the router alias to direct 10% of users to the new alias. If too many errors are encountered, send 100% of traffic to the existing alias.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -780,7 +780,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Deploy the application in a single Elastic Beanstalk environment.
 - [x] Deploy each component in a separate Elastic Beanstalk environment.
 - [ ] Use multiple Elastic Beanstalk environments for the HTTP component but one environment for the background task component.
-- [ ] Use multiple Elastic Beanstalk environments for the background task component but one environment tor the HTTP component.
+- [ ] Use multiple Elastic Beanstalk environments for the background task component but one environment for the HTTP component.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -793,11 +793,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A developer is creating a serverless web application and maintains different branches of code. The developer wants to avoid updating the Amazon API Gateway target endpoint each time a new code push is performed. What solution would allow me developer toPerform a code push efficiently, without the need to update the API Gateway?
+### A developer is creating a serverless web application and maintains different branches of code. The developer wants to avoid updating the Amazon API Gateway target endpoint each time a new code push is performed. What solution would allow the developer to perform a code push efficiently, without the need to update the API Gateway?
 
 - [ ] Associate different AWS Lambda functions to an API Gateway target endpoint.
-- [x] Create different stages in API Gateway, then associate API Gateway with aws Lambda.
-- [ ] Create aliases and versions In AWS Lambda.
+- [ ] Create different stages in API Gateway, then associate API Gateway with aws Lambda.
+- [x] Create aliases and versions In AWS Lambda.
 - [ ] Tag the AWS Lambda functions with different names.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -814,10 +814,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint http://www.supplierdomain.com/status/customerID. Which of the following application designs meet the requirements? (Select TWO)
 
 - [ ] Amazon SQS; Amazon SNS.
-- [ ] Elastic Load Balancing; Amazon EC2.
+- [x] Elastic Load Balancing; Amazon EC2.
 - [ ] Amazon ElastiCache; Amazon Elacticsearch Service.
-- [x] Amazon API Gateway; AWS LambdaAmazon S3; Amazon CloudFront.
-- [x] Amazon S3; Amazon CloudFront.
+- [x] Amazon API Gateway; AWS Lambda.
+- [ ] Amazon S3; Amazon CloudFront.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -841,8 +841,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An advertising company has a dynamic website with heavy traffic. The company wants to migrate the website infrastructure to AWS to handle everything except website development. Which solution BEST meets these requirements?
 
-- [ ] Use AWS VM Import to migrate a web server image to AWS Launch the image on a compute-optimized Amazon EC2 instanceLaunch.
-- [ ] Launch multiple Amazon Lighsall instance behind a load balancer. Set up the website on those instances.
+- [ ] Use AWS VM Import to migrate a web server image to AWS Launch the image on a compute-optimized Amazon EC2 instance.
+- [ ] Launch multiple Amazon Lighsail instance behind a load balancer. Set up the website on those instances.
 - [x] Deploy the website code in an AWS Elastic Beanstalk environment. Use Auto Scaling to scale the numbers of instance.
 - [ ] Use Amazon S3 to host the website. Use Amazon CloudFornt to deliver the content at scale.
 
@@ -850,10 +850,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer is writing an AWS Lambda function. The developer wants to log key events that occur during the Lambda function and include a unique identifier to associate the events with a specific function invocation. Which of the following will help the developer accomplish this objective?
 
-- [x] Obtain the request identifier from the Lambda context object Architect the application to write logs to the console.
-- [ ] Obtain the request identifier from the Lambda event object Architect the application to write logs to a file.
-- [ ] Obtain the request identifier from the Lambda event object Architect the application to write logs to the console.
-- [ ] Obtain the request identifier from the Lambda context object Architect the application to write logs to a file.
+- [x] Obtain the request identifier from the Lambda context object. Architect the application to write logs to the console.
+- [ ] Obtain the request identifier from the Lambda event object. Architect the application to write logs to a file.
+- [ ] Obtain the request identifier from the Lambda event object. Architect the application to write logs to the console.
+- [ ] Obtain the request identifier from the Lambda context object. Architect the application to write logs to a file.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -861,11 +861,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Ask an Administrator in Account B to allow the EC2 IAM role permission to assume the AccessPII role.
 - [x] Ask an Administrator in Account B to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
-- [ ] Ask an Administrator in Account A to allow the EG2 IAM role permission to assume the AccessPII role with predefined service control policies.
+- [ ] Ask an Administrator in Account A to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
 - [x] Include the AssumeRole API in the application code logic to obtain credentials to access the PII table.
 - [ ] Include the GetSession token API in the application code logic to obtain credentials to access the PII table.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### MARKER 24.02.2024
 
 ### An AWS Lambda function accesses two Amazon DynamoDB tables. A developer wants to improve the performance of the Lambda function by identifying bottlenecks in the function. How can the developer inspect the timing of the DynamoDB API calls?
 
