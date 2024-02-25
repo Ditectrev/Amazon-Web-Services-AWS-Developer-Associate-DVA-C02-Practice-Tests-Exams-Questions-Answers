@@ -1670,7 +1670,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer receives the following error message when trying to launch or terminate an Amazon EC2 instance using a boto3 script. What should the developer do to correct this error message?
 
-[Question 129](images/question129.jpg)
+![Question 129](images/question129.jpg)
 
 - [ ] Assign an IAM role to the EC2 instance to allow necessary API calls on behalf of the client.
 - [x] Implement an exponential backoff algorithm for optimizing the number of API requests made to Amazon EC2.
@@ -1681,7 +1681,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Given the following AWS CloudFormation template. What is the MOST efficient way to reference the new Amazon S3 bucket from another AWS CloudFormation template?
 
-[Question 130](images/question130.jpg)
+![Question 130](images/question130.jpg)
 
 - [ ] Add an Export declaration to the Outputs section of the original template and use ImportValue in other templates.
 - [ ] Add Exported: true to the Contentbucket in the original template and use ImportResource in other templates.
@@ -2429,7 +2429,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An application is running on a cluster of Amazon EC2 instances. While trying to read objects stored within a single Amazon S3 bucket that are encrypted with server-side encryption with AWS KMS managed keys (SSE-KMS), the application receives the following error. Which combination of steps should be taken to prevent this failure? (Choose TWO)
 
-[Question 212](images/question212.jpg)
+![Question 212](images/question212.jpg)
 
 - [ ] Contact AWS Support to request an AWS KMS rate limit increase.
 - [ ] Perform error retries with exponential backoff in the application code.
@@ -3234,7 +3234,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer created configuration specifications for an AWS Elastic Beanstalk application in a file named healthcheckurl.yaml in the .ebextensions/directory of their application source bundle. The file contains the following: After the application launches, the health check is not being run on the correct path, even though it is valid. What can be done to correct this configuration file?
 
-[Question 297](images/question297.jpeg)
+![Question 297](images/question297.jpeg)
 
 - [ ] Convert the file to JSON format.
 - [x] Rename the file to a .config extension.
@@ -3254,7 +3254,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An e-commerce site allows returning users to log in to display customized web pages. The workflow is shown in the image below. An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select TWO)
 
-[Question 299](images/question299.jpg)
+![Question 299](images/question299.jpg)
 
 - [ ] Implement the user login page as an asynchronous Lambda function.
 - [x] Use Amazon ElastiCache for MemCached to cache user data.
@@ -3604,7 +3604,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is building an application to track athlete performance using an Amazon DynamoDB table. Each item in the table is identified by a partition key (user_id) and a sort key (sport_name). The table design is shown below. (Note: Not all table attributes are shown) A Developer is asked to write a leaderboard application to display the top performers (user_id) based on the score for each sport_name. What process will allow the Developer to extract results MOST efficiently from the DynamoDB table?
 
-[Question 337](images/question337.jpg)
+![Question 337](images/question337.jpg)
 
 - [ ] Use a DynamoDB query operation with the key attributes of user_id and sport_name and order the results based on the score attribute.
 - [x] Create a global secondary index with a partition key of sport_name and a sort key of score, and get the results.
@@ -3670,7 +3670,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company has an internet-facing application that uses Web Identity Federation to obtain a temporary credential from AWS Security Token Service (AWS STS). The app then uses the token to access AWS services. Review the following response: Based on the response displayed what permissions are associated with the call from the application?
 
-[Question 344](images/question344.jpg)
+![Question 344](images/question344.jpg)
 
 - [ ] Permissions associated with the role AROACLKWSDQRAOEXAMPLE:app1.
 - [ ] Permissions associated with the default role used when the AWS service was built.
@@ -4047,7 +4047,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code. After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?
 
-[Question 385](images/question385.jpg)
+![Question 385](images/question385.jpg)
 
 - [ ] Increase the amount of RAM allocated to the Lambda function, which will increase the number of threads the Lambda can use.
 - [ ] Increase the size of the RDS database to allow for an increased number of database connections each hour.
