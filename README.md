@@ -599,11 +599,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer must extend an existing application that is based on the AWS Services Application Model (AWS SAM). The developer has used the AWS SAM CLI to create the project. The project contains different AWS Lambda functions. Which combination of commands must the developer use to redeploy the AWS SAM application? (Select TWO)
 
-- [x] Sam init.
-- [ ] Sam validate.
-- [ ] Sam build.
-- [x] Sam deploySam publish.
-- [ ] Sam publish.
+- [ ] sam init.
+- [ ] sam validate.
+- [x] sam build.
+- [x] sam deploy.
+- [ ] sam publish.
 
 **[⬆ Back to Top](#table-of-contents)**
 
