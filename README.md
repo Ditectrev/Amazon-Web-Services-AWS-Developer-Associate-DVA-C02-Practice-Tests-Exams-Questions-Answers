@@ -495,7 +495,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Improve the performance of S3 PUT operations.
 - [ ] Improve the latency of deployments performed by AWS CodeDeploy.
 - [x] Improve latency and throughput for read-heavy application workloads.
-- [ ] Reduce the time required to merge AWS CodeCommit branchesImprove performance of compute-intensive applications.
+- [ ] Reduce the time required to merge AWS CodeCommit branches.
 - [x] Improve performance of compute-intensive applications.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -661,7 +661,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Reserve a static external IP address and assign it to an HTTP(S) load balancing service's forwarding rule. Clients should use this IP address to connect to the service.
 - [ ] Reserve a static external IP address and assign it to an HTTP(S) load balancing service's forwarding rule. Then, define an A record in Cloud DNS.
 - [ ] Clients should use the name of the A record to connect to the service.
-- [x] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[INSTANCE_NAME].[ZONE].c.[PROJECT_ID].internal/.Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[API_NAME]/[API_VERSION]/.
+- [x] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[INSTANCE_NAME].[ZONE].c.[PROJECT_ID].internal/.
 - [ ] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[API_NAME]/[API_VERSION]/.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -698,7 +698,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Package the application code into a .zip file, and upload, then deploy the packaged application from the AWS Management Console.
 - [ ] Package the application code into a .tar file, create a new application version from the AWS Management Console, then update the environment by using AWS CLI.
 - [ ] Package the application code into a .tar file, and upload and deploy the packaged application from the AWS Management Console.
-- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLIPackage the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
+- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI.
 - [ ] Package the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1014,7 +1014,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Encrypt the game data with individual user keys.
 - [x] Restrict access to specific items based on certain primary key values.
-- [ ] Stage data in SQS queues to inject metadata before accessing DynamoD.
+- [ ] Stage data in SQS queues to inject metadata before accessing DynamoDB.
 - [ ] Read records from DynamoDB and discard irrelevant data client-side.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2585,11 +2585,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which of the following platforms are supported by Elastic Beanstalk? (Choose TWO)
 
-- [x] Apache Tomcat
-- [x] .NET
-- [ ] IBM Websphere
-- [ ] Oracle JBoss
-- [ ] Jetty
+- [x] Apache Tomcat.
+- [x] .NET.
+- [ ] IBM Websphere.
+- [ ] Oracle JBoss.
+- [ ] Jetty.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2646,7 +2646,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Be used to launch EC2 Instances in any AWS region.
 - [ ] Only be used to launch EC2 instances in the same country as the AMI is stored.
 - [x] Only be used to launch EC2 instances in the same AWS region as the AMI is stored.
-- [ ] Only be used to launch EC2 instances in the same AWS availability zone as the AMI is stored
+- [ ] Only be used to launch EC2 instances in the same AWS availability zone as the AMI is stored.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3861,7 +3861,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Amazon Cognito.
 - [ ] Amazon Kinesis.
 - [x] Amazon SNS.
-- [ ] Amazon ElastiCache
+- [ ] Amazon ElastiCache.
 
 **[⬆ Back to Top](#table-of-contents)**
 
