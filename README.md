@@ -67,7 +67,7 @@
 
 **[v1.1.1](../../releases/tag/v1.1.1): March 3, 2024.**
 
-- Fix 1 question with wrong answer.
+- Fix 1 question with wrong answer and improve minor typos.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
