@@ -65,6 +65,10 @@
 
 - Fix wrong answers in 11 questions.
 
+**[v1.1.1](../../releases/tag/v1.1.1): March 3, 2024.**
+
+- Fix 1 question with wrong answer.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
