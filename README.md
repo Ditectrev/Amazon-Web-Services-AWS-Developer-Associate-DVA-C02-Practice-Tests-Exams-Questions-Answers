@@ -3258,7 +3258,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An e-commerce site allows returning users to log in to display customized web pages. The workflow is shown in the image below. An application is running on EC2 instances. Amazon RDS is used for the database that stores user accounts and preferences. The website freezes or is slow to load while waiting for the login step to complete. The remaining components of the site are well-optimized. Which of the following techniques will resolve this issue? (Select TWO)
 
-![Question 299](images/question299.jpg)
+![Question 299](images/question299.jpeg)
 
 - [ ] Implement the user login page as an asynchronous Lambda function.
 - [x] Use Amazon ElastiCache for MemCached to cache user data.
