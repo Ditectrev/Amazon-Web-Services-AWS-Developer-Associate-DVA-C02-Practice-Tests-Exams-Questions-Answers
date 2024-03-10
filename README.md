@@ -889,11 +889,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is developing a serverless ecommerce web application. The application needs to make coordinated, all-or-nothing changes to multiple items in the company's inventory table in Amazon DynamoDB. Which solution will meet these requirements?
 
-- [ ] Enable transactions for the DynamoDB table Use the Batch Writeltem operation to update the items.
-- [x] Use the Transact Writeitem operation to group the changes Update the items in the table.
-- [ ] Set up a FIFO queue using Amazon SQ.
-- [ ] Group the changes in the queue. Update the table based on the grouped changesCreate a transaction table in an Amazon Aurora DB cluster to manage the transactions Write a backend process to sync the Aurora DB table and the DynamoDB table.
-- [ ] Create a transaction table in an Amazon Aurora DB cluster to manage the transactions Write a backend process to sync the Aurora DB table and the DynamoDB table.
+- [ ] Enable transactions for the DynamoDB table. Use the BatchWriteltem operation to update the items.
+- [x] Use the TransactWriteitems operation to group the changes. Update the items in the table.
+- [ ] Set up a FIFO queue using Amazon SQS. Group the changes in the queue. Update the table based on the grouped changes.
+- [ ] Create a transaction table in an Amazon Aurora DB cluster to manage the transactions. Write a backend process to sync the Aurora DB table and the DynamoDB table.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -938,8 +937,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An application on AWS is using third-party APIs. The Developer needs to monitor API errors in the code, and wants to receive notifications if failures go above a set threshold value. How can the Developer achieve these requirements?
 
-- [ ] Publish a custom metric on Amazon CloudWatch and use Amazon SES for notification.
-- [ ] Use an Amazon CloudWatch API-error metric and use Amazon SNS for notification.
+- [ ] Publish a custom metric on Amazon CloudWatch and use Amazon Simple Email Service (SES) for notification.
+- [ ] Use an Amazon CloudWatch API-error metric and use Amazon Simple Notification Service (SNS) for notification.
 - [ ] Use an Amazon CloudWatch API-error metric and use Amazon SES for notification.
 - [x] Publish a custom metric on Amazon CloudWatch and use Amazon SNS for notification.
 
@@ -990,10 +989,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company wants to migrate its web application to AWS and leverage Auto Scaling to handle pear workloads. The Solutions Architect determined that the best metric for an Auto Scaling event is the number of concurrent users. Based on this information, what should the Developer use to autoscale based on concurrent users?
+### A company wants to migrate its web application to AWS and leverage Auto Scaling to handle peak workloads. The Solutions Architect determined that the best metric for an Auto Scaling event is the number of concurrent users. Based on this information, what should the Developer use to autoscale based on concurrent users?
 
 - [ ] An Amazon SNS topic to be triggered when a concurrent user threshold is met.
-- [ ] An Amazon Cloudwatch Networkin metric.
+- [ ] An Amazon Cloudwatch NetworkIn metric.
 - [ ] Amazon CloudFront to leverage AWS Edge Locations.
 - [x] A Custom Amazon CloudWatch metric for concurrent users.
 
@@ -1012,7 +1011,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Encrypt the game data with individual user keys.
 - [x] Restrict access to specific items based on certain primary key values.
-- [ ] Stage data in SQS queues to inject metadata before accessing DynamoD.
+- [ ] Stage data in SQS queues to inject metadata before accessing DynamoDB.
 - [ ] Read records from DynamoDB and discard irrelevant data client-side.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1040,7 +1039,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer has created a large Lambda function, and deployment is failing with the following error:ClientError: An error occurred (InvalidParameterValueException) when calling the CreateFunction operation: Unzipped size must be smaller than XXXXXXXXX bytes', where XXXXXXXXX is the current Lambda limit. What can the Developer do to fix this problem?
 
 - [ ] Submit a limit increase request to AWS Support to increase the function to the size needed.
-- [ ] Use a compression algorithm that is more efficient than ZI.
+- [ ] Use a compression algorithm that is more efficient than ZIP.
 - [x] Break the function into multiple smaller Lambda functions.
 - [ ] ZIP the ZIP file twice to compress it further.
 
@@ -1095,36 +1094,26 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Create a new Identity and Access Management (IAM) instance profile containing the required permissions for the various ECS services, then associate that instance role with the underlying EC2 instances.
 - [ ] Create four distinct IAM roles, each containing the required permissions for the associated ECS service, then configure each ECS service to reference the associated IAM role.
-- [x] Create four distinct IAM roles, each containing the required permissions for the associated ECS service, then, create an IAM group and configure the ECS cluster to reference that group.
-- [ ] Create four distinct IAM roles, each containing the required permissions for the associated ECS service, then configure each ECS task definition to referenсe the associated IAM role.
+- [ ] Create four distinct IAM roles, each containing the required permissions for the associated ECS service, then, create an IAM group and configure the ECS cluster to reference that group.
+- [x] Create four distinct IAM roles, each containing the required permissions for the associated ECS service, then configure each ECS task definition to referenсe the associated IAM role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A Developer must re-implement the business logic for an order fulfilment system. The business logic has to make requests to multiple vendors to decide where to purchase an item. The whole process can take up to a week to complete. What is the MOST efficient and SIMPLEST way to implement a system that meets these requirements?
 
-- [ ] Use AWS Step Functions to execute parallel Lambda functions, and join the results.
+- [x] Use AWS Step Functions to execute parallel Lambda functions, and join the results.
 - [ ] Create an AWS SQS for each vendor, poll the queue from a worker instance, and joint the results.
 - [ ] Use AWS Lambda to asynchronously call a Lambda function for each vendor, and join the results.
-- [x] Use Amazon CloudWatch Events to orchestrate the Lambda functions.
+- [ ] Use Amazon CloudWatch Events to orchestrate the Lambda functions.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### What best practice should first be applied to address this issue?
+### A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?
 
 - [ ] Contact AWS Support for a limit increase.
-- [x] Use the AWS CLI to get the metrics.
+- [ ] Use the AWS CLI to get the metrics.
 - [ ] Analyze the applications and remove the API call.
-- [ ] Retry the call with exponential backoff.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. Which techniques will work? (Choose TWO)
-
-- [ ] Define a Swagger file. Use AWS Elastic Beanstalk to deploy the Swagger file.
-- [ ] Define a Swagger file. Use AWS CodeDeploy to deploy the Swagger file.
-- [ ] Deploy a SAM template with an inline Swagger definition.
-- [x] Define a Swagger file. Deploy a SAM template that references the Swagger file.
-- [x] Define an inline Swagger definition in a Lambda function. Invoke the Lambda function.
+- [x] Retry the call with exponential backoff.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1166,8 +1155,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### During non-peak hours, a Developer wants to minimize the execution time of a full Amazon DynamoDB table scan without affecting normal workloads. The workloads average half of the strongly consistent read capacity units during non-peak hours. How would the Developer optimize this scan?
 
-- [ ] Use parallel scans while limiting the rate.
-- [x] Use sequential scans.
+- [x] Use parallel scans while limiting the rate. [REF](https://aws.amazon.com/blogs/developer/rate-limited-scans-in-amazon-dynamodb/)
+- [ ] Use sequential scans.
 - [ ] Increase read capacity units during the scan operation.
 - [ ] Change consistency to eventually consistent during the scan operation.
 
@@ -1214,15 +1203,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Lambda will receive each record in the reverse order it was placed into the stream following a LIFO (last-in, first-out) method.
 - [ ] Lambda will receive each record in the exact order it was placed into the stream following a FIFO (first­-in, first-out) method.
-- [x] Lambda will receive each record in the exact order it was placed into the stream following a FIFO (first­-in, first-out) method.
-- [ ] The Developer can select FIFO, (first-in, first-out), LIFO (last-in, last-out), random, or request specific record using the getRecords AP.
+- [x] Lambda will receive each record in the exact order it was placed into the shard following a FIFO (first-in, first-out) method. There is no guarantee of order across shards.
+- [ ] The Developer can select FIFO, (first-in, first-out), LIFO (last-in, last-out), random, or request specific record using the getRecords API.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An organization must store thousands of sensitive audio and video files in an Amazon S3 bucket. Organizational security policies require that all data written to this bucket be encrypted. How can compliance with this policy be ensured?
 
 - [ ] Use AWS Lambda to send notifications to the security team if unencrypted objects are pun in the bucket.
-- [x] Configure an Amazon S3 bucket policy to prevent the upload of objects that do not contain the x-amz­server-side-encryption header.
+- [x] Configure an Amazon S3 bucket policy to prevent the upload of objects that do not contain the x-amz­-server-side-encryption header.
 - [ ] Create an Amazon CloudWatch event rule to verify that all objects stored in the Amazon S3 bucket are encrypted.
 - [ ] Configure an Amazon S3 bucket policy to prevent the upload of objects that contain the x-amz-server­side-encryption header.
 
@@ -1232,7 +1221,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Configure each sender with a unique MessageGroupId.
 - [ ] Enable MessageDeduplicationIds on the SQS queue.
-- [x] Configure each message with unique MessageGroupIds.
+- [x] Configure each message with unique MessageGroupIds. [ref](https://aws.amazon.com/blogs/developer/how-the-amazon-sqs-fifo-api-works/)
 - [ ] Enable ContentBasedDeduplication on the SQS queue.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1266,8 +1255,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer needs to use AWS X-Ray to monitor an application that is deployed on EC2 instances. What steps have to be executed to perform the monitoring?
 
-- [x] Deploy the X-Ray SDK with the application and use X-Ray annotation.
-- [ ] Install the X-Ray daemon and instrument the application code.
+- [ ] Deploy the X-Ray SDK with the application and use X-Ray annotation.
+- [x] Install the X-Ray daemon and instrument the application code.
 - [ ] Install the X-Ray daemon and configure it to forward data to Amazon CloudWatch Events.
 - [ ] Deploy the X-Ray SDK with the application and instrument the application code.
 
@@ -1318,7 +1307,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Use the AWS CLI to retrieve the IAM group.
 - [ ] Query Amazon EC2 metadata for in-line IAM policies.
 - [ ] Request a token from AWS STS, and perform a describe action.
-- [x] Perform a get action using the ''-dry-run argument.
+- [x] Perform a get action using the '--dry-run' argument.
 - [x] Validate the IAM role policy with the IAM policy simulator.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1344,9 +1333,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer is developing an application that manages financial transactions. To improve security, multi-factor authentication (MFA) will be required as part of the login protocol. What services can the Developer use to meet these requirements?
 
 - [ ] Amazon DynamoDB to store MFA session data, and Amazon SNS to send MFA codes.
-- [ ] Amazon Cognito with MFA.
+- [x] Amazon Cognito with MFA.
 - [ ] AWS Directory Service.
-- [x] AWS IAM with MFA enabled.
+- [ ] AWS IAM with MFA enabled.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1362,8 +1351,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs.The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?
 
 - [ ] The CSS files were not compressed and S3 versioning was enabled.
-- [x] S3 replication was enabled on the bucket.
-- [ ] Logging into the same bucket caused exponential log growth.
+- [ ] S3 replication was enabled on the bucket.
+- [x] Logging into the same bucket caused exponential log growth.
 - [ ] An S3 lifecycle policy has moved the entire CSS file to S3 Infrequent Access.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1377,7 +1366,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?
+// 97.
+###  A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?
 
 - [ ] Modify the buildspec.yml file to include steps to send the output of build commands to Amazon CloudWatch.
 - [ ] Use a custom Docker image that includes the AWS X-Ray agent in the AWS CodeBuild project configuration.
@@ -1406,12 +1396,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
+// 100. MARKER 10.03.2024
 ### A Developer uses AWS CodeDeploy to automate application deployment that connects to an external MySQL database. The Developer wants to securely access the encrypted secrets, such as API keys and database passwords. Which of the following solutions would involve the LEAST administrative effort?
 
-- [x] Save the secrets in Amazon S3 with AWS KMS server-side encryption, and use a signed URL to access them by using the IAM role from Amazon EC2 instances.
+- [ ] Save the secrets in Amazon S3 with AWS KMS server-side encryption, and use a signed URL to access them by using the IAM role from Amazon EC2 instances.
 - [ ] Use the instance metadata to store the secrets and to programmatically access the secrets from EC2 instances.
 - [ ] Use the Amazon DynamoDB client-side encryption library to save the secrets in DynamoDB and to programmatically access the secrets from EC2 instances.
-- [ ] Use AWS SSM Parameter Store to store the secrets and to programmatically access them by using the IAM role from EC2 instances.
+- [x] Use AWS SSM Parameter Store to store the secrets and to programmatically access them by using the IAM role from EC2 instances.
 
 **[⬆ Back to Top](#table-of-contents)**
 
