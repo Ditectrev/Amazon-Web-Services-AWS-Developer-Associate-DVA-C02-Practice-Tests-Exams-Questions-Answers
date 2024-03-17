@@ -606,7 +606,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Sam init.
 - [ ] Sam validate.
 - [x] Sam build.
-- [x] Sam deploy. ([REF](https://stackoverflow.com/a/63061658))
+- [x] Sam deploy.
 - [ ] Sam publish.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -615,14 +615,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] All at once.
 - [ ] Rolling.
-- [x] Rolling with additional batch. ([REF](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.rolling-version-deploy.html#environments-cfg-rollingdeployments-namespace))
+- [x] Rolling with additional batch.
 - [ ] Immutable.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs. How can the application locate this information?
 
-- [x] Get the instance metadata by retrieving http://169.254.169.254/latest/metadata/. ([REF](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html))
+- [x] Get the instance metadata by retrieving http://169.254.169.254/latest/metadata/.
 - [ ] Get the instance user data by retrieving http://169.254.169.254/latest/userdata/.
 - [ ] Get the application to run IFCONFIG to get the public IP address.
 - [ ] Get the application to run IPCONFIG to get the public IP address.
@@ -678,7 +678,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the 'hot' shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?
 
 - [ ] 12.
-- [x] 6. ([REF](https://docs.aws.amazon.com/streams/latest/dev/kinesis-record-processor-scaling.html))
+- [x] 6.
 - [ ] 4.
 - [ ] 1.
 
@@ -689,7 +689,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] AWS Lambda.
 - [ ] Amazon S3.
 - [ ] Amazon DynamoDB.
-- [x] Amazon Cognito. ([REF](https://aws.amazon.com/cognito/faqs/))
+- [x] Amazon Cognito.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -732,7 +732,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A development team is creating a new application designed to run on AWS. While the test and production environments will run on Amazon EC2 instances, developers will each run their own environment on their laptops. Which of the following is the simplest and MOST secure way to access AWS services from the local development machines?
 
-- [x] Use an IAM role to assume a role and execute API calls using the role. [REF](https://docs.aws.amazon.com/prescriptive-guidance/latest/modernization-net-applications-security/iam-development.html#iam-development-access)
+- [x] Use an IAM role to assume a role and execute API calls using the role.
 - [ ] Create an IAM user to be shared with the entire development team, provide the development team with the access key.
 - [ ] Create an IAM user for each developer on the team: provide each developer with a unique access key.
 - [ ] Set up a federation through an Amazon Cognito user pool.
@@ -870,8 +870,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Include the GetSession token API in the application code logic to obtain credentials to access the PII table.
 
 **[⬆ Back to Top](#table-of-contents)**
-
-### MARKER 24.02.2024
 
 ### An AWS Lambda function accesses two Amazon DynamoDB tables. A developer wants to improve the performance of the Lambda function by identifying bottlenecks in the function. How can the developer inspect the timing of the DynamoDB API calls?
 
@@ -1159,7 +1157,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### During non-peak hours, a Developer wants to minimize the execution time of a full Amazon DynamoDB table scan without affecting normal workloads. The workloads average half of the strongly consistent read capacity units during non-peak hours. How would the Developer optimize this scan?
 
-- [x] Use parallel scans while limiting the rate. [REF](https://aws.amazon.com/blogs/developer/rate-limited-scans-in-amazon-dynamodb/)
+- [x] Use parallel scans while limiting the rate.
 - [ ] Use sequential scans.
 - [ ] Increase read capacity units during the scan operation.
 - [ ] Change consistency to eventually consistent during the scan operation.
@@ -1400,7 +1398,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-// 100. MARKER 10.03.2024
 ### A Developer uses AWS CodeDeploy to automate application deployment that connects to an external MySQL database. The Developer wants to securely access the encrypted secrets, such as API keys and database passwords. Which of the following solutions would involve the LEAST administrative effort?
 
 - [ ] Save the secrets in Amazon S3 with AWS KMS server-side encryption, and use a signed URL to access them by using the IAM role from Amazon EC2 instances.
