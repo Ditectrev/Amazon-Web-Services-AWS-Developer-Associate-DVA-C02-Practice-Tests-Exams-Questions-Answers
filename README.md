@@ -1223,7 +1223,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Configure each sender with a unique MessageGroupId.
 - [ ] Enable MessageDeduplicationIds on the SQS queue.
-- [x] Configure each message with unique MessageGroupIds. [ref](https://aws.amazon.com/blogs/developer/how-the-amazon-sqs-fifo-api-works/)
+- [x] Configure each message with unique MessageGroupIds.
 - [ ] Enable ContentBasedDeduplication on the SQS queue.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1368,7 +1368,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-// 97.
 ###  A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?
 
 - [ ] Modify the buildspec.yml file to include steps to send the output of build commands to Amazon CloudWatch.
