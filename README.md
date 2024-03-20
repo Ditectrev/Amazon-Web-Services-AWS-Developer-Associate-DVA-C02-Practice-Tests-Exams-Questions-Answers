@@ -1713,11 +1713,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A development team is designing a mobile app that requires multi-factor authentication. Which steps should be taken to achieve this? (Choose TWO)
 
-- [ ] Use Amazon Cognito to create a user pool and create users in the user pool.
+- [x] Use Amazon Cognito to create a user pool and create users in the user pool.
 - [ ] Send multi-factor authentication text codes to users with the Amazon SNS Publish API call in the app code.
 - [x] Enable multi-factor authentication for the Amazon Cognito user pool.
 - [ ] Use AWS IAM to create IAM users.
-- [x] Enable multi-factor authentication for the users created in AWS IAM.
+- [ ] Enable multi-factor authentication for the users created in AWS IAM.
 
 **[⬆ Back to Top](#table-of-contents)**
 
