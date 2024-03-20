@@ -2158,9 +2158,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer has code running on Amazon EC2 instances that needs read-only access to an Amazon DynamoDB table. What is the MOST secure approach the Developer should take to accomplish this task?
 
 - [ ] Create a user access key for each EC2 instance with read-only access to DynamoDB. Place the keys in the code. Redeploy the code as keys rotate.
-- [ ] Use an IAM role with an AmazonDynamoDBReadOnlyAccess policy applied to the EC2 instances.
+- [x] Use an IAM role with an AmazonDynamoDBReadOnlyAccess policy applied to the EC2 instances.
 - [ ] Run all code with only AWS account root user access keys to ensure maximum access to services.
-- [x] Use an IAM role with Administrator access applied to the EC2 instance.
+- [ ] Use an IAM role with Administrator access applied to the EC2 instance.
 
 **[⬆ Back to Top](#table-of-contents)**
 
