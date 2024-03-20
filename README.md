@@ -1647,8 +1647,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Copy the documents to a separate S3 bucket that has a lifecycle policy for deletion after 15 minutes.
 - [x] Create a presigned S3 URL using the AWS SDK with an expiration time of 15 minutes.
-- [ ] Create a presigned S3 URL using the AWS SDK with an expiration time of 15 minutes.
-- [ ] Create a presigned S3 URL using the AWS SDK with an expiration time of 15 minutes.
+- [ ] Use server-side encryption with AWS KMS managed keys (SSE-KMS) and download the documents using HTTPS.
+- [ ] Modify the S3 bucket policy to only allow specific users to download the documents. Revert the change after 15 minutes.
 
 **[⬆ Back to Top](#table-of-contents)**
 
