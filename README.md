@@ -120,7 +120,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 16  | [The development team is working on an API that will be served from Amazon API gateway. The API will be served from three environments: development, test, and production. The API Gateway is configured to use 237 GB of cache in all three stages. Which is the MOST cost-efficient deployment strategy?](#the-development-team-is-working-on-an-api-that-will-be-served-from-amazon-api-gateway-the-api-will-be-served-from-three-environments-development-test-and-production-the-api-gateway-is-configured-to-use-237-gb-of-cache-in-all-three-stages-which-is-the-most-cost-efficient-deployment-strategy)
 | 17  | [A company is migrating its on-premises database to Amazon RDS for MySQL. The company has read-heavy workloads, and wants to make sure it re-factors its code to achieve optimum read performance for its queries. How can this objective be met?](#a-company-is-migrating-its-on-premises-database-to-amazon-rds-for-mysql-the-company-has-read-heavy-workloads-and-wants-to-make-sure-it-re-factors-its-code-to-achieve-optimum-read-performance-for-its-queries-how-can-this-objective-be-met)
 | 18  | [A developer needs to modify an application architecture to meet new functional requirements. Application data is stored in Amazon DynamoDB and processed for analysis in a rightly batch. The system analysts do not want to wait unit the next day to view the processed data and have asked to have it available in near-real time. Which application architect pattern would enables the data to be processed as it is received?](#a-developer-needs-to-modify-an-application-architecture-to-meet-new-functional-requirements-application-data-is-stored-in-amazon-dynamodb-and-processed-for-analysis-in-a-rightly-batch-the-system-analysts-do-not-want-to-wait-unit-the-next-day-to-view-the-processed-data-and-have-asked-to-have-it-available-in-near-real-time-which-application-architect-pattern-would-enables-the-data-to-be-processed-as-it-is-received)
-| 19  | [You are developing an HTTP API hosted on a Compute Engine virtual machine instance that needs to be invoked by multiple clients within the same Virtual Private Cloud (VPC). You want clients to be able to get the IP address of the service. What should you do?](#you-are-developing-an-http-api-hosted-on-a-compute-engine-virtual-machine-instance-that-needs-to-be-invoked-by-multiple-clients-within-the-same-virtual-private-cloud-vpc-you-want-clients-to-be-able-to-get-the-ip-address-of-the-service-what-should-you-do)
+| 19  | [PLACEHOLDER 2](#placeholder-2)
 | 20  | [A software company needs to make sure user-uploaded documents are securely stored in Amazon S3. The documents must be encrypted at rest in Amazon S3. The company does not want to manage the security infrastructure in-house, but the company still needs extra protection to ensure it has control over its encryption keys due to industry regulations. Which encryption strategy should a developer use to meet these requirements?](#a-software-company-needs-to-make-sure-user-uploaded-documents-are-securely-stored-in-amazon-s3-the-documents-must-be-encrypted-at-rest-in-amazon-s3-the-company-does-not-want-to-manage-the-security-infrastructure-in-house-but-the-company-still-needs-extra-protection-to-ensure-it-has-control-over-its-encryption-keys-due-to-industry-regulations-which-encryption-strategy-should-a-developer-use-to-meet-these-requirements)
 | 21  | [An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the 'hot' shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?](#an-application-uses-amazon-kinesis-data-streams-to-ingest-and-process-large-streams-of-data-records-in-real-time-amazon-ec2-instances-consume-and-process-the-data-from-the-shards-of-the-kinesis-data-stream-by-using-amazon-kinesis-client-library-kcl-the-application-handles-the-failure-scenarios-and-does-not-require-standby-workers-the-application-reports-that-a-specific-shard-is-receiving-more-data-than-expected-to-adapt-to-the-changes-in-the-rate-of-data-flow-the-hot-shard-is-resharded-assuming-that-the-initial-number-of-shards-in-the-kinesis-data-stream-is-4-and-after-resharding-the-number-of-shards-increased-to-6-what-is-the-maximum-number-of-ec2-instances-that-can-be-deployed-to-process-data-from-all-the-shards)
 | 22  | [A gaming company is developing a mobile game application for iOS® and Android® platforms. This mobile game securely stores user data locally on the device. The company wants to allow users to use multiple device for the game, which requires user data synchronization across device.Which service should be used to synchronize user data across devices without the need to create a backend application?](#a-gaming-company-is-developing-a-mobile-game-application-for-ios-and-android-platforms-this-mobile-game-securely-stores-user-data-locally-on-the-device-the-company-wants-to-allow-users-to-use-multiple-device-for-the-game-which-requires-user-data-synchronization-across-devicewhich-service-should-be-used-to-synchronize-user-data-across-devices-without-the-need-to-create-a-backend-application)
@@ -656,13 +656,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You are developing an HTTP API hosted on a Compute Engine virtual machine instance that needs to be invoked by multiple clients within the same Virtual Private Cloud (VPC). You want clients to be able to get the IP address of the service. What should you do?
+### PLACEHOLDER 2
 
-- [ ] Reserve a static external IP address and assign it to an HTTP(S) load balancing service's forwarding rule. Clients should use this IP address to connect to the service.
-- [ ] Reserve a static external IP address and assign it to an HTTP(S) load balancing service's forwarding rule. Then, define an A record in Cloud DNS.
-- [ ] Clients should use the name of the A record to connect to the service.
-- [x] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[INSTANCE_NAME].[ZONE].c.[PROJECT_ID].internal/.
-- [ ] Ensure that clients use Compute Engine internal DNS by connecting to the instance name with the url https://[API_NAME]/[API_VERSION]/.
+- [ ] ...
+- [ ] ...
+- [ ] ...
+- [ ] ...
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -732,8 +731,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A development team is creating a new application designed to run on AWS. While the test and production environments will run on Amazon EC2 instances, developers will each run their own environment on their laptops. Which of the following is the simplest and MOST secure way to access AWS services from the local development machines?
 
-- [x] Use an IAM role to assume a role and execute API calls using the role.
-- [ ] Create an IAM user to be shared with the entire development team, provide the development team with the access key.
+- [ ] Use an IAM role to assume a role and execute API calls using the role.
+- [x] Create an IAM user to be shared with the entire development team, provide the development team with the access key.
 - [ ] Create an IAM user for each developer on the team: provide each developer with a unique access key.
 - [ ] Set up a federation through an Amazon Cognito user pool.
 
@@ -863,11 +862,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company stores all personally identifiable information (PII) in an Amazon DynamoDB table named PII in Account A. An application running on Amazon EC2 instances in Account B requires access to the PII table. An administrators in Account A created an IAM role named AccessPII with privileges to access the PII table, and made account B a trusted entity. Which combination of actional steps should Developers take to access the table? (Select TWO)
 
-- [ ] Ask an Administrator in Account B to allow the EC2 IAM role permission to assume the AccessPII role.
-- [x] Ask an Administrator in Account B to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
-- [ ] Ask an Administrator in Account A to allow the EC2 IAM role permission to assume the AccessPII role with predefined service control policies.
-- [x] Include the AssumeRole API in the application code logic to obtain credentials to access the PII table.
-- [ ] Include the GetSession token API in the application code logic to obtain credentials to access the PII table.
+- [x] Allow the EC2 IAM role the permission to assume the AccessPII role.
+- [ ] Allow the EC2 IAM role the permission to access the PII table.
+- [ ] Include the AWS API in the application code logic to obtain temporary credentials from the EC2 IAM role to access the PII table.
+- [x] Include the AssumeRole API operation in the application code logic to obtain temporary credentials to access the PII table.
+- [ ] Include the GetSessionToken API operation in the application code logic to obtain temporary credentials to access the PII table.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -968,7 +967,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] The Lambda function has insufficient memory and needs to be increased to 1 GB to match the Amazon EC2 instance.
 - [ ] Files need to be copied to the same Amazon S3 bucket for processing, so the second bucket needs to be deleted.
-- [x] Lambda functions have a maximum execution limit of 300 seconds, therefore the function is not completing.
+- [x] Lambda functions have a maximum execution limit of 15 minutes, therefore the function is not completing.
 - [ ] There is a problem with the Java runtime for Lambda, and the function needs to be converted to node.js.
 
 **[⬆ Back to Top](#table-of-contents)**
