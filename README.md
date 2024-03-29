@@ -845,7 +845,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An advertising company has a dynamic website with heavy traffic. The company wants to migrate the website infrastructure to AWS to handle everything except website development. Which solution BEST meets these requirements?
 
 - [ ] Use AWS VM Import to migrate a web server image to AWS Launch the image on a compute-optimized Amazon EC2 instance.
-- [ ] Launch multiple Amazon Lighsail instance behind a load balancer. Set up the website on those instances.
+- [ ] Launch multiple Amazon Lightsail instance behind a load balancer. Set up the website on those instances.
 - [x] Deploy the website code in an AWS Elastic Beanstalk environment. Use Auto Scaling to scale the numbers of instance.
 - [ ] Use Amazon S3 to host the website. Use Amazon CloudFornt to deliver the content at scale.
 
