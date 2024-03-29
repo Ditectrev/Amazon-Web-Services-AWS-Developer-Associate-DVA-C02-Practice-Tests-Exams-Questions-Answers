@@ -69,6 +69,10 @@
 
 - Fix 1 question with wrong answer and improve minor typos.
 
+**[v1.2.0](../../releases/tag/v1.2.0): April 2, 2024.**
+
+- In-depth re-reading of first 100 questions along with some wrong answers fixes.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
