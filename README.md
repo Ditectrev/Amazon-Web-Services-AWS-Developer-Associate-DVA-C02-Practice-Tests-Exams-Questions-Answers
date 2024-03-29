@@ -697,7 +697,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Package the application code into a .zip file, and upload, then deploy the packaged application from the AWS Management Console.
 - [ ] Package the application code into a .tar file, create a new application version from the AWS Management Console, then update the environment by using AWS CLI.
 - [ ] Package the application code into a .tar file, and upload and deploy the packaged application from the AWS Management Console.
-- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI
+- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI.
 - [ ] Package the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
 
 **[⬆ Back to Top](#table-of-contents)**
