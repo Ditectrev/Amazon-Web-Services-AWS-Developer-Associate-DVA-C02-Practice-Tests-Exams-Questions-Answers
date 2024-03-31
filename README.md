@@ -49,7 +49,7 @@
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
 6. This course is **not** an Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
-7. 386 **unique** questions.
+7. 385 **unique** questions.
 
 ## ☝️ Course Updates
 
@@ -1110,6 +1110,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Create an AWS SQS for each vendor, poll the queue from a worker instance, and joint the results.
 - [ ] Use AWS Lambda to asynchronously call a Lambda function for each vendor, and join the results.
 - [ ] Use Amazon CloudWatch Events to orchestrate the Lambda functions.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### PLACEHOLDER 2
+
+- [ ] ...
+- [ ] ...
+- [ ] ...
+- [ ] ...
 
 **[⬆ Back to Top](#table-of-contents)**
 
