@@ -69,7 +69,7 @@
 
 - Fix 1 question with wrong answer and improve minor typos.
 
-**[v1.2.0](../../releases/tag/v1.2.0): April 2, 2024.**
+**[v1.2.0](../../releases/tag/v1.2.0): April 1, 2024.**
 
 - In-depth re-reading of first 100 questions along with some wrong answers fixes.
 
