@@ -1548,8 +1548,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company is adding stored value (or gift card) capability to its highly popular casual gaming website. Users need to be able to trade this value for other users' items on the platform. This would require both users' records be updated as a single transaction, or both users' records to be completely rolled back. Which AWS database options can provide the transactional capability required for this new feature? (Choose TWO)
 
 - [ ] Amazon DynamoDB with operations made with the ConsistentRead parameter set to true.
-- [x] Amazon ElastiCache for Memcached with operations made within a transaction block.
-- [ ] Amazon Aurora MySQL with operations made within a transaction block.
+- [ ] Amazon ElastiCache for Memcached with operations made within a transaction block.
+- [x] Amazon Aurora MySQL with operations made within a transaction block.
 - [x] Amazon DynamoDB with reads and writes made using Transact* operations.
 - [ ] Amazon Redshift with operations made within a transaction block.
 
