@@ -2124,9 +2124,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer is migrating an on-premises application to AWS. The application currently takes user uploads and saves them to a local directory on the server. All uploads must be saved and made immediately available to all instances in an Auto Scaling group. Which approach will meet these requirements?
 
 - [ ] Use Amazon EBS and configure the application AMI to use a snapshot of the same EBS instance on boot.
-- [ ] Use Amazon S3 and rearchitect the application so all uploads are placed in S3.
+- [x] Use Amazon S3 and rearchitect the application so all uploads are placed in S3.
 - [ ] Use instance storage and share it between instances launched from the same Amazon Machine Image (AMI).
-- [x] Use Amazon EBS and file synchronization software to achieve eventual consistency among the Auto Scaling group.
+- [ ] Use Amazon EBS and file synchronization software to achieve eventual consistency among the Auto Scaling group.
 
 **[⬆ Back to Top](#table-of-contents)**
 
