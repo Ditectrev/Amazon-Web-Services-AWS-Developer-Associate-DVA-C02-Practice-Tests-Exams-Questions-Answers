@@ -1898,9 +1898,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer is migrating existing applications to AWS. These applications use MongoDB as their primary data store, and they will be deployed to Amazon EC2 instances. Management requires that the Developer minimize changes to applications while using AWS services. Which solution should the Developer use to host MongoDB in AWS?
 
 - [ ] Install MongoDB on the same instance where the application is running.
-- [ ] Deploy Amazon DocumentDB in MongoDB compatibility mode.
+- [x] Deploy Amazon DocumentDB in MongoDB compatibility mode.
 - [ ] Use Amazon API Gateway to translate API calls from MongoDB to Amazon DynamoDB.
-- [x] Replicate the existing MongoDB workload to Amazon DynamoDB.
+- [ ] Replicate the existing MongoDB workload to Amazon DynamoDB.
 
 **[⬆ Back to Top](#table-of-contents)**
 
