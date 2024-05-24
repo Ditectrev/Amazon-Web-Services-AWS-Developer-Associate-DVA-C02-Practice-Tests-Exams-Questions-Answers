@@ -2233,8 +2233,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company wants to migrate an imaging service to Amazon EC2 while following security best practices. The images are sourced and read from a non-public Amazon S3 bucket. What should a Developer do to meet these requirements?
 
 - [ ] Create an IAM user with read-only permissions for the S3 bucket. Temporarily store the user credentials in the Amazon EBS volume of the EC2 instance.
-- [x] Create an IAM user with read-only permissions for the S3 bucket. Temporarily store the user credentials in the user data of the EC2 instance.
-- [ ] Create an EC2 service role with read-only permissions for the S3 bucket. Attach the role to the EC2 instance.
+- [ ] Create an IAM user with read-only permissions for the S3 bucket. Temporarily store the user credentials in the user data of the EC2 instance.
+- [x] Create an EC2 service role with read-only permissions for the S3 bucket. Attach the role to the EC2 instance.
 - [ ] Create an S3 service role with read-only permissions for the S3 bucket. Attach the role to the EC2 instance.
 
 **[⬆ Back to Top](#table-of-contents)**
