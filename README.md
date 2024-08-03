@@ -2179,8 +2179,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer migrated a web application to AWS. As part of the migration, the Developer implemented an automated continuous integration/continuous improvement (CI/CD) process using a blue/green deployment. The deployment provisions new Amazon EC2 instances in an Auto Scaling group behind a new Application Load Balancer. After the migration was completed, the Developer began receiving complaints from users getting booted out of the system. The system also requires users to log in after every new deployment. How can these issues be resolved?
 
 - [ ] Use rolling updates instead of a blue/green deployment.
-- [ ] Externalize the user sessions to Amazon ElastiCache.
-- [x] Turn on sticky sessions in the Application Load Balancer.
+- [x] Externalize the user sessions to Amazon ElastiCache.
+- [ ] Turn on sticky sessions in the Application Load Balancer.
 - [ ] Use multicast to replicate session information.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2206,7 +2206,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer uses Amazon S3 buckets for static website hosting. The Developer creates one S3 bucket for the code and another S3 bucket for the assets, such as image and video files. Access is denied when a user attempts to access the assets bucket from the code bucket, with the website application showing a 403 error. How should the Developer solve this issue?
 
 - [ ] Create an IAM role and apply it to the assets bucket for the code bucket to be granted access.
-- [x] Edit the bucket policy of the assets bucket to open access to all principals.
+- [x] Edit the bucket policy of the assets bucket to allow access from the code bucket.
 - [ ] Edit the bucket policy of the assets bucket to open access to all principals.
 - [ ] Change the code bucket to use AWS Lambda functions instead of static website hosting.
 
@@ -2278,10 +2278,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing an application that will run on Amazon EC2 instances in an Auto Scaling group. The Developer wants to externalize session state to support the application. Which services will meet these needs? (Choose TWO)
 
-- [ ] Amazon DynamoDB.
-- [x] Amazon Cognito.
-- [ ] Amazon ElastiCache.
-- [x] Amazon EBS.
+- [x] Amazon DynamoDB.
+- [ ] Amazon Cognito.
+- [x] Amazon ElastiCache.
+- [ ] Amazon EBS.
 - [ ] Amazon SQS.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2363,8 +2363,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Double the Auto Scaling group's maximum number of servers.
 - [ ] Host the application code on AWS Lambda.
-- [x] Scale vertically by resizing the EC2 instances.
-- [ ] Create an Amazon CloudFront distribution to cache the static content.
+- [ ] Scale vertically by resizing the EC2 instances.
+- [x] Create an Amazon CloudFront distribution to cache the static content.
 - [x] Store the application's static content in Amazon S3.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2382,8 +2382,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Deploy the function into multiple AWS Regions.
 - [ ] Deploy the function into multiple Availability Zones.
-- [x] Deploy the function using Lambda layers.
-- [ ] Deploy the function with its memory allocation set to the maximum amount.
+- [ ] Deploy the function using Lambda layers.
+- [x] Deploy the function with its memory allocation set to the maximum amount.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2416,10 +2416,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company wants to implement authentication for its new REST service using Amazon API Gateway. To authenticate the calls, each request must include HTTP headers with a client ID and user ID. These credentials must be compared to authentication data in an Amazon DynamoDB table. What MUST the company do to implement this authentication in API Gateway?
 
-- [ ] Implement an AWS Lambda authorizer that references the DynamoDB authentication table.
+- [x] Implement an AWS Lambda authorizer that references the DynamoDB authentication table.
 - [ ] Create a model that requires the credentials, then grant API Gateway access to the authentication table.
 - [ ] Modify the integration requests to require the credentials, then grant API Gateway access to the authentication table.
-- [x] Implement an Amazon Cognito authorizer that references the DynamoDB authentication table.
+- [ ] Implement an Amazon Cognito authorizer that references the DynamoDB authentication table.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2466,8 +2466,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use an x-Version header to denote which version is being called and pass that header to the Lambda function(s).
 - [ ] Create an API Gateway Lambda authorizer to route API clients to the correct API version.
-- [x] Create an API Gateway resource policy to isolate versions and provide context to the Lambda function(s).
-- [ ] Deploy the API versions as unique stages with unique endpoints and use stage variables to provide further context.
+- [ ] Create an API Gateway resource policy to isolate versions and provide context to the Lambda function(s).
+- [x] Deploy the API versions as unique stages with unique endpoints and use stage variables to provide further context.
 
 **[⬆ Back to Top](#table-of-contents)**
 
