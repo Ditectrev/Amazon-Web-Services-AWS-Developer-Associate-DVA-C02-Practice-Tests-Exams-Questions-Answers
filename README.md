@@ -1650,8 +1650,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use the Elastic Beanstalk All at once deployment policy to update all instances simultaneously.
 - [ ] Perform an Elastic Beanstalk Rolling with additional batch deployment.
-- [ ] Deploy the new version in a new Elastic Beanstalk environment and swap environment URLs.
-- [x] Perform an Elastic Beanstalk Rolling deployment.
+- [x] Deploy the new version in a new Elastic Beanstalk environment and swap environment URLs.
+- [ ] Perform an Elastic Beanstalk Rolling deployment.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1707,9 +1707,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A developer is using Amazon DynamoDB to store application data. The developer wants to further improve application performance by reducing response times for read and write operations. Which DynamoDB feature should be used to meet these requirements?
 
 - [ ] Amazon DynamoDB Streams.
-- [ ] Amazon DynamoDB Accelerator.
+- [x] Amazon DynamoDB Accelerator.
 - [ ] Amazon DynamoDB global tables.
-- [x] Amazon DynamoDB transactions.
+- [ ] Amazon DynamoDB transactions.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1745,8 +1745,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A developer has written an AWS Lambda function using Java as the runtime environment. The developer wants to isolate a performance bottleneck in the code. Which steps should be taken to reveal the bottleneck?
 
 - [ ] Use the Amazon CloudWatch API to write timestamps to a custom CloudWatch metric. Use the CloudWatch console to analyze the resulting data.
-- [x] Use the AWS X-Ray API to write trace data into X-Ray from strategic places within the code. Use the Amazon CloudWatch console to analyze the resulting data.
-- [ ] Use the AWS X-Ray API to write trace data into X-Ray from strategic places within the code. Use the X-Ray console to analyze the resulting data.
+- [ ] Use the AWS X-Ray API to write trace data into X-Ray from strategic places within the code. Use the Amazon CloudWatch console to analyze the resulting data.
+- [x] Use the AWS X-Ray API to write trace data into X-Ray from strategic places within the code. Use the X-Ray console to analyze the resulting data.
 - [ ] Use the Amazon CloudWatch API to write timestamps to a custom CloudWatch metric. Use the AWS X-Ray console to analyze the resulting data.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1771,10 +1771,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An IAM role is attached to an Amazon EC2 instance that explicitly denies access to all Amazon S3 API actions. The EC2 instance credentials file specifies the IAM access key and secret access key, which allow full administrative access. Given that multiple modes of IAM access are present for this EC2 instance, which of the following is correct?
 
-- [x] The EC2 instance will only be able to list the S3 buckets.
+- [ ] The EC2 instance will only be able to list the S3 buckets.
 - [ ] The EC2 instance will only be able to list the contents of one S3 bucket at a time.
 - [ ] The EC2 instance will be able to perform all actions on any S3 bucket.
-- [ ] The EC2 instance will not be able to perform any S3 action on any S3 bucket.
+- [x] The EC2 instance will not be able to perform any S3 action on any S3 bucket.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1808,8 +1808,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### What is required to trace Lambda-based applications with AWS X-Ray?
 
 - [ ] Send logs from the Lambda application to an S3 bucket; trigger a Lambda function from the bucket to send data to AWS X-Ray.
-- [x] Trigger a Lambda function from the application logs in Amazon CloudWatch to submit tracing data to AWS X-Ray.
-- [ ] Use an IAM execution role to give the Lambda function permissions and enable tracing.
+- [ ] Trigger a Lambda function from the application logs in Amazon CloudWatch to submit tracing data to AWS X-Ray.
+- [x] Use an IAM execution role to give the Lambda function permissions and enable tracing.
 - [ ] Update and add AWS X-Ray daemon code to relevant parts of the Lambda function to set up the trace.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1825,10 +1825,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer converted an existing program to an AWS Lambda function in the console. The program runs properly on a local laptop, but shows an 'Unable to import module' error when tested in the Lambda console. Which of the following can fix the error?
 
-- [ ] Install the missing module and specify the current directory as the target. Create a ZIP file to include all files under the current directory, and upload the ZIP file.
+- [x] Install the missing module and specify the current directory as the target. Create a ZIP file to include all files under the current directory, and upload the ZIP file.
 - [ ] Install the missing module in a lib directory. Create a ZIP file to include all files under the lib directory, and upload the ZIP file as dependency file.
 - [ ] In the Lambda code, invoke a Linux command to install the missing modules under the /usr/lib directory.
-- [x] In the Lambda console, create a LB_LIBRARY_PATH environment and specify the value for the system library plan.
+- [ ] In the Lambda console, create a LB_LIBRARY_PATH environment and specify the value for the system library plan.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1942,10 +1942,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has an Amazon DynamoDB table that must be in provisioned mode to comply with user requirements. The application needs to support the following: Average item size: 10 KB Item reads each second: 10 strongly consistent Item writes each second: 2 transactional Which read and write capacity cost-effectively meets these requirements?
 
-- [x] Read 10; write 2
-- [ ] Read 30; write 40
-- [ ] Use on-demand scaling
-- [ ] Read 300; write 400
+- [ ] Read 10; write 2.
+- [x] Read 30; write 40.
+- [ ] Use on-demand scaling.
+- [ ] Read 300; write 400.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1981,7 +1981,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Create a separate CodePipeline pipeline to run unit tests.
 - [ ] Update the AWS CodeBuild specification to include a phase for running unit tests.
 - [ ] Install the AWS CodeDeploy agent on an Amazon EC2 instance to run unit tests.
-- [x] Create a testing branch in AWS CodeCommit to run unit tests.
+- [ ] Create a testing branch in AWS CodeCommit to run unit tests.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2096,9 +2096,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing an application in AWS Lambda. To simplify testing and deployments, the Developer needs the database connection string to be easily changed without modifying the Lambda code. How can this requirement be met?
 
-- [ ] Store the connection string as a secret in AWS Secrets Manager.
+- [x] Store the connection string as a secret in AWS Secrets Manager.
 - [ ] Store the connection string in an IAM user account.
-- [x] Store the connection string in AWS KMS.
+- [ ] Store the connection string in AWS KMS.
 - [ ] Store the connection string as a Lambda layer.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2107,8 +2107,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Enable AWS CloudTrail logging for the S3 bucket-level action and create a lifecycle policy to move the data from the log bucket to Amazon S3 Glacier in 90 days.
 - [ ] Enable S3 server access logging and create a lifecycle policy to expire the data in 90 days.
-- [x] Enable AWS CloudTrail logging for the S3 bucket-level action and create a lifecycle policy to expire the data in 90 days.
-- [ ] Enable S3 server access logging and create a lifecycle policy to move the data to Amazon S3 Glacier in 90 days.
+- [ ] Enable AWS CloudTrail logging for the S3 bucket-level action and create a lifecycle policy to expire the data in 90 days.
+- [x] Enable S3 server access logging and create a lifecycle policy to move the data to Amazon S3 Glacier in 90 days.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2153,8 +2153,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Use Auto Scaling to scale the stream for better performance.
 - [ ] Increase the delay between the GetRecords call and the PutRecords call.
 - [x] Increase the number of shards in the data stream.
-- [x] Specify a shard iterator using the ShardIterator parameter.
-- [ ] Implement exponential backoff on the GetRecords call and the PutRecords call.
+- [ ] Specify a shard iterator using the ShardIterator parameter.
+- [x] Implement exponential backoff on the GetRecords call and the PutRecords call.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3120,10 +3120,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is working on an application that handles 10MB documents that contain highly-sensitive data. The application will use AWS KMS to perform clientside encryption. What steps must be followed?
 
-- [x] Invoke the Encrypt API passing the plaintext data that must be encrypted, then reference the customer managed key ARN in the KeyId parameter.
+- [ ] Invoke the Encrypt API passing the plaintext data that must be encrypted, then reference the customer managed key ARN in the KeyId parameter.
 - [ ] Invoke the GenerateRandom API to get a data encryption key, then use the data encryption key to encrypt the data.
 - [ ] Invoke the GenerateDataKey API to retrieve the encrypted version of the data encryption key to encrypt the data.
-- [ ] Invoke the GenerateDataKey API to retrieve the plaintext version of the data encryption key to encrypt the data.
+- [x] Invoke the GenerateDataKey API to retrieve the plaintext version of the data encryption key to encrypt the data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
