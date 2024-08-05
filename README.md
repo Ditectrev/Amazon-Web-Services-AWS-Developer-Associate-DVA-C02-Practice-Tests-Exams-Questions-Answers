@@ -3028,9 +3028,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer created a new AWS account and must create a scalable AWS Lambda function that meets the following requirements for concurrent execution: Average execution time of 100 seconds 50 requests per second. Which step must be taken prior to deployment to prevent errors?
 
 - [ ] Implement dead-letter queues to capture invocation errors.
-- [x] Add an event source from Amazon API Gateway to the Lambda function.
+- [ ] Add an event source from Amazon API Gateway to the Lambda function.
 - [ ] Implement error handling within the application code.
-- [ ] Contact AWS Support to increase the concurrent execution limits.
+- [x] Contact AWS Support to increase the concurrent execution limits.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3045,10 +3045,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An Amazon DynamoDB table uses a Global Secondary Index (GSI) to support read queries. The primary table is write-heavy, whereas the GSI is used for read operations. Looking at Amazon CloudWatch metrics, the Developer notices that write operations to the primary table are throttled frequently under heavy write activity. However, write capacity units to the primary table are available and not fully consumed. Why is the table being throttled?
 
-- [ ] The GSI write capacity units are underprovisioned.
+- [x] The GSI write capacity units are underprovisioned.
 - [ ] There are not enough read capacity units on the primary table.
 - [ ] Amazon DynamoDB Streams is not enabled on the table.
-- [x] A large write operation is being performed against another table.
+- [ ] A large write operation is being performed against another table.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3063,8 +3063,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has been asked to create an AWS Lambda function that is triggered any time updates are made to items in an Amazon DynamoDB table. The function has been created, and appropriate permissions have been added to the Lambda execution role. Amazon DynamoDB streams have been enabled for the table, but the function is still not being triggered. Which option would enable DynamoDB table updates to trigger the Lambda function?
 
-- [x] Change the StreamViewType parameter value to NEW_AND_OLD_IMAGES for the DynamoDB table.
-- [ ] Configure event source mapping for the Lambda function.
+- [ ] Change the StreamViewType parameter value to NEW_AND_OLD_IMAGES for the DynamoDB table.
+- [x] Configure event source mapping for the Lambda function.
 - [ ] Map an Amazon SNS topic to the DynamoDB streams.
 - [ ] Increase the maximum execution time (timeout) setting of the Lambda function.
 
@@ -3129,8 +3129,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is building a web application that uses Amazon API Gateway to expose an AWS Lambda function to process requests from clients. During testing, the Developer notices that the API Gateway times out even though the Lambda function finishes under the set time limit. Which of the following API Gateway metrics in Amazon CloudWatch can help the Developer troubleshoot the issue? (Choose TWO)
 
-- [x] CacheHitCount.
-- [ ] IntegrationLatency.
+- [ ] CacheHitCount.
+- [x] IntegrationLatency.
 - [ ] CacheMissCount.
 - [x] Latency.
 - [ ] Count.
