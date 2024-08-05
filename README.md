@@ -2518,9 +2518,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What is the maximum number of S3 Buckets available per AWS account?
 
-- [x] 100 per region.
+- [ ] 100 per region.
 - [ ] there is no limit.
-- [ ] 100 per account.
+- [x] 100 per account.
 - [ ] 500 per account.
 - [ ] 100 per IAM user.
 
@@ -2674,9 +2674,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### When using a large Scan operation in DynamoDB, what technique can be used to minimize the impact of a scan on a table's provisioned throughput?
 
-- [ ] Set a smaller page size for the scan.
+- [x] Set a smaller page size for the scan.
 - [ ] Use parallel scans.
-- [x] Define a range index on the table.
+- [ ] Define a range index on the table.
 - [ ] Prewarm the table by updating all items.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2716,8 +2716,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Launch and run the load-tester EC2 instance from us-east-1 instead.
 - [x] Re-configure the load-testing software to re-resolve DNS for each web request.
-- [ ] Use a 3rd-party load-testing service which offers globally-distributed test clients.
-- [x] Configure ELB and Auto Scaling to distribute across us-west-2a and us-west-2c.
+- [x] Use a 3rd-party load-testing service which offers globally-distributed test clients.
+- [ ] Configure ELB and Auto Scaling to distribute across us-west-2a and us-west-2c.
 - [ ] Configure ELB session stickiness to use the app-specific session cookie.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2955,8 +2955,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Messages will be delivered exactly once and messages will be delivered in First in, First out order.
 - [ ] Messages will be delivered exactly once and message delivery order is indeterminate.
-- [x] Messages will be delivered one or more times and messages will be delivered in First in, First out order.
-- [ ] Messages will be delivered one or more times and message delivery order is indeterminate.
+- [ ] Messages will be delivered one or more times and messages will be delivered in First in, First out order.
+- [x] Messages will be delivered one or more times and message delivery order is indeterminate.
 
 **[⬆ Back to Top](#table-of-contents)**
 
