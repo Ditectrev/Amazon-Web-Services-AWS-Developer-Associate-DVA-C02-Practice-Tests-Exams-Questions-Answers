@@ -3205,16 +3205,16 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Conditions.
 - [ ] Globals.
-- [ ] Transform.
-- [x] Properties.
+- [x] Transform.
+- [ ] Properties.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A company is using Amazon RDS MySQL instances for its application database tier and Apache Tomcat servers for its web tier. Most of the database queries from web applications are repeated read requests. Use of which AWS service would increase in performance by adding in-memory store for repeated read queries?
 
-- [x] Amazon RDS Multi-AZ.
+- [ ] Amazon RDS Multi-AZ.
 - [ ] Amazon SQS.
-- [ ] Amazon ElastiCache.
+- [x] Amazon ElastiCache.
 - [ ] Amazon RDS read replica.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3252,8 +3252,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Run on a larger instance size with more compute capacity.
 - [ ] Increase the maximum execution time.
-- [x] Specify a larger compute capacity when calling the Lambda function.
-- [ ] Increase the allocated memory for the Lambda function.
+- [ ] Specify a larger compute capacity when calling the Lambda function.
+- [x] Increase the allocated memory for the Lambda function.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3271,9 +3271,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is building a mobile application and needs any update to user profile data to be pushed to all devices accessing the specific identity. The Developer does not want to manage a back end to maintain the user profile data. What is the MOST efficient way for the Developer to achieve these requirements using Amazon Cognito?
 
-- [x] Use Cognito federated identities.
+- [ ] Use Cognito federated identities.
 - [ ] Use a Cognito user pool.
-- [ ] Use Cognito Sync.
+- [x] Use Cognito Sync.
 - [ ] Use Cognito events.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3282,8 +3282,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] The createDeployment method must be called so the API can be redeployed to include the newly created API key.
 - [ ] The updateAuthorizer method must be called to update the API's authorizer to include the newly created API key.
-- [x] The importApiKeys method must be called to import all newly created API keys into the current stage of the API.
-- [ ] The createUsagePlanKey method must be called to associate the newly created API key with the correct usage plan.
+- [ ] The importApiKeys method must be called to import all newly created API keys into the current stage of the API.
+- [x] The createUsagePlanKey method must be called to associate the newly created API key with the correct usage plan.
 
 **[⬆ Back to Top](#table-of-contents)**
 
