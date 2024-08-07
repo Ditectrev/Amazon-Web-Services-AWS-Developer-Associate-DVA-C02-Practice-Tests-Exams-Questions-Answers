@@ -3343,8 +3343,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Development team has pushed out 10 applications running on several Amazon EC2 instances. The Operations team is asking for a graphical representation of one key performance metric for each application. These metrics should be available on one screen for easy monitoring. Which steps should the Developer take to accomplish this using Amazon CloudWatch?
 
-- [ ] Create a custom namespace with a unique metric name for each application.
-- [x] Create a custom dimension with a unique metric name for each application.
+- [x] Create a custom namespace with a unique metric name for each application.
+- [ ] Create a custom dimension with a unique metric name for each application.
 - [ ] Create a custom event with a unique metric name for each application.
 - [ ] Create a custom alarm with a unique metric name for each application.
 
@@ -3353,9 +3353,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company is creating an application that will require users to access AWS services and allow them to reset their own passwords. Which of the following would allow the company to manage users and authorization while allowing users to reset their own passwords?
 
 - [ ] Amazon Cognito identify pools and AWS STS.
-- [x] Amazon Cognito identity pools and AWS IAM.
+- [ ] Amazon Cognito identity pools and AWS IAM.
 - [ ] Amazon Cognito user pools and AWS KMS.
-- [ ] Amazon Cognito user pools and identity pools.
+- [x] Amazon Cognito user pools and identity pools.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3398,8 +3398,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An application that runs on an Amazon EC2 instance needs to access and make API calls to multiple AWS services. What is the MOST secure way to provide access to the AWS services with MINIMAL management overhead?
 
 - [ ] Use AWS KMS to store and retrieve credentials.
-- [ ] Use EC2 instance profiles.
-- [x] Use AWS root user to make requests to the application.
+- [x] Use EC2 instance profiles.
+- [ ] Use AWS root user to make requests to the application.
 - [ ] Store and retrieve credentials from AWS CodeCommit.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3408,8 +3408,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Push callback data to an Amazon RDS database that can be queried to show historical data and to alert on exceeded thresholds.
 - [ ] Push callback data to AWS X-Ray and use AWS Lambda to query, display, and alert on exceeded thresholds.
-- [x] Push callback data to Amazon Kinesis Data Streams and invoke an AWS Lambda function that stores data in Amazon DynamoDB and sends the required alerts.
-- [ ] Push callback data to Amazon CloudWatch as a custom metric and use the CloudWatch alerting mechanisms to alert System Administrators.
+- [ ] Push callback data to Amazon Kinesis Data Streams and invoke an AWS Lambda function that stores data in Amazon DynamoDB and sends the required alerts.
+- [x] Push callback data to Amazon CloudWatch as a custom metric and use the CloudWatch alerting mechanisms to alert System Administrators.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3425,9 +3425,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company has a multi-tiered web application on AWS. During a recent spike in traffic, one of the primary relational databases on Amazon RDS could not serve all the traffic. Some read queries for repeatedly accessed items failed, so users received error messages. What can be done to minimize the impact on database read queries MOST efficiently during future traffic spikes?
 
 - [ ] Use Amazon S3 to cache database query results.
-- [x] Use Amazon RDS as a custom origin for Amazon CloudFront.
+- [ ] Use Amazon RDS as a custom origin for Amazon CloudFront.
 - [ ] Use local storage and memory on Amazon EC2 instances to cache data.
-- [ ] Use Amazon ElastiCache in front of the primary database to cache data.
+- [x] Use Amazon ElastiCache in front of the primary database to cache data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
