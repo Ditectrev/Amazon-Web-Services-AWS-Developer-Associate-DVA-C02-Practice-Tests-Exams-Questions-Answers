@@ -3451,8 +3451,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is developing an application that will run on several Amazon EC2 instances in an Auto Scaling group and can access a database running on Amazon EC2. The application needs to store secrets required to connect to the database. The application must allow for periodic secret rotation, and there should be no changes to the application when a secret changes. What is the SAFEST way to meet these requirements?
 
-- [x] Associate an IAM role to the EC2 instance where the application is running with permission to access the database.
-- [ ] Use AWS Systems Manager Parameter Store with the SecureString data type to store secrets.
+- [ ] Associate an IAM role to the EC2 instance where the application is running with permission to access the database.
+- [x] Use AWS Systems Manager Parameter Store with the SecureString data type to store secrets.
 - [ ] Configure the application to store secrets in Amazon S3 object metadata.
 - [ ] Hard code the database secrets in the application code itself.
 
