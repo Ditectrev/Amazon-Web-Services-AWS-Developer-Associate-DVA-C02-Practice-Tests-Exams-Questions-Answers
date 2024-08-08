@@ -3480,9 +3480,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer has been asked to make changes to the source code of an AWS Lambda function. The function is managed using an AWS CloudFormation template. The template is configured to load the source code from an Amazon S3 bucket. The Developer manually created a .ZIP file deployment package containing the changes and put the file into the correct location on Amazon S3. When the function is invoked, the code changes have not been applied. What step is required to update the function with the changes?
 
 - [ ] Delete the .ZIP file on S3, and re-upload by using a different object key name.
-- [ ] Update the CloudFormation stack with the correct values for the function code properties S3Bucket, S3Key, or S3ObjectVersion.
+- [x] Update the CloudFormation stack with the correct values for the function code properties S3Bucket, S3Key, or S3ObjectVersion.
 - [ ] Ensure that the function source code is base64-encoded before uploading the deployment package to S3.
-- [x] Modify the execution role of the Lambda function to allow S3 access permission to the deployment package .ZIP file.
+- [ ] Modify the execution role of the Lambda function to allow S3 access permission to the deployment package .ZIP file.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3526,19 +3526,19 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has published an update to an application that is served to a global user base using Amazon CloudFront. After deploying the application, users are not able to see the updated changes. How can the Developer resolve this issue?
 
-- [x] Remove the origin from the CloudFront configuration and add it again.
+- [ ] Remove the origin from the CloudFront configuration and add it again.
 - [ ] Disable forwarding of query strings and request headers from the CloudFront distribution configuration.
-- [ ] Invalidate all the application objects from the edge caches.
+- [x] Invalidate all the application objects from the edge caches.
 - [ ] Disable the CloudFront distribution and enable it again to update all the edge locations.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A Developer must deploy a new AWS Lambda function using an AWS CloudFormation template. Which procedures will deploy a Lambda function? (Select TWO)
 
-- [ ] Upload the code to an AWS CodeCommit repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
-- [x] Create an AWS::Lambda::Function resource in the template, then write the code directly inside the CloudFormation template.
-- [ ] Upload a .ZIP file containing the function code to Amazon S3, then add a reference to it in an AWS::Lambda::Function resource in the template.
-- [x] Upload a .ZIP file to AWS CloudFormation containing the function code, then add a reference to it in an AWS::Lambda::Function resource in the template.
+- [x] Upload the code to an AWS CodeCommit repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
+- [ ] Create an AWS::Lambda::Function resource in the template, then write the code directly inside the CloudFormation template.
+- [x] Upload a .ZIP file containing the function code to Amazon S3, then add a reference to it in an AWS::Lambda::Function resource in the template.
+- [ ] Upload a .ZIP file to AWS CloudFormation containing the function code, then add a reference to it in an AWS::Lambda::Function resource in the template.
 - [ ] Upload the function code to a private Git repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3546,9 +3546,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### How should custom libraries be utilized in AWS Lambda?
 
 - [ ] Host the library on Amazon S3 and reference to it from the Lambda function.
-- [ ] Install the library locally and upload a ZIP file of the Lambda function.
+- [x] Install the library locally and upload a ZIP file of the Lambda function.
 - [ ] Import the necessary Lambda blueprint when creating the function.
-- [x] Modify the function runtime to include the necessary library.
+- [ ] Modify the function runtime to include the necessary library.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3557,15 +3557,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Configure an Elastic Load Balancer with SSL pass-through.
 - [x] Configure SSL certificates on an Elastic Load Balancer.
 - [ ] Configure an Elastic Load Balancer with a Loadable Storage System.
-- [x] Install SSL certificates on the EC2 instances.
-- [ ] Configure an Elastic Load Balancer with SSL termination.
+- [ ] Install SSL certificates on the EC2 instances.
+- [x] Configure an Elastic Load Balancer with SSL termination.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A Developer is writing an imaging micro service on AWS Lambda. The service is dependent on several libraries that are not available in the Lambda runtime environment. Which strategy should the Developer follow to create the Lambda deployment package?
 
-- [ ] Create a ZIP file with the source code and all dependent libraries.
-- [x] Create a ZIP file with the source code and a script that installs the dependent libraries at runtime.
+- [x] Create a ZIP file with the source code and all dependent libraries.
+- [ ] Create a ZIP file with the source code and a script that installs the dependent libraries at runtime.
 - [ ] Create a ZIP file with the source code. Stage the dependent libraries on an Amazon S3 bucket indicated by the Lambda environment variable LD_LIBRARY_PATH.
 - [ ] Create a ZIP file with the source code and a buildspec.yaml file that installs the dependent libraries on AWS Lambda.
 
@@ -3573,9 +3573,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is designing a fault-tolerant environment where client sessions will be saved. How can the Developer ensure that no sessions are lost if an Amazon EC2 instance fails?
 
-- [x] Use sticky sessions with an Elastic Load Balancer target group.
+- [ ] Use sticky sessions with an Elastic Load Balancer target group.
 - [ ] Use Amazon SQS to save session data.
-- [ ] Use Amazon DynamoDB to perform scalable session handling.
+- [x] Use Amazon DynamoDB to perform scalable session handling.
 - [ ] Use Elastic Load Balancer connection draining to stop sending requests to failing instances.
 
 **[⬆ Back to Top](#table-of-contents)**
