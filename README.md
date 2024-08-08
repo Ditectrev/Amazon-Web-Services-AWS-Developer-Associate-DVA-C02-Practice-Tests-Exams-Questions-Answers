@@ -3536,8 +3536,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer must deploy a new AWS Lambda function using an AWS CloudFormation template. Which procedures will deploy a Lambda function? (Select TWO)
 
 - [x] Upload the code to an AWS CodeCommit repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
-- [ ] Create an AWS::Lambda::Function resource in the template, then write the code directly inside the CloudFormation template.
-- [x] Upload a .ZIP file containing the function code to Amazon S3, then add a reference to it in an AWS::Lambda::Function resource in the template.
+- [x] Create an AWS::Lambda::Function resource in the template, then write the code directly inside the CloudFormation template.
+- [ ] Upload a .ZIP file containing the function code to Amazon S3, then add a reference to it in an AWS::Lambda::Function resource in the template.
 - [ ] Upload a .ZIP file to AWS CloudFormation containing the function code, then add a reference to it in an AWS::Lambda::Function resource in the template.
 - [ ] Upload the function code to a private Git repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
 
