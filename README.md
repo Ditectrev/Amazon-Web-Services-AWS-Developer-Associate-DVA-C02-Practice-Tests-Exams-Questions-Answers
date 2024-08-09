@@ -3795,8 +3795,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway. How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?
 
 - [ ] Create an IAM user that has permissions to access the Amazon S3 bucket, and store the IAM user credentials in the Lambda function source code.
-- [ ] Create an IAM role that has permissions to access the Amazon S3 bucket and assign it to the Lambda function as its execution role.
-- [x] Create an Amazon S3 bucket policy that specifies the Lambda service as its principal and assign it to the Amazon S3 bucket.
+- [x] Create an IAM role that has permissions to access the Amazon S3 bucket and assign it to the Lambda function as its execution role.
+- [ ] Create an Amazon S3 bucket policy that specifies the Lambda service as its principal and assign it to the Amazon S3 bucket.
 - [ ] Create an IAM role, attach the AmazonS3FullAccess managed policy to it, and assign the role to the Lambda function as its execution role.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3804,8 +3804,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An organization is using Amazon CloudFront to ensure that its users experience low-latency access to its web application. The organization has identified a need to encrypt all traffic between users and CloudFront, and all traffic between CloudFront and the web application. How can these requirements be met? (Choose TWO)
 
 - [ ] Use AWS KMS to encrypt traffic between CloudFront and the web application.
-- [ ] Set the Origin Protocol Policy to 'HTTPS Only'.
-- [x] Set the Origin's HTTP Port to 443.
+- [x] Set the Origin Protocol Policy to 'HTTPS Only'.
+- [ ] Set the Origin's HTTP Port to 443.
 - [x] Set the Viewer Protocol Policy to 'HTTPS Only' or 'Redirect HTTP to HTTPS'.
 - [ ] Enable the CloudFront option Restrict Viewer Access.
 
