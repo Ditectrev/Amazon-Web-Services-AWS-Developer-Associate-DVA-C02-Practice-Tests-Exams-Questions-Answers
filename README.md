@@ -3622,18 +3622,18 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use an identity provider to securely authenticate with the application.
 - [ ] Create an AWS Lambda function to create an IAM user when a user accesses the application.
-- [x] Create credentials using AWS KMS and apply these credentials to users when using the application.
-- [ ] Use Amazon Cognito to associate unauthenticated users with an IAM role that has limited access to resources.
+- [ ] Create credentials using AWS KMS and apply these credentials to users when using the application.
+- [x] Use Amazon Cognito to associate unauthenticated users with an IAM role that has limited access to resources.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An application running on Amazon EC2 instances must access objects within an Amaon S3 busket that are encrypted using server-side encryption using AWS KMS encryption keys (SSE-KMS). The application must have access to the customer master key (CMK) to decrypt the objects. Which combination of steps will grant the application access? (Select TWO)
 
 - [x] Write an S3 bucket policy that grants the bucket access to the key.
-- [ ] Grant access to the key in the IAM EC2 role attached to the application's EC2 instances.
+- [x] Grant access to the key in the IAM EC2 role attached to the application's EC2 instances.
 - [ ] Write a key policy that enables IAM policies to grant access to the key.
 - [ ] Grant access to the key in the S3 bucket's ACL.
-- [x] Create a Systems Manager parameter that exposes the KMS key to the EC2 instances.
+- [ ] Create a Systems Manager parameter that exposes the KMS key to the EC2 instances.
 
 **[⬆ Back to Top](#table-of-contents)**
 
