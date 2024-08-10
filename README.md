@@ -1983,7 +1983,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Company runs continuous integration/continuous delivery (CI/CD) pipelines for its application on AWS CodePipeline. A Developer must write unit tests and run them as part of the pipelines before staging the artifacts for testing. How should the Developer incorporate unit tests as part of CI/CD pipelines?
 
 - [ ] Create a separate CodePipeline pipeline to run unit tests.
-- [ ] Update the AWS CodeBuild specification to include a phase for running unit tests.
+- [x] Update the AWS CodeBuild specification to include a phase for running unit tests.
 - [ ] Install the AWS CodeDeploy agent on an Amazon EC2 instance to run unit tests.
 - [ ] Create a testing branch in AWS CodeCommit to run unit tests.
 
