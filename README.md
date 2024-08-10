@@ -73,6 +73,10 @@
 
 - In-depth re-reading of first 100 questions along with some wrong answers fixes.
 
+**[v1.3.0](../../releases/tag/v1.3.0): August 10, 2024.**
+
+- Fix whopping 58 wrong answers, sorry for that.
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
