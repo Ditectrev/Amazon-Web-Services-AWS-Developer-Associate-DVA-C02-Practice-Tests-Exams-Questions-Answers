@@ -3898,16 +3898,16 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use the Elastic Beanstalk CLI to disassociate the database.
 - [ ] Use the AWS CLI to disassociate the database.
-- [x] Change the deployment policy to disassociate the database.
-- [ ] Recreate a new Elastic Beanstalk environment without Amazon RDS.
+- [ ] Change the deployment policy to disassociate the database.
+- [x] Recreate a new Elastic Beanstalk environment without Amazon RDS.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A company is using AWS CodePipeline to deliver one of its applications. The delivery pipeline is triggered by changes to the master branch of an AWS CodeCommit repository and uses AWS CodeBuild to implement the test and build stages of the process and AWS CodeDeploy to deploy the application. The pipeline has been operating successfully for several months and there have been no modifications. Following a recent change to the application's source code, AWS CodeDeploy has not deployed the updates application as expected. What are the possible causes? (Choose TWO)
 
-- [ ] The change was not made in the master branch of the AWS CodeCommit repository.
+- [x] The change was not made in the master branch of the AWS CodeCommit repository.
 - [x] One of the earlier stages in the pipeline failed and the pipeline has terminated.
-- [x] One of the Amazon EC2 instances in the company's AWS CodePipeline cluster is inactive.
+- [ ] One of the Amazon EC2 instances in the company's AWS CodePipeline cluster is inactive.
 - [ ] The AWS CodePipeline is incorrectly configured and is not executing AWS CodeDeploy.
 - [ ] AWS CodePipeline does not have permissions to access AWS CodeCommit.
 
@@ -3917,8 +3917,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Modify the user pool to include all the devices which keep them in sync.
 - [ ] Use the SyncCallback interface to receive notifications on the application.
-- [x] Use an Amazon Cognito stream to analyze the data and push the notifications.
-- [ ] Use the push synchronization feature with the appropriate IAM role.
+- [ ] Use an Amazon Cognito stream to analyze the data and push the notifications.
+- [x] Use the push synchronization feature with the appropriate IAM role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3997,8 +3997,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has been asked to build a real-time dashboard web application to visualize the key prefixes and storage size of objects in Amazon S3 buckets. Amazon DynamoDB will be used to store the Amazon S3 metadata. What is the optimal and MOST cost-effective design to ensure that the real-time dashboard is kept up to date with the state of the objects in the Amazon S3 buckets?
 
-- [x] Use an Amazon CloudWatch event backed by an AWS Lambda function. Issue an Amazon S3 API call to get a list of all Amazon S3 objects and persist the metadata within DynamoDB. Have the web application poll the DynamoDBtable to reflect this change.
-- [ ] Use Amazon S3 Event Notification backed by a Lambda function to persist the metadata into DynamoDB. Have the web application poll the DynamoDB table to reflect this change.
+- [ ] Use an Amazon CloudWatch event backed by an AWS Lambda function. Issue an Amazon S3 API call to get a list of all Amazon S3 objects and persist the metadata within DynamoDB. Have the web application poll the DynamoDBtable to reflect this change.
+- [x] Use Amazon S3 Event Notification backed by a Lambda function to persist the metadata into DynamoDB. Have the web application poll the DynamoDB table to reflect this change.
 - [ ] Run a cron job within an Amazon EC2 instance to list all objects within Amazon S3 and persist the metadata into DynamoDB. Have the web application poll the DynamoDB table to reflect this change.
 - [ ] Create a new Amazon EMR cluster to get all the metadata about Amazon S3 objects; persist the metadata into DynamoDB. Have the web application poll the DynamoDB table to reflect this change.
 
@@ -4016,9 +4016,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An existing serverless application processes uploaded image files. The process currently uses a single Lambda function that takes an image file, performs the processing, and stores the file in Amazon S3. Users of the application now require thumbnail generation of the images. Users want to avoid any impact to the time it takes to perform the image uploads. How can thumbnail generation be added to the application, meeting user requirements while minimizing changes to existing code?
 
-- [x] Change the existing Lambda function handling the uploads to create thumbnails at the time of upload. Have the function store both the image and thumbnail in Amazon S3.
+- [ ] Change the existing Lambda function handling the uploads to create thumbnails at the time of upload. Have the function store both the image and thumbnail in Amazon S3.
 - [ ] Create a second Lambda function that handles thumbnail generation and storage. Change the existing Lambda function to invoke it asynchronously.
-- [ ] Create an S3 event notification with a Lambda function destination. Create a new Lambda function to generate and store thumbnails.
+- [x] Create an S3 event notification with a Lambda function destination. Create a new Lambda function to generate and store thumbnails.
 - [ ] Create an S3 event notification to an SQS Queue. Create a scheduled Lambda function that processes the queue, and generates and stores thumbnails.
 
 **[⬆ Back to Top](#table-of-contents)**
