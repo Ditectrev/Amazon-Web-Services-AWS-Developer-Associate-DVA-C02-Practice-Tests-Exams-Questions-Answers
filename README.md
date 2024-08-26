@@ -77,6 +77,10 @@
 
 - Fix whopping 58 wrong answers, sorry for that.
 
+**[v1.3.0](../../releases/tag/v1.3.0): September 1, 2024.**
+
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A)).
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
