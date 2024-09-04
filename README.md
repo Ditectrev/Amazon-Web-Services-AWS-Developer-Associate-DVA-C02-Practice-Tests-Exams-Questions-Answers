@@ -1615,9 +1615,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company has developed a new serverless application using AWS Lambda functions that will be deployed using the AWS Serverless Application Model (AWS SAM) CLI. Which step should the developer complete prior to deploying the application?
 
-- [x] Compress the application to a .zip file and upload it into AWS Lambda.
+- [ ] Compress the application to a .zip file and upload it into AWS Lambda.
 - [ ] Test the new AWS Lambda function by first tracing it in AWS X-Ray.
-- [ ] Bundle the serverless application using a SAM package.
+- [x] Bundle the serverless application using a SAM package.
 - [ ] Create the application environment using the eb create my-env command.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1736,11 +1736,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer is creating a script to automate the deployment process for a serverless application. The developer wants to use an existing AWS Serverless Application Model (AWS SAM) template for the application. What should the developer use for the project? (Choose TWO)
 
-- [ ] Call aws cloudformation package to create the deployment package. Call aws cloudformation deploy to deploy the package afterward.
-- [ ] Call sam package to create the deployment package. Call sam deploy to deploy the package afterward.
-- [x] Call aws s3 cp to upload the AWS SAM template to Amazon S3. Call aws lambda update-function-code to create the application.
+- [x] Call aws cloudformation package to create the deployment package. Call aws cloudformation deploy to deploy the package afterward.
+- [x] Call sam package to create the deployment package. Call sam deploy to deploy the package afterward.
+- [ ] Call aws s3 cp to upload the AWS SAM template to Amazon S3. Call aws lambda update-function-code to create the application.
 - [ ] Create a ZIP package locally and call aws serverlessrepo create-application to create the application.
-- [x] Create a ZIP package and upload it to Amazon S3. Call aws cloudformation create-stack to create the application.
+- [ ] Create a ZIP package and upload it to Amazon S3. Call aws cloudformation create-stack to create the application.
 
 **[⬆ Back to Top](#table-of-contents)**
 
