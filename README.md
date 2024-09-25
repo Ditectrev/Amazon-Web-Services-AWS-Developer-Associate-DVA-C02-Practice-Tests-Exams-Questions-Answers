@@ -1184,7 +1184,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Install the dependencies and external libraries at the beginning of the Lambda function.
 - [ ] Create a Lambda deployment package that includes the external libraries.
 - [ ] Copy the external libraries to Amazon S3, and reference the external libraries to the S3 location.
-- [x] Install the external libraries in Lambda to be available to all Lambda functions.
+- [x] Install the external libraries in Lambda Layer to be available to all Lambda functions.
 
 **[⬆ Back to Top](#table-of-contents)**
 
