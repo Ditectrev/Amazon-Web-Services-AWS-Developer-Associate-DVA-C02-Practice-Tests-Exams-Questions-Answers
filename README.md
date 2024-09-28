@@ -2706,7 +2706,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Attach the volume to an instance using EC2's SSL interface.
 - [ ] Write the data randomly instead of sequentially.
-- [x] Use an encrypted file system on top of the BBS volume.
+- [x] Use an encrypted file system on top of the EBS volume.
 - [ ] Encrypt the volume using the S3 server-side encryption service.
 - [ ] Encrypt the volume using the S3 server-side encryption service.
 
