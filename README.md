@@ -2,10 +2,10 @@
 
 ![Promotional image](images/promotional.png)
 
-
 ## ❣ Support
 
 There are many ways to support us; in exchange, you'll get this material in a proper format:
+
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-developer-associate-dva-c02-practice-tests-exams-questions-answers),
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-developer-associate-dva-c02-practice-tests-exams-questions-no-answers),
 - 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A),
@@ -19,7 +19,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 💰 If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
 
-⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item. 
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
 
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) course you will find online.
 
@@ -93,6 +93,10 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 **[v1.3.0](../../releases/tag/v1.3.0): September 1, 2024.**
 
 - AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A)).
+
+**[v1.3.1](../../releases/tag/v1.3.1): November 1, 2024.**
+
+- Fix 3 wrong questions, and 2 typos.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
