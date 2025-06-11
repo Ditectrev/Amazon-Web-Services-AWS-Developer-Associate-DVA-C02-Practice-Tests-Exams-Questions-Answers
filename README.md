@@ -562,7 +562,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Set up hardware VPN tunnels to a VPC and access S3 through a VPC endpoint.
 - [x] Set up Client-Side Encryption with an AWS KMS-Managed Customer Master Key.
 - [ ] Set up Server-Side Encryption with AWS KMS-Managed Keys.
-- [x] Transfer the data over an SSL connectionSet up Server-Side Encryption with S3-Managed Keys.
+- [x] Transfer the data over an SSL connection.
 - [ ] Set up Server-Side Encryption with S3-Managed Keys.
 
 **[⬆ Back to Top](#table-of-contents)**
