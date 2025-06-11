@@ -562,7 +562,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Set up hardware VPN tunnels to a VPC and access S3 through a VPC endpoint.
 - [x] Set up Client-Side Encryption with an AWS KMS-Managed Customer Master Key.
 - [ ] Set up Server-Side Encryption with AWS KMS-Managed Keys.
-- [x] Transfer the data over an SSL connectionSet up Server-Side Encryption with S3-Managed Keys.
+- [x] Transfer the data over an SSL connection.
 - [ ] Set up Server-Side Encryption with S3-Managed Keys.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -761,8 +761,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A development team is creating a new application designed to run on AWS. While the test and production environments will run on Amazon EC2 instances, developers will each run their own environment on their laptops. Which of the following is the simplest and MOST secure way to access AWS services from the local development machines?
 
 - [ ] Use an IAM role to assume a role and execute API calls using the role.
-- [x] Create an IAM user to be shared with the entire development team, provide the development team with the access key.
-- [ ] Create an IAM user for each developer on the team: provide each developer with a unique access key.
+- [ ] Create an IAM user to be shared with the entire development team, provide the development team with the access key.
+- [x] Create an IAM user for each developer on the team: provide each developer with a unique access key.
 - [ ] Set up a federation through an Amazon Cognito user pool.
 
 **[⬆ Back to Top](#table-of-contents)**
