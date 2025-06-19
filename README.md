@@ -1160,7 +1160,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Amazon SNS with fanout to an SQS queue for each application.
 - [ ] Amazon SNS with fanout to an SQS FIFO (first-in, first-out) queue for each application.
-- [ ] Amazon Kinesis Firehouse.
+- [ ] Amazon Kinesis Firehose.
 - [x] Amazon Kinesis Streams.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1249,7 +1249,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An organization must store thousands of sensitive audio and video files in an Amazon S3 bucket. Organizational security policies require that all data written to this bucket be encrypted. How can compliance with this policy be ensured?
 
-- [ ] Use AWS Lambda to send notifications to the security team if unencrypted objects are pun in the bucket.
+- [ ] Use AWS Lambda to send notifications to the security team if unencrypted objects are put in the bucket.
 - [x] Configure an Amazon S3 bucket policy to prevent the upload of objects that do not contain the x-amz­-server-side-encryption header.
 - [ ] Create an Amazon CloudWatch event rule to verify that all objects stored in the Amazon S3 bucket are encrypted.
 - [ ] Configure an Amazon S3 bucket policy to prevent the upload of objects that contain the x-amz-server­side-encryption header.
@@ -3609,7 +3609,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use Amazon Glue to perform frequent ETL updates from the Accounts database to the Payments database.
 - [ ] Use Amazon ElastiCache in Payments, with the cache updated by triggers in the Accounts database.
-- [ ] Use Amazon Kinesis Data Firehouse to deliver all changes from the Accounts database to the Payments database.
+- [ ] Use Amazon Kinesis Data Firehose to deliver all changes from the Accounts database to the Payments database.
 - [x] Use Amazon DynamoDB Streams to deliver all changes from the Accounts database to the Payments database.
 
 **[⬆ Back to Top](#table-of-contents)**
