@@ -142,14 +142,14 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 9  | [A company is building a compute-intensive application that will run on a fleet of Amazon EC2 instances. The application uses attached Amazon EBS disks for storing data. The application will process sensitive information and all the data must be encrypted. What should a developer do to ensure the data is encrypted on disk without impacting performance?](#a-company-is-building-a-compute-intensive-application-that-will-run-on-a-fleet-of-amazon-ec2-instances-the-application-uses-attached-amazon-ebs-disks-for-storing-data-the-application-will-process-sensitive-information-and-all-the-data-must-be-encrypted-what-should-a-developer-do-to-ensure-the-data-is-encrypted-on-disk-without-impacting-performance)
 | 10 | [A global company has an application running on Amazon EC2 instances that serves image files from Amazon S3. User requests from the browser are causing high traffic, which results in degraded performance. Which optimization solution should a Developer implement to increase application performance?](#a-global-company-has-an-application-running-on-amazon-ec2-instances-that-serves-image-files-from-amazon-s3-user-requests-from-the-browser-are-causing-high-traffic-which-results-in-degraded-performance-which-optimization-solution-should-a-developer-implement-to-increase-application-performance)
 | 11  | [An AWS Lambda function generates a 3MB JSON file and then uploads it to an Amazon S3 bucket daily. The file contains sensitive information, so the Developer must ensure that it is encrypted before uploading to the bucket. Which of the following modifications should the Developer make to ensure that the data is encrypted before uploading it to the bucket?](#an-aws-lambda-function-generates-a-3mb-json-file-and-then-uploads-it-to-an-amazon-s3-bucket-daily-the-file-contains-sensitive-information-so-the-developer-must-ensure-that-it-is-encrypted-before-uploading-to-the-bucket-which-of-the-following-modifications-should-the-developer-make-to-ensure-that-the-data-is-encrypted-before-uploading-it-to-the-bucket)
-| 12  | [Company D is running their corporate website on Amazon S3 accessed from http://www.companyd.com. Their marketing team has published new web fonts to a separate S3 bucket accessed by the S3 endpoint https://s3-us-west-1.amazonaws.com/cdfonts. While testing the new web fonts, Company D recognized the web fonts are being blocked by the browser. What should Company D do to prevent the web fonts from being blocked by the browser?](#company-d-is-running-their-corporate-website-on-amazon-s3-accessed-from-httpwwwcompanydcom-their-marketing-team-has-published-new-web-fonts-to-a-separate-s3-bucket-accessed-by-the-s3-endpoint-httpss3-us-west-1amazonawscomcdfonts-while-testing-the-new-web-fonts-company-d-recognized-the-web-fonts-are-being-blocked-by-the-browser-what-should-company-d-do-to-prevent-the-web-fonts-from-being-blocked-by-the-browser)
+| 12  | [Company D is running their corporate website on Amazon S3 accessed from `http://www.companyd.com`. Their marketing team has published new web fonts to a separate S3 bucket accessed by the S3 endpoint `https://s3-us-west-1.amazonaws.com/cdfonts`. While testing the new web fonts, Company D recognized the web fonts are being blocked by the browser. What should Company D do to prevent the web fonts from being blocked by the browser?](#company-d-is-running-their-corporate-website-on-amazon-s3-accessed-from-httpwwwcompanydcom-their-marketing-team-has-published-new-web-fonts-to-a-separate-s3-bucket-accessed-by-the-s3-endpoint-httpss3-us-west-1amazonawscomcdfonts-while-testing-the-new-web-fonts-company-d-recognized-the-web-fonts-are-being-blocked-by-the-browser-what-should-company-d-do-to-prevent-the-web-fonts-from-being-blocked-by-the-browser)
 | 13  | [A developer must extend an existing application that is based on the AWS Serverless Application Model (AWS SAM). The developer has used the AWS SAM CLI to create the project. The project contains different AWS Lambda functions. Which combination of commands must the developer use to redeploy the AWS SAM application? (Select TWO)](#a-developer-must-extend-an-existing-application-that-is-based-on-the-aws-serverless-application-model-aws-sam-the-developer-has-used-the-aws-sam-cli-to-create-the-project-the-project-contains-different-aws-lambda-functions-which-combination-of-commands-must-the-developer-use-to-redeploy-the-aws-sam-application-select-two)
 | 14  | [An application deployed on AWS Elastic Beanstalk experiences increased error rates during deployments of new application versions, resulting in service degradation for users. The Development team believes that this is because of the reduction in capacity during the deployment steps. The team would like to change the deployment policy configuration of the environment to an option that maintains full capacity during deployment while using the existing instances. Which deployment policy will meet these requirements while using the existing instances?](#an-application-deployed-on-aws-elastic-beanstalk-experiences-increased-error-rates-during-deployments-of-new-application-versions-resulting-in-service-degradation-for-users-the-development-team-believes-that-this-is-because-of-the-reduction-in-capacity-during-the-deployment-steps-the-team-would-like-to-change-the-deployment-policy-configuration-of-the-environment-to-an-option-that-maintains-full-capacity-during-deployment-while-using-the-existing-instances-which-deployment-policy-will-meet-these-requirements-while-using-the-existing-instances)
 | 15  | [A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs. How can the application locate this information?](#a-developer-is-creating-an-application-that-needs-to-locate-the-public-ipv4-address-of-the-amazon-ec2-instance-on-which-it-runs-how-can-the-application-locate-this-information)
 | 16  | [The development team is working on an API that will be served from Amazon API gateway. The API will be served from three environments: development, test, and production. The API Gateway is configured to use 237 GB of cache in all three stages. Which is the MOST cost-efficient deployment strategy?](#the-development-team-is-working-on-an-api-that-will-be-served-from-amazon-api-gateway-the-api-will-be-served-from-three-environments-development-test-and-production-the-api-gateway-is-configured-to-use-237-gb-of-cache-in-all-three-stages-which-is-the-most-cost-efficient-deployment-strategy)
 | 17  | [A company is migrating its on-premises database to Amazon RDS for MySQL. The company has read-heavy workloads, and wants to make sure it re-factors its code to achieve optimum read performance for its queries. How can this objective be met?](#a-company-is-migrating-its-on-premises-database-to-amazon-rds-for-mysql-the-company-has-read-heavy-workloads-and-wants-to-make-sure-it-re-factors-its-code-to-achieve-optimum-read-performance-for-its-queries-how-can-this-objective-be-met)
 | 18  | [A developer needs to modify an application architecture to meet new functional requirements. Application data is stored in Amazon DynamoDB and processed for analysis in a nightly batch. The system analysts do not want to wait unit the next day to view the processed data and have asked to have it available in near-real time. Which application architect pattern would enables the data to be processed as it is received?](#a-developer-needs-to-modify-an-application-architecture-to-meet-new-functional-requirements-application-data-is-stored-in-amazon-dynamodb-and-processed-for-analysis-in-a-nightly-batch-the-system-analysts-do-not-want-to-wait-unit-the-next-day-to-view-the-processed-data-and-have-asked-to-have-it-available-in-near-real-time-which-application-architect-pattern-would-enables-the-data-to-be-processed-as-it-is-received)
-| 19  | [PLACEHOLDER 2](#placeholder-2)
+| 19  | [PLACEHOLDER](#placeholder)
 | 20  | [A software company needs to make sure user-uploaded documents are securely stored in Amazon S3. The documents must be encrypted at rest in Amazon S3. The company does not want to manage the security infrastructure in-house, but the company still needs extra protection to ensure it has control over its encryption keys due to industry regulations. Which encryption strategy should a developer use to meet these requirements?](#a-software-company-needs-to-make-sure-user-uploaded-documents-are-securely-stored-in-amazon-s3-the-documents-must-be-encrypted-at-rest-in-amazon-s3-the-company-does-not-want-to-manage-the-security-infrastructure-in-house-but-the-company-still-needs-extra-protection-to-ensure-it-has-control-over-its-encryption-keys-due-to-industry-regulations-which-encryption-strategy-should-a-developer-use-to-meet-these-requirements)
 | 21  | [An application uses Amazon Kinesis Data Streams to ingest and process large streams of data records in real time. Amazon EC2 instances consume and process the data from the shards of the Kinesis data stream by using Amazon Kinesis Client Library (KCL). The application handles the failure scenarios and does not require standby workers. The application reports that a specific shard is receiving more data than expected. To adapt to the changes in the rate of data flow, the 'hot' shard is resharded. Assuming that the initial number of shards in the Kinesis data stream is 4, and after resharding the number of shards increased to 6, what is the maximum number of EC2 instances that can be deployed to process data from all the shards?](#an-application-uses-amazon-kinesis-data-streams-to-ingest-and-process-large-streams-of-data-records-in-real-time-amazon-ec2-instances-consume-and-process-the-data-from-the-shards-of-the-kinesis-data-stream-by-using-amazon-kinesis-client-library-kcl-the-application-handles-the-failure-scenarios-and-does-not-require-standby-workers-the-application-reports-that-a-specific-shard-is-receiving-more-data-than-expected-to-adapt-to-the-changes-in-the-rate-of-data-flow-the-hot-shard-is-resharded-assuming-that-the-initial-number-of-shards-in-the-kinesis-data-stream-is-4-and-after-resharding-the-number-of-shards-increased-to-6-what-is-the-maximum-number-of-ec2-instances-that-can-be-deployed-to-process-data-from-all-the-shards)
 | 22  | [A gaming company is developing a mobile game application for iOS® and Android® platforms. This mobile game securely stores user data locally on the device. The company wants to allow users to use multiple device for the game, which requires user data synchronization across device.Which service should be used to synchronize user data across devices without the need to create a backend application?](#a-gaming-company-is-developing-a-mobile-game-application-for-ios-and-android-platforms-this-mobile-game-securely-stores-user-data-locally-on-the-device-the-company-wants-to-allow-users-to-use-multiple-device-for-the-game-which-requires-user-data-synchronization-across-devicewhich-service-should-be-used-to-synchronize-user-data-across-devices-without-the-need-to-create-a-backend-application)
@@ -166,7 +166,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 33  | [A company is using AWS CloudFormation templates to deploy AWS resources. The company needs to update one of its AWS CloudFormation stacks. What can the company do to find out how the changes will impact the resources that are running?](#a-company-is-using-aws-cloudformation-templates-to-deploy-aws-resources-the-company-needs-to-update-one-of-its-aws-cloudformation-stacks-what-can-the-company-do-to-find-out-how-the-changes-will-impact-the-resources-that-are-running)
 | 34  | [A developer is creating a serverless web application and maintains different branches of code. The developer wants to avoid updating the Amazon API Gateway target endpoint each time a new code push is performed. What solution would allow the developer to perform a code push efficiently, without the need to update the API Gateway?](#a-developer-is-creating-a-serverless-web-application-and-maintains-different-branches-of-code-the-developer-wants-to-avoid-updating-the-amazon-api-gateway-target-endpoint-each-time-a-new-code-push-is-performed-what-solution-would-allow-the-developer-to-perform-a-code-push-efficiently-without-the-need-to-update-the-api-gateway)
 | 35  | [An application running on EC2 instances is storing data in an S3 bucket. Security policy mandates that all data must be encrypted in transit. How can the Developer ensure that all traffic to the S3 bucket is encrypted?](#an-application-running-on-ec2-instances-is-storing-data-in-an-s3-bucket-security-policy-mandates-that-all-data-must-be-encrypted-in-transit-how-can-the-developer-ensure-that-all-traffic-to-the-s3-bucket-is-encrypted)
-| 36  | [A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint http://www.supplierdomain.com/status/customerID. Which of the following application designs meet the requirements? (Select TWO)](#a-supplier-is-writing-a-new-restful-api-for-customers-to-query-the-status-of-orders-the-customers-requested-the-following-api-endpoint-httpwwwsupplierdomaincomstatuscustomerid-which-of-the-following-application-designs-meet-the-requirements-select-two)
+| 36  | [A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint `http://www.supplierdomain.com/status/customerID`. Which of the following application designs meet the requirements? (Select TWO)](#a-supplier-is-writing-a-new-restful-api-for-customers-to-query-the-status-of-orders-the-customers-requested-the-following-api-endpoint-httpwwwsupplierdomaincomstatuscustomerid-which-of-the-following-application-designs-meet-the-requirements-select-two)
 | 37  | [A developer Is designing an AWS Lambda function that create temporary files that are less than 10 MB during execution. The temporary files will be accessed and modified multiple times during execution. The developer has no need to save or retrieve these files in the future. Where should the temporary file be stored?](#a-developer-is-designing-an-aws-lambda-function-that-create-temporary-files-that-are-less-than-10-mb-during-execution-the-temporary-files-will-be-accessed-and-modified-multiple-times-during-execution-the-developer-has-no-need-to-save-or-retrieve-these-files-in-the-future-where-should-the-temporary-file-be-stored)
 | 38  | [A website's page load times are gradually increasing as more users access the system at the same time. Analysis indicates that a user profile is being loaded from a database in all the web pages being visited by each user and this is increasing the database load and the page load latency. To address this issue the Developer decides to cache the user profile data. Which caching strategy will address this situation MOST efficiently?](#a-websites-page-load-times-are-gradually-increasing-as-more-users-access-the-system-at-the-same-time-analysis-indicates-that-a-user-profile-is-being-loaded-from-a-database-in-all-the-web-pages-being-visited-by-each-user-and-this-is-increasing-the-database-load-and-the-page-load-latency-to-address-this-issue-the-developer-decides-to-cache-the-user-profile-data-which-caching-strategy-will-address-this-situation-most-efficiently)
 | 39  | [An advertising company has a dynamic website with heavy traffic. The company wants to migrate the website infrastructure to AWS to handle everything except website development. Which solution BEST meets these requirements?](#an-advertising-company-has-a-dynamic-website-with-heavy-traffic-the-company-wants-to-migrate-the-website-infrastructure-to-aws-to-handle-everything-except-website-development-which-solution-best-meets-these-requirements)
@@ -189,7 +189,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 56  | [A Developer has written a serverless application using multiple AWS services. The business logic is written as a Lambda function which has dependencies on third-party libraries. The Lambda function endpoints will be exposed using Amazon API Gateway. The Lambda function will write the information to Amazon DynamoDB. The Developer is ready to deploy the application but must have the ability to rollback. How can this deployment be automated, based on these requirements?](#a-developer-has-written-a-serverless-application-using-multiple-aws-services-the-business-logic-is-written-as-a-lambda-function-which-has-dependencies-on-third-party-libraries-the-lambda-function-endpoints-will-be-exposed-using-amazon-api-gateway-the-lambda-function-will-write-the-information-to-amazon-dynamodb-the-developer-is-ready-to-deploy-the-application-but-must-have-the-ability-to-rollback-how-can-this-deployment-be-automated-based-on-these-requirements)
 | 57  | [A game stores user game data in an Amazon DynamoDB table. Individual users should not have access to other users' game data. How can this be accomplished?](#a-game-stores-user-game-data-in-an-amazon-dynamodb-table-individual-users-should-not-have-access-to-other-users-game-data-how-can-this-be-accomplished)
 | 58  | [A Developer is creating a web application that requires authentication, but also needs to support guest access to provide users limited access without having to authenticate. What service can provide support for the application to allow guest access?](#a-developer-is-creating-a-web-application-that-requires-authentication-but-also-needs-to-support-guest-access-to-provide-users-limited-access-without-having-to-authenticate-what-service-can-provide-support-for-the-application-to-allow-guest-access)
-| 59  | [Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?](#given-the-source-code-for-an-aws-lambda-function-in-the-local-storepy-containing-a-handler-function-called-get_store-and-the-following-aws-cloudformation-template-what-should-be-done-to-prepare-the-template-so-that-it-can-be-deployed-using-the-aws-cli-command-aws-cloudformation-deploy)
+| 59  | [Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command `aws cloudformation deploy`?](#given-the-source-code-for-an-aws-lambda-function-in-the-local-storepy-containing-a-handler-function-called-get_store-and-the-following-aws-cloudformation-template-what-should-be-done-to-prepare-the-template-so-that-it-can-be-deployed-using-the-aws-cli-command-aws-cloudformation-deploy)
 | 60  | [A Developer has created a large Lambda function, and deployment is failing with the following error:ClientError: An error occurred (InvalidParameterValueException) when calling the CreateFunction operation: Unzipped size must be smaller than XXXXXXXXX bytes', where XXXXXXXXX is the current Lambda limit. What can the Developer do to fix this problem?](#a-developer-has-created-a-large-lambda-function-and-deployment-is-failing-with-the-following-errorclienterror-an-error-occurred-invalidparametervalueexception-when-calling-the-createfunction-operation-unzipped-size-must-be-smaller-than-xxxxxxxxx-bytes-where-xxxxxxxxx-is-the-current-lambda-limit-what-can-the-developer-do-to-fix-this-problem)
 | 61  | [A serverless application uses an API Gateway and AWS Lambda. Where should the Lambda function store its session information across function calls?](#a-serverless-application-uses-an-api-gateway-and-aws-lambda-where-should-the-lambda-function-store-its-session-information-across-function-calls)
 | 62  | [An application reads data from an Amazon DynamoDB table. Several times a day, for a period of 15 seconds, the application receives multiple ProvisionedThroughputExceeded errors. How should this exception be handled?](#an-application-reads-data-from-an-amazon-dynamodb-table-several-times-a-day-for-a-period-of-15-seconds-the-application-receives-multiple-provisionedthroughputexceeded-errors-how-should-this-exception-be-handled)
@@ -198,10 +198,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 65  | [A current architecture uses many Lambda functions invoking one another as large state machine. The coordination of this state machine is legacy custom code that breaks easily. Which AWS Service can help refactor and manage the state machine?](#a-current-architecture-uses-many-lambda-functions-invoking-one-another-as-large-state-machine-the-coordination-of-this-state-machine-is-legacy-custom-code-that-breaks-easily-which-aws-service-can-help-refactor-and-manage-the-state-machine)
 | 66  | [A company is developing a new online game that will run on top of Amazon ECS. Four distinct Amazon ECS services will be part of the architecture, each requiring specific permissions to various AWS services. The company wants to optimize the use of the underlying Amazon EC2 instances by bin packing the containers based on memory reservation. Which configuration would allow the Development team to meet these requirements MOST securely?](#a-company-is-developing-a-new-online-game-that-will-run-on-top-of-amazon-ecs-four-distinct-amazon-ecs-services-will-be-part-of-the-architecture-each-requiring-specific-permissions-to-various-aws-services-the-company-wants-to-optimize-the-use-of-the-underlying-amazon-ec2-instances-by-bin-packing-the-containers-based-on-memory-reservation-which-configuration-would-allow-the-development-team-to-meet-these-requirements-most-securely)
 | 67  | [A Developer must re-implement the business logic for an order fulfilment system. The business logic has to make requests to multiple vendors to decide where to purchase an item. The whole process can take up to a week to complete. What is the MOST efficient and SIMPLEST way to implement a system that meets these requirements?](#a-developer-must-re-implement-the-business-logic-for-an-order-fulfilment-system-the-business-logic-has-to-make-requests-to-multiple-vendors-to-decide-where-to-purchase-an-item-the-whole-process-can-take-up-to-a-week-to-complete-what-is-the-most-efficient-and-simplest-way-to-implement-a-system-that-meets-these-requirements)
-| 68  | [PLACEHOLDER](#placeholder)
+| 68  | [PLACEHOLDER 2](#placeholder-2)
 | 69  | [A Developer is receiving HTTP 400: ThrottlingException errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?](#a-developer-is-receiving-http-400-throttlingexception-errors-intermittently-when-calling-the-amazon-cloudwatch-api-when-a-call-fails-no-data-is-retrieved-what-best-practice-should-first-be-applied-to-address-this-issue)
 | 70  | [An application is real-time processing millions of events that are received through an API. What service could be used to allow multiple consumers to process the data concurrently and MOST cost-effectively?](#an-application-is-real-time-processing-millions-of-events-that-are-received-through-an-api-what-service-could-be-used-to-allow-multiple-consumers-to-process-the-data-concurrently-and-most-cost-effectively)
-| 71  | [Where should the appspec.yml file be placed in order for AWS CodeDeploy to work?](#where-should-the-appspecyml-file-be-placed-in-order-for-aws-codedeploy-to-work)
+| 71  | [Where should the `appspec.yml` file be placed in order for AWS CodeDeploy to work?](#where-should-the-appspecyml-file-be-placed-in-order-for-aws-codedeploy-to-work)
 | 72  | [An application will ingest data at a very high throughput from many sources and must store the data in an Amazon S3 bucket. Which service would BEST accomplish this task?](#an-application-will-ingest-data-at-a-very-high-throughput-from-many-sources-and-must-store-the-data-in-an-amazon-s3-bucket-which-service-would-best-accomplish-this-task)
 | 73  | [A Developer is creating a Lambda function and will be using external libraries that are not included in the standard Lambda libraries. What action would minimize the Lambda compute time consumed?](#a-developer-is-creating-a-lambda-function-and-will-be-using-external-libraries-that-are-not-included-in-the-standard-lambda-libraries-what-action-would-minimize-the-lambda-compute-time-consumed)
 | 74  | [During non-peak hours, a Developer wants to minimize the execution time of a full Amazon DynamoDB table scan without affecting normal workloads. The workloads average half of the strongly consistent read capacity units during non-peak hours. How would the Developer optimize this scan?](#during-non-peak-hours-a-developer-wants-to-minimize-the-execution-time-of-a-full-amazon-dynamodb-table-scan-without-affecting-normal-workloads-the-workloads-average-half-of-the-strongly-consistent-read-capacity-units-during-non-peak-hours-how-would-the-developer-optimize-this-scan)
@@ -225,7 +225,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 92  | [An application takes 40 seconds to process instructions received in an Amazon SQS message. Assuming the SQS queue is configured with the default VisibilityTimeout value, what is the BEST way, upon receiving a message, to ensure that no other instances can retrieve a message that has already been processed or is currently being processed?](#an-application-takes-40-seconds-to-process-instructions-received-in-an-amazon-sqs-message-assuming-the-sqs-queue-is-configured-with-the-default-visibilitytimeout-value-what-is-the-best-way-upon-receiving-a-message-to-ensure-that-no-other-instances-can-retrieve-a-message-that-has-already-been-processed-or-is-currently-being-processed)
 | 93  | [A Developer is developing an application that manages financial transactions. To improve security, multi-factor authentication (MFA) will be required as part of the login protocol. What services can the Developer use to meet these requirements?](#a-developer-is-developing-an-application-that-manages-financial-transactions-to-improve-security-multi-factor-authentication-mfa-will-be-required-as-part-of-the-login-protocol-what-services-can-the-developer-use-to-meet-these-requirements)
 | 94  | [A Developer is writing transactions into a DynamoDB table called 'SystemUpdates' that has 5 write capacity units. Which option has the highest read throughput?](#a-developer-is-writing-transactions-into-a-dynamodb-table-called-systemupdates-that-has-5-write-capacity-units-which-option-has-the-highest-read-throughput)
-| 95  | [A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs.The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?](#a-developer-has-created-an-s3-bucket-s3mycoolapp-and-has-enabled-server-across-logging-that-points-to-the-folder-s3mycoolapplogsthe-developer-moved-100-kb-of-cascading-style-sheets-css-documents-to-the-folder-s3mycoolappcss-and-then-stopped-work-when-the-developer-came-back-a-few-days-later-the-bucket-was-50-gb-what-is-the-most-likely-cause-of-this-situation)
+| 95  | [A Developer has created an S3 bucket` s3://mycoolapp` and has enabled server across logging that points to the folder `s3://mycoolapp/logs`. The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder `s3://mycoolapp/css`, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?](#a-developer-has-created-an-s3-bucket-s3mycoolapp-and-has-enabled-server-across-logging-that-points-to-the-folder-s3mycoolapplogs-the-developer-moved-100-kb-of-cascading-style-sheets-css-documents-to-the-folder-s3mycoolappcss-and-then-stopped-work-when-the-developer-came-back-a-few-days-later-the-bucket-was-50-gb-what-is-the-most-likely-cause-of-this-situation)
 | 96  | [A Developer is testing a Docker-based application that uses the AWS SDK to interact with Amazon DynamoDB. In the local development environment, the application has used IAM access keys. The application is now ready for deployment onto an ECS cluster. How should the application authenticate with AWS services in production?](#a-developer-is-testing-a-docker-based-application-that-uses-the-aws-sdk-to-interact-with-amazon-dynamodb-in-the-local-development-environment-the-application-has-used-iam-access-keys-the-application-is-now-ready-for-deployment-onto-an-ecs-cluster-how-should-the-application-authenticate-with-aws-services-in-production)
 | 97  | [A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?](#a-company-is-using-aws-codebuild-to-compile-a-website-from-source-code-stored-in-aws-codecommit-a-recent-change-to-the-source-code-has-resulted-in-the-codebuild-project-being-unable-to-successfully-compile-the-website-how-should-the-developer-identify-the-cause-of-the-failures)
 | 98  | [For a deployment using AWS CodeDeploy, what is the run order of the hooks for in-place deployments?](#for-a-deployment-using-aws-codedeploy-what-is-the-run-order-of-the-hooks-for-in-place-deployments)
@@ -309,7 +309,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 176 | [A company is launching an ecommerce website and will host the static data in Amazon S3. The company expects approximately 1,000 transactions per second (TPS) for GET and PUT requests in total. Logging must be enabled to track all requests and must be retained for auditing purposes. What is the MOST cost-effective solution?](#a-company-is-launching-an-ecommerce-website-and-will-host-the-static-data-in-amazon-s3-the-company-expects-approximately-1000-transactions-per-second-tps-for-get-and-put-requests-in-total-logging-must-be-enabled-to-track-all-requests-and-must-be-retained-for-auditing-purposes-what-is-the-most-cost-effective-solution)
 | 177 | [A Developer decides to store highly secure data in Amazon S3 and wants to implement server-side encryption (SSE) with granular control of who can access the master key. Company policy requires that the master key be created, rotated, and disabled easily when needed, all for security reasons. Which solution should be used to meet these requirements?](#a-developer-decides-to-store-highly-secure-data-in-amazon-s3-and-wants-to-implement-server-side-encryption-sse-with-granular-control-of-who-can-access-the-master-key-company-policy-requires-that-the-master-key-be-created-rotated-and-disabled-easily-when-needed-all-for-security-reasons-which-solution-should-be-used-to-meet-these-requirements)
 | 178 | [A Developer is migrating an on-premises application to AWS. The application currently takes user uploads and saves them to a local directory on the server. All uploads must be saved and made immediately available to all instances in an Auto Scaling group. Which approach will meet these requirements?](#a-developer-is-migrating-an-on-premises-application-to-aws-the-application-currently-takes-user-uploads-and-saves-them-to-a-local-directory-on-the-server-all-uploads-must-be-saved-and-made-immediately-available-to-all-instances-in-an-auto-scaling-group-which-approach-will-meet-these-requirements)
-| 179 | [A Developer implemented a static website hosted in Amazon S3 that makes web service requests hosted in Amazon API Gateway and AWS Lambda. The site is showing an error that reads: 'No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.' What should the Developer do to resolve this issue?](#a-developer-implemented-a-static-website-hosted-in-amazon-s3-that-makes-web-service-requests-hosted-in-amazon-api-gateway-and-aws-lambda-the-site-is-showing-an-error-that-reads-no-access-control-allow-origin-header-is-present-on-the-requested-resource-origin-null-is-therefore-not-allowed-access-what-should-the-developer-do-to-resolve-this-issue)
+| 179 | [A Developer implemented a static website hosted in Amazon S3 that makes web service requests hosted in Amazon API Gateway and AWS Lambda. The site is showing an error that reads: `No Access-Control-Allow-Origin` header is present on the requested resource. Origin 'null' is therefore not allowed access.' What should the Developer do to resolve this issue?](#a-developer-implemented-a-static-website-hosted-in-amazon-s3-that-makes-web-service-requests-hosted-in-amazon-api-gateway-and-aws-lambda-the-site-is-showing-an-error-that-reads-no-access-control-allow-origin-header-is-present-on-the-requested-resource-origin-null-is-therefore-not-allowed-access-what-should-the-developer-do-to-resolve-this-issue)
 | 180 | [A Developer is building an application that needs to store data in Amazon S3. Management requires that the data be encrypted before it is sent to Amazon S3 for storage. The encryption keys need to be managed by the Security team. Which approach should the Developer take to meet these requirements?](#a-developer-is-building-an-application-that-needs-to-store-data-in-amazon-s3-management-requires-that-the-data-be-encrypted-before-it-is-sent-to-amazon-s3-for-storage-the-encryption-keys-need-to-be-managed-by-the-security-team-which-approach-should-the-developer-take-to-meet-these-requirements)
 | 181 | [A Developer has written an Amazon Kinesis Data Streams application. As usage grows and traffic increases over time, the application is regularly receiving ProvisionedThroughputExceededException error messages. Which steps should the Developer take to resolve the error? (Choose TWO)](#a-developer-has-written-an-amazon-kinesis-data-streams-application-as-usage-grows-and-traffic-increases-over-time-the-application-is-regularly-receiving-provisionedthroughputexceededexception-error-messages-which-steps-should-the-developer-take-to-resolve-the-error-choose-two)
 | 182 | [A Developer is publishing critical log data to a log group in Amazon CloudWatch Logs, which was created 2 months ago. The Developer must encrypt the log data using an AWS KMS customer master key (CMK) so future data can be encrypted to comply with the company's security policy. How can the Developer meet this requirement?](#a-developer-is-publishing-critical-log-data-to-a-log-group-in-amazon-cloudwatch-logs-which-was-created-2-months-ago-the-developer-must-encrypt-the-log-data-using-an-aws-kms-customer-master-key-cmk-so-future-data-can-be-encrypted-to-comply-with-the-companys-security-policy-how-can-the-developer-meet-this-requirement)
@@ -359,7 +359,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 226 | [What is the format of structured notification messages sent by Amazon SNS?](#what-is-the-format-of-structured-notification-messages-sent-by-amazon-sns)
 | 227 | [When uploading an object, what request header can be explicitly specified in a request to Amazon S3 to encrypt object data when saved on the server side?](#when-uploading-an-object-what-request-header-can-be-explicitly-specified-in-a-request-to-amazon-s3-to-encrypt-object-data-when-saved-on-the-server-side)
 | 228 | [Which of the following platforms are supported by Elastic Beanstalk? (Choose TWO)](#which-of-the-following-platforms-are-supported-by-elastic-beanstalk-choose-two)
-| 229 | [Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name 'ElasticLoad Balancer'?](#which-code-snippet-below-returns-the-url-of-a-load-balanced-web-site-created-in-cloudformation-with-an-awselasticloadbalancingloadbalancer-resource-name-elasticload-balancer)
+| 229 | [Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an `AWS::ElasticLoadBalancing::LoadBalancer` resource name `ElasticLoad Balancer`?](#which-code-snippet-below-returns-the-url-of-a-load-balanced-web-site-created-in-cloudformation-with-an-awselasticloadbalancingloadbalancer-resource-name-elasticload-balancer)
 | 230 | [Which features can be used to restrict access to data in S3? (Choose TWO)](#which-features-can-be-used-to-restrict-access-to-data-in-s3-choose-two)
 | 231 | [What happens, by default, when one of the resources in a CloudFormation stack cannot be created?](#what-happens-by-default-when-one-of-the-resources-in-a-cloudformation-stack-cannot-be-created)
 | 232 | [Which of the following are valid arguments for an SNS Publish request? (Choose THREE)](#which-of-the-following-are-valid-arguments-for-an-sns-publish-request-choose-three)
@@ -398,7 +398,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 265 | [If an application is storing hourly log files from thousands of instances from a high traffic web site, which naming scheme would give optimal performance on S3?](#if-an-application-is-storing-hourly-log-files-from-thousands-of-instances-from-a-high-traffic-web-site-which-naming-scheme-would-give-optimal-performance-on-s3)
 | 266 | [Which of the following statements about SQS is true?](#which-of-the-following-statements-about-sqs-is-true)
 | 267 | [A corporate web application is deployed within an Amazon VPC, and is connected to the corporate data center via IPSec VPN. The application must authenticate against the on-premise LDAP server. Once authenticated, logged-in users can only access an S3 keyspace specific to the user. Which two approaches can satisfy the objectives? (Choose TWO)](#a-corporate-web-application-is-deployed-within-an-amazon-vpc-and-is-connected-to-the-corporate-data-center-via-ipsec-vpn-the-application-must-authenticate-against-the-on-premise-ldap-server-once-authenticated-logged-in-users-can-only-access-an-s3-keyspace-specific-to-the-user-which-two-approaches-can-satisfy-the-objectives-choose-two)
-| 268 | [Company C is currently hosting their corporate site in an Amazon S3 bucket with Static Website Hosting enabled. Currently, when visitors go to http://www.companyc.com the index.html page is returned. Company C now would like a new page welcome.html to be returned when a visitor enters http://www.companyc.com in the browser. Which of the following steps will allow Company C to meet this requirement? (Choose TWO)](#company-c-is-currently-hosting-their-corporate-site-in-an-amazon-s3-bucket-with-static-website-hosting-enabled-currently-when-visitors-go-to-httpwwwcompanyccom-the-indexhtml-page-is-returned-company-c-now-would-like-a-new-page-welcomehtml-to-be-returned-when-a-visitor-enters-httpwwwcompanyccom-in-the-browser-which-of-the-following-steps-will-allow-company-c-to-meet-this-requirement-choose-two)
+| 268 | [Company C is currently hosting their corporate site in an Amazon S3 bucket with Static Website Hosting enabled. Currently, when visitors go to `http://www.companyc.com` the `index.html` page is returned. Company C now would like a new page welcome.html to be returned when a visitor enters `http://www.companyc.com` in the browser. Which of the following steps will allow Company C to meet this requirement? (Choose TWO)](#company-c-is-currently-hosting-their-corporate-site-in-an-amazon-s3-bucket-with-static-website-hosting-enabled-currently-when-visitors-go-to-httpwwwcompanyccom-the-indexhtml-page-is-returned-company-c-now-would-like-a-new-page-welcomehtml-to-be-returned-when-a-visitor-enters-httpwwwcompanyccom-in-the-browser-which-of-the-following-steps-will-allow-company-c-to-meet-this-requirement-choose-two)
 | 269 | [What type of block cipher does Amazon S3 offer for server side encryption?](#what-type-of-block-cipher-does-amazon-s3-offer-for-server-side-encryption)
 | 270 | [A Development team wants to instrument their code to provide more detailed information to AWS X-Ray than simple outgoing and incoming requests. This will generate large amounts of data, so the Development team wants to implement indexing so they can filter the data. What should the Development team do to achieve this?](#a-development-team-wants-to-instrument-their-code-to-provide-more-detailed-information-to-aws-x-ray-than-simple-outgoing-and-incoming-requests-this-will-generate-large-amounts-of-data-so-the-development-team-wants-to-implement-indexing-so-they-can-filter-the-data-what-should-the-development-team-do-to-achieve-this)
 | 271 | [A team of Developers must migrate an application running inside an AWS Elastic Beanstalk environment from a Classic Load Balancer to an Application Load Balancer. Which steps should be taken to accomplish the task using the AWS Management Console?](#a-team-of-developers-must-migrate-an-application-running-inside-an-aws-elastic-beanstalk-environment-from-a-classic-load-balancer-to-an-application-load-balancer-which-steps-should-be-taken-to-accomplish-the-task-using-the-aws-management-console)
@@ -451,9 +451,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 318 | [A Developer must build an application that uses Amazon DynamoDB. The requirements state that the items being stored in the DynamoDB table will be 7KB in size and that reads must be strongly consistent. The maximum read rate is 3 items per second, and the maximum write rate is 10 items per second. How should the Developer size the DynamoDB table to meet these requirements?](#a-developer-must-build-an-application-that-uses-amazon-dynamodb-the-requirements-state-that-the-items-being-stored-in-the-dynamodb-table-will-be-7kb-in-size-and-that-reads-must-be-strongly-consistent-the-maximum-read-rate-is-3-items-per-second-and-the-maximum-write-rate-is-10-items-per-second-how-should-the-developer-size-the-dynamodb-table-to-meet-these-requirements)
 | 319 | [A Developer is creating an AWS Lambda function to process a stream of data from an Amazon Kinesis Data Stream. When the Lambda function parses the data and encounters a missing field, it exits the function with an error. The function is generating duplicate records from the Kinesis stream. When the Developer looks at the stream output without the Lambda function, there are no duplicate records. What is the reason for the duplicates?](#a-developer-is-creating-an-aws-lambda-function-to-process-a-stream-of-data-from-an-amazon-kinesis-data-stream-when-the-lambda-function-parses-the-data-and-encounters-a-missing-field-it-exits-the-function-with-an-error-the-function-is-generating-duplicate-records-from-the-kinesis-stream-when-the-developer-looks-at-the-stream-output-without-the-lambda-function-there-are-no-duplicate-records-what-is-the-reason-for-the-duplicates)
 | 320 | [A company is developing an application that will run on several Amazon EC2 instances in an Auto Scaling group and can access a database running on Amazon EC2. The application needs to store secrets required to connect to the database. The application must allow for periodic secret rotation, and there should be no changes to the application when a secret changes. What is the SAFEST way to meet these requirements?](#a-company-is-developing-an-application-that-will-run-on-several-amazon-ec2-instances-in-an-auto-scaling-group-and-can-access-a-database-running-on-amazon-ec2-the-application-needs-to-store-secrets-required-to-connect-to-the-database-the-application-must-allow-for-periodic-secret-rotation-and-there-should-be-no-changes-to-the-application-when-a-secret-changes-what-is-the-safest-way-to-meet-these-requirements)
-| 321 | [A Developer writes an AWS Lambda function and uploads the code in a .ZIP file to Amazon S3. The Developer makes changes to the code and uploads a new.ZIP file to Amazon S3. However, Lambda executes the earlier code. How can the Developer fix this in the LEAST disruptive way?](#a-developer-writes-an-aws-lambda-function-and-uploads-the-code-in-a-zip-file-to-amazon-s3-the-developer-makes-changes-to-the-code-and-uploads-a-newzip-file-to-amazon-s3-however-lambda-executes-the-earlier-code-how-can-the-developer-fix-this-in-the-least-disruptive-way)
+| 321 | [A Developer writes an AWS Lambda function and uploads the code in a `.ZIP` file to Amazon S3. The Developer makes changes to the code and uploads a new `.ZIP` file to Amazon S3. However, Lambda executes the earlier code. How can the Developer fix this in the LEAST disruptive way?](#a-developer-writes-an-aws-lambda-function-and-uploads-the-code-in-a-zip-file-to-amazon-s3-the-developer-makes-changes-to-the-code-and-uploads-a-new-zip-file-to-amazon-s3-however-lambda-executes-the-earlier-code-how-can-the-developer-fix-this-in-the-least-disruptive-way)
 | 322 | [An AWS Lambda function must read data from an Amazon RDS MySQL database in a VPC and also reach a public endpoint over the internet to get additional data. Which steps must be taken to allow the function to access both the RDS resource and the public endpoint? (Select TWO)](#an-aws-lambda-function-must-read-data-from-an-amazon-rds-mysql-database-in-a-vpc-and-also-reach-a-public-endpoint-over-the-internet-to-get-additional-data-which-steps-must-be-taken-to-allow-the-function-to-access-both-the-rds-resource-and-the-public-endpoint-select-two)
-| 323 | [A Developer has been asked to make changes to the source code of an AWS Lambda function. The function is managed using an AWS CloudFormation template. The template is configured to load the source code from an Amazon S3 bucket. The Developer manually created a .ZIP file deployment package containing the changes and put the file into the correct location on Amazon S3. When the function is invoked, the code changes have not been applied. What step is required to update the function with the changes?](#a-developer-has-been-asked-to-make-changes-to-the-source-code-of-an-aws-lambda-function-the-function-is-managed-using-an-aws-cloudformation-template-the-template-is-configured-to-load-the-source-code-from-an-amazon-s3-bucket-the-developer-manually-created-a-zip-file-deployment-package-containing-the-changes-and-put-the-file-into-the-correct-location-on-amazon-s3-when-the-function-is-invoked-the-code-changes-have-not-been-applied-what-step-is-required-to-update-the-function-with-the-changes)
+| 323 | [A Developer has been asked to make changes to the source code of an AWS Lambda function. The function is managed using an AWS CloudFormation template. The template is configured to load the source code from an Amazon S3 bucket. The Developer manually created a `.ZIP` file deployment package containing the changes and put the file into the correct location on Amazon S3. When the function is invoked, the code changes have not been applied. What step is required to update the function with the changes?](#a-developer-has-been-asked-to-make-changes-to-the-source-code-of-an-aws-lambda-function-the-function-is-managed-using-an-aws-cloudformation-template-the-template-is-configured-to-load-the-source-code-from-an-amazon-s3-bucket-the-developer-manually-created-a-zip-file-deployment-package-containing-the-changes-and-put-the-file-into-the-correct-location-on-amazon-s3-when-the-function-is-invoked-the-code-changes-have-not-been-applied-what-step-is-required-to-update-the-function-with-the-changes)
 | 324 | [A Developer wants to enable AWS X-Ray for a secure application that runs in an Amazon ECS environment. What combination of steps will enable X-Ray? (Select THREE)](#a-developer-wants-to-enable-aws-x-ray-for-a-secure-application-that-runs-in-an-amazon-ecs-environment-what-combination-of-steps-will-enable-x-ray-select-three)
 | 325 | [A Developer is designing a new application that uses Amazon S3. To satisfy compliance requirements, the Developer must encrypt the data at rest. How can the Developer accomplish this?](#a-developer-is-designing-a-new-application-that-uses-amazon-s3-to-satisfy-compliance-requirements-the-developer-must-encrypt-the-data-at-rest-how-can-the-developer-accomplish-this)
 | 326 | [An AWS Elastic Beanstalk application needs to be deployed in multiple regions and requires a different Amazon Machine Image (AMI) in each region. Which AWS CloudFormation template key can be used to specify the correct AMI for each region?](#an-aws-elastic-beanstalk-application-needs-to-be-deployed-in-multiple-regions-and-requires-a-different-amazon-machine-image-ami-in-each-region-which-aws-cloudformation-template-key-can-be-used-to-specify-the-correct-ami-for-each-region)
@@ -484,7 +484,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 351 | [An on-premises application makes repeated calls to store files to Amazon S3. As usage of the application has increased, 'LimitExceeded' errors are being logged. What should be changed to fix this error?](#an-on-premises-application-makes-repeated-calls-to-store-files-to-amazon-s3-as-usage-of-the-application-has-increased-limitexceeded-errors-are-being-logged-what-should-be-changed-to-fix-this-error)
 | 352 | [A company caches session information for a web application in an Amazon DynamoDB table. The company wants an automated way to delete old items from the table. What is the simplest way to do this?](#a-company-caches-session-information-for-a-web-application-in-an-amazon-dynamodb-table-the-company-wants-an-automated-way-to-delete-old-items-from-the-table-what-is-the-simplest-way-to-do-this)
 | 353 | [An application is expected to process many files. Each file takes four minutes to process each AWS Lambda invocation. The Lambda function does not return any important data. What is the fastest way to process all the files?](#an-application-is-expected-to-process-many-files-each-file-takes-four-minutes-to-process-each-aws-lambda-invocation-the-lambda-function-does-not-return-any-important-data-what-is-the-fastest-way-to-process-all-the-files)
-| 354 | [The upload of a 15 GB object to Amazon S3 fails. The error message reads: 'Your proposed upload exceeds the maximum allowed object size.' What technique will allow the Developer to upload this object?](#the-upload-of-a-15-gb-object-to-amazon-s3-fails-the-error-message-reads-your-proposed-upload-exceeds-the-maximum-allowed-object-size-what-technique-will-allow-the-developer-to-upload-this-object)
+| 354 | [The upload of a 15 GB object to Amazon S3 fails. The error message reads: `Your proposed upload exceeds the maximum allowed object size.`. What technique will allow the Developer to upload this object?](#the-upload-of-a-15-gb-object-to-amazon-s3-fails-the-error-message-reads-your-proposed-upload-exceeds-the-maximum-allowed-object-size-what-technique-will-allow-the-developer-to-upload-this-object)
 | 355 | [AWS CodeBuild builds code for an application, creates the Docker image, pushes the image to Amazon Elastic Container Registry (Amazon ECR), and tags the image with a unique identifier. If the Developers already have AWS CLI configured on their workstations, how can the Docker images be pulled to the workstations?](#aws-codebuild-builds-code-for-an-application-creates-the-docker-image-pushes-the-image-to-amazon-elastic-container-registry-amazon-ecr-and-tags-the-image-with-a-unique-identifier-if-the-developers-already-have-aws-cli-configured-on-their-workstations-how-can-the-docker-images-be-pulled-to-the-workstations)
 | 356 | [A web application is designed to allow new users to create accounts using their email addresses. The application will store attributes for each user, and is expecting millions of user to sign up. What should the Developer implement to achieve the design goals?](#a-web-application-is-designed-to-allow-new-users-to-create-accounts-using-their-email-addresses-the-application-will-store-attributes-for-each-user-and-is-expecting-millions-of-user-to-sign-up-what-should-the-developer-implement-to-achieve-the-design-goals)
 | 357 | [A company needs a new REST API that can return information about the contents of an Amazon S3 bucket, such as a count of the objects stored in it. The company has decided that the new API should be written as a microservice using AWS Lambda and Amazon API Gateway. How should the Developer ensure that the microservice has the necessary access to the Amazon S3 bucket, while adhering to security best practices?](#a-company-needs-a-new-rest-api-that-can-return-information-about-the-contents-of-an-amazon-s3-bucket-such-as-a-count-of-the-objects-stored-in-it-the-company-has-decided-that-the-new-api-should-be-written-as-a-microservice-using-aws-lambda-and-amazon-api-gateway-how-should-the-developer-ensure-that-the-microservice-has-the-necessary-access-to-the-amazon-s3-bucket-while-adhering-to-security-best-practices)
@@ -505,7 +505,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 372 | [An application displays a status dashboard. The status is updated by 1 KB messages from an SQS queue. Although the status changes infrequently, the Developer must minimize the time between the message arrival in the queue and the dashboard update. What technique provides the shortest delay in updating the dashboard?](#an-application-displays-a-status-dashboard-the-status-is-updated-by-1-kb-messages-from-an-sqs-queue-although-the-status-changes-infrequently-the-developer-must-minimize-the-time-between-the-message-arrival-in-the-queue-and-the-dashboard-update-what-technique-provides-the-shortest-delay-in-updating-the-dashboard)
 | 373 | [An on-premises legacy application is caching data files locally and writing shared images to local disks. What is necessary to allow for horizontal scaling when migrating the application to AWS?](#an-on-premises-legacy-application-is-caching-data-files-locally-and-writing-shared-images-to-local-disks-what-is-necessary-to-allow-for-horizontal-scaling-when-migrating-the-application-to-aws)
 | 374 | [A Developer must trigger an AWS Lambda function based on the item lifecycle activity in an Amazon DynamoDB table. How can the Developer create the solution?](#a-developer-must-trigger-an-aws-lambda-function-based-on-the-item-lifecycle-activity-in-an-amazon-dynamodb-table-how-can-the-developer-create-the-solution)
-| 375 | [After installing the AWS CLI, a Developer tries to run the command awsconfigure but receives the following error:Error: aws: command not found. What is the most likely cause of this error?](#after-installing-the-aws-cli-a-developer-tries-to-run-the-command-awsconfigure-but-receives-the-following-errorerror-aws-command-not-found-what-is-the-most-likely-cause-of-this-error)
+| 375 | [After installing the AWS CLI, a Developer tries to run the command aws configure but receives the following error: `Error: aws: command not found`. What is the most likely cause of this error?](#after-installing-the-aws-cli-a-developer-tries-to-run-the-command-aws-configure-but-receives-the-following-error-error-aws-command-not-found-what-is-the-most-likely-cause-of-this-error)
 | 376 | [The Developer for a retail company must integrate a fraud detection solution into the order processing solution. The fraud detection solution takes between ten and thirty minutes to verify an order. At peak, the web site can receive one hundred orders per minute. What is the most scalable method to add the fraud detection solution to the order processing pipeline?](#the-developer-for-a-retail-company-must-integrate-a-fraud-detection-solution-into-the-order-processing-solution-the-fraud-detection-solution-takes-between-ten-and-thirty-minutes-to-verify-an-order-at-peak-the-web-site-can-receive-one-hundred-orders-per-minute-what-is-the-most-scalable-method-to-add-the-fraud-detection-solution-to-the-order-processing-pipeline)
 | 377 | [When a Developer tries to run an AWS CodeBuild project, it raises an error because the length of all environment variables exceeds the limit for the combined maximum of characters. What is the recommended solution?](#when-a-developer-tries-to-run-an-aws-codebuild-project-it-raises-an-error-because-the-length-of-all-environment-variables-exceeds-the-limit-for-the-combined-maximum-of-characters-what-is-the-recommended-solution)
 | 378 | [A set of APIs are exposed to customers using the Amazon API Gateway. These APIs have caching enabled on the API Gateway. Customers have asked for an option to invalidate this cache for each of the APIs. What action can be taken to allow API customers to invalidate the API Cache?](#a-set-of-apis-are-exposed-to-customers-using-the-amazon-api-gateway-these-apis-have-caching-enabled-on-the-api-gateway-customers-have-asked-for-an-option-to-invalidate-this-cache-for-each-of-the-apis-what-action-can-be-taken-to-allow-api-customers-to-invalidate-the-api-cache)
@@ -517,7 +517,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 384 | [Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?](#where-should-an-elastic-beanstalk-configuration-file-named-healthcheckur1config-be-placed-in-the-application-source-bundle)
 | 385 | [A Developer has implemented a Lambda function that needs to add new customers to an RDS database that is expected to run hundreds of times per hour. The Lambda function is configured to use 512MB of RAM and is based on the following pseudo code. After testing the Lambda function, the Developer notices that the Lambda execution time is much longer than expected. What should the Developer do to improve performance?](#a-developer-has-implemented-a-lambda-function-that-needs-to-add-new-customers-to-an-rds-database-that-is-expected-to-run-hundreds-of-times-per-hour-the-lambda-function-is-configured-to-use-512mb-of-ram-and-is-based-on-the-following-pseudo-code-after-testing-the-lambda-function-the-developer-notices-that-the-lambda-execution-time-is-much-longer-than-expected-what-should-the-developer-do-to-improve-performance)
 | 386 | [A static website is hosted in an Amazon S3 bucket. Several HTML pages on the site use JavaScript to download images from another Amazon S3 bucket. These images are not displayed when users browse the site. What is the possible cause for the issue?](#a-static-website-is-hosted-in-an-amazon-s3-bucket-several-html-pages-on-the-site-use-javascript-to-download-images-from-another-amazon-s3-bucket-these-images-are-not-displayed-when-users-browse-the-site-what-is-the-possible-cause-for-the-issue)
-| 387 | [Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?](#amazon-s3-has-the-following-structure-s3bucketfoldernamefilenamezip-which-s3-best-practice-would-optimize-performance-with-thousands-of-put-request-each-second-to-a-single-bucket)
+| 387 | [Amazon S3 has the following structure: `S3://BUCKET/FOLDERNAME/FILENAME.zip`. Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?](#amazon-s3-has-the-following-structure-s3bucketfoldernamefilenamezip-which-s3-best-practice-would-optimize-performance-with-thousands-of-put-request-each-second-to-a-single-bucket)
 
 ### Which of the following are good use cases for how Amazon ElastiCache can help an application? (Select TWO)
 
@@ -621,7 +621,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Company D is running their corporate website on Amazon S3 accessed from http://www.companyd.com. Their marketing team has published new web fonts to a separate S3 bucket accessed by the S3 endpoint https://s3-us-west-1.amazonaws.com/cdfonts. While testing the new web fonts, Company D recognized the web fonts are being blocked by the browser. What should Company D do to prevent the web fonts from being blocked by the browser?
+### Company D is running their corporate website on Amazon S3 accessed from `http://www.companyd.com`. Their marketing team has published new web fonts to a separate S3 bucket accessed by the S3 endpoint `https://s3-us-west-1.amazonaws.com/cdfonts`. While testing the new web fonts, Company D recognized the web fonts are being blocked by the browser. What should Company D do to prevent the web fonts from being blocked by the browser?
 
 - [ ] Enable versioning on the cdfonts bucket for each web font.
 - [ ] Create a policy on the cdfonts bucket to enable access to everyone.
@@ -632,11 +632,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer must extend an existing application that is based on the AWS Serverless Application Model (AWS SAM). The developer has used the AWS SAM CLI to create the project. The project contains different AWS Lambda functions. Which combination of commands must the developer use to redeploy the AWS SAM application? (Select TWO)
 
-- [ ] sam init.
-- [ ] sam validate.
-- [x] sam build.
-- [x] sam deploy.
-- [ ] sam publish.
+- [ ] `sam init`.
+- [ ] `sam validate`.
+- [x] `sam build`.
+- [x] `sam deploy`.
+- [ ] `sam publish`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -685,7 +685,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### PLACEHOLDER 2
+### PLACEHOLDER
 
 - [ ] ...
 - [ ] ...
@@ -723,11 +723,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is making changes to a custom application that is currently using AWS Elastic Beanstalk. After the Developer completes the changes, what solutions will update the Elastic Beanstalk environment with the new application version? (Choose TWO)
 
-- [x] Package the application code into a .zip file, and upload, then deploy the packaged application from the AWS Management Console.
-- [ ] Package the application code into a .tar file, create a new application version from the AWS Management Console, then update the environment by using AWS CLI.
-- [ ] Package the application code into a .tar file, and upload and deploy the packaged application from the AWS Management Console.
-- [x] Package the application code into a .zip file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI.
-- [ ] Package the application code into a .zip file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
+- [x] Package the application code into a `.zip` file, and upload, then deploy the packaged application from the AWS Management Console.
+- [ ] Package the application code into a `.tar` file, create a new application version from the AWS Management Console, then update the environment by using AWS CLI.
+- [ ] Package the application code into a `.tar` file, and upload and deploy the packaged application from the AWS Management Console.
+- [x] Package the application code into a `.zip` file, create a new application version from the packaged application by using AWS CLI, then update the environment by using AWS CLI.
+- [ ] Package the application code into a `.zip` file, create a new application version from the AWS Management Console, then rebuild the environment by using AWS CLI.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -828,7 +828,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A developer is creating a serverless web application and maintains different branches of code. The developer wants to avoid updating the Amazon API Gateway target endpoint each time a new code push is performed. What solution would allow the developer to perform a code push efficiently, without the need to update the API Gateway?
 
 - [ ] Associate different AWS Lambda functions to an API Gateway target endpoint.
-- [ ] Create different stages in API Gateway, then associate API Gateway with aws Lambda.
+- [ ] Create different stages in API Gateway, then associate API Gateway with AWS Lambda.
 - [x] Create aliases and versions In AWS Lambda.
 - [ ] Tag the AWS Lambda functions with different names.
 
@@ -843,7 +843,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint http://www.supplierdomain.com/status/customerID. Which of the following application designs meet the requirements? (Select TWO)
+### A supplier is writing a new RESTful API for customers to query the status of orders. The customers requested the following API endpoint `http://www.supplierdomain.com/status/customerID`. Which of the following application designs meet the requirements? (Select TWO)
 
 - [ ] Amazon SQS; Amazon SNS.
 - [x] Elastic Load Balancing; Amazon EC2.
@@ -1055,7 +1055,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command aws cloudformation deploy?
+### Given the source code for an AWS Lambda function in the local store.py containing a handler function called get_store and the following AWS CloudFormation template. What should be done to prepare the template so that it can be deployed using the AWS CLI command `aws cloudformation deploy`?
 
 ![Question 59](images/question59.jpg)
 
@@ -1071,7 +1071,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Submit a limit increase request to AWS Support to increase the function to the size needed.
 - [ ] Use a compression algorithm that is more efficient than ZIP.
 - [x] Break the function into multiple smaller Lambda functions.
-- [ ] ZIP the ZIP file twice to compress it further.
+- [ ] `ZIP` the `ZIP` file twice to compress it further.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1165,7 +1165,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Where should the appspec.yml file be placed in order for AWS CodeDeploy to work?
+### Where should the `appspec.yml` file be placed in order for AWS CodeDeploy to work?
 
 - [x] In the root of the application source code directory structure.
 - [ ] In the bin folder along with all the complied code.
@@ -1387,7 +1387,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer has created an S3 bucket s3://mycoolapp and has enabled server across logging that points to the folder s3://mycoolapp/logs.The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder s3://mycoolapp/css, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?
+### A Developer has created an S3 bucket` s3://mycoolapp` and has enabled server across logging that points to the folder `s3://mycoolapp/logs`. The Developer moved 100 KB of Cascading Style Sheets (CSS) documents to the folder `s3://mycoolapp/css`, and then stopped work. When the developer came back a few days later, the bucket was 50 GB. What is the MOST likely cause of this situation?
 
 - [ ] The CSS files were not compressed and S3 versioning was enabled.
 - [ ] S3 replication was enabled on the bucket.
@@ -1407,7 +1407,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the CodeBuild project being unable to successfully compile the website. How should the Developer identify the cause of the failures?
 
-- [ ] Modify the buildspec.yml file to include steps to send the output of build commands to Amazon CloudWatch.
+- [ ] Modify the `buildspec.yml` file to include steps to send the output of build commands to Amazon CloudWatch.
 - [ ] Use a custom Docker image that includes the AWS X-Ray agent in the AWS CodeBuild project configuration.
 - [x] Check the build logs of the failed phase in the last build attempt in the AWS CodeBuild project build history.
 - [ ] Manually re-run the build process on a local machine so that the output can be visualized.
@@ -1428,9 +1428,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ![Question 99](images/question99.jpg)
 
 - [ ] Make a call to AWS KMS to decode the message.
-- [x] Use the AWS STS decode-authorization-message API to decode the message.
+- [x] Use the AWS STS `decode-authorization-message` API to decode the message.
 - [ ] Use an open source decoding library to decode the message.
-- [ ] Use the AWS IAM decode-authorization-message API to decode this message.
+- [ ] Use the AWS IAM `decode-authorization-message` API to decode this message.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1455,7 +1455,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer will be using the AWS CLI on a local development server to manage AWS services. What can be done to ensure that the CLI uses the Developer's IAM permissions when making commands?
 
 - [ ] Specify the Developer's IAM access key ID and secret access key as parameters for each CLI command.
-- [x] Run the aws configure CLI command, and provide the Developer's IAM access key ID and secret access key.
+- [x] Run the `aws configure` CLI command, and provide the Developer's IAM access key ID and secret access key.
 - [ ] Specify the Developer's IAM user name and password as parameters for each CLI command.
 - [ ] Use the Developer's IAM role when making the CLI command.
 
@@ -1612,17 +1612,17 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use Amazon VPC and keep all resources inside the VPC, and use a VPC link for the S3 bucket with the bucket policy.
 - [ ] Use Amazon Cognito user pools, federate with the SAML provider, and use user pool groups with an IAM policy.
-- [x] Use an Amazon Cognito identity pool, federate with the SAML provider, and use an IAM condition key with a value for the cognito-identity.amazonaws.com:sub variable to grant access to the employees.
+- [x] Use an Amazon Cognito identity pool, federate with the SAML provider, and use an IAM condition key with a value for the `cognito-identity.amazonaws.com:sub` variable to grant access to the employees.
 - [ ] Create a unique IAM role for each employee and have each employee assume the role to access the application so they can access their personal data only.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### A company has developed a new serverless application using AWS Lambda functions that will be deployed using the AWS Serverless Application Model (AWS SAM) CLI. Which step should the developer complete prior to deploying the application?
 
-- [ ] Compress the application to a .zip file and upload it into AWS Lambda.
+- [ ] Compress the application to a `.zip` file and upload it into AWS Lambda.
 - [ ] Test the new AWS Lambda function by first tracing it in AWS X-Ray.
 - [x] Bundle the serverless application using a SAM package.
-- [ ] Create the application environment using the eb create my-env command.
+- [ ] Create the application environment using the `eb create my-env` command.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1657,7 +1657,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Create a custom Amazon CloudWatch alarm that sends a notification to an Amazon SNS topic when the CPU utilization exceeds 80%.
 - [ ] Create a custom AWS Cloud Trail alarm that sends a notification to an Amazon SNS topic when the CPU utilization exceeds 80%.
-- [ ] Create a cron job on the EC2 instance that executes the –describe-instance-information command on the host instance every 15 minutes and sends the results to an Amazon SNS topic.
+- [ ] Create a cron job on the EC2 instance that executes the `–describe-instance-information` command on the host instance every 15 minutes and sends the results to an Amazon SNS topic.
 - [ ] Create an AWS Lambda function that queries the AWS CloudTrail logs for the CPUUtilization metric every 15 minutes and sends a notification to an Amazon SNS topic when the CPU utilization exceeds 80%.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1716,7 +1716,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Add an Export declaration to the Outputs section of the original template and use ImportValue in other templates.
 - [ ] Add Exported: true to the Contentbucket in the original template and use ImportResource in other templates.
 - [x] Create a custom AWS CloudFormation resource that gets the bucket name from the ContentBucket resource of the first stack.
-- [ ] Use Fn::Include to include the existing template in other templates and use the ContentBucket resource directly.
+- [ ] Use `Fn::Include` to include the existing template in other templates and use the ContentBucket resource directly.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1740,11 +1740,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer is creating a script to automate the deployment process for a serverless application. The developer wants to use an existing AWS Serverless Application Model (AWS SAM) template for the application. What should the developer use for the project? (Choose TWO)
 
-- [x] Call aws cloudformation package to create the deployment package. Call aws cloudformation deploy to deploy the package afterward.
-- [x] Call sam package to create the deployment package. Call sam deploy to deploy the package afterward.
-- [ ] Call aws s3 cp to upload the AWS SAM template to Amazon S3. Call aws lambda update-function-code to create the application.
-- [ ] Create a ZIP package locally and call aws serverlessrepo create-application to create the application.
-- [ ] Create a ZIP package and upload it to Amazon S3. Call aws cloudformation create-stack to create the application.
+- [x] Call `aws cloudformation package` to create the deployment package. Call `aws cloudformation deploy` to deploy the package afterward.
+- [x] Call `sam package` to create the deployment package. Call `sam deploy` to deploy the package afterward.
+- [ ] Call `aws s3 cp` to upload the AWS SAM template to Amazon S3. Call `aws lambda update-function-code` to create the application.
+- [ ] Create a `ZIP` package locally and call `aws serverlessrepo create-application` to create the application.
+- [ ] Create a `ZIP` package and upload it to Amazon S3. Call `aws cloudformation create-stack` to create the application.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1850,10 +1850,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A developer converted an existing program to an AWS Lambda function in the console. The program runs properly on a local laptop, but shows an 'Unable to import module' error when tested in the Lambda console. Which of the following can fix the error?
 
-- [x] Install the missing module and specify the current directory as the target. Create a ZIP file to include all files under the current directory, and upload the ZIP file.
-- [ ] Install the missing module in a lib directory. Create a ZIP file to include all files under the lib directory, and upload the ZIP file as dependency file.
-- [ ] In the Lambda code, invoke a Linux command to install the missing modules under the /usr/lib directory.
-- [ ] In the Lambda console, create a LB_LIBRARY_PATH environment and specify the value for the system library plan.
+- [x] Install the missing module and specify the current directory as the target. Create a `ZIP` file to include all files under the current directory, and upload the `ZIP` file.
+- [ ] Install the missing module in a lib directory. Create a `ZIP` file to include all files under the lib directory, and upload the `ZIP` file as dependency file.
+- [ ] In the Lambda code, invoke a Linux command to install the missing modules under the `/usr/lib directory`.
+- [ ] In the Lambda console, create a `LB_LIBRARY_PATH` environment and specify the value for the system library plan.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2039,10 +2039,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has discovered that an application responsible for processing messages in an Amazon SQS queue is routinely falling behind. The application is capable of processing multiple messages in one execution, but is only receiving one message at a time. What should the Developer do to increase the number of messages the application receives?
 
-- [ ] Call the ChangeMessageVisibility API for the queue and set MaxNumberOfMessages to a value greater than the default of 1.
-- [ ] Call the AddPermission API to set MaxNumberOfMessages for the ReceiveMessage action to a value greater than the default of 1.
-- [x] Call the ReceiveMessage API to set MaxNumberOfMessages to a value greater than the default of 1.
-- [ ] Call the SetQueueAttributes API for the queue and set MaxNumberOfMessages to a value greater than the default of 1.
+- [ ] Call the `ChangeMessageVisibility` API for the queue and set `MaxNumberOfMessages` to a value greater than the default of `1`.
+- [ ] Call the `AddPermission` API to set `MaxNumberOfMessages` for the `ReceiveMessage` action to a value greater than the default of `1`.
+- [x] Call the `ReceiveMessage` API to set `MaxNumberOfMessages` to a value greater than the default of `1`.
+- [ ] Call the `SetQueueAttributes` API for the queue and set `MaxNumberOfMessages` to a value greater than the default of `1`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2067,9 +2067,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer is preparing a deployment package using AWS CloudFormation. The package consists of two separate templates: one for the infrastructure and one for the application. The application has to be inside the VPC that is created from the infrastructure template. How can the application stack refer to the VPC created from the infrastructure template?
 
 - [x] Use the Ref function to import the VPC into the application stack from the infrastructure template.
-- [ ] Use the export flag in the infrastructure template, and then use the Fn::ImportValue function in the application template.
+- [ ] Use the export flag in the infrastructure template, and then use the `Fn::ImportValue` function in the application template.
 - [ ] Use the DependsOn attribute to specify that the application instance depends on the VPC in the application template.
-- [ ] Use the Fn::GetAtt function to include the attribute of the VPC in the application template.
+- [ ] Use the `Fn::GetAtt` function to include the attribute of the VPC in the application template.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2155,7 +2155,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer implemented a static website hosted in Amazon S3 that makes web service requests hosted in Amazon API Gateway and AWS Lambda. The site is showing an error that reads: 'No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'null' is therefore not allowed access.' What should the Developer do to resolve this issue?
+### A Developer implemented a static website hosted in Amazon S3 that makes web service requests hosted in Amazon API Gateway and AWS Lambda. The site is showing an error that reads: `No Access-Control-Allow-Origin` header is present on the requested resource. Origin 'null' is therefore not allowed access.' What should the Developer do to resolve this issue?
 
 - [ ] Enable cross-origin resource sharing (CORS) on the S3 bucket.
 - [x] Enable cross-origin resource sharing (CORS) for the method in API Gateway.
@@ -2186,9 +2186,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer is publishing critical log data to a log group in Amazon CloudWatch Logs, which was created 2 months ago. The Developer must encrypt the log data using an AWS KMS customer master key (CMK) so future data can be encrypted to comply with the company's security policy. How can the Developer meet this requirement?
 
 - [ ] Use the CloudWatch Logs console and enable the encrypt feature on the log group.
-- [ ] Use the AWS CLI create-log-group command and specify the key Amazon Resource Name (ARN).
+- [ ] Use the AWS CLI `create-log-group` command and specify the key Amazon Resource Name (ARN).
 - [ ] Use the KMS console and associate the CMK with the log group.
-- [x] Use the AWS CLI associate-kms-key command and specify the key Amazon Resource Name (ARN)
+- [x] Use the AWS CLI `associate-kms-key` command and specify the key Amazon Resource Name (ARN)
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2286,7 +2286,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Software Engineer developed an AWS Lambda function in Node.js to do some CPU-intensive data processing. With the default settings, the Lambda function takes about 5 minutes to complete. Which approach should a Developer take to increase the speed of completion?
 
 - [ ] Instead of using Node.js, rewrite the Lambda function using Python.
-- [ ] Instead of packaging the libraries in the ZIP file with the function, move them to a Lambda layer and use the layer with the function.
+- [ ] Instead of packaging the libraries in the `ZIP` file with the function, move them to a Lambda layer and use the layer with the function.
 - [ ] Allocate the maximum available CPU units to the function.
 - [x] Increase the available memory to the function.
 
@@ -2619,12 +2619,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an AWS::ElasticLoadBalancing::LoadBalancer resource name 'ElasticLoad Balancer'?
+### Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an `AWS::ElasticLoadBalancing::LoadBalancer` resource name `ElasticLoad Balancer`?
 
-- [x] "Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","DNSName"]}]].
-- [ ] "Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","Url"]}]].
-- [ ] "Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancerUrl"}]].
-- [ ] "Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancer","DNSName"}]].
+- [x] `"Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","DNSName"]}]]`.
+- [ ] `"Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","Url"]}]]`.
+- [ ] `"Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancerUrl"}]]`.
+- [ ] `"Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancer","DNSName"}]]`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2902,10 +2902,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An Amazon S3 bucket, 'myawsbucket' is configured with website hosting in Tokyo region, what is the region-specific website endpoint?
 
-- [ ] www.myawsbucket.ap-northeast-1.amazonaws.com
-- [x] myawsbucket.s3-website-ap-northeast-1.amazonaws.com
-- [ ] myawsbucket.amazonaws.com
-- [ ] myawsbucket.tokyo.amazonaws.com
+- [ ] `www.myawsbucket.ap-northeast-1.amazonaws.com`.
+- [x] `myawsbucket.s3-website-ap-northeast-1.amazonaws.com`.
+- [ ] `myawsbucket.amazonaws.com`.
+- [ ] `myawsbucket.tokyo.amazonaws.com`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2952,7 +2952,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Bulk upload the device tokens contained in a CSV file via the AWS Management Console.
 - [ ] Let the push notification service (e.g. Amazon Device Messaging) handle the registration.
 - [ ] Implement a token vending service to handle the registration.
-- [x] Call the CreatePlatformEndPoint API function to register multiple device tokens.
+- [x] Call the `CreatePlatformEndPoint` API function to register multiple device tokens.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2995,12 +2995,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Company C is currently hosting their corporate site in an Amazon S3 bucket with Static Website Hosting enabled. Currently, when visitors go to http://www.companyc.com the index.html page is returned. Company C now would like a new page welcome.html to be returned when a visitor enters http://www.companyc.com in the browser. Which of the following steps will allow Company C to meet this requirement? (Choose TWO)
+### Company C is currently hosting their corporate site in an Amazon S3 bucket with Static Website Hosting enabled. Currently, when visitors go to `http://www.companyc.com` the `index.html` page is returned. Company C now would like a new page welcome.html to be returned when a visitor enters `http://www.companyc.com` in the browser. Which of the following steps will allow Company C to meet this requirement? (Choose TWO)
 
 - [x] Upload an html page named welcome.html to their S3 bucket.
 - [ ] Create a welcome subfolder in their S3 bucket.
 - [x] Set the Index Document property to welcome.html.
-- [ ] Move the index.html page to a welcome subfolder.
+- [ ] Move the `index.html` page to a welcome subfolder.
 - [ ] Set the Error Document property to welcome.html.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3117,10 +3117,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 281](images/question281.jpg)
 
-- [x] "codecommit:CreateBranch" "codecommit:DeleteBranch".
-- [ ] "codecommit:Put*".
-- [ ] "codecommit:Update*".
-- [ ] "codecommit:*".
+- [x] `"codecommit:CreateBranch" "codecommit:DeleteBranch"`.
+- [ ] `"codecommit:Put*"`.
+- [ ] `"codecommit:Update*"`.
+- [ ] `"codecommit:*"`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3136,10 +3136,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is trying to deploy a serverless application using AWS CodeDeploy. The application was updated and needs to be redeployed. What file does the Developer need to update to push that change through CodeDeploy?
 
-- [ ] dockerrun.aws.json
-- [ ] buildspec.yml
-- [x] appspec.yml
-- [ ] ebextensions.config
+- [ ] `dockerrun.aws.json`.
+- [ ] `buildspec.yml`.
+- [x] `appspec.yml`.
+- [ ] `ebextensions.config`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3483,12 +3483,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer writes an AWS Lambda function and uploads the code in a .ZIP file to Amazon S3. The Developer makes changes to the code and uploads a new.ZIP file to Amazon S3. However, Lambda executes the earlier code. How can the Developer fix this in the LEAST disruptive way?
+### A Developer writes an AWS Lambda function and uploads the code in a `.ZIP` file to Amazon S3. The Developer makes changes to the code and uploads a new `.ZIP` file to Amazon S3. However, Lambda executes the earlier code. How can the Developer fix this in the LEAST disruptive way?
 
-- [ ] Create another Lambda function and specify the new .ZIP file.
-- [x] Call the update-function-code API.
-- [ ] Remove the earlier .ZIP file first, then add the new .ZIP file.
-- [ ] Call the create-alias API.
+- [ ] Create another Lambda function and specify the new `.ZIP` file.
+- [x] Call the `update-function-code` API.
+- [ ] Remove the earlier `.ZIP` file first, then add the new `.ZIP` file.
+- [ ] Call the `create-alias` API.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3502,12 +3502,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer has been asked to make changes to the source code of an AWS Lambda function. The function is managed using an AWS CloudFormation template. The template is configured to load the source code from an Amazon S3 bucket. The Developer manually created a .ZIP file deployment package containing the changes and put the file into the correct location on Amazon S3. When the function is invoked, the code changes have not been applied. What step is required to update the function with the changes?
+### A Developer has been asked to make changes to the source code of an AWS Lambda function. The function is managed using an AWS CloudFormation template. The template is configured to load the source code from an Amazon S3 bucket. The Developer manually created a `.ZIP` file deployment package containing the changes and put the file into the correct location on Amazon S3. When the function is invoked, the code changes have not been applied. What step is required to update the function with the changes?
 
-- [ ] Delete the .ZIP file on S3, and re-upload by using a different object key name.
+- [ ] Delete the `.ZIP` file on S3, and re-upload by using a different object key name.
 - [x] Update the CloudFormation stack with the correct values for the function code properties S3Bucket, S3Key, or S3ObjectVersion.
 - [ ] Ensure that the function source code is base64-encoded before uploading the deployment package to S3.
-- [ ] Modify the execution role of the Lambda function to allow S3 access permission to the deployment package .ZIP file.
+- [ ] Modify the execution role of the Lambda function to allow S3 access permission to the deployment package `.ZIP` file.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3524,9 +3524,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is designing a new application that uses Amazon S3. To satisfy compliance requirements, the Developer must encrypt the data at rest. How can the Developer accomplish this?
 
-- [ ] Use s3:x-amz-acl as a condition in the S3 bucket policy.
+- [ ] Use `s3:x-amz-acl` as a condition in the S3 bucket policy.
 - [ ] Use Amazon RDS with default encryption.
-- [ ] Use aws:SecureTransport as a condition in the S3 bucket policy.
+- [ ] Use `aws:SecureTransport` as a condition in the S3 bucket policy.
 - [x] Turn on S3 default encryption for the S3 bucket.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3560,18 +3560,18 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer must deploy a new AWS Lambda function using an AWS CloudFormation template. Which procedures will deploy a Lambda function? (Select TWO)
 
-- [ ] Upload the code to an AWS CodeCommit repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
-- [x] Create an AWS::Lambda::Function resource in the template, then write the code directly inside the CloudFormation template.
-- [x] Upload a .ZIP file containing the function code to Amazon S3, then add a reference to it in an AWS::Lambda::Function resource in the template.
-- [ ] Upload a .ZIP file to AWS CloudFormation containing the function code, then add a reference to it in an AWS::Lambda::Function resource in the template.
-- [ ] Upload the function code to a private Git repository, then add a reference to it in an AWS::Lambda::Function resource in the template.
+- [ ] Upload the code to an AWS CodeCommit repository, then add a reference to it in an `AWS::Lambda::Function` resource in the template.
+- [x] Create an `AWS::Lambda::Function` resource in the template, then write the code directly inside the CloudFormation template.
+- [x] Upload a `.ZIP` file containing the function code to Amazon S3, then add a reference to it in an `AWS::Lambda::Function` resource in the template.
+- [ ] Upload a `.ZIP` file to AWS CloudFormation containing the function code, then add a reference to it in an `AWS::Lambda::Function` resource in the template.
+- [ ] Upload the function code to a private Git repository, then add a reference to it in an `AWS::Lambda::Function` resource in the template.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### How should custom libraries be utilized in AWS Lambda?
 
 - [ ] Host the library on Amazon S3 and reference to it from the Lambda function.
-- [x] Install the library locally and upload a ZIP file of the Lambda function.
+- [x] Install the library locally and upload a `ZIP` file of the Lambda function.
 - [ ] Import the necessary Lambda blueprint when creating the function.
 - [ ] Modify the function runtime to include the necessary library.
 
@@ -3589,10 +3589,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing an imaging micro service on AWS Lambda. The service is dependent on several libraries that are not available in the Lambda runtime environment. Which strategy should the Developer follow to create the Lambda deployment package?
 
-- [x] Create a ZIP file with the source code and all dependent libraries.
-- [ ] Create a ZIP file with the source code and a script that installs the dependent libraries at runtime.
-- [ ] Create a ZIP file with the source code. Stage the dependent libraries on an Amazon S3 bucket indicated by the Lambda environment variable LD_LIBRARY_PATH.
-- [ ] Create a ZIP file with the source code and a buildspec.yaml file that installs the dependent libraries on AWS Lambda.
+- [x] Create a `ZIP` file with the source code and all dependent libraries.
+- [ ] Create a `ZIP` file with the source code and a script that installs the dependent libraries at runtime.
+- [ ] Create a `ZIP` file with the source code. Stage the dependent libraries on an Amazon S3 bucket indicated by the Lambda environment variable LD_LIBRARY_PATH.
+- [ ] Create a `ZIP` file with the source code and a buildspec.yaml file that installs the dependent libraries on AWS Lambda.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3625,7 +3625,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing a serverless application that requires that an AWS Lambda function be invoked every 10 minutes. What is an automated and serverless way to trigger the function?
 
-- [ ] Deploy an Amazon EC2 instance based on Linux, and edit its /etc/crontab file by adding a command to periodically invoke the Lambda function.
+- [ ] Deploy an Amazon EC2 instance based on Linux, and edit its `/etc/crontab` file by adding a command to periodically invoke the Lambda function.
 - [ ] Configure an environment variable named PERIOD for the Lambda function. Set the value to 600.
 - [x] Create an Amazon CloudWatch Events rule that triggers on a regular schedule to invoke the Lambda function.
 - [ ] Create an Amazon SNS topic that has a subscription to the Lambda function with a 600-second timer.
@@ -3759,7 +3759,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Use nested stacks for common template patterns.
 - [ ] Embed credentials to prevent typos.
 - [ ] Remove mappings to decrease the number of variables.
-- [ ] Use AWS::Include to reference publicly-hosted template files.
+- [ ] Use `AWS::Include` to reference publicly-hosted template files.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3790,7 +3790,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### The upload of a 15 GB object to Amazon S3 fails. The error message reads: 'Your proposed upload exceeds the maximum allowed object size.' What technique will allow the Developer to upload this object?
+### The upload of a 15 GB object to Amazon S3 fails. The error message reads: `Your proposed upload exceeds the maximum allowed object size.`. What technique will allow the Developer to upload this object?
 
 - [x] Upload the object using the multi-part upload API.
 - [ ] Upload the object over an AWS Direct Connect connection.
@@ -3801,10 +3801,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### AWS CodeBuild builds code for an application, creates the Docker image, pushes the image to Amazon Elastic Container Registry (Amazon ECR), and tags the image with a unique identifier. If the Developers already have AWS CLI configured on their workstations, how can the Docker images be pulled to the workstations?
 
-- [ ] Run the following:docker pull REPOSITORY URI : TAG.
-- [x] Run the output of the following:aws ecr get-login and then run: docker pull REPOSITORY URI : TAG.
-- [ ] Run the following:aws ecr get-login and then run: docker pull REPOSITORY URI : TAG.
-- [ ] Run the output of the following: aws ecr get-download-url-for-layer and then run: docker pull REPOSITORY URI : TAG.
+- [ ] Run the following: `docker pull REPOSITORY URI : TAG`.
+- [x] Run the output of the following: `aws ecr get-login` and then run: `docker pull REPOSITORY URI : TAG`.
+- [ ] Run the following: `aws ecr get-login` and then run: `docker pull REPOSITORY URI : TAG`.
+- [ ] Run the output of the following: `aws ecr get-download-url-for-layer` and then run: `docker pull REPOSITORY URI : TAG`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3904,7 +3904,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An application running on an Amazon Linux EC2 instance needs to manage the AWS infrastructure. How can the EC2 instance be configured to make AWS API calls securely?
 
 - [ ] Sign the AWS CLI command using the signature version 4 process.
-- [ ] Run the aws configure AWS CLI command and specify the access key id and secret access key.
+- [ ] Run the `aws configure` AWS CLI command and specify the access key id and secret access key.
 - [x] Specify a role for the EC2 instance with the necessary privileges.
 - [ ] Pass the access key id and secret access key as parameters for each AWS CLI command.
 
@@ -3984,12 +3984,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### After installing the AWS CLI, a Developer tries to run the command awsconfigure but receives the following error:Error: aws: command not found. What is the most likely cause of this error?
+### After installing the AWS CLI, a Developer tries to run the command aws configure but receives the following error: `Error: aws: command not found`. What is the most likely cause of this error?
 
-- [x] The aws executable is not in the PATH environment variable.
-- [ ] Access to the aws executable has been denied to the installer.
+- [x] The `aws` executable is not in the PATH environment variable.
+- [ ] Access to the `aws` executable has been denied to the installer.
 - [ ] Incorrect AWS credentials were provided.
-- [ ] The aws script does not have an executable file mode.
+- [ ] The `aws` script does not have an executable file mode.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -4004,7 +4004,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### When a Developer tries to run an AWS CodeBuild project, it raises an error because the length of all environment variables exceeds the limit for the combined maximum of characters. What is the recommended solution?
 
-- [ ] Add the export LC_ALL="en_US.utf8" command to the pre_build section to ensure POSIX localization.
+- [ ] Add the export `LC_ALL="en_US.utf8"` command to the pre_build section to ensure POSIX localization.
 - [ ] Use Amazon Cognito to store key-value pairs for large numbers of environment variables.
 - [ ] Update the settings for the build project to use an Amazon S3 bucket for large numbers of environment variables.
 - [x] Use AWS Systems Manager Parameter Store to store large numbers of environment variables.
@@ -4095,11 +4095,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?
+### Amazon S3 has the following structure: `S3://BUCKET/FOLDERNAME/FILENAME.zip`. Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?
 
-- [ ] Prefix folder names with user id; for example, s3://BUCKET/2013-FOLDERNAME/FILENAME.zip.
-- [ ] Prefix file names with timestamps; for example, s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip.
-- [ ] Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip.
-- [x] Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip.
+- [ ] Prefix folder names with user id; for example, `s3://BUCKET/2013-FOLDERNAME/FILENAME.zip`.
+- [ ] Prefix file names with timestamps; for example, `s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip`.
+- [ ] Prefix file names with random hex hashes; for example, `s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip`.
+- [x] Prefix folder names with random hex hashes; for example, `s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip`.
 
 **[⬆ Back to Top](#table-of-contents)**
