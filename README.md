@@ -21,6 +21,15 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 ⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
 
+## 👩‍💻 & 👨‍💻 Interactive Course(s)
+
+It's great to learn these questions as your exam preparation, and, yes, you should pass just based on that. However, we highly recommend more interactive learning if you want to become an expert. Currently, we're recommending those courses:
+
+- 🎬 [Coursera: video-based, official course by Whizlabs](https://imp.i384100.net/bO0z0b).
+- 📖 [Educative: text-based, video-free course, including set up out-of-the-box for you Cloud Labs to practice hands-on without the need to set up an environment (and payments). The link includes the highest available discount Educative offers](https://www.educative.io/courses/good-parts-of-aws?aff=VALz).
+
+Yes, we have a little commission from that link. Therefore, by using that link, you're supporting us.
+
 ## ✨ This course is unlike any Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) course you will find online.
 
 ✋ Join a live online community and a course taught by industry experts and pass the Amazon Web Services Certified (AWS Certified) Developer Associate (DVA-C02) confidently. We aim to build an ecosystem of Information Technology (IT) certifications and online courses in cooperation with the technology industry. We believe it will give our students 100% confidence in the pacing market in an open-source environment. We are just at the beginning of our way, so it's even better for you to join now!
@@ -1346,7 +1355,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Use the AWS CLI to retrieve the IAM group.
 - [ ] Query Amazon EC2 metadata for in-line IAM policies.
 - [ ] Request a token from AWS STS, and perform a describe action.
-- [x] Perform a get action using the '--dry-run' argument.
+- [x] Perform a get action using the `--dry-run` argument.
 - [x] Validate the IAM role policy with the IAM policy simulator.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1556,7 +1565,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Enable throttling for the API Gateway stage. Set a value for both the rate and burst capacity. If a registered user chooses a larger package, create a stage for them, adjust the values, and share the new URL with them.
 - [ ] Set up Amazon CloudWatch API logging in API Gateway. Create a filter based on the user and requestTime fields and create an alarm on this filter. Write an AWS Lambda function to analyze the values and requester information, and respond accordingly. Set up the function as the target for the alarm. If a registered user chooses a larger package, update the Lambda code with the values.
-- [ ] Enable Amazon CloudWatch metrics for the API Gateway stage. Set up CloudWatch alarms based off the Count metric and the ApiName, Method, Resource, and Stage dimensions to alerts when request rates pass the threshold. Set the alarm action to Deny. If a registered user chooses a larger package, create a user-specific alarm and adjust the values.
+- [ ] Enable Amazon CloudWatch metrics for the API Gateway stage. Set up CloudWatch alarms based off the Count metric and the ApiName, Method, Resource, and Stage dimensions to alerts when request rates pass the threshold. Set the alarm action to `Deny`. If a registered user chooses a larger package, create a user-specific alarm and adjust the values.
 - [x] Set up a default usage plan, specify values for the rate and burst capacity, and associate it with a stage. If a registered user chooses a larger package, create a custom plan with the appropriate values and associate the plan with the user.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2350,9 +2359,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has created a new AWS IAM user that has s3 putObject permission to write to a specific Amazon S3 bucket. This S3 bucket uses server-side encryption with AWS KMS managed keys (SSE-KMS) as the default encryption. Using the access key and secret key of the IAM user, the application received an access denied error when calling the PutObject API. How can this issue be resolved?
 
-- [ ] Update the policy of the IAM user to allow the s3 Encrypt action.
+- [ ] Update the policy of the IAM user to allow the `s3 Encrypt` action.
 - [ ] Update the bucket policy of the S3 bucket to allow the IAM user to upload objects.
-- [x] Update the policy of the IAM user to allow the kms:GenerateDataKey action.
+- [x] Update the policy of the IAM user to allow the `kms:GenerateDataKey` action.
 - [ ] Update the ACL of the S3 bucket to allow the IAM user to upload objects.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3026,8 +3035,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A team of Developers must migrate an application running inside an AWS Elastic Beanstalk environment from a Classic Load Balancer to an Application Load Balancer. Which steps should be taken to accomplish the task using the AWS Management Console?
 
 - [x] 1. Update the application code in the existing deployment. 2. Select a new load balancer type before running the deployment. 3. Deploy the new version of the application code to the environment.
-- [ ] 1. Create a new environment with the same configurations except for the load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the swap-environment-cnames action.
-- [ ] 1. Clone the existing environment, changing the associated load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the swap-environment-cnames action.
+- [ ] 1. Create a new environment with the same configurations except for the load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the `swap-environment-cnames` action.
+- [ ] 1. Clone the existing environment, changing the associated load balancer type. 2. Deploy the same application version as used in the original environment. 3. Run the `swap-environment-cnames` action.
 - [ ] 1. Edit the environment definitions in the existing deployment. 2. Change the associated load balancer type according to the requirements. 3. Rebuild the environment with the new load balancer type.
 
 **[⬆ Back to Top](#table-of-contents)**
