@@ -207,7 +207,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 65  | [A current architecture uses many Lambda functions invoking one another as large state machine. The coordination of this state machine is legacy custom code that breaks easily. Which AWS Service can help refactor and manage the state machine?](#a-current-architecture-uses-many-lambda-functions-invoking-one-another-as-large-state-machine-the-coordination-of-this-state-machine-is-legacy-custom-code-that-breaks-easily-which-aws-service-can-help-refactor-and-manage-the-state-machine)
 | 66  | [A company is developing a new online game that will run on top of Amazon ECS. Four distinct Amazon ECS services will be part of the architecture, each requiring specific permissions to various AWS services. The company wants to optimize the use of the underlying Amazon EC2 instances by bin packing the containers based on memory reservation. Which configuration would allow the Development team to meet these requirements MOST securely?](#a-company-is-developing-a-new-online-game-that-will-run-on-top-of-amazon-ecs-four-distinct-amazon-ecs-services-will-be-part-of-the-architecture-each-requiring-specific-permissions-to-various-aws-services-the-company-wants-to-optimize-the-use-of-the-underlying-amazon-ec2-instances-by-bin-packing-the-containers-based-on-memory-reservation-which-configuration-would-allow-the-development-team-to-meet-these-requirements-most-securely)
 | 67  | [A Developer must re-implement the business logic for an order fulfilment system. The business logic has to make requests to multiple vendors to decide where to purchase an item. The whole process can take up to a week to complete. What is the MOST efficient and SIMPLEST way to implement a system that meets these requirements?](#a-developer-must-re-implement-the-business-logic-for-an-order-fulfilment-system-the-business-logic-has-to-make-requests-to-multiple-vendors-to-decide-where-to-purchase-an-item-the-whole-process-can-take-up-to-a-week-to-complete-what-is-the-most-efficient-and-simplest-way-to-implement-a-system-that-meets-these-requirements)
-| 68  | [PLACEHOLDER 2](#placeholder-2)
+| 68  | [A mobile app stores blog posts in an Amazon DynamoDB table. Millions of posts are added every day, and each post represents a single item in the table. The mobile app requires only recent posts. Any post that is older than 48 hours can be removed. What is the MOST cost-effective way to delete posts that are older than 48 hours?](#a-mobile-app-stores-blog-posts-in-an-amazon-dynamodb-table-millions-of-posts-are-added-every-day-and-each-post-represents-a-single-item-in-the-table-the-mobile-app-requires-only-recent-posts-any-post-that-is-older-than-48-hours-can-be-removed-what-is-the-most-cost-effective-way-to-delete-posts-that-are-older-than-48-hours)
 | 69  | [A Developer is receiving HTTP `400`: `ThrottlingException` errors intermittently when calling the Amazon CloudWatch API. When a call fails, no data is retrieved. What best practice should first be applied to address this issue?](#a-developer-is-receiving-http-400-throttlingexception-errors-intermittently-when-calling-the-amazon-cloudwatch-api-when-a-call-fails-no-data-is-retrieved-what-best-practice-should-first-be-applied-to-address-this-issue)
 | 70  | [An application is real-time processing millions of events that are received through an API. What service could be used to allow multiple consumers to process the data concurrently and MOST cost-effectively?](#an-application-is-real-time-processing-millions-of-events-that-are-received-through-an-api-what-service-could-be-used-to-allow-multiple-consumers-to-process-the-data-concurrently-and-most-cost-effectively)
 | 71  | [Where should the `appspec.yml` file be placed in order for AWS CodeDeploy to work?](#where-should-the-appspecyml-file-be-placed-in-order-for-aws-codedeploy-to-work)
@@ -288,7 +288,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 146 | [A front-end web application is using Amazon Cognito user pools to handle the user authentication flow. A developer is integrating Amazon DynamoDB into the application using the AWS SDK for JavaScript. How would the developer securely call the API without exposing the access or secret keys?](#a-front-end-web-application-is-using-amazon-cognito-user-pools-to-handle-the-user-authentication-flow-a-developer-is-integrating-amazon-dynamodb-into-the-application-using-the-aws-sdk-for-javascript-how-would-the-developer-securely-call-the-api-without-exposing-the-access-or-secret-keys)
 | 147 | [A developer needs to manage AWS infrastructure as code and must be able to deploy multiple identical copies of the infrastructure, stage changes, and revert to previous versions. Which approach addresses these requirements?](#a-developer-needs-to-manage-aws-infrastructure-as-code-and-must-be-able-to-deploy-multiple-identical-copies-of-the-infrastructure-stage-changes-and-revert-to-previous-versions-which-approach-addresses-these-requirements)
 | 148 | [A Developer needs to deploy an application running on AWS Fargate using Amazon ECS. The application has environment variables that must be passed to a container for the application to initialize. How should the environment variables be passed to the container?](#a-developer-needs-to-deploy-an-application-running-on-aws-fargate-using-amazon-ecs-the-application-has-environment-variables-that-must-be-passed-to-a-container-for-the-application-to-initialize-how-should-the-environment-variables-be-passed-to-the-container)
-| 149 | [A company's fleet of Amazon EC2 instances receives data from millions of users through an API. The servers batch the data, add an object for each user, and upload the objects to an S3 bucket to ensure high access rates. The object attributes are Customer ID, Server ID, TS-Server (TimeStamp and Server ID), the size of the object, and a timestamp. A Developer wants to find all the objects for a given user collected during a specified time range. After creating an S3 object created event, how can the Developer achieve this requirement?](#a-companys-fleet-of-amazon-ec2-instances-receives-data-from-millions-of-users-through-an-api-the-servers-batch-the-data-add-an-object-for-each-user-and-upload-the-objects-to-an-s3-bucket-to-ensure-high-access-rates-the-object-attributes-are-customer-id-server-id-ts-server-timestamp-and-server-id-the-size-of-the-object-and-a-timestamp-a-developer-wants-to-find-all-the-objects-for-a-given-user-collected-during-a-specified-time-range-after-creating-an-s3-object-created-event-how-can-the-developer-achieve-this-requirement)
+| 149 | [A company's fleet of Amazon EC2 instances receives data from millions of users through an API. The servers batch the data, add an object for each user, and upload the objects to an S3 bucket to ensure high access rates. The object attributes are `Customer ID`, `Server ID`, `TS-Server` (`TimeStamp` and `Server ID`), the size of the object, and a timestamp. A Developer wants to find all the objects for a given user collected during a specified time range. After creating an S3 object created event, how can the Developer achieve this requirement?](#a-companys-fleet-of-amazon-ec2-instances-receives-data-from-millions-of-users-through-an-api-the-servers-batch-the-data-add-an-object-for-each-user-and-upload-the-objects-to-an-s3-bucket-to-ensure-high-access-rates-the-object-attributes-are-customer-id-server-id-ts-server-timestamp-and-server-id-the-size-of-the-object-and-a-timestamp-a-developer-wants-to-find-all-the-objects-for-a-given-user-collected-during-a-specified-time-range-after-creating-an-s3-object-created-event-how-can-the-developer-achieve-this-requirement)
 | 150 | [A company is managing a NoSQL database on-premises to host a critical component of an application, which is starting to have scaling issues. The company wants to migrate the application to Amazon DynamoDB with the following considerations: Optimize frequent queries. Reduce read latencies. Plan for frequent queries on certain key attributes of the table. Which solution would help achieve these objectives?](#a-company-is-managing-a-nosql-database-on-premises-to-host-a-critical-component-of-an-application-which-is-starting-to-have-scaling-issues-the-company-wants-to-migrate-the-application-to-amazon-dynamodb-with-the-following-considerations-optimize-frequent-queries-reduce-read-latencies-plan-for-frequent-queries-on-certain-key-attributes-of-the-table-which-solution-would-help-achieve-these-objectives)
 | 151 | [A developer is writing an application that will process data delivered into an Amazon S3 bucket. The data is delivered approximately 10 times a day, and the developer expects the data will be processed in less than 1 minute, on average. How can the developer deploy and invoke the application with the lowest cost and lowest latency?](#a-developer-is-writing-an-application-that-will-process-data-delivered-into-an-amazon-s3-bucket-the-data-is-delivered-approximately-10-times-a-day-and-the-developer-expects-the-data-will-be-processed-in-less-than-1-minute-on-average-how-can-the-developer-deploy-and-invoke-the-application-with-the-lowest-cost-and-lowest-latency)
 | 152 | [A company is using Amazon API Gateway to manage its public-facing API. The CISO requires that the APIs be used by test account users only. What is the MOST secure way to restrict API access to users of this particular AWS account?](#a-company-is-using-amazon-api-gateway-to-manage-its-public-facing-api-the-ciso-requires-that-the-apis-be-used-by-test-account-users-only-what-is-the-most-secure-way-to-restrict-api-access-to-users-of-this-particular-aws-account)
@@ -411,7 +411,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 269 | [What type of block cipher does Amazon S3 offer for server side encryption?](#what-type-of-block-cipher-does-amazon-s3-offer-for-server-side-encryption)
 | 270 | [A Development team wants to instrument their code to provide more detailed information to AWS X-Ray than simple outgoing and incoming requests. This will generate large amounts of data, so the Development team wants to implement indexing so they can filter the data. What should the Development team do to achieve this?](#a-development-team-wants-to-instrument-their-code-to-provide-more-detailed-information-to-aws-x-ray-than-simple-outgoing-and-incoming-requests-this-will-generate-large-amounts-of-data-so-the-development-team-wants-to-implement-indexing-so-they-can-filter-the-data-what-should-the-development-team-do-to-achieve-this)
 | 271 | [A team of Developers must migrate an application running inside an AWS Elastic Beanstalk environment from a Classic Load Balancer to an Application Load Balancer. Which steps should be taken to accomplish the task using the AWS Management Console?](#a-team-of-developers-must-migrate-an-application-running-inside-an-aws-elastic-beanstalk-environment-from-a-classic-load-balancer-to-an-application-load-balancer-which-steps-should-be-taken-to-accomplish-the-task-using-the-aws-management-console)
-| 272 | [A company needs a version control system for collaborative software development. Features of the system must include the following: Support for batches of changes across multiple files Parallel branching Version tracking. Which AWS service will meet these requirements?](#a-company-needs-a-version-control-system-for-collaborative-software-development-features-of-the-system-must-include-the-following-support-for-batches-of-changes-across-multiple-files-parallel-branching-version-tracking-which-aws-service-will-meet-these-requirements)
+| 272 | [A company needs a version control system for collaborative software development. Features of the system must include the following: Support for batches of changes across multiple files. Parallel branching Version tracking. Which AWS service will meet these requirements?](#a-company-needs-a-version-control-system-for-collaborative-software-development-features-of-the-system-must-include-the-following-support-for-batches-of-changes-across-multiple-files-parallel-branching-version-tracking-which-aws-service-will-meet-these-requirements)
 | 273 | [A company is using continuous integration and continuous delivery systems. A Developer now needs to automate a software package deployment to both Amazon EC2 instances and virtual servers running on-premises. Which AWS service should be used to accomplish this?](#a-company-is-using-continuous-integration-and-continuous-delivery-systems-a-developer-now-needs-to-automate-a-software-package-deployment-to-both-amazon-ec2-instances-and-virtual-servers-running-on-premises-which-aws-service-should-be-used-to-accomplish-this)
 | 274 | [A Developer created a new AWS account and must create a scalable AWS Lambda function that meets the following requirements for concurrent execution: Average execution time of 100 seconds 50 requests per second. Which step must be taken prior to deployment to prevent errors?](#a-developer-created-a-new-aws-account-and-must-create-a-scalable-aws-lambda-function-that-meets-the-following-requirements-for-concurrent-execution-average-execution-time-of-100-seconds-50-requests-per-second-which-step-must-be-taken-prior-to-deployment-to-prevent-errors)
 | 275 | [A Developer is building a three-tier web application that should be able to handle a minimum of 5000 requests per minute. Requirements state that the web tier should be completely stateless while the application maintains session state for the users. How can session data be externalized, keeping latency at the LOWEST possible value?](#a-developer-is-building-a-three-tier-web-application-that-should-be-able-to-handle-a-minimum-of-5000-requests-per-minute-requirements-state-that-the-web-tier-should-be-completely-stateless-while-the-application-maintains-session-state-for-the-users-how-can-session-data-be-externalized-keeping-latency-at-the-lowest-possible-value)
@@ -1148,12 +1148,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### PLACEHOLDER 2
+### A mobile app stores blog posts in an Amazon DynamoDB table. Millions of posts are added every day, and each post represents a single item in the table. The mobile app requires only recent posts. Any post that is older than 48 hours can be removed. What is the MOST cost-effective way to delete posts that are older than 48 hours?
 
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] For each item, add a new attribute of type `String` that has a timestamp that is set to the blog post creation time. Create a script to find old posts with a table scan and remove posts that are older than 48 hours by using the `BatchWriteItem` API operation. Schedule a cron job on an Amazon EC2 instance once an hour to start the script.
+- [ ] For each item, add a new attribute of type `String` that has a timestamp that is set to the blog post creation time. Create a script to find old posts with a table scan and remove posts that are older than 48 hours by using the `BatchWriteItem` API operation. Place the script in a container image. Schedule an Amazon Elastic Container Service (Amazon ECS) task on AWS Fargate that invokes the container every 5 minutes.
+- [ ] For each item, add a new attribute of type `Date` that has a timestamp that is set to 48 hours after the blog post creation time. Create a Global Secondary Index (GSI) that uses the new attribute as a sort key. Create an AWS Lambda function that references the GSI and removes expired items by using the `BatchWriteItem` API operation. Schedule the function with an Amazon CloudWatch event every minute.
+- [x] For each item, add a new attribute of type `Number` that has a timestamp that is set to 48 hours after the blog post creation time. Configure the DynamoDB table with a TTL that references the new attribute.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1324,10 +1324,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 87](images/question87.jpg)
 
-- [ ] starRating.
-- [x] reviewID.
-- [ ] comment.
-- [ ] productID.
+- [ ] `starRating`.
+- [x] `reviewID`.
+- [ ] `comment`.
+- [ ] `productID`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1723,7 +1723,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 130](images/question130.jpg)
 
-- [ ] Add an Export declaration to the `Outputs` section of the original template and use `ImportValue` in other templates.
+- [ ] Add an `Export` declaration to the `Outputs` section of the original template and use `ImportValue` in other templates.
 - [ ] Add `Exported: true` to the `Content.Bucket` in the original template and use `ImportResource` in other templates.
 - [x] Create a custom AWS CloudFormation resource that gets the bucket name from the `ContentBucket` resource of the first stack.
 - [ ] Use `Fn::Include` to include the existing template in other templates and use the `ContentBucket` resource directly.
@@ -1894,12 +1894,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company's fleet of Amazon EC2 instances receives data from millions of users through an API. The servers batch the data, add an object for each user, and upload the objects to an S3 bucket to ensure high access rates. The object attributes are Customer ID, Server ID, TS-Server (TimeStamp and Server ID), the size of the object, and a timestamp. A Developer wants to find all the objects for a given user collected during a specified time range. After creating an S3 object created event, how can the Developer achieve this requirement?
+### A company's fleet of Amazon EC2 instances receives data from millions of users through an API. The servers batch the data, add an object for each user, and upload the objects to an S3 bucket to ensure high access rates. The object attributes are `Customer ID`, `Server ID`, `TS-Server` (`TimeStamp` and `Server ID`), the size of the object, and a timestamp. A Developer wants to find all the objects for a given user collected during a specified time range. After creating an S3 object created event, how can the Developer achieve this requirement?
 
-- [ ] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon DynamoDB record for every object with the Customer ID as the partition key and the Server ID as the sort key. Retrieve all the records using the Customer ID and Server ID attributes.
-- [ ] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon Redshift record for every object with the Customer ID as the partition key and TS-Server as the sort key. Retrieve all the records using the Customer ID and TS-Server attributes.
-- [x] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon DynamoDB record for every object with the Customer ID as the partition key and TS-Server as the sort key. Retrieve all the records using the Customer ID and TS-Server attributes.
-- [ ] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon Redshift record for every object with the Customer ID as the partition key and the Server ID as the sort key. Retrieve all the records using the Customer ID and Server ID attributes.
+- [ ] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon DynamoDB record for every object with the `Customer ID` as the partition key and the `Server ID` as the sort key. Retrieve all the records using the `Customer ID` and `Server ID` attributes.
+- [ ] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon Redshift record for every object with the `Customer ID` as the partition key and `TS-Server` as the sort key. Retrieve all the records using the `Customer ID` and `TS-Server` attributes.
+- [x] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon DynamoDB record for every object with the `Customer ID` as the partition key and `TS-Server` as the sort key. Retrieve all the records using the `Customer ID` and `TS-Server` attributes.
+- [ ] Execute an AWS Lambda function in response to the S3 object creation events that creates an Amazon Redshift record for every object with the `Customer ID` as the partition key and the `Server ID` as the sort key. Retrieve all the records using the `Customer ID` and `Server ID` attributes.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3044,7 +3044,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A company needs a version control system for collaborative software development. Features of the system must include the following: Support for batches of changes across multiple files Parallel branching Version tracking. Which AWS service will meet these requirements?
+### A company needs a version control system for collaborative software development. Features of the system must include the following: Support for batches of changes across multiple files. Parallel branching Version tracking. Which AWS service will meet these requirements?
 
 - [ ] AWS CodePipeline.
 - [ ] Amazon S3.
@@ -3240,10 +3240,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### To include objects defined by the AWS Serverless Application Model (SAM) in an AWS CloudFormation template, in addition to `Resources`, what section MUST be included in the document root?
 
-- [ ] Conditions.
-- [ ] Globals.
-- [x] Transform.
-- [ ] Properties.
+- [ ] `Conditions`.
+- [ ] `Globals`.
+- [x] `Transform`.
+- [ ] `Properties`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3344,7 +3344,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A nightly batch job loads 1 million new records into a DynamoDB table. The records are only needed for one hour, and the table needs to be empty by the next night's batch job. Which is the MOST efficient and cost-effective method to provide an empty table?
 
-- [x] Use `DeleteItem` using a ConditionExpression.
+- [x] Use `DeleteItem` using a `ConditionExpression`.
 - [ ] Use `BatchWriteItem` to empty all of the rows.
 - [ ] Write a recursive function that scans and calls out `DeleteItem`.
 - [ ] Create and then delete the table after the task has completed.
