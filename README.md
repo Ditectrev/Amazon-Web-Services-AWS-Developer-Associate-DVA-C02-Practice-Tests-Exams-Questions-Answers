@@ -1644,8 +1644,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use server-side encryption with Amazon S3-managed keys.
 - [ ] Use server-side encryption with AWS KMS-managed keys.
-- [x] Use client-side encryption with customer master keys.
-- [ ] Use server-side encryption with customer-provided keys.
+- [ ] Use client-side encryption with customer master keys.
+- [x] Use server-side encryption with customer-provided keys.
 
 **[⬆ Back to Top](#table-of-contents)**
 
