@@ -1727,9 +1727,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 130](images/question130.jpg)
 
-- [ ] Add an `Export` declaration to the `Outputs` section of the original template and use `ImportValue` in other templates.
+- [x] Add an `Export` declaration to the `Outputs` section of the original template and use `ImportValue` in other templates.
 - [ ] Add `Exported: true` to the `Content.Bucket` in the original template and use `ImportResource` in other templates.
-- [x] Create a custom AWS CloudFormation resource that gets the bucket name from the `ContentBucket` resource of the first stack.
+- [ ] Create a custom AWS CloudFormation resource that gets the bucket name from the `ContentBucket` resource of the first stack.
 - [ ] Use `Fn::Include` to include the existing template in other templates and use the `ContentBucket` resource directly.
 
 **[⬆ Back to Top](#table-of-contents)**
