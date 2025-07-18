@@ -1660,9 +1660,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A development team wants to run their container workloads on Amazon ECS. Each application container needs to share data with another container to collect logs and metrics. What should the developer team do to meet these requirements?
 
-- [x] Create two pod specifications. Make one to include the application container and the other to include the other container. Link the two pods together.
+- [ ] Create two pod specifications. Make one to include the application container and the other to include the other container. Link the two pods together.
 - [ ] Create two task definitions. Make one to include the application container and the other to include the other container. Mount a shared volume between the two tasks.
-- [ ] Create one task definition. Specify both containers in the definition. Mount a shared volume between those two containers.
+- [x] Create one task definition. Specify both containers in the definition. Mount a shared volume between those two containers.
 - [ ] Create a single pod specification. Include both containers in the specification. Mount a persistent volume to both containers.
 
 **[⬆ Back to Top](#table-of-contents)**
