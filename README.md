@@ -101,7 +101,7 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
 
 **[v1.3.0](../../releases/tag/v1.3.0): September 1, 2024.**
 
-- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A)).
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams-o/?referralCode=F5DA24D55B35D823086A)).
 
 **[v1.3.1](../../releases/tag/v1.3.1): November 1, 2024.**
 
