@@ -1990,9 +1990,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company wants to containerize an existing three-tier web application and deploy it to Amazon ECS Fargate. The application is using session data to keep track of user activities. Which approach would provide the BEST user experience?
 
-- [ ] Provision a Redis cluster in Amazon ElastiCache and save the session data in the cluster.
+- [x] Provision a Redis cluster in Amazon ElastiCache and save the session data in the cluster.
 - [ ] Create a session table in Amazon Redshift and save the session data in the database table.
-- [x] Enable session stickiness in the existing Network Load Balancer and manage the session data in the container.
+- [ ] Enable session stickiness in the existing Network Load Balancer and manage the session data in the container.
 - [ ] Use an Amazon S3 bucket as data store and save the session data in the bucket.
 
 **[⬆ Back to Top](#table-of-contents)**
