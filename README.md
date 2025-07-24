@@ -1644,8 +1644,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use server-side encryption with Amazon S3-managed keys.
 - [ ] Use server-side encryption with AWS KMS-managed keys.
-- [x] Use client-side encryption with customer master keys.
-- [ ] Use server-side encryption with customer-provided keys.
+- [ ] Use client-side encryption with customer master keys.
+- [x] Use server-side encryption with customer-provided keys.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1660,9 +1660,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A development team wants to run their container workloads on Amazon ECS. Each application container needs to share data with another container to collect logs and metrics. What should the developer team do to meet these requirements?
 
-- [x] Create two pod specifications. Make one to include the application container and the other to include the other container. Link the two pods together.
+- [ ] Create two pod specifications. Make one to include the application container and the other to include the other container. Link the two pods together.
 - [ ] Create two task definitions. Make one to include the application container and the other to include the other container. Mount a shared volume between the two tasks.
-- [ ] Create one task definition. Specify both containers in the definition. Mount a shared volume between those two containers.
+- [x] Create one task definition. Specify both containers in the definition. Mount a shared volume between those two containers.
 - [ ] Create a single pod specification. Include both containers in the specification. Mount a persistent volume to both containers.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1727,9 +1727,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 130](images/question130.jpg)
 
-- [ ] Add an `Export` declaration to the `Outputs` section of the original template and use `ImportValue` in other templates.
+- [x] Add an `Export` declaration to the `Outputs` section of the original template and use `ImportValue` in other templates.
 - [ ] Add `Exported: true` to the `Content.Bucket` in the original template and use `ImportResource` in other templates.
-- [x] Create a custom AWS CloudFormation resource that gets the bucket name from the `ContentBucket` resource of the first stack.
+- [ ] Create a custom AWS CloudFormation resource that gets the bucket name from the `ContentBucket` resource of the first stack.
 - [ ] Use `Fn::Include` to include the existing template in other templates and use the `ContentBucket` resource directly.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1990,9 +1990,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company wants to containerize an existing three-tier web application and deploy it to Amazon ECS Fargate. The application is using session data to keep track of user activities. Which approach would provide the BEST user experience?
 
-- [ ] Provision a Redis cluster in Amazon ElastiCache and save the session data in the cluster.
+- [x] Provision a Redis cluster in Amazon ElastiCache and save the session data in the cluster.
 - [ ] Create a session table in Amazon Redshift and save the session data in the database table.
-- [x] Enable session stickiness in the existing Network Load Balancer and manage the session data in the container.
+- [ ] Enable session stickiness in the existing Network Load Balancer and manage the session data in the container.
 - [ ] Use an Amazon S3 bucket as data store and save the session data in the bucket.
 
 **[⬆ Back to Top](#table-of-contents)**
