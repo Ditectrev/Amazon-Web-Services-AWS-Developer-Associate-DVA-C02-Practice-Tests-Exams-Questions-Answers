@@ -8,7 +8,7 @@ There are many ways to support us; in exchange, you'll get this material in a pr
 
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-developer-associate-dva-c02-practice-tests-exams-questions-answers),
 - ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/amazon-web-services-certified-aws-certified-developer-associate-dva-c02-practice-tests-exams-questions-no-answers),
-- 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A),
+- 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams-o/?referralCode=F5DA24D55B35D823086A),
 - 📚 [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/details?id=0XL-EAAAQBAJ),
 - 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=z3L-EAAAQBAJ),
 - 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1548083846),
@@ -101,13 +101,13 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
 
 **[v1.3.0](../../releases/tag/v1.3.0): September 1, 2024.**
 
-- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams/?referralCode=F5DA24D55B35D823086A)).
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/aws-certified-developer-associate-dva-c02-practice-exams-o/?referralCode=F5DA24D55B35D823086A)).
 
 **[v1.3.1](../../releases/tag/v1.3.1): November 1, 2024.**
 
 - Fix 3 wrong questions, and 2 typos.
 
-**[v1.4.0](../../releases/tag/v1.4.0): July 4, 2024.**
+**[v1.4.0](../../releases/tag/v1.4.0): July 4, 2025.**
 
 - Massive improvements in the formatting of technical terms. Next to that, two new questions have been added, minor typos have been corrected, and questions with incorrect answers have been updated.
 
