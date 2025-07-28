@@ -2036,7 +2036,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer must allow guest users without logins to access an Amazon Cognito-enabled site to view files stored within an Amazon S3 bucket. How should the Developer meet these requirements?
 
 - [ ] Create a blank user ID in a user pool, add to the user group, and grant access to AWS resources.
-- [x] Create a new identity pool, enable access to authenticated identities, and grant access to AWS resources.
+- [x] Create a new identity pool, enable access to unauthenticated identities, and grant access to AWS resources.
 - [ ] Create a new user pool, enable access to authenticated identifies, and grant access to AWS resources.
 - [ ] Create a new user pool, disable authentication access, and grant access to AWS resources.
 
