@@ -2090,8 +2090,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer needs to create an application that supports Security Assertion Markup Language (SAML) and Facebook authentication. It must also allow access to AWS services, such as Amazon DynamoDB. Which AWS service or feature will meet these requirements with the LEAST amount of additional coding?
 
 - [ ] AWS AppSync.
-- [ ] Amazon Cognito identity pools.
-- [x] Amazon Cognito user pools.
+- [x] Amazon Cognito identity pools.
+- [ ] Amazon Cognito user pools.
 - [ ] Amazon Lambda@Edge.
 
 **[⬆ Back to Top](#table-of-contents)**
