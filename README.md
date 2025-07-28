@@ -2072,9 +2072,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company provides APIs as a service and commits to a service level agreement (SLA) with all its users. To comply with each SLA, what should the company do?
 
 - [ ] Enable throttling limits for each method in Amazon API Gateway.
-- [ ] Create a usage plan for each user and request API keys to access the APIs.
+- [x] Create a usage plan for each user and request API keys to access the APIs.
 - [ ] Enable API rate limiting in Amazon Cognito for each user.
-- [x] Enable default throttling limits for each stage after deploying the APIs.
+- [ ] Enable default throttling limits for each stage after deploying the APIs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
