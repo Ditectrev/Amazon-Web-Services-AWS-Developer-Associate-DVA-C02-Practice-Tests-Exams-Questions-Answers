@@ -2036,7 +2036,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer must allow guest users without logins to access an Amazon Cognito-enabled site to view files stored within an Amazon S3 bucket. How should the Developer meet these requirements?
 
 - [ ] Create a blank user ID in a user pool, add to the user group, and grant access to AWS resources.
-- [x] Create a new identity pool, enable access to authenticated identities, and grant access to AWS resources.
+- [x] Create a new identity pool, enable access to unauthenticated identities, and grant access to AWS resources.
 - [ ] Create a new user pool, enable access to authenticated identifies, and grant access to AWS resources.
 - [ ] Create a new user pool, disable authentication access, and grant access to AWS resources.
 
@@ -2072,9 +2072,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company provides APIs as a service and commits to a service level agreement (SLA) with all its users. To comply with each SLA, what should the company do?
 
 - [ ] Enable throttling limits for each method in Amazon API Gateway.
-- [ ] Create a usage plan for each user and request API keys to access the APIs.
+- [x] Create a usage plan for each user and request API keys to access the APIs.
 - [ ] Enable API rate limiting in Amazon Cognito for each user.
-- [x] Enable default throttling limits for each stage after deploying the APIs.
+- [ ] Enable default throttling limits for each stage after deploying the APIs.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2090,8 +2090,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer needs to create an application that supports Security Assertion Markup Language (SAML) and Facebook authentication. It must also allow access to AWS services, such as Amazon DynamoDB. Which AWS service or feature will meet these requirements with the LEAST amount of additional coding?
 
 - [ ] AWS AppSync.
-- [ ] Amazon Cognito identity pools.
-- [x] Amazon Cognito user pools.
+- [x] Amazon Cognito identity pools.
+- [ ] Amazon Cognito user pools.
 - [ ] Amazon Lambda@Edge.
 
 **[⬆ Back to Top](#table-of-contents)**
