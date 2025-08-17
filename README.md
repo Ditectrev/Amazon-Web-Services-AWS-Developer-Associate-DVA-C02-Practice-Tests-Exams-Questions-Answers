@@ -2475,10 +2475,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 212](images/question212.jpg)
 
-- [ ] Contact AWS Support to request an AWS KMS rate limit increase.
-- [ ] Perform error retries with exponential backoff in the application code.
-- [x] Contact AWS Support to request a S3 rate limit increase.
-- [x] Import a customer master key (CMK) with a larger key size.
+- [x] Contact AWS Support to request an AWS KMS rate limit increase.
+- [x] Perform error retries with exponential backoff in the application code.
+- [ ] Contact AWS Support to request a S3 rate limit increase.
+- [ ] Import a customer master key (CMK) with a larger key size.
 - [ ] Use more than one customer master key (CMK) to encrypt S3 data.
 
 **[⬆ Back to Top](#table-of-contents)**
