@@ -2495,8 +2495,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer is storing sensitive documents in Amazon S3 that will require encryption at rest. The encryption keys must be rotated annually, at least. What is the easiest way to achieve this?
 
 - [ ] Encrypt the data before sending it to Amazon S3.
-- [x] Import a custom key into AWS KMS with annual rotation enabled.
-- [ ] Use AWS KMS with automatic key rotation.
+- [ ] Import a custom key into AWS KMS with annual rotation enabled.
+- [x] Use AWS KMS with automatic key rotation.
 - [ ] Export a key from AWS KMS to encrypt the data.
 
 **[⬆ Back to Top](#table-of-contents)**
