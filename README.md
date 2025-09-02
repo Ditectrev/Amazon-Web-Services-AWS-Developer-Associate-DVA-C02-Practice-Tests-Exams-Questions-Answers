@@ -2373,10 +2373,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company has a web application that uses an Amazon Cognito user pool for authentication. The company wants to create a login page with the company logo. What should a Developer do to meet these requirements?
 
-- [ ] Create a hosted user interface in Amazon Cognito and customize it with the company logo.
+- [x] Create a hosted user interface in Amazon Cognito and customize it with the company logo.
 - [ ] Create a login page with the company logo and upload it to Amazon Cognito.
 - [ ] Create a login page in Amazon API Gateway with the logo and save the link in Amazon Cognito.
-- [x] Upload the logo to the Amazon Cognito app settings and point to the logo on a custom login page.
+- [ ] Upload the logo to the Amazon Cognito app settings and point to the logo on a custom login page.
 
 **[⬆ Back to Top](#table-of-contents)**
 
