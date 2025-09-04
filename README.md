@@ -2514,8 +2514,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Make an `Encrypt` API call to encrypt the plaintext data as ciphertext using a customer master key (CMK).
 - [ ] Make an `Encrypt` API call to encrypt the plaintext data as ciphertext using a customer master key (CMK) with imported key material.
-- [ ] Make an `GenerateDataKey` API call that returns a plaintext key and an encrypted copy of a data key. Use a plaintext key to encrypt the data.
-- [x] Make an `GenerateDataKeyWithoutPlaintext` API call that returns an encrypted copy of a data key. Use an encrypted key to encrypt the data.
+- [x] Make an `GenerateDataKey` API call that returns a plaintext key and an encrypted copy of a data key. Use a plaintext key to encrypt the data.
+- [ ] Make an `GenerateDataKeyWithoutPlaintext` API call that returns an encrypted copy of a data key. Use an encrypted key to encrypt the data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
