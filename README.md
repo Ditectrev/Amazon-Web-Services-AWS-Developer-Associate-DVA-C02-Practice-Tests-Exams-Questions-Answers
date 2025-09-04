@@ -2236,8 +2236,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company has implemented AWS CodeDeploy as part of its cloud native CI/CD stack. The company enables automatic rollbacks while deploying a new version of a popular web application from in-place to Amazon EC2. What occurs if the deployment of the new version fails due to code regression?
 
 - [ ] The last known good deployment is automatically restored using the snapshot stored in Amazon S3.
-- [x] CodeDeploy switches the Amazon Route 53 alias records back to the known good green deployment and terminates the failed blue deployment.
-- [ ] A new deployment of the last known version of the application is deployed with a new deployment ID.
+- [ ] CodeDeploy switches the Amazon Route 53 alias records back to the known good green deployment and terminates the failed blue deployment.
+- [x] A new deployment of the last known version of the application is deployed with a new deployment ID.
 - [ ] AWS CodePipeline promotes the most recent deployment with a SUCCEEDED status to production.
 
 **[⬆ Back to Top](#table-of-contents)**
