@@ -3529,12 +3529,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer wants to enable AWS X-Ray for a secure application that runs in an Amazon ECS environment. What combination of steps will enable X-Ray? (Select THREE)
 
-- [ ] Create a Docker image that runs the X-Ray daemon.
+- [x] Create a Docker image that runs the X-Ray daemon.
 - [x] Add instrumentation to the application code for X-Ray.
-- [x] Install the X-Ray daemon on the underlying EC2 instance.
-- [x] Configure and use an IAM EC2 instance role.
+- [ ] Install the X-Ray daemon on the underlying EC2 instance.
+- [ ] Configure and use an IAM EC2 instance role.
 - [ ] Register the application with X-Ray.
-- [ ] Configure and use an IAM role for tasks.
+- [x] Configure and use an IAM role for tasks.
 
 **[⬆ Back to Top](#table-of-contents)**
 
