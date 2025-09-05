@@ -2726,7 +2726,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Write the data randomly instead of sequentially.
 - [x] Use an encrypted file system on top of the EBS volume.
 - [ ] Encrypt the volume using the S3 server-side encryption service.
-- [ ] Encrypt the volume using the S3 server-side encryption service.
+- [ ] Create an IAM policy that restricts read and write access to the volume.
 
 **[⬆ Back to Top](#table-of-contents)**
 
