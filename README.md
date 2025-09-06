@@ -908,7 +908,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [x] Allow the EC2 IAM role the permission to assume the AccessPII role.
 - [ ] Allow the EC2 IAM role the permission to access the PII table.
 - [ ] Include the AWS API in the application code logic to obtain temporary credentials from the EC2 IAM role to access the PII table.
-- [x] Include the AssumeRole API operation in the application code logic to obtain temporary credentials to access the PII table.
+- [x] Include the `AssumeRole` API operation in the application code logic to obtain temporary credentials to access the PII table.
 - [ ] Include the GetSessionToken API operation in the application code logic to obtain temporary credentials to access the PII table.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1301,7 +1301,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use the Amazon Cognito user pools to get short-lived credentials for the second account.
 - [ ] Create a dedicated IAM access key for the second account, and send it by mail.
-- [x] Create a cross-account access role, and use sts: AssumeRole API to get short-lived credentials.
+- [x] Create a cross-account access role, and use `sts:AssumeRole` API to get short-lived credentials.
 - [ ] Establish trust, and add an SSH key for the second account to the IAM user.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1618,7 +1618,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Use S3 bucket policies to restrict read access to specific IAM users.
 - [x] Use Amazon Cognito to provide access using authenticated and unauthenticated roles.
 - [ ] Create a new IAM user for each user and grant read access.
-- [x] Use the AWS IAM service and let the application assume the different roles using the AWS Security Token Service (AWS STS) AssumeRole action depending on the type of user and provide read access to Amazon S3 using the assumed role.
+- [x] Use the AWS IAM service and let the application assume the different roles using the AWS Security Token Service (AWS STS) `AssumeRole` action depending on the type of user and provide read access to Amazon S3 using the assumed role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -3332,8 +3332,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Use Amazon Cognito with web identity federation.
 - [ ] Use Amazon Cognito with SAML-based identity federation.
-- [ ] Use AWS IAM Access/Secret keys in the application code to allow Get* on the S3 bucket.
-- [ ] Use AWS STS AssumeRole in the application code and assume a role with Get* permissions on the S3 bucket.
+- [ ] Use AWS IAM Access/Secret keys in the application code to allow `Get*` on the S3 bucket.
+- [ ] Use AWS STS `AssumeRole` in the application code and assume a role with `Get*` permissions on the S3 bucket.
 
 **[⬆ Back to Top](#table-of-contents)**
 
