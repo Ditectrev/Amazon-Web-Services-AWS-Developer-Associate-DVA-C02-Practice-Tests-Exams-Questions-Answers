@@ -1516,8 +1516,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Create a user table in Amazon DynamoDB as key-value pairs of users and their devices. Use these keys as unique identifiers.
 - [ ] Use IAM-generated access key IDs for the users as the unique identifier, but do not store secret keys.
-- [ ] Implement developer-authenticated identities by using Amazon Cognito, and get credentials for these identities.
-- [x] Assign IAM users and roles to the users. Use the unique IAM resource ID as the unique identifier.
+- [x] Implement developer-authenticated identities by using Amazon Cognito, and get credentials for these identities.
+- [ ] Assign IAM users and roles to the users. Use the unique IAM resource ID as the unique identifier.
 
 **[⬆ Back to Top](#table-of-contents)**
 
