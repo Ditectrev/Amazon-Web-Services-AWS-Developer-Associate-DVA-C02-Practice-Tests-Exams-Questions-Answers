@@ -1614,11 +1614,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company has an application where reading objects from Amazon S3 is based on the type of user. The user types are registered user and guest user. The company has 25,000 users and is growing. Information is pulled from an S3 bucket depending on the user type. Which approaches are recommended to provide access to both user types? (Choose TWO)
 
-- [x] Provide a different access key and secret access key in the application code for registered users and guest users to provide read access to the objects.
-- [x] Use S3 bucket policies to restrict read access to specific IAM users.
-- [ ] Use Amazon Cognito to provide access using authenticated and unauthenticated roles.
+- [ ] Provide a different access key and secret access key in the application code for registered users and guest users to provide read access to the objects.
+- [ ] Use S3 bucket policies to restrict read access to specific IAM users.
+- [x] Use Amazon Cognito to provide access using authenticated and unauthenticated roles.
 - [ ] Create a new IAM user for each user and grant read access.
-- [ ] Use the AWS IAM service and let the application assume the different roles using the AWS Security Token Service (AWS STS) AssumeRole action depending on the type of user and provide read access to Amazon S3 using the assumed role.
+- [x] Use the AWS IAM service and let the application assume the different roles using the AWS Security Token Service (AWS STS) AssumeRole action depending on the type of user and provide read access to Amazon S3 using the assumed role.
 
 **[⬆ Back to Top](#table-of-contents)**
 
