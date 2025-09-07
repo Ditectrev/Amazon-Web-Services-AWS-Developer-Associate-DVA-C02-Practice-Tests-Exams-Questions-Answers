@@ -1946,8 +1946,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company requires that AWS Lambda functions written by Developers log errors so System Administrators can more effectively troubleshoot issues. What should the Developers implement to meet this need?
 
 - [ ] Publish errors to a dedicated Amazon SQS queue.
-- [x] Create an Amazon CloudWatch Events event trigger based on certain Lambda events.
-- [ ] Report errors through logging statements in Lambda function code.
+- [ ] Create an Amazon CloudWatch Events event trigger based on certain Lambda events.
+- [x] Report errors through logging statements in Lambda function code.
 - [ ] Set up an Amazon SNS topic that sends logging statements upon failure.
 
 **[⬆ Back to Top](#table-of-contents)**
