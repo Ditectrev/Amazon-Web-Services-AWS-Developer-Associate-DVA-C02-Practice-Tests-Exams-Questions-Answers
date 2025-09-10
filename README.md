@@ -3348,10 +3348,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A nightly batch job loads 1 million new records into a DynamoDB table. The records are only needed for one hour, and the table needs to be empty by the next night's batch job. Which is the MOST efficient and cost-effective method to provide an empty table?
 
-- [x] Use `DeleteItem` using a `ConditionExpression`.
+- [ ] Use `DeleteItem` using a `ConditionExpression`.
 - [ ] Use `BatchWriteItem` to empty all of the rows.
 - [ ] Write a recursive function that scans and calls out `DeleteItem`.
-- [ ] Create and then delete the table after the task has completed.
+- [x] Create and then delete the table after the task has completed.
 
 **[⬆ Back to Top](#table-of-contents)**
 
