@@ -2154,8 +2154,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A Developer decides to store highly secure data in Amazon S3 and wants to implement server-side encryption (SSE) with granular control of who can access the master key. Company policy requires that the master key be created, rotated, and disabled easily when needed, all for security reasons. Which solution should be used to meet these requirements?
 
 - [ ] SSE with Amazon S3 managed keys (SSE-S3).
-- [ ] SSE with AWS KMS managed keys (SSE-KMS).
-- [x] SSE with AWS Secrets Manager.
+- [x] SSE with AWS KMS managed keys (SSE-KMS).
+- [ ] SSE with AWS Secrets Manager.
 - [ ] SSE with customer-provided encryption keys.
 
 **[⬆ Back to Top](#table-of-contents)**
