@@ -1607,8 +1607,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Environment variables.
 - [ ] AWS credentials file.
-- [ ] Instance profile credentials.
-- [x] Command line options.
+- [x] Instance profile credentials.
+- [ ] Command line options.
 
 **[⬆ Back to Top](#table-of-contents)**
 
