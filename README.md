@@ -1486,10 +1486,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company is building a stock trading application that requires sub-millisecond latency in processing trading requests. Amazon DynamoDB is used to store all the trading data that is used to process each request. After load testing the application, the development team found that due to data retrieval times, the latency requirement is not satisfied. Because of sudden high spikes in the number of requests, DynamoDB read capacity has to be significantly over-provisioned to avoid throttling. What steps should be taken to meet latency requirements and reduce the cost of running the application?
 
-- [x] Add Global Secondary Indexes for trading data.
+- [ ] Add Global Secondary Indexes for trading data.
 - [ ] Store trading data in Amazon S3 and use Transfer Acceleration.
 - [ ] Add retries with exponential back-off for DynamoDB queries.
-- [ ] Use DynamoDB Accelerator to cache trading data.
+- [x] Use DynamoDB Accelerator to cache trading data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
