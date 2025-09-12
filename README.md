@@ -2559,7 +2559,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] 100 per region.
 - [ ] there is no limit.
-- [x] 100 per account.
+- [x] 10.000 per account.
 - [ ] 500 per account.
 - [ ] 100 per IAM user.
 
