@@ -2985,9 +2985,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### If an application is storing hourly log files from thousands of instances from a high traffic web site, which naming scheme would give optimal performance on S3?
 
 - [ ] Sequential.
-- [ ] `instancelD_log-HH-DD-MM-YYYY`.
+- [x] `instancelD_log-HH-DD-MM-YYYY`.
 - [ ] `instancelDJog-YYYY-MM-DD-HH`.
-- [x] `HH-DD-MM-YYYY-log_instancelD`.
+- [ ] `HH-DD-MM-YYYY-log_instancelD`.
 - [ ] `YYYY-MM-DD-HH-logJnstancelD`.
 
 **[⬆ Back to Top](#table-of-contents)**
