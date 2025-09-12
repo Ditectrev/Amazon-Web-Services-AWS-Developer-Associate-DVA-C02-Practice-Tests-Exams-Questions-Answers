@@ -2486,8 +2486,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### When developing an AWS Lambda function that processes Amazon Kinesis Data Streams, Administrators within the company must receive a notice that includes the processed data. How should the Developer write the function to send processed data to the Administrators?
 
 - [ ] Separate the Lambda handler from the core logic.
-- [x] Use Amazon CloudWatch Events to send the processed data.
-- [ ] Publish the processed data to an Amazon SNS topic.
+- [ ] Use Amazon CloudWatch Events to send the processed data.
+- [x] Publish the processed data to an Amazon SNS topic.
 - [ ] Push the processed data to Amazon SQS.
 
 **[⬆ Back to Top](#table-of-contents)**
