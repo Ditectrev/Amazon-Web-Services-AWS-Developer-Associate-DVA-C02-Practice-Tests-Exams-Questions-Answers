@@ -2986,9 +2986,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Sequential.
 - [x] `instanceID_log-HH-DD-MM-YYYY`.
-- [ ] `instanceIDJog-YYYY-MM-DD-HH`.
+- [ ] `instanceIDLog-YYYY-MM-DD-HH`.
 - [ ] `HH-DD-MM-YYYY-log_instanceID`.
-- [ ] `YYYY-MM-DD-HH-logJnstanceID`.
+- [ ] `YYYY-MM-DD-HH-logInstanceID`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
