@@ -1008,9 +1008,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company has written a Java AWS Lambda function to be triggered whenever a user uploads an image to an Amazon S3 bucket. The function converts the original image to several different formats and then copies the resulting images to another Amazon S3 bucket. The Developers find that no images are being copied to the second Amazon S3 bucket. They have tested the code on an Amazon EC2 instance with 1GB of RAM, and it takes an average of 500 seconds to complete. What is the MOST likely cause of the problem?
 
-- [ ] The Lambda function has insufficient memory and needs to be increased to 1 GB to match the Amazon EC2 instance.
+- [x] The Lambda function has insufficient memory and needs to be increased to 1 GB to match the Amazon EC2 instance.
 - [ ] Files need to be copied to the same Amazon S3 bucket for processing, so the second bucket needs to be deleted.
-- [x] Lambda functions have a maximum execution limit of 15 minutes, therefore the function is not completing.
+- [ ] Lambda functions have a maximum execution limit of 15 minutes, therefore the function is not completing.
 - [ ] There is a problem with the Java runtime for Lambda, and the function needs to be converted to node.js.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1607,8 +1607,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Environment variables.
 - [ ] AWS credentials file.
-- [x] Instance profile credentials.
-- [ ] Command line options.
+- [ ] Instance profile credentials.
+- [x] Command line options.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1946,8 +1946,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company requires that AWS Lambda functions written by Developers log errors so System Administrators can more effectively troubleshoot issues. What should the Developers implement to meet this need?
 
 - [ ] Publish errors to a dedicated Amazon SQS queue.
-- [ ] Create an Amazon CloudWatch Events event trigger based on certain Lambda events.
-- [x] Report errors through logging statements in Lambda function code.
+- [x] Create an Amazon CloudWatch Events event trigger based on certain Lambda events.
+- [ ] Report errors through logging statements in Lambda function code.
 - [ ] Set up an Amazon SNS topic that sends logging statements upon failure.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2985,10 +2985,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### If an application is storing hourly log files from thousands of instances from a high traffic web site, which naming scheme would give optimal performance on S3?
 
 - [ ] Sequential.
-- [x] `instanceID_log-HH-DD-MM-YYYY`.
-- [ ] `instanceIDLog-YYYY-MM-DD-HH`.
-- [ ] `HH-DD-MM-YYYY-log_instanceID`.
-- [ ] `YYYY-MM-DD-HH-logInstanceID`.
+- [ ] `instancelD_log-HH-DD-MM-YYYY`.
+- [ ] `instancelDJog-YYYY-MM-DD-HH`.
+- [x] `HH-DD-MM-YYYY-log_instancelD`.
+- [ ] `YYYY-MM-DD-HH-logJnstancelD`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
