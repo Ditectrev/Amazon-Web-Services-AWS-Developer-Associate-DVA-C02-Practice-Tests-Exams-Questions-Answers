@@ -851,9 +851,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### An application running on EC2 instances is storing data in an S3 bucket. Security policy mandates that all data must be encrypted in transit. How can the Developer ensure that all traffic to the S3 bucket is encrypted?
 
 - [ ] Install certificates on the EC2 instances.
-- [x] Create a bucket policy that allows traffic where `SecureTransport` is `true`.
+- [ ] Create a bucket policy that allows traffic where `SecureTransport` is `true`.
 - [ ] Create an HTTPS redirect on the EC2 instances.
-- [ ] Create a bucket policy that denies traffic where `SecureTransport` is `false`.
+- [x] Create a bucket policy that denies traffic where `SecureTransport` is `false`.
 
 **[⬆ Back to Top](#table-of-contents)**
 
