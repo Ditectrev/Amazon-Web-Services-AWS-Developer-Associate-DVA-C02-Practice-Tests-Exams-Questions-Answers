@@ -1008,9 +1008,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A company has written a Java AWS Lambda function to be triggered whenever a user uploads an image to an Amazon S3 bucket. The function converts the original image to several different formats and then copies the resulting images to another Amazon S3 bucket. The Developers find that no images are being copied to the second Amazon S3 bucket. They have tested the code on an Amazon EC2 instance with 1GB of RAM, and it takes an average of 500 seconds to complete. What is the MOST likely cause of the problem?
 
-- [ ] The Lambda function has insufficient memory and needs to be increased to 1 GB to match the Amazon EC2 instance.
+- [x] The Lambda function has insufficient memory and needs to be increased to 1 GB to match the Amazon EC2 instance.
 - [ ] Files need to be copied to the same Amazon S3 bucket for processing, so the second bucket needs to be deleted.
-- [x] Lambda functions have a maximum execution limit of 15 minutes, therefore the function is not completing.
+- [ ] Lambda functions have a maximum execution limit of 15 minutes, therefore the function is not completing.
 - [ ] There is a problem with the Java runtime for Lambda, and the function needs to be converted to node.js.
 
 **[⬆ Back to Top](#table-of-contents)**
