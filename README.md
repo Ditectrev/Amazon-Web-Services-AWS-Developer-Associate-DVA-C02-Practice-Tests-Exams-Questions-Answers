@@ -2663,7 +2663,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which of the following are valid arguments for an SNS Publish request? (Choose THREE)
 
-- [x] TopicAm.
+- [x] TopicArn.
 - [x] Subject.
 - [ ] Destination.
 - [ ] Format.
