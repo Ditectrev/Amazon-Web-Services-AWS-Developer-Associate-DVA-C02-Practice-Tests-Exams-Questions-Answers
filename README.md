@@ -1272,9 +1272,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An application is designed to use Amazon SQS to manage messages from many independent senders. Each sender's messages must be processed in the order they are received. Which SQS feature should be implemented by the Developer?
 
-- [ ] Configure each sender with a unique MessageGroupId.
+- [x] Configure each sender with a unique MessageGroupId.
 - [ ] Enable MessageDeduplicationIds on the SQS queue.
-- [x] Configure each message with unique MessageGroupIds.
+- [ ] Configure each message with unique MessageGroupIds.
 - [ ] Enable ContentBasedDeduplication on the SQS queue.
 
 **[⬆ Back to Top](#table-of-contents)**
