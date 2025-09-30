@@ -3077,9 +3077,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is building a three-tier web application that should be able to handle a minimum of 5000 requests per minute. Requirements state that the web tier should be completely stateless while the application maintains session state for the users. How can session data be externalized, keeping latency at the LOWEST possible value?
 
-- [x] Create an Amazon RDS instance, then implement session handling at the application level to leverage a database inside the RDS database instance for session data storage.
+- [ ] Create an Amazon RDS instance, then implement session handling at the application level to leverage a database inside the RDS database instance for session data storage.
 - [ ] Implement a shared file system solution across the underlying Amazon EC2 instances, then implement session handling at the application level to leverage the shared file system for session data storage.
-- [ ] Create an Amazon ElastiCache Memcached cluster, then implement session handling at the application level to leverage the cluster for session data storage.
+- [x] Create an Amazon ElastiCache Memcached cluster, then implement session handling at the application level to leverage the cluster for session data storage.
 - [ ] Create an Amazon DynamoDB table, then implement session handling at the application level to leverage the table for session data storage.
 
 **[⬆ Back to Top](#table-of-contents)**
