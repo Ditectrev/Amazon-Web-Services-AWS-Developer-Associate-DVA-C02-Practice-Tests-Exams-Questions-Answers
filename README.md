@@ -2080,8 +2080,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is preparing a deployment package using AWS CloudFormation. The package consists of two separate templates: one for the infrastructure and one for the application. The application has to be inside the VPC that is created from the infrastructure template. How can the application stack refer to the VPC created from the infrastructure template?
 
-- [x] Use the Ref function to import the VPC into the application stack from the infrastructure template.
-- [ ] Use the export flag in the infrastructure template, and then use the `Fn::ImportValue` function in the application template.
+- [ ] Use the Ref function to import the VPC into the application stack from the infrastructure template.
+- [x] Use the export flag in the infrastructure template, and then use the `Fn::ImportValue` function in the application template.
 - [ ] Use the `DependsOn` attribute to specify that the application instance depends on the VPC in the application template.
 - [ ] Use the `Fn::GetAtt` function to include the attribute of the VPC in the application template.
 
