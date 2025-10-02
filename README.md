@@ -3668,11 +3668,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An application running on Amazon EC2 instances must access objects within an Amaon S3 busket that are encrypted using server-side encryption using AWS KMS encryption keys (SSE-KMS). The application must have access to the customer master key (CMK) to decrypt the objects. Which combination of steps will grant the application access? (Select TWO)
+### An application running on Amazon EC2 instances must access objects within an Amazon S3 busket that are encrypted using server-side encryption using AWS KMS encryption keys (SSE-KMS). The application must have access to the customer master key (CMK) to decrypt the objects. Which combination of steps will grant the application access? (Select TWO)
 
-- [x] Write an S3 bucket policy that grants the bucket access to the key.
+- [ ] Write an S3 bucket policy that grants the bucket access to the key.
 - [x] Grant access to the key in the IAM EC2 role attached to the application's EC2 instances.
-- [ ] Write a key policy that enables IAM policies to grant access to the key.
+- [x] Write a key policy that enables IAM policies to grant access to the key.
 - [ ] Grant access to the key in the S3 bucket's ACL.
 - [ ] Create a Systems Manager parameter that exposes the KMS key to the EC2 instances.
 
