@@ -3483,9 +3483,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is creating an AWS Lambda function to process a stream of data from an Amazon Kinesis Data Stream. When the Lambda function parses the data and encounters a missing field, it exits the function with an error. The function is generating duplicate records from the Kinesis stream. When the Developer looks at the stream output without the Lambda function, there are no duplicate records. What is the reason for the duplicates?
 
-- [x] The Lambda function did not advance the Kinesis stream pointer to the next record after the error.
+- [ ] The Lambda function did not advance the Kinesis stream pointer to the next record after the error.
 - [ ] The Lambda event source used asynchronous invocation, resulting in duplicate records.
-- [ ] The Lambda function did not handle the error, and the Lambda service attempted to reprocess the data.
+- [x] The Lambda function did not handle the error, and the Lambda service attempted to reprocess the data.
 - [ ] The Lambda function is not keeping up with the amount of data coming from the stream.
 
 **[⬆ Back to Top](#table-of-contents)**
