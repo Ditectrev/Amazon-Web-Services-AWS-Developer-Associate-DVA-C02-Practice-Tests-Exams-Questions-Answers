@@ -1394,9 +1394,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing transactions into a DynamoDB table called `SystemUpdates` that has 5 write capacity units. Which option has the highest read throughput?
 
-- [ ] Eventually consistent reads of 5 read capacity units reading items that are 4 KB in size.
+- [x] Eventually consistent reads of 5 read capacity units reading items that are 4 KB in size.
 - [ ] Strongly consistent reads of 5 read capacity units reading items that are 4 KB in size.
-- [x] Eventually consistent reads of 15 read capacity units reading items that are 1 KB in size.
+- [ ] Eventually consistent reads of 15 read capacity units reading items that are 1 KB in size.
 - [ ] Strongly consistent reads of 15 read capacity units reading items that are 1 KB in size.
 
 **[⬆ Back to Top](#table-of-contents)**
