@@ -1218,10 +1218,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A large e-commerce site is being designed to deliver static objects from Amazon S3. The Amazon S3 bucket will server more than 300 GET requests per second. What should be done to optimize performance? (Choose TWO)
 
 - [x] Integrate Amazon CloudFront with Amazon S3.
-- [x] Enable Amazon S3 cross-region replication.
+- [ ] Enable Amazon S3 cross-region replication.
 - [ ] Delete expired Amazon S3 server log files.
-- [ ] Configure Amazon S3 lifecycle rules.Randomize Amazon S3 key name prefixes.
-- [ ] Randomize Amazon S3 key name prefixes.
+- [ ] Configure Amazon S3 lifecycle rules.
+- [x] Randomize Amazon S3 key name prefixes.
 
 **[⬆ Back to Top](#table-of-contents)**
 
