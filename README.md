@@ -2437,10 +2437,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer has an e-commerce API hosted on Amazon ECS. Variable and spiking demand on the application is causing order processing to take too long. The application processes Amazon SQS queues. The ApproximateNumberOfMessagesVisible metric spikes at very high values throughout the day, which cause Amazon CloudWatch alarm breaches. Other ECS metrics for the API containers are well within limits. What can the Developer implement to improve performance while keeping costs low?
 
-- [ ] Target tracking scaling policy.
+- [x] Target tracking scaling policy.
 - [ ] Docker Swarm.
 - [ ] Service scheduler.
-- [x] Step scaling policy.
+- [ ] Step scaling policy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
