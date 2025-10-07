@@ -3412,8 +3412,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company uses Amazon DynamoDB for managing and tracking orders. The DynamoDB table is partitioned based on the order date. The company receives a huge increase in orders during a sales event, causing DynamoDB writes to throttle, and the consumed throughput is far below the provisioned throughput. According to AWS best practices, how can this issue be resolved with MINIMAL costs?
 
 - [ ] Create a new DynamoDB table for every order date.
-- [x] Increase the read and write capacity units of the DynamoDB table.
-- [ ] Add a random number suffix to the partition key values.
+- [ ] Increase the read and write capacity units of the DynamoDB table.
+- [x] Add a random number suffix to the partition key values.
 - [ ] Add a global secondary index to the DynamoDB table.
 
 **[⬆ Back to Top](#table-of-contents)**
