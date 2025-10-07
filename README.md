@@ -2635,8 +2635,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an `AWS::ElasticLoadBalancing::LoadBalancer` resource name `ElasticLoad Balancer`?
 
-- [x] `"Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","DNSName"]}]]`.
-- [ ] `"Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","Url"]}]]`.
+- [x] `"Fn::Join":[ "".["http://", {Fn::GetAtt": [ "ElasticLoadBalancer","DNSName"]}]]`.
+- [ ] `"Fn::Join":[ "".["http://", {Fn::GetAtt": [ "ElasticLoadBalancer","Url"]}]]`.
 - [ ] `"Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancerUrl"}]]`.
 - [ ] `"Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancer","DNSName"}]]`.
 
