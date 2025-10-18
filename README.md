@@ -351,7 +351,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 205 | [A company is developing a web application that allows its employees to upload a profile picture to a private Amazon S3 bucket. There is no size limit for the profile pictures, which should be displayed every time an employee logs in. For security reasons, the pictures cannot be publicly accessible. What is a viable long-term solution for this scenario?](#a-company-is-developing-a-web-application-that-allows-its-employees-to-upload-a-profile-picture-to-a-private-amazon-s3-bucket-there-is-no-size-limit-for-the-profile-pictures-which-should-be-displayed-every-time-an-employee-logs-in-for-security-reasons-the-pictures-cannot-be-publicly-accessible-what-is-a-viable-long-term-solution-for-this-scenario)
 | 206 | [A Developer is going to deploy an AWS Lambda function that requires significant CPU utilization. Which approach will MINIMIZE the average runtime of the function?](#a-developer-is-going-to-deploy-an-aws-lambda-function-that-requires-significant-cpu-utilization-which-approach-will-minimize-the-average-runtime-of-the-function)
 | 207 | [A company has a legacy application that was migrated to a fleet of Amazon EC2 instances. The application stores data in a MySQL database that is currently installed on a single EC2 instance. The company has decided to migrate the database from the EC2 instance to MySQL on Amazon RDS. What should the Developer do to update the application to support data storage in Amazon RDS?](#a-company-has-a-legacy-application-that-was-migrated-to-a-fleet-of-amazon-ec2-instances-the-application-stores-data-in-a-mysql-database-that-is-currently-installed-on-a-single-ec2-instance-the-company-has-decided-to-migrate-the-database-from-the-ec2-instance-to-mysql-on-amazon-rds-what-should-the-developer-do-to-update-the-application-to-support-data-storage-in-amazon-rds)
-| 208 | [A Developer has an e-commerce API hosted on Amazon ECS. Variable and spiking demand on the application is causing order processing to take too long. The application processes Amazon SQS queues. The ApproximateNumberOfMessagesVisible metric spikes at very high values throughout the day, which cause Amazon CloudWatch alarm breaches. Other ECS metrics for the API containers are well within limits. What can the Developer implement to improve performance while keeping costs low?](#a-developer-has-an-e-commerce-api-hosted-on-amazon-ecs-variable-and-spiking-demand-on-the-application-is-causing-order-processing-to-take-too-long-the-application-processes-amazon-sqs-queues-the-approximatenumberofmessagesvisible-metric-spikes-at-very-high-values-throughout-the-day-which-cause-amazon-cloudwatch-alarm-breaches-other-ecs-metrics-for-the-api-containers-are-well-within-limits-what-can-the-developer-implement-to-improve-performance-while-keeping-costs-low)
+| 208 | [A Developer has an e-commerce API hosted on Amazon ECS. Variable and spiking demand on the application is causing order processing to take too long. The application processes Amazon SQS queues. The `ApproximateNumberOfMessagesVisible` metric spikes at very high values throughout the day, which cause Amazon CloudWatch alarm breaches. Other ECS metrics for the API containers are well within limits. What can the Developer implement to improve performance while keeping costs low?](#a-developer-has-an-e-commerce-api-hosted-on-amazon-ecs-variable-and-spiking-demand-on-the-application-is-causing-order-processing-to-take-too-long-the-application-processes-amazon-sqs-queues-the-approximatenumberofmessagesvisible-metric-spikes-at-very-high-values-throughout-the-day-which-cause-amazon-cloudwatch-alarm-breaches-other-ecs-metrics-for-the-api-containers-are-well-within-limits-what-can-the-developer-implement-to-improve-performance-while-keeping-costs-low)
 | 209 | [A Developer wants to build an application that will allow new users to register and create new user accounts. The application must also allow users with social media accounts to log in using their social media credentials. Which AWS service or feature can be used to meet these requirements?](#a-developer-wants-to-build-an-application-that-will-allow-new-users-to-register-and-create-new-user-accounts-the-application-must-also-allow-users-with-social-media-accounts-to-log-in-using-their-social-media-credentials-which-aws-service-or-feature-can-be-used-to-meet-these-requirements)
 | 210 | [A company wants to implement authentication for its new REST service using Amazon API Gateway. To authenticate the calls, each request must include HTTP headers with a client ID and user ID. These credentials must be compared to authentication data in an Amazon DynamoDB table. What MUST the company do to implement this authentication in API Gateway?](#a-company-wants-to-implement-authentication-for-its-new-rest-service-using-amazon-api-gateway-to-authenticate-the-calls-each-request-must-include-http-headers-with-a-client-id-and-user-id-these-credentials-must-be-compared-to-authentication-data-in-an-amazon-dynamodb-table-what-must-the-company-do-to-implement-this-authentication-in-api-gateway)
 | 211 | [A Developer is trying to make API calls using SDK. The IAM user credentials used by the application require multi-factor authentication for all API calls. Which method the Developer use to access the multi-factor authentication protected API?](#a-developer-is-trying-to-make-api-calls-using-sdk-the-iam-user-credentials-used-by-the-application-require-multi-factor-authentication-for-all-api-calls-which-method-the-developer-use-to-access-the-multi-factor-authentication-protected-api)
@@ -1218,10 +1218,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A large e-commerce site is being designed to deliver static objects from Amazon S3. The Amazon S3 bucket will server more than 300 GET requests per second. What should be done to optimize performance? (Choose TWO)
 
 - [x] Integrate Amazon CloudFront with Amazon S3.
-- [x] Enable Amazon S3 cross-region replication.
+- [ ] Enable Amazon S3 cross-region replication.
 - [ ] Delete expired Amazon S3 server log files.
-- [ ] Configure Amazon S3 lifecycle rules.Randomize Amazon S3 key name prefixes.
-- [ ] Randomize Amazon S3 key name prefixes.
+- [ ] Configure Amazon S3 lifecycle rules.
+- [x] Randomize Amazon S3 key name prefixes.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1394,9 +1394,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is writing transactions into a DynamoDB table called `SystemUpdates` that has 5 write capacity units. Which option has the highest read throughput?
 
-- [ ] Eventually consistent reads of 5 read capacity units reading items that are 4 KB in size.
+- [x] Eventually consistent reads of 5 read capacity units reading items that are 4 KB in size.
 - [ ] Strongly consistent reads of 5 read capacity units reading items that are 4 KB in size.
-- [x] Eventually consistent reads of 15 read capacity units reading items that are 1 KB in size.
+- [ ] Eventually consistent reads of 15 read capacity units reading items that are 1 KB in size.
 - [ ] Strongly consistent reads of 15 read capacity units reading items that are 1 KB in size.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -2080,8 +2080,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is preparing a deployment package using AWS CloudFormation. The package consists of two separate templates: one for the infrastructure and one for the application. The application has to be inside the VPC that is created from the infrastructure template. How can the application stack refer to the VPC created from the infrastructure template?
 
-- [x] Use the Ref function to import the VPC into the application stack from the infrastructure template.
-- [ ] Use the export flag in the infrastructure template, and then use the `Fn::ImportValue` function in the application template.
+- [ ] Use the Ref function to import the VPC into the application stack from the infrastructure template.
+- [x] Use the export flag in the infrastructure template, and then use the `Fn::ImportValue` function in the application template.
 - [ ] Use the `DependsOn` attribute to specify that the application instance depends on the VPC in the application template.
 - [ ] Use the `Fn::GetAtt` function to include the attribute of the VPC in the application template.
 
@@ -2280,8 +2280,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Development team wants to immediately build and deploy an application whenever there is a change to the source code. Which approaches could be used to trigger the deployment? (Choose TWO)
 
-- [ ] Store the source code in an Amazon S3 bucket. Configure AWS CodePipeline to start whenever a file in the bucket changes.
-- [x] Store the source code in an encrypted Amazon EBS volume. Configure AWS CodePipeline to start whenever a file in the volume changes.
+- [x] Store the source code in an Amazon S3 bucket. Configure AWS CodePipeline to start whenever a file in the bucket changes.
+- [ ] Store the source code in an encrypted Amazon EBS volume. Configure AWS CodePipeline to start whenever a file in the volume changes.
 - [x] Store the source code in an AWS CodeCommit repository. Configure AWS CodePipeline to start whenever a change is committed to the repository.
 - [ ] Store the source code in an Amazon S3 bucket. Configure AWS CodePipeline to start every 15 minutes.
 - [ ] Store the source code in an Amazon EC2 instance's ephemeral storage. Configure the instance to start AWS CodePipeline whenever there are changes to the source code.
@@ -2435,12 +2435,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A Developer has an e-commerce API hosted on Amazon ECS. Variable and spiking demand on the application is causing order processing to take too long. The application processes Amazon SQS queues. The ApproximateNumberOfMessagesVisible metric spikes at very high values throughout the day, which cause Amazon CloudWatch alarm breaches. Other ECS metrics for the API containers are well within limits. What can the Developer implement to improve performance while keeping costs low?
+### A Developer has an e-commerce API hosted on Amazon ECS. Variable and spiking demand on the application is causing order processing to take too long. The application processes Amazon SQS queues. The `ApproximateNumberOfMessagesVisible` metric spikes at very high values throughout the day, which cause Amazon CloudWatch alarm breaches. Other ECS metrics for the API containers are well within limits. What can the Developer implement to improve performance while keeping costs low?
 
-- [ ] Target tracking scaling policy.
+- [x] Target tracking scaling policy.
 - [ ] Docker Swarm.
 - [ ] Service scheduler.
-- [x] Step scaling policy.
+- [ ] Step scaling policy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2635,8 +2635,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which code snippet below returns the URL of a load balanced web site created in CloudFormation with an `AWS::ElasticLoadBalancing::LoadBalancer` resource name `ElasticLoad Balancer`?
 
-- [x] `"Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","DNSName"]}]]`.
-- [ ] `"Fn::Join":[ "".["http://", {Fn::GetAtr": [ "ElasticLoadBalancer","Url"]}]]`.
+- [x] `"Fn::Join":[ "".["http://", {Fn::GetAtt": [ "ElasticLoadBalancer","DNSName"]}]]`.
+- [ ] `"Fn::Join":[ "".["http://", {Fn::GetAtt": [ "ElasticLoadBalancer","Url"]}]]`.
 - [ ] `"Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancerUrl"}]]`.
 - [ ] `"Fn::Join":[ "".["http://", {"Ref : "ElasticLoadBalancer","DNSName"}]]`.
 
@@ -3077,9 +3077,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is building a three-tier web application that should be able to handle a minimum of 5000 requests per minute. Requirements state that the web tier should be completely stateless while the application maintains session state for the users. How can session data be externalized, keeping latency at the LOWEST possible value?
 
-- [x] Create an Amazon RDS instance, then implement session handling at the application level to leverage a database inside the RDS database instance for session data storage.
+- [ ] Create an Amazon RDS instance, then implement session handling at the application level to leverage a database inside the RDS database instance for session data storage.
 - [ ] Implement a shared file system solution across the underlying Amazon EC2 instances, then implement session handling at the application level to leverage the shared file system for session data storage.
-- [ ] Create an Amazon ElastiCache Memcached cluster, then implement session handling at the application level to leverage the cluster for session data storage.
+- [x] Create an Amazon ElastiCache Memcached cluster, then implement session handling at the application level to leverage the cluster for session data storage.
 - [ ] Create an Amazon DynamoDB table, then implement session handling at the application level to leverage the table for session data storage.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3412,8 +3412,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company uses Amazon DynamoDB for managing and tracking orders. The DynamoDB table is partitioned based on the order date. The company receives a huge increase in orders during a sales event, causing DynamoDB writes to throttle, and the consumed throughput is far below the provisioned throughput. According to AWS best practices, how can this issue be resolved with MINIMAL costs?
 
 - [ ] Create a new DynamoDB table for every order date.
-- [x] Increase the read and write capacity units of the DynamoDB table.
-- [ ] Add a random number suffix to the partition key values.
+- [ ] Increase the read and write capacity units of the DynamoDB table.
+- [x] Add a random number suffix to the partition key values.
 - [ ] Add a global secondary index to the DynamoDB table.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3483,9 +3483,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A Developer is creating an AWS Lambda function to process a stream of data from an Amazon Kinesis Data Stream. When the Lambda function parses the data and encounters a missing field, it exits the function with an error. The function is generating duplicate records from the Kinesis stream. When the Developer looks at the stream output without the Lambda function, there are no duplicate records. What is the reason for the duplicates?
 
-- [x] The Lambda function did not advance the Kinesis stream pointer to the next record after the error.
+- [ ] The Lambda function did not advance the Kinesis stream pointer to the next record after the error.
 - [ ] The Lambda event source used asynchronous invocation, resulting in duplicate records.
-- [ ] The Lambda function did not handle the error, and the Lambda service attempted to reprocess the data.
+- [x] The Lambda function did not handle the error, and the Lambda service attempted to reprocess the data.
 - [ ] The Lambda function is not keeping up with the amount of data coming from the stream.
 
 **[⬆ Back to Top](#table-of-contents)**
