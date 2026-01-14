@@ -3404,8 +3404,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Use AWS CodeCommit to create multiple repositories to deploy the application.
 - [ ] Use AWS CodeBuild to create, configure, and deploy multiple build application projects.
-- [x] Use AWS Data Pipeline to create multiple data pipeline provisions to deploy the application.
-- [ ] Use AWS CodeDeploy to create multiple deployment groups.
+- [ ] Use AWS Data Pipeline to create multiple data pipeline provisions to deploy the application.
+- [x] Use AWS CodeDeploy to create multiple deployment groups.
 
 **[⬆ Back to Top](#table-of-contents)**
 
