@@ -3995,8 +3995,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Enable a DynamoDB stream that publishes an Amazon SNS message. Trigger the Lambda function synchronously from the SNS message.
 - [ ] Enable a DynamoDB stream that publishes an SNS message. Trigger the Lambda function asynchronously from the SNS message.
-- [x] Enable a DynamoDB stream, and trigger the Lambda function synchronously from the stream.
-- [ ] Enable a DynamoDB stream, and trigger the Lambda function asynchronously from the stream.
+- [ ] Enable a DynamoDB stream, and trigger the Lambda function synchronously from the stream.
+- [x] Enable a DynamoDB stream, and trigger the Lambda function asynchronously from the stream.
 
 **[⬆ Back to Top](#table-of-contents)**
 
