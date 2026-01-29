@@ -3763,9 +3763,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### A stock market monitoring application uses Amazon Kinesis for data ingestion. During simulated tests of peak data rates, the Kinesis stream cannot keep up with the incoming data. What step will allow Kinesis to accommodate the traffic during peak hours?
 
-- [x] Install the Kinesis Producer Library (KPL) for ingesting data into the stream.
+- [ ] Install the Kinesis Producer Library (KPL) for ingesting data into the stream.
 - [ ] Reduce the data retention period to allow for more data ingestion using `DecreaseStreamRetentionPeriod`.
-- [ ] Increase the shard count of the stream using `UpdateShardCount`.
+- [x] Increase the shard count of the stream using `UpdateShardCount`.
 - [ ] Ingest multiple records into the stream in a single call using `PutRecords`.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -3995,8 +3995,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Enable a DynamoDB stream that publishes an Amazon SNS message. Trigger the Lambda function synchronously from the SNS message.
 - [ ] Enable a DynamoDB stream that publishes an SNS message. Trigger the Lambda function asynchronously from the SNS message.
-- [x] Enable a DynamoDB stream, and trigger the Lambda function synchronously from the stream.
-- [ ] Enable a DynamoDB stream, and trigger the Lambda function asynchronously from the stream.
+- [ ] Enable a DynamoDB stream, and trigger the Lambda function synchronously from the stream.
+- [x] Enable a DynamoDB stream, and trigger the Lambda function asynchronously from the stream.
 
 **[⬆ Back to Top](#table-of-contents)**
 
