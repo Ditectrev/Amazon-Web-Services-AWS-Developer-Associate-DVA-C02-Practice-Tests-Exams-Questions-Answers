@@ -1345,9 +1345,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ![Question 88](images/question88.jpg)
 
-- [x] Use IAM policy condition.
+- [ ] Use IAM policy condition.
 - [ ] Use IAM policy principal.
-- [ ] Use IAM policy variables.
+- [x] Use IAM policy variables.
 - [ ] Use IAM policy resource.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1539,9 +1539,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A deployment package uses the AWS CLI to copy files into any S3 bucket in the account, using access keys stored in environment variables. The package is running on EC2 instances, and the instances have been modified to run with an assumed IAM role and a more restrictive policy that allows access to only one bucket. After the change, the Developer logs into the host and still has the ability to write into all of the S3 buckets in that account. What is the MOST likely cause of this situation?
 
 - [ ] An IAM inline policy is being used on the IAM role.
-- [x] An IAM managed policy is being used on the IAM role.
+- [ ] An IAM managed policy is being used on the IAM role.
 - [ ] The AWS CLI is corrupt and needs to be reinstalled.
-- [ ] The AWS credential provider looks for instance profile credentials last.
+- [x] The AWS credential provider looks for instance profile credentials last.
 
 **[⬆ Back to Top](#table-of-contents)**
 
