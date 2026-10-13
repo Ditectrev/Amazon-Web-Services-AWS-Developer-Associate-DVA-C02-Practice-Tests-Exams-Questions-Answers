@@ -1539,9 +1539,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A deployment package uses the AWS CLI to copy files into any S3 bucket in the account, using access keys stored in environment variables. The package is running on EC2 instances, and the instances have been modified to run with an assumed IAM role and a more restrictive policy that allows access to only one bucket. After the change, the Developer logs into the host and still has the ability to write into all of the S3 buckets in that account. What is the MOST likely cause of this situation?
 
 - [ ] An IAM inline policy is being used on the IAM role.
-- [x] An IAM managed policy is being used on the IAM role.
+- [ ] An IAM managed policy is being used on the IAM role.
 - [ ] The AWS CLI is corrupt and needs to be reinstalled.
-- [ ] The AWS credential provider looks for instance profile credentials last.
+- [x] The AWS credential provider looks for instance profile credentials last.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2417,9 +2417,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company is developing a web application that allows its employees to upload a profile picture to a private Amazon S3 bucket. There is no size limit for the profile pictures, which should be displayed every time an employee logs in. For security reasons, the pictures cannot be publicly accessible. What is a viable long-term solution for this scenario?
 
 - [ ] Generate a presigned URL when a picture is uploaded. Save the URL in an Amazon DynamoDB table. Return the URL to the browser when the employee logs in.
-- [x] Save the picture's S3 key in an Amazon DynamoDB table. Create an Amazon S3 VPC endpoint to allow the employees to download pictures once they log in.
+- [ ] Save the picture's S3 key in an Amazon DynamoDB table. Create an Amazon S3 VPC endpoint to allow the employees to download pictures once they log in.
 - [ ] Encode a picture using base64. Save the base64 string in an Amazon DB table. Allow the browser to retrieve the string and convert it to a picture.
-- [ ] Save the picture's S3 key in an Amazon DynamoDB table. Use a function to generate a presigned URL every time an employee logs in. Return the URL to the browser.
+- [x] Save the picture's S3 key in an Amazon DynamoDB table. Use a function to generate a presigned URL every time an employee logs in. Return the URL to the browser.
 
 **[⬆ Back to Top](#table-of-contents)**
 
