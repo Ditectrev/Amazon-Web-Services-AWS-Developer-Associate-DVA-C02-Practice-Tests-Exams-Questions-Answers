@@ -2260,9 +2260,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### A company has implemented AWS CodePipeline to automate its release pipelines. The Development team is writing an AWS Lambda function what will send notifications for state changes of each of the actions in the stages. Which steps must be taken to associate the Lambda function with the event source?
 
 - [ ] Create a trigger that invokes the Lambda function from the Lambda console by selecting CodePipeline as the event source.
-- [x] Create an event trigger and specify the Lambda function from the CodePipeline console.
+- [ ] Create an event trigger and specify the Lambda function from the CodePipeline console.
 - [ ] Create an Amazon CloudWatch alarm that monitors status changes in Code Pipeline and triggers the Lambda function.
-- [ ] Create an Amazon CloudWatch Events rule that uses CodePipeline as an event source.
+- [x] Create an Amazon CloudWatch Events rule that uses CodePipeline as an event source.
 
 **[⬆ Back to Top](#table-of-contents)**
 
